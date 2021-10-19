@@ -1,0 +1,43 @@
+CLASS ax BlockFluidMoving
+	FIELD a numAdjacentSources I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I
+	METHOD a calculateFlowCost (Lfe;IIIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+		ARG 6 nya5
+	METHOD c getSmallestFlowDecay (Lfe;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD e flowIntoBlock (Lfe;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 metadataValue
+	METHOD h updateFlow (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i getOptimalFlowDirections (Lfe;III)[Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD j blockBlocksFlow (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD k liquidCanDisplaceBlock (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

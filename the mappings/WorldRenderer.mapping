@@ -1,0 +1,4 @@
+CLASS dl WorldRenderer
+	FIELD b chunksUpdated I
+	FIELD o isInFrustum Z
+	METHOD a chunkIndex (Leq;)F

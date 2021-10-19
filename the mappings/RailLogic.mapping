@@ -1,0 +1,17 @@
+CLASS hk RailLogic
+	FIELD a rail Lbn;
+	FIELD b worldObj Lfe;
+	FIELD c trackX I
+	FIELD d trackY I
+	FIELD e trackZ I
+	FIELD f metadataValues I
+	FIELD g connectedTracks Ljava/util/List;
+	METHOD a refreshTrackShape ()V
+	METHOD a isInTrack (III)Z
+	METHOD a isConnectedTo (Lhk;)Z
+	METHOD a getMinecartTrackLogic (Lia;)Lhk;
+	METHOD b setConnections ()V
+	METHOD b func_786_c (III)Z
+	METHOD b handleKeyPress (Lhk;)Z
+	METHOD c func_785_b ()V
+	METHOD c func_788_d (Lhk;)V

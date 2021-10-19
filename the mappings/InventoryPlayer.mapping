@@ -1,0 +1,24 @@
+CLASS ht InventoryPlayer
+	FIELD a mainInventory [Lhw;
+	FIELD b armorInventory [Lhw;
+	FIELD c currentItem I
+	FIELD d player Lgi;
+	METHOD a setCurrentItem (IZ)V
+	METHOD a getDamageVsEntity (Leq;)I
+	METHOD a writeToNBT (Ler;)Ler;
+	METHOD a getStrVsBlock (Lgs;)F
+	METHOD a addItemStackToInventory (Lhw;)Z
+	METHOD b changeCurrentItem (I)V
+	METHOD b storePartialItemStack (II)I
+	METHOD b readFromNBT (Ler;)V
+	METHOD b canHarvestBlock (Lgs;)Z
+	METHOD c consumeInventoryItem (I)Z
+	METHOD d armorItemInSlot (I)Lhw;
+	METHOD e getCurrentItem ()Lhw;
+	METHOD e damageArmor (I)V
+	METHOD f decrementAnimations ()V
+	METHOD f getInventorySlotContainItem (I)I
+	METHOD g getTotalArmorValue ()I
+	METHOD g storeItemStack (I)I
+	METHOD h dropAllItems ()V
+	METHOD i getFirstEmptyStack ()I

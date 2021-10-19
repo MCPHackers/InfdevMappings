@@ -1,0 +1,8 @@
+CLASS x ClippingHelperImpl
+	FIELD e instance Lx;
+	FIELD f projectionMatrixBuffer Ljava/nio/FloatBuffer;
+	FIELD g modelviewMatrixBuffer Ljava/nio/FloatBuffer;
+	FIELD h floatBuffer16 Ljava/nio/FloatBuffer;
+	METHOD a getInstance ()Ldu;
+	METHOD a normalize ([[FI)V
+	METHOD b init ()V

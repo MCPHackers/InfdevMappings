@@ -1,0 +1,2 @@
+CLASS gc NoiseGeneratorOctaves
+	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D

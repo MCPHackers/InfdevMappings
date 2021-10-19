@@ -1,0 +1,24 @@
+CLASS bq Render
+	FIELD a renderManager Lfl;
+	FIELD b shadowSize F
+	FIELD c field_194_c F
+	FIELD d modelBase Lit;
+	FIELD e renderBlocksVar Lcr;
+	METHOD <init> RenderCreeper ()V
+	METHOD a getWorldFromRenderManager ()Lfe;
+	METHOD a renderAABB (Len;)V
+	METHOD a renderOffsetAABB (Len;DDD)V
+	METHOD a renderEntityOnFire (Leq;DDDF)V
+	METHOD a doRender (Leq;DDDFF)V
+		ARG 1 entityLiving
+		ARG 2 xCoord
+		ARG 4 sqrt_double
+		ARG 6 yCoord
+		ARG 8 nya1
+		ARG 9 nya2
+	METHOD a setRenderManager (Lfl;)V
+	METHOD a renderShadowOnBlock (Lgs;DDDIIIFFDDD)V
+	METHOD a loadTexture (Ljava/lang/String;)V
+	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD b doRenderShadowAndFire (Leq;DDDFF)V
+	METHOD c renderShadow (Leq;DDDFF)V

@@ -1,0 +1,12 @@
+CLASS es Frustrum
+	FIELD a clippingHelper Ldu;
+	FIELD b xPosition D
+	FIELD c yPosition D
+	FIELD d zPosition D
+	METHOD a isBoxInFrustum (DDDDDD)Z
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ

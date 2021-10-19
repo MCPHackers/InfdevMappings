@@ -1,0 +1,9 @@
+CLASS hh BlockTorch
+	METHOD <init> (II)V
+		ARG 1 blockid
+		ARG 2 blockIndexInTexture
+	METHOD g dropTorchIfCantStay (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

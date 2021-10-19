@@ -1,0 +1,12 @@
+CLASS cq StepSound
+	FIELD a soundName Ljava/lang/String;
+	FIELD b volume F
+	FIELD c pitch F
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 string
+		ARG 2 nya1
+		ARG 3 nya2
+	METHOD a stepSoundDir ()Ljava/lang/String;
+	METHOD b soundVolume ()F
+	METHOD c soundPitch ()F
+	METHOD d stepSoundDir2 ()Ljava/lang/String;

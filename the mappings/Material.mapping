@@ -1,0 +1,22 @@
+CLASS jy Material
+	FIELD a air Ljy;
+	FIELD b ground Ljy;
+	FIELD c wood Ljy;
+	FIELD d rock Ljy;
+	FIELD e iron Ljy;
+	FIELD f water Ljy;
+	FIELD g lava Ljy;
+	FIELD h leaves Ljy;
+	FIELD i plants Ljy;
+	FIELD j sponge Ljy;
+	FIELD k cloth Ljy;
+	FIELD l fire Ljy;
+	FIELD m sand Ljy;
+	FIELD n circuits Ljy;
+	FIELD o glass Ljy;
+	FIELD p tnt Ljy;
+	FIELD q unused Ljy;
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z

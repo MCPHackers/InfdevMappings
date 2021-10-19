@@ -1,0 +1,25 @@
+CLASS iv IBlockAccess
+	METHOD a getBlockId (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD b getBlockTileEntity (III)Lbk;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD c getLightBrightness (III)F
+		ARG 1 nya1
+		ARG 2 nya2
+		ARG 3 nya3
+	METHOD e getBlockMetadata (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD f getBlockMaterial (III)Ljy;
+		ARG 1 nya1
+		ARG 2 nya2
+		ARG 3 nya3
+	METHOD g isBlockNormalCube (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

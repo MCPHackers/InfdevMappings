@@ -1,0 +1,15 @@
+CLASS ev ChunkCache
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunkArray [[Ljw;
+	FIELD d worldObj Lfe;
+	METHOD <init> (Lfe;IIIIII)V
+		ARG 1 world
+	METHOD a getLightValueExt (IIIZ)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD d getLightValue (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

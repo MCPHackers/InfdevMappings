@@ -1,0 +1,7 @@
+CLASS dt GuiCreateWorld
+	FIELD a parentGuiScreen Ldc;
+	FIELD h screenHeader Ljava/lang/String;
+	FIELD j createClicked Z
+	METHOD a actionPerformed (I)V
+	METHOD c getSaveFileName (I)Ljava/lang/String;
+	METHOD d_ initButtons ()V

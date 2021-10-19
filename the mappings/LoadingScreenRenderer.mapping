@@ -1,0 +1,8 @@
+CLASS i LoadingScreenRenderer
+	FIELD a field_1004_a Ljava/lang/String;
+	FIELD b mc Law;
+	FIELD c currentlyDisplayedText Ljava/lang/String;
+	FIELD d field_1006_d J
+	FIELD e field_1005_e Z
+	METHOD a printText (Ljava/lang/String;)V
+	METHOD c setLoadingProgress (Ljava/lang/String;)V

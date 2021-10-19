@@ -1,0 +1,5 @@
+CLASS fw TexturedQuad
+	FIELD a vertexPositions [Lhi;
+	FIELD b nVertices I
+	METHOD a flipFace ()V
+	METHOD a draw (Lag;F)V

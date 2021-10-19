@@ -1,0 +1,6 @@
+CLASS gy CraftingManager
+	FIELD a instance Lgy;
+	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Lgy;
+	METHOD a addRecipe (Lhw;[Ljava/lang/Object;)V
+	METHOD a findMatchingRecipe ([I)Lhw;

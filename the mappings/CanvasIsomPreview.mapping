@@ -1,0 +1,23 @@
+CLASS be CanvasIsomPreview
+	FIELD a field_1793_a I
+	FIELD b zoomLevel I
+	FIELD c displayHelpText Z
+	FIELD d worldObj Lfe;
+	FIELD e dataFolder Ljava/io/File;
+	FIELD f running Z
+	FIELD g imageBufferList Ljava/util/List;
+	FIELD h imageBuffers [[Ldi;
+	FIELD i field_1785_i I
+	FIELD j field_1784_j I
+	FIELD k xPosition I
+	FIELD l yPosition I
+	METHOD a getMinecraftDir ()Ljava/io/File;
+	METHOD a setTimeOfDay (I)V
+	METHOD a getImageBuffer (II)Ldi;
+	METHOD a drawScreen (Ljava/awt/Graphics2D;)V
+	METHOD a getAppDir (Ljava/lang/String;)Ljava/io/File;
+	METHOD b startThreads ()V
+	METHOD b loadWorld (Ljava/lang/String;)V
+	METHOD c exit ()V
+	METHOD d showNextBuffer ()V
+	METHOD e getOs ()Lie;

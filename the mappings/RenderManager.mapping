@@ -1,0 +1,23 @@
+CLASS fl RenderManager
+	FIELD a instance Lfl;
+	FIELD b renderPosX D
+	FIELD c renderPosY D
+	FIELD d renderPosZ D
+	FIELD e renderEngine Lid;
+	FIELD f worldObj Lfe;
+	FIELD g livingPlayer Lgi;
+	FIELD h playerViewY F
+	FIELD i playerViewX F
+	FIELD j options Lja;
+	FIELD k field_1222_l D
+	FIELD l field_1221_m D
+	FIELD m field_1220_n D
+	FIELD n entityRenderMap Ljava/util/Map;
+	FIELD o fontRenderer Lej;
+	METHOD a func_851_a (DDD)D
+	METHOD a getEntityRenderObject (Leq;)Lbq;
+	METHOD a renderEntityWithPosYaw (Leq;DDDFF)V
+	METHOD a renderEntity (Leq;F)V
+	METHOD a func_852_a (Lfe;)V
+	METHOD a cacheActiveRenderInfo (Lfe;Lid;Lej;Lgi;Lja;F)V
+	METHOD a getEntityClassRenderObject (Ljava/lang/Class;)Lbq;

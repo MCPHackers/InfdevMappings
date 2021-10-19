@@ -1,0 +1,12 @@
+CLASS ed ModelSpider
+	FIELD a spiderHead Lbz;
+	FIELD b spiderNeck Lbz;
+	FIELD c spiderBody Lbz;
+	FIELD d spiderLeg1 Lbz;
+	FIELD e spiderLeg2 Lbz;
+	FIELD f spiderLeg3 Lbz;
+	FIELD g spiderLeg4 Lbz;
+	FIELD h spiderLeg5 Lbz;
+	FIELD i spiderLeg6 Lbz;
+	FIELD j spiderLeg7 Lbz;
+	FIELD k spiderLeg8 Lbz;

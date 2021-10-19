@@ -1,0 +1,20 @@
+CLASS gn RenderLiving
+	FIELD d mainModel Lit;
+	FIELD e renderPassModel Lit;
+	METHOD <init> (Lit;F)V
+		ARG 1 mainModel
+		ARG 2 shadowSize
+	METHOD a setRenderPassModel (Lit;)V
+		ARG 1 renderPassModel
+	METHOD a getMaxDeathRotation (Lka;)F
+		ARG 1 eVar
+	METHOD a preRenderCallback (Lka;F)V
+		ARG 1 entityLiving
+		ARG 2 nya1
+	METHOD a getColorMultiplier (Lka;FF)I
+		ARG 1 entityLiving
+		ARG 2 nya1
+		ARG 3 nya2
+	METHOD a shouldRenderPass (Lka;I)Z
+		ARG 1 eVar
+		ARG 2 i

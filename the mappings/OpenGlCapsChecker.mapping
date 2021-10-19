@@ -1,0 +1,2 @@
+CLASS cu OpenGlCapsChecker
+	METHOD a checkARBOcclusion ()Z

@@ -1,0 +1,4 @@
+CLASS t InventoryCrafting
+	FIELD a stackList [Lhw;
+	FIELD b inventoryWidth I
+	FIELD c eventHandler Lhj;

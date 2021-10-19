@@ -1,0 +1,25 @@
+CLASS jg ChunkProviderGenerate
+	FIELD a field_4185_d [D
+	FIELD b field_4184_e [D
+	FIELD c field_4183_f [D
+	FIELD d field_4182_g [D
+	FIELD e field_4181_h [D
+	FIELD f field_914_i [[I
+	FIELD g rand Ljava/util/Random;
+	FIELD h field_912_k Lgc;
+	FIELD i field_911_l Lgc;
+	FIELD j field_910_m Lgc;
+	FIELD k field_909_n Lgc;
+	FIELD l field_908_o Lgc;
+	FIELD m field_922_a Lgc;
+	FIELD n field_921_b Lgc;
+	FIELD o mobSpawnerNoise Lgc;
+	FIELD p worldObj Lfe;
+	FIELD q field_4180_q [D
+	FIELD r sandNoise [D
+	FIELD s gravelNoise [D
+	FIELD t stoneNoise [D
+	METHOD a generateTerrain (II[B)V
+	METHOD a func_4061_a ([DIIIIII)[D
+	METHOD b replaceBlocks (II[B)V
+	METHOD c field_902_u (II[B)V

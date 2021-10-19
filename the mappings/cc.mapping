@@ -1,0 +1,4 @@
+CLASS cc
+	FIELD b elapsedTicks I
+	FIELD c renderPartialTicks F
+	METHOD a updateTimer ()V

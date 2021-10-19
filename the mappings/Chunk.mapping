@@ -1,0 +1,80 @@
+CLASS jw Chunk
+	FIELD a isLit Z
+	FIELD b blocks [B
+	FIELD c isChunkLoaded Z
+	FIELD d worldObj Lfe;
+	FIELD e data Lic;
+	FIELD f skylightMap Lic;
+	FIELD g blocklightMap Lic;
+	FIELD h heightMap [B
+	FIELD i lowestBlockHeight I
+	FIELD j xPosition I
+	FIELD k zPosition I
+	FIELD l chunkTileEntityMap Ljava/util/Map;
+	FIELD m entities [Ljava/util/List;
+	FIELD n isTerrainPopulated Z
+	FIELD o isModified Z
+	FIELD p neverSave Z
+	FIELD r hasEntities Z
+	FIELD s lastSaveTime J
+	METHOD <init> (Lfe;II)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 zCoord
+	METHOD <init> (Lfe;[BII)V
+		ARG 1 world
+		ARG 2 byteArray
+		ARG 3 xCoord
+		ARG 4 zCoord
+	METHOD a func_1014_a ()V
+	METHOD a isAtLocation (II)Z
+		ARG 1 xCoord
+		ARG 2 zCoord
+	METHOD a getBlockID (III)I
+	METHOD a setBlockID (IIII)Z
+	METHOD a setBlockIDWithMetadata (IIIII)Z
+	METHOD a setChunkBlockTileEntity (IIILbk;)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 tileEntity
+	METHOD a addTileEntity (Lbk;)V
+		ARG 1 tileEntity
+	METHOD a getSavedLightValue (Lec;III)I
+		ARG 1 enumSkyBlock
+	METHOD a setLightValue (Lec;IIII)V
+		ARG 1 enumSkyBlock
+	METHOD a addEntity (Leq;)V
+		ARG 1 entity
+	METHOD a removeEntityAtIndex (Leq;I)V
+		ARG 1 entity
+	METHOD a getEntitiesWithinAABBForEntity (Leq;Len;Ljava/util/List;)V
+		ARG 1 entity
+		ARG 2 aabb
+	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Len;Ljava/util/List;)V
+		ARG 2 aabb
+	METHOD a needsSaving (Z)Z
+	METHOD b generateSkylightMap ()V
+	METHOD b getHeightValue (II)I
+		ARG 1 nya1
+		ARG 2 nya2
+	METHOD b getBlockMetadata (III)I
+	METHOD b setBlockMetadata (IIII)V
+	METHOD b removeEntity (Leq;)V
+		ARG 1 entity
+	METHOD c onChunkLoad ()V
+	METHOD c propagateSkylightOcclusion (II)V
+	METHOD c canBlockSeeTheSky (III)Z
+	METHOD c getBlockLightValue (IIII)I
+	METHOD d onChunkUnload ()V
+	METHOD d getChunkBlockTileEntity (III)Lbk;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD e setChunkModified ()V
+	METHOD e removeChunkBlockTileEntity (III)V
+	METHOD f checkSkylightNeighborHeight (III)V
+	METHOD g relightBlock (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

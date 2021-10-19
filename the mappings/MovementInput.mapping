@@ -1,0 +1,8 @@
+CLASS gj MovementInput
+	FIELD a moveStrafe F
+	FIELD b moveForward F
+	FIELD c field_1177_c Z
+	FIELD d jump Z
+	METHOD a resetKeyState ()V
+	METHOD a checkKeyForMovementInput (IZ)V
+	METHOD a updatePlayerMoveState (Lgi;)V

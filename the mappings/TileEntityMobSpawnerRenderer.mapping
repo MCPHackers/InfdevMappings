@@ -1,0 +1,2 @@
+CLASS ai TileEntityMobSpawnerRenderer
+	FIELD b entityHashMap Ljava/util/Map;

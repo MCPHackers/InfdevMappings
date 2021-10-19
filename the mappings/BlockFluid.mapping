@@ -1,0 +1,35 @@
+CLASS dq BlockFluid
+	FIELD d unsure I
+	METHOD a getFlowDirection (Liv;IIILjy;)D
+		ARG 0 blockAccess
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 material
+	METHOD b getPercentAir (I)F
+		ARG 0 fluidSize
+	METHOD b getEffectiveFlowDecay (Liv;III)I
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD e getFlowVector (Liv;III)Lbo;
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD f getFlowDecay (Lfe;III)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD g triggerLavaMixEffects (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h checkForHarden (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

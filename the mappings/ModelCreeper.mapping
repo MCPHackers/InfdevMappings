@@ -1,0 +1,8 @@
+CLASS ho ModelCreeper
+	FIELD a head Lbz;
+	FIELD b unusedCreeperHeadwear Lbz;
+	FIELD c body Lbz;
+	FIELD d leg1 Lbz;
+	FIELD e leg2 Lbz;
+	FIELD f leg3 Lbz;
+	FIELD g leg4 Lbz;

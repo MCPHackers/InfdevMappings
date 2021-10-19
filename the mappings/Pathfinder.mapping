@@ -1,0 +1,14 @@
+CLASS fq Pathfinder
+	FIELD a worldMap Liv;
+	FIELD b path Ljm;
+	FIELD c pointMap Ljava/util/Map;
+	FIELD d pathOptions [Ld;
+	METHOD a openPoint (III)Ld;
+	METHOD a createEntityPath (Ld;Ld;)Ldj;
+	METHOD a createEntityPathTo (Leq;DDDF)Ldj;
+	METHOD a createEntityPathTo (Leq;IIIF)Ldj;
+	METHOD a getVerticalOffset (Leq;IIILd;)I
+	METHOD a getSafePoint (Leq;IIILd;I)Ld;
+	METHOD a addToPath (Leq;Ld;Ld;Ld;F)Ldj;
+	METHOD a createEntityPathTo (Leq;Leq;F)Ldj;
+	METHOD b findPathOptions (Leq;Ld;Ld;Ld;F)I

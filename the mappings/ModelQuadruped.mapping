@@ -1,0 +1,7 @@
+CLASS w ModelQuadruped
+	FIELD a head Lbz;
+	FIELD b body Lbz;
+	FIELD c leg1 Lbz;
+	FIELD d leg2 Lbz;
+	FIELD e leg3 Lbz;
+	FIELD f leg4 Lbz;

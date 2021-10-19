@@ -1,0 +1,2 @@
+CLASS ii TileEntityChest
+	FIELD e chestContents [Lhw;

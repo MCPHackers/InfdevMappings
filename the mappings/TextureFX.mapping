@@ -1,0 +1,7 @@
+CLASS at TextureFX
+	FIELD e imageData [B
+	FIELD f iconIndex I
+	FIELD g anaglyphEnabled Z
+	FIELD h textureId I
+	FIELD i tileSize I
+	METHOD a onTick ()V

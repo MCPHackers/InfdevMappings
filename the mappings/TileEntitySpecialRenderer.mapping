@@ -1,0 +1,6 @@
+CLASS hz TileEntitySpecialRenderer
+	FIELD a tileEntityRenderer Ljs;
+	METHOD a getFontRenderer ()Lej;
+	METHOD a renderTileEntityMobSpawner (Lbk;DDDF)V
+	METHOD a bindTextureByName (Ljava/lang/String;)V
+	METHOD a setTileEntityRenderer (Ljs;)V

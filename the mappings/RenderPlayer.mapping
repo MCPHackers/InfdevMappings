@@ -1,0 +1,6 @@
+CLASS dx RenderPlayer
+	FIELD f modelBipedMain Lfg;
+	FIELD g modelArmorChestplate Lfg;
+	FIELD h modelArmor Lfg;
+	FIELD i armorFilenamePrefix [Ljava/lang/String;
+	METHOD a drawFirstPersonHand ()V

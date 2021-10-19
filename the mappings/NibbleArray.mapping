@@ -1,0 +1,5 @@
+CLASS ic NibbleArray
+	FIELD a data [B
+	METHOD a isValid ()Z
+	METHOD a getNibble (III)I
+	METHOD a setNibble (IIII)V

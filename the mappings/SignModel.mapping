@@ -1,0 +1,4 @@
+CLASS dk SignModel
+	FIELD a signBoard Lbz;
+	FIELD b signStick Lbz;
+	METHOD a func_887_a ()V

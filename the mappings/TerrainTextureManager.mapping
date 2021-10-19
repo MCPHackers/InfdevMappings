@@ -1,0 +1,10 @@
+CLASS gm TerrainTextureManager
+	FIELD a field_1181_a [F
+	FIELD b field_1180_b [I
+	FIELD c field_1186_c [I
+	FIELD d field_1185_d [I
+	FIELD e field_1184_e [I
+	FIELD f field_1183_f [I
+	FIELD g field_1182_g [I
+	METHOD a func_800_a ()V
+	METHOD a func_799_a (Ldi;)V

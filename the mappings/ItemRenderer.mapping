@@ -1,0 +1,5 @@
+CLASS dg ItemRenderer
+	METHOD a updateEquippedItem ()V
+	METHOD a renderItemInFirstPerson (F)V
+	METHOD b renderOverlays (F)V
+	METHOD c resetEquippedProgress ()V

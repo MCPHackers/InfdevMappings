@@ -1,0 +1,21 @@
+CLASS bo Vec3D
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	FIELD d vectorList Ljava/util/List;
+	FIELD e nextVector I
+	METHOD a initialize ()V
+	METHOD a createVectorHelper (DDD)Lbo;
+	METHOD a subtract (Lbo;)Lbo;
+	METHOD a getIntermediateWithXValue (Lbo;D)Lbo;
+	METHOD b normalize ()Lbo;
+	METHOD b createVector (DDD)Lbo;
+	METHOD b crossProduct (Lbo;)Lbo;
+	METHOD b getIntermediateWithYValue (Lbo;D)Lbo;
+	METHOD c lengthVector ()D
+	METHOD c addVector (DDD)Lbo;
+	METHOD c distanceTo (Lbo;)D
+	METHOD c getIntermediateWithZValue (Lbo;D)Lbo;
+	METHOD d squareDistanceTo (DDD)D
+	METHOD d squareDistanceTo (Lbo;)D
+	METHOD e setComponents (DDD)Lbo;

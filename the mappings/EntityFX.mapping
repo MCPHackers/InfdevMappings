@@ -1,0 +1,18 @@
+CLASS ix EntityFX
+	FIELD X particleTextureJitterX F
+	FIELD Y particleTextureJitterY F
+	FIELD Z particleAge I
+	FIELD aa particleMaxAge I
+	FIELD ab particleScale F
+	FIELD ac particleGravity F
+	FIELD ad particleRed F
+	FIELD ae particleGreen F
+	FIELD af particleBlue F
+	FIELD ag interpPosX D
+	FIELD ah interpPosY D
+	FIELD ai interpPosZ D
+	FIELD b particleTextureIndex I
+	METHOD a renderParticle (Lag;FFFFFF)V
+	METHOD b getFXLayer ()I
+	METHOD c multiplyVelocity (F)Lix;
+	METHOD d multipleParticleScaleBy (F)Lix;

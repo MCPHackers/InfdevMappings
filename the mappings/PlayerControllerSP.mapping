@@ -1,0 +1,8 @@
+CLASS bb PlayerControllerSP
+	FIELD c field_1074_c I
+	FIELD d field_1073_d I
+	FIELD e field_1072_e I
+	FIELD f curBlockDamage F
+	FIELD g prevBlockDamage F
+	FIELD h field_1069_h F
+	FIELD i blockHitWait I

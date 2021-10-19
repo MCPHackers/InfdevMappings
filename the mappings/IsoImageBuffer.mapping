@@ -1,0 +1,11 @@
+CLASS di IsoImageBuffer
+	FIELD a field_1348_a Ljava/awt/image/BufferedImage;
+	FIELD b worldObj Lfe;
+	FIELD c chunkX I
+	FIELD d chunkZ I
+	FIELD e field_1352_e Z
+	FIELD f field_1351_f Z
+	FIELD g field_1350_g I
+	FIELD h field_1349_h Z
+	METHOD a setChunkPosition (II)V
+	METHOD a setWorldAndChunkPosition (Lfe;II)V

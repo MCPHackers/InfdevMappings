@@ -1,0 +1,11 @@
+CLASS hy EntityList
+	FIELD a stringToClassMapping Ljava/util/Map;
+	FIELD b classToStringMapping Ljava/util/Map;
+	METHOD a createEntityFromNBT (Lae;Lfe;)Leq;
+		ARG 0 nbt
+		ARG 1 world
+	METHOD a getEntityString (Leq;)Ljava/lang/String;
+		ARG 0 entity
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD a createEntityInWorld (Ljava/lang/String;Lfe;)Leq;
+		ARG 1 world

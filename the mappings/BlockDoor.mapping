@@ -1,0 +1,7 @@
+CLASS jl BlockDoor
+	METHOD <init> (I)V
+		ARG 1 blockid
+	METHOD b setDoorRotation (I)V
+		ARG 1 metadataValue
+	METHOD d getState (I)I
+		ARG 1 state

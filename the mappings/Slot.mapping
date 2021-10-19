@@ -1,0 +1,13 @@
+CLASS gq Slot
+	FIELD a guiHandler Lhj;
+	FIELD c slotIndex I
+	FIELD d xPos I
+	FIELD e yPos I
+	FIELD f inventory Lkd;
+	METHOD a onPickupFromSlot ()V
+	METHOD a isAtCursorPos (II)Z
+	METHOD a isItemValid (Lhw;)Z
+	METHOD b getBackgroundIconIndex ()I
+	METHOD b putStack (Lhw;)V
+	METHOD c slotIndex ()Lhw;
+	METHOD d onSlotChanged ()V

@@ -1,0 +1,16 @@
+CLASS ju SoundManager
+	FIELD a sndSystem Lpaulscode/sound/SoundSystem;
+	FIELD b soundPoolSounds Lhe;
+	FIELD c soundPoolMusic Lhe;
+	FIELD d latestSoundID I
+	FIELD e options Lja;
+	FIELD f loaded Z
+	METHOD a onSoundOptionsChanged ()V
+	METHOD a loadSoundSettings (Lja;)V
+	METHOD a playSoundFX (Ljava/lang/String;FF)V
+	METHOD a playSound (Ljava/lang/String;FFFFF)V
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
+	METHOD a setListener (Lka;F)V
+	METHOD b closeMinecraft ()V
+	METHOD b addMusic (Ljava/lang/String;Ljava/io/File;)V
+	METHOD c tryToSetLibraryAndCodecs ()V

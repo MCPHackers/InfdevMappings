@@ -1,0 +1,7 @@
+CLASS db EntityTNTPrimed
+	FIELD a fuse I
+	METHOD <init> (Lfe;FFF)V
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD b createExplosion ()V

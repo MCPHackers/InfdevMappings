@@ -1,0 +1,4 @@
+CLASS jh ItemHoe
+	METHOD <init> (II)V
+		ARG 1 itemid
+		ARG 2 toolTier

@@ -1,0 +1,16 @@
+CLASS fc BlockFurnace
+	FIELD a isActive Z
+	METHOD <init> (IZ)V
+		ARG 1 blockid
+		ARG 2 isActive
+	METHOD a updateFurnaceBlockState (ZLfe;III)V
+		ARG 0 isActive
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD g setDefaultDirection (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

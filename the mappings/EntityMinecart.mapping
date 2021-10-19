@@ -1,0 +1,13 @@
+CLASS jp EntityMinecart
+	FIELD X minecartRockDirection I
+	FIELD Y cargoItems [Lhw;
+	FIELD Z isInReverse Z
+	FIELD a minecartCurrentDamage I
+	FIELD aa MATRIX [[[I
+	FIELD b minecartTimeSinceHit I
+	METHOD <init> (Lfe;DDD)V
+		ARG 2 xCoord
+		ARG 4 yCoord
+		ARG 6 zCoord
+	METHOD a getPos (DDD)Lbo;
+	METHOD a getPosOffset (DDDD)Lbo;

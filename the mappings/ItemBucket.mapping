@@ -1,0 +1,4 @@
+CLASS bc ItemBucket
+	FIELD a isFull I
+	METHOD <init> (II)V
+		ARG 1 itemid

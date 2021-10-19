@@ -1,0 +1,19 @@
+CLASS dc GuiScreen
+	FIELD b id Law;
+	FIELD c width I
+	FIELD d height I
+	FIELD e controlList Ljava/util/List;
+	FIELD f allowUserInput Z
+	FIELD g fontRenderer Lej;
+	METHOD a onGuiClosed ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a drawSlotInventory (III)V
+	METHOD a setWorldAndResolution (Law;II)V
+	METHOD a actionPerformed (Liq;)V
+	METHOD a deleteWorld (ZI)V
+	METHOD b initGui ()V
+	METHOD c updateScreen ()V
+	METHOD d doesGuiPauseGame ()Z
+	METHOD g handleKeyboardInput ()V
+	METHOD h drawDefaultBackground ()V

@@ -1,0 +1,16 @@
+CLASS m RenderGlobal
+	FIELD i damagePartialTime F
+	METHOD a fancyGraphics ()V
+	METHOD a renderSky (F)V
+	METHOD a renderAllRenderLists (ID)V
+	METHOD a renderEntities (Lbo;Ljt;F)V
+	METHOD a changeWorld (Lfe;)V
+	METHOD a sortAndRender (Lgi;ID)I
+	METHOD a drawBlockBreaking (Lgi;Lhb;ILhw;F)V
+	METHOD a updateRenderers (Lgi;Z)Z
+	METHOD a clipRenderersByFrustrum (Ljt;F)V
+	METHOD b getDebugInfoRenders ()Ljava/lang/String;
+	METHOD b renderClouds (F)V
+	METHOD b drawSelectionBox (Lgi;Lhb;ILhw;F)V
+	METHOD c getDebugInfoEntities ()Ljava/lang/String;
+	METHOD d updateClouds ()V

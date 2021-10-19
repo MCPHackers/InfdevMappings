@@ -1,0 +1,20 @@
+CLASS bz ModelRenderer
+	FIELD a rotationPointX F
+	FIELD b rotationPointY F
+	FIELD c rotationPointZ F
+	FIELD d rotateAngleX F
+	FIELD e rotateAngleY F
+	FIELD f rotateAngleZ F
+	FIELD g mirror Z
+	FIELD h showModel Z
+	FIELD i isHidden Z
+	FIELD j corners [Lhi;
+	FIELD k faces [Lfw;
+	FIELD l textureOffsetX I
+	FIELD m textureOffsetY I
+	FIELD n compiled Z
+	FIELD o displayList I
+	METHOD a render (F)V
+	METHOD a setRotationPoint (FFF)V
+	METHOD a addBox (FFFIIIF)V
+	METHOD b compileDisplayList (F)V

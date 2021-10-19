@@ -1,0 +1,11 @@
+CLASS hm NBTBase
+	FIELD a key Ljava/lang/String;
+	METHOD a getType ()B
+	METHOD a createTagOfType (B)Lhm;
+	METHOD a writeTag (Lhm;Ljava/io/DataOutput;)V
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+	METHOD b getTagName (B)Ljava/lang/String;
+	METHOD b readTag (Ljava/io/DataInput;)Lhm;
+	METHOD c getKey ()Ljava/lang/String;
+	METHOD l setKey (Ljava/lang/String;)Lhm;
