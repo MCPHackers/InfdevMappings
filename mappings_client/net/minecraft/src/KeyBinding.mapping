@@ -1,0 +1,3 @@
+CLASS ce net/minecraft/src/KeyBinding
+	FIELD a keyDescription Ljava/lang/String;
+	FIELD b keyCode I

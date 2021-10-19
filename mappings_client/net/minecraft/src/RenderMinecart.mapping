@@ -1,0 +1,2 @@
+CLASS fb net/minecraft/src/RenderMinecart
+	FIELD d modelMinecart Lit;

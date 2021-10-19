@@ -1,2 +1,0 @@
-CLASS bx TileEntitySignRenderer
-	FIELD b signModel Ldk;

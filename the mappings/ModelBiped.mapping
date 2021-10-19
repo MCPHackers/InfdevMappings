@@ -1,8 +1,0 @@
-CLASS fg ModelBiped
-	FIELD a bipedHead Lbz;
-	FIELD b bipedHeadwear Lbz;
-	FIELD c bipedBody Lbz;
-	FIELD d bipedRightArm Lbz;
-	FIELD e bipedLeftArm Lbz;
-	FIELD f bipedRightLeg Lbz;
-	FIELD g bipedLeftLeg Lbz;

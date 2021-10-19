@@ -1,0 +1,2 @@
+CLASS is net/minecraft/src/EntitySmokeFX
+	FIELD a smokeParticleScale F

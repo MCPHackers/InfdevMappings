@@ -1,2 +1,0 @@
-CLASS fb RenderMinecart
-	FIELD d modelMinecart Lit;

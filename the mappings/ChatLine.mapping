@@ -1,3 +1,0 @@
-CLASS ew ChatLine
-	FIELD a message Ljava/lang/String;
-	FIELD b updateCounter I

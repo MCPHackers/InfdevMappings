@@ -1,0 +1,3 @@
+CLASS fk net/minecraft/src/WorldGenMinable
+	FIELD a minableBlockId I
+	FIELD b numberOfBlocks I

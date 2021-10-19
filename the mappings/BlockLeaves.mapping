@@ -1,6 +1,0 @@
-CLASS ct BlockLeaves
-	FIELD b textureIndexSlot I
-	METHOD <init> (II)V
-		ARG 1 blockid
-		ARG 2 blockIndexInTexture
-	METHOD a setGraphicsLevel (Z)V

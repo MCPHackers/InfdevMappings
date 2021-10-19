@@ -1,5 +1,0 @@
-CLASS ez ItemAxe
-	FIELD aD blocksEffectiveAgainst [Lgs;
-	METHOD <init> (II)V
-		ARG 1 itemid
-		ARG 2 toolTier

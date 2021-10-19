@@ -1,0 +1,5 @@
+CLASS jx net/minecraft/src/BlockSlab
+	FIELD a blockType Z
+	METHOD <init> (IZ)V
+		ARG 1 blockid
+		ARG 2 doubleSlab

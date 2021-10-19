@@ -1,0 +1,2 @@
+CLASS cg net/minecraft/src/ItemBlock
+	FIELD a blockID I

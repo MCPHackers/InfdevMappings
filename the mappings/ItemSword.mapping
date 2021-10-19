@@ -1,5 +1,0 @@
-CLASS cf ItemSword
-	FIELD a weaponDamage I
-	METHOD <init> (II)V
-		ARG 1 itemid
-		ARG 2 toolTier

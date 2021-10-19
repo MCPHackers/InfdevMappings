@@ -1,0 +1,3 @@
+CLASS ff net/minecraft/src/EntityLavaFX
+	FIELD a lavaParticleScale F
+	METHOD <init> EntityLavaFX (Lfe;DDD)V

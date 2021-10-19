@@ -1,0 +1,4 @@
+CLASS net/minecraft/isom/IsomPreviewApplet net/minecraft/isom/IsomPreviewApplet
+	FIELD a isomCanvas Lbe;
+	METHOD start ()V
+	METHOD stop ()V

@@ -1,3 +1,0 @@
-CLASS ih BlockGrass
-	METHOD <init> (I)V
-		ARG 1 blockid

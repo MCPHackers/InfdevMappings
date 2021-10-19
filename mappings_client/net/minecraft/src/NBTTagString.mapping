@@ -1,0 +1,2 @@
+CLASS im net/minecraft/src/NBTTagString
+	FIELD a stringValue Ljava/lang/String;

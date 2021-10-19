@@ -1,2 +1,0 @@
-CLASS da Explosion
-	METHOD a doExplosion (Lfe;Leq;DDDF)V

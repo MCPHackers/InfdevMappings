@@ -1,0 +1,2 @@
+CLASS co net/minecraft/src/SlotCrafting
+	FIELD a craftMatrix Lkd;

@@ -1,0 +1,2 @@
+CLASS cu net/minecraft/src/OpenGlCapsChecker
+	METHOD a checkARBOcclusion ()Z

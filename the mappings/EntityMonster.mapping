@@ -1,2 +1,0 @@
-CLASS gr EntityMonster
-	FIELD Z attackStrength I

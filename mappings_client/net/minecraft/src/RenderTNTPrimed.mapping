@@ -1,0 +1,2 @@
+CLASS ay net/minecraft/src/RenderTNTPrimed
+	FIELD d blockRenderer Lcr;

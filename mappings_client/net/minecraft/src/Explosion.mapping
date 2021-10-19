@@ -1,0 +1,2 @@
+CLASS da net/minecraft/src/Explosion
+	METHOD a doExplosion (Lfe;Leq;DDDF)V

@@ -1,0 +1,2 @@
+CLASS cp net/minecraft/src/NBTTagByte
+	FIELD a byteValue B

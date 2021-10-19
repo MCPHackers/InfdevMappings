@@ -1,0 +1,2 @@
+CLASS ii net/minecraft/src/TileEntityChest
+	FIELD e chestContents [Lhw;

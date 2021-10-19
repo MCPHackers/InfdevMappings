@@ -1,4 +1,0 @@
-CLASS cj GuiOptions
-	FIELD a screenTitle Ljava/lang/String;
-	FIELD h parentScreen Ldc;
-	FIELD j options Lja;

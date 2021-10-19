@@ -1,0 +1,4 @@
+CLASS ab net/minecraft/src/RecipesArmor
+	FIELD a recipePatterns [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Lgy;)V

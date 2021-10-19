@@ -1,0 +1,2 @@
+CLASS dn net/minecraft/src/EntitySheep
+	FIELD a sheared Z

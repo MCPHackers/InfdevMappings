@@ -1,0 +1,5 @@
+CLASS hs net/minecraft/src/MouseHelper
+	FIELD a deltaX I
+	FIELD b deltaY I
+	METHOD b ungrabMouseCursor ()V
+	METHOD c mouseXYChange ()V

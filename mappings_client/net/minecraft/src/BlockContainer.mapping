@@ -1,0 +1,2 @@
+CLASS dy net/minecraft/src/BlockContainer
+	METHOD a_ getBlockEntity ()Lbk;

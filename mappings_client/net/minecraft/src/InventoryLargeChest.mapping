@@ -1,0 +1,4 @@
+CLASS aq net/minecraft/src/InventoryLargeChest
+	FIELD a name Ljava/lang/String;
+	FIELD b upperChest Lkd;
+	FIELD c lowerChest Lkd;

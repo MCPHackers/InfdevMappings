@@ -1,0 +1,4 @@
+CLASS jh net/minecraft/src/ItemHoe
+	METHOD <init> (II)V
+		ARG 1 itemid
+		ARG 2 toolTier

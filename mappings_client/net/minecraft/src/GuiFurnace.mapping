@@ -1,0 +1,2 @@
+CLASS bi net/minecraft/src/GuiFurnace
+	FIELD k furnaceInventory Lel;

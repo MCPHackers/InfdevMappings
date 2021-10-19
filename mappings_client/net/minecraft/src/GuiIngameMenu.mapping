@@ -1,0 +1,3 @@
+CLASS bm net/minecraft/src/GuiIngameMenu
+	FIELD a updateCounter2 I
+	FIELD h updateCounter1 I

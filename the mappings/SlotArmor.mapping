@@ -1,3 +1,0 @@
-CLASS fv SlotArmor
-	FIELD a armorType I
-	FIELD b guiInventory Lga;

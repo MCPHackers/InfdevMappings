@@ -1,0 +1,2 @@
+CLASS ji net/minecraft/src/RenderGiantZombie
+	FIELD f scale F

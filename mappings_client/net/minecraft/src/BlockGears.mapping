@@ -1,0 +1,4 @@
+CLASS ar net/minecraft/src/BlockGears
+	METHOD <init> (II)V
+		ARG 1 blockid
+		ARG 2 blockIndexInTexture

@@ -1,6 +1,0 @@
-CLASS jm Path
-	METHOD a clearPath ()V
-	METHOD a addPoint (Ld;)Ld;
-	METHOD a changeDistance (Ld;F)V
-	METHOD b dequeue ()Ld;
-	METHOD c isPathEmpty ()Z

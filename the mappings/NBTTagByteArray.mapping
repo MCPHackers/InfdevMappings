@@ -1,2 +1,0 @@
-CLASS gz NBTTagByteArray
-	FIELD a byteArray [B

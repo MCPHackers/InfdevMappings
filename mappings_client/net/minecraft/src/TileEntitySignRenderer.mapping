@@ -1,0 +1,2 @@
+CLASS bx net/minecraft/src/TileEntitySignRenderer
+	FIELD b signModel Ldk;

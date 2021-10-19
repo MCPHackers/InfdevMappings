@@ -1,6 +1,0 @@
-CLASS bg IChunkLoader
-	METHOD a chunkTick ()V
-	METHOD a loadChunk (Lfe;II)Ljw;
-	METHOD a saveChunk (Lfe;Ljw;)V
-	METHOD b saveExtraData ()V
-	METHOD b saveExtraChunkData (Lfe;Ljw;)V

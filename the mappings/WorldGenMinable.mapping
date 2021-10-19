@@ -1,3 +1,0 @@
-CLASS fk WorldGenMinable
-	FIELD a minableBlockId I
-	FIELD b numberOfBlocks I

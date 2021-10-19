@@ -1,0 +1,2 @@
+CLASS iw net/minecraft/src/EnumOSMappingHelper
+	FIELD a enumOSMappingArray [I

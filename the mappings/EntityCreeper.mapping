@@ -1,6 +1,0 @@
-CLASS fy EntityCreeper
-	FIELD X fuseTime I
-	FIELD Y creeperState I
-	FIELD a timeSinceIgnited I
-	FIELD b lastActiveTime I
-	METHOD c setCreeperFlashTime (F)F

@@ -1,0 +1,2 @@
+CLASS ib net/minecraft/src/EntityPig
+	FIELD a getSaddled Z

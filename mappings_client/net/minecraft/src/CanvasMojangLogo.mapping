@@ -1,0 +1,2 @@
+CLASS fs net/minecraft/src/CanvasMojangLogo
+	FIELD a logo Ljava/awt/image/BufferedImage;

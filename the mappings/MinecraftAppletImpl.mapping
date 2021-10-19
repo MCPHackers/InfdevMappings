@@ -1,2 +1,0 @@
-CLASS r MinecraftAppletImpl
-	FIELD a mainFrame Lnet/minecraft/client/MinecraftApplet;

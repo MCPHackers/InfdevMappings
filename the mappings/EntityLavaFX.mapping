@@ -1,3 +1,0 @@
-CLASS ff EntityLavaFX
-	FIELD a lavaParticleScale F
-	METHOD <init> EntityLavaFX (Lfe;DDD)V

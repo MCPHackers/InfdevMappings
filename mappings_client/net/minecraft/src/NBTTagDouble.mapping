@@ -1,0 +1,2 @@
+CLASS fa net/minecraft/src/NBTTagDouble
+	FIELD a doubleValue D

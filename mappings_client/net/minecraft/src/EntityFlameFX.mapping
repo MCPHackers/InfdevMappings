@@ -1,0 +1,2 @@
+CLASS cx net/minecraft/src/EntityFlameFX
+	FIELD a flameScale F

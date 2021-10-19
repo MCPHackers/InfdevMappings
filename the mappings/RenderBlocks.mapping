@@ -1,3 +1,0 @@
-CLASS cr RenderBlocks
-	METHOD a renderBlockOnInventory (Lgs;)V
-	METHOD a renderBlockFallingSand (Lgs;Lfe;III)V

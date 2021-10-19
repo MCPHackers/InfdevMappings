@@ -1,2 +1,0 @@
-CLASS ft ThreadRunIsoClient
-	FIELD a isoCanvas Lbe;

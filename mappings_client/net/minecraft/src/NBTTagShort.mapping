@@ -1,0 +1,2 @@
+CLASS gh net/minecraft/src/NBTTagShort
+	FIELD a shortValue S

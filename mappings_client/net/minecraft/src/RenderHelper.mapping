@@ -1,0 +1,3 @@
+CLASS v net/minecraft/src/RenderHelper
+	METHOD a disableStandardItemLighting ()V
+	METHOD b enableStandardItemLighting ()V

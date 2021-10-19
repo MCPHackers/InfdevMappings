@@ -1,3 +1,0 @@
-CLASS az GuiCrafting
-	FIELD k inventoryCrafting Lt;
-	FIELD l iInventory Lkd;

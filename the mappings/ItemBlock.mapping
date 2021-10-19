@@ -1,2 +1,0 @@
-CLASS cg ItemBlock
-	FIELD a blockID I

@@ -1,0 +1,2 @@
+CLASS q net/minecraft/src/NBTTagFloat
+	FIELD a floatValue F

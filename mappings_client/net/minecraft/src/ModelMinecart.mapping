@@ -1,0 +1,2 @@
+CLASS z net/minecraft/src/ModelMinecart
+	FIELD a sideModels [Lbz;

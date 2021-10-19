@@ -1,2 +1,0 @@
-CLASS dy BlockContainer
-	METHOD a_ getBlockEntity ()Lbk;

@@ -1,0 +1,2 @@
+CLASS ft net/minecraft/src/ThreadRunIsoClient
+	FIELD a isoCanvas Lbe;

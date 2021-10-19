@@ -1,0 +1,2 @@
+CLASS c net/minecraft/src/RenderSorter
+	FIELD a entity Lgi;
