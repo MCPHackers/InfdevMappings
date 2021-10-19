@@ -1,0 +1,23 @@
+CLASS bv IWorldAccess
+	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
+	METHOD a obtainEntitySkin (Leq;)V
+		ARG 1 entity
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 particle
+		ARG 2 xCoordBlock
+		ARG 4 yCoordBlock
+		ARG 6 zCoordBlock
+		ARG 8 xPosition
+		ARG 10 yPosition
+		ARG 12 zPosition
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+		ARG 1 soundName
+		ARG 2 xCoord
+		ARG 4 yCoord
+		ARG 6 zCoord
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD b markBlockRangeNeedsUpdate (IIIIII)V
+	METHOD b releaseEntitySkin (Leq;)V
+		ARG 1 entity
+	METHOD e updateAllRenderers ()V

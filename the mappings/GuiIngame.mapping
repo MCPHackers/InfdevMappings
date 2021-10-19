@@ -1,0 +1,13 @@
+CLASS gl GuiIngame
+	FIELD a field_933_a Ljava/lang/String;
+	FIELD b damageGuiPartialTime F
+	FIELD c prevVignetteBrightness F
+	FIELD d itemRenderer Lba;
+	FIELD e chatMessageList Ljava/util/List;
+	FIELD f rand Ljava/util/Random;
+	FIELD g mc Law;
+	FIELD h updateCounter I
+	METHOD a updateTick ()V
+	METHOD a renderVignette (FII)V
+	METHOD a renderGameOverlay (FZII)V
+	METHOD a renderInventorySlot (IIIF)V

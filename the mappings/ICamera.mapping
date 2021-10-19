@@ -1,0 +1,7 @@
+CLASS jt ICamera
+	METHOD a setPosition (DDD)V
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
+	METHOD a isBoundingBoxInFrustum (Len;)Z
+		ARG 1 aabb

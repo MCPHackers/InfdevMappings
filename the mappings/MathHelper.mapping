@@ -1,0 +1,10 @@
+CLASS hq MathHelper
+	FIELD a SIN_TABLE [F
+	METHOD a sqrt_double (D)F
+	METHOD a abs_max (DD)D
+	METHOD a sin (F)F
+	METHOD b floor_double (D)I
+	METHOD b cos (F)F
+	METHOD c sqrt_float (F)F
+	METHOD d floor_float (F)I
+	METHOD e abs (F)F

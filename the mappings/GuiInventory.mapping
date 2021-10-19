@@ -1,0 +1,5 @@
+CLASS ga GuiInventory
+	FIELD k inventoryCrafting Lt;
+	FIELD l iInventory Lkd;
+	FIELD m xSize_lo F
+	FIELD n ySize_lo F

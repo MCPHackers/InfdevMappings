@@ -1,0 +1,16 @@
+CLASS it ModelBase
+	FIELD l onGround F
+	METHOD a render (FFFFFF)V
+		ARG 1 nya1
+		ARG 2 nya2
+		ARG 3 nya3
+		ARG 4 nya4
+		ARG 5 nya5
+		ARG 6 nya6
+	METHOD b setRotationAngles (FFFFFF)V
+		ARG 1 nya1
+		ARG 2 nya2
+		ARG 3 nya3
+		ARG 4 nya4
+		ARG 5 nya5
+		ARG 6 nya6

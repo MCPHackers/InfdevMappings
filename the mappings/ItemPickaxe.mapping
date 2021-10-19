@@ -1,0 +1,6 @@
+CLASS au ItemPickaxe
+	FIELD aD blocksEffectiveAgainst [Lgs;
+	FIELD aE getHarvestLevel I
+	METHOD <init> (II)V
+		ARG 1 itemid
+		ARG 2 toolTier

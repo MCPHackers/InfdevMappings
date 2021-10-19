@@ -1,0 +1,78 @@
+CLASS en AxisAlignedBB
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	FIELD g boundingBoxes Ljava/util/List;
+	FIELD h numBoundingBoxesInUse I
+	METHOD <init> (DDDDDD)V
+		ARG 1 aabbMinX
+		ARG 3 aabbMinY
+		ARG 5 aabbMinZ
+		ARG 7 aabbMaxX
+		ARG 9 aabbMaxY
+		ARG 11 aabbMaxZ
+	METHOD a clearBoundingBoxPool ()V
+	METHOD a addCoord (DDD)Len;
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
+	METHOD a getBoundingBox (DDDDDD)Len;
+		ARG 0 aabbMinX
+		ARG 2 aabbMinY
+		ARG 4 aabbMinZ
+		ARG 6 aabbMaxX
+		ARG 8 aabbMaxY
+		ARG 10 aabbMaxZ
+	METHOD a isVecInYZ (Lbo;)Z
+		ARG 1 var1
+	METHOD a calculateIntercept (Lbo;Lbo;)Lhb;
+		ARG 1 var1
+		ARG 2 var2
+	METHOD a intersectsWith (Len;)Z
+		ARG 1 aabb
+	METHOD a calculateXOffset (Len;D)D
+		ARG 1 aabb
+		ARG 2 offsetX
+	METHOD b getAverageEdgeLength ()D
+	METHOD b expand (DDD)Len;
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
+	METHOD b getBoundingBoxFromPool (DDDDDD)Len;
+		ARG 0 aabbMinX
+		ARG 2 aabbMinY
+		ARG 4 aabbMinZ
+		ARG 6 aabbMaxX
+		ARG 8 aabbMaxY
+		ARG 10 aabbMaxZ
+	METHOD b isVecInXZ (Lbo;)Z
+		ARG 1 var1
+	METHOD b setBB (Len;)V
+		ARG 1 aabb
+	METHOD b calculateYOffset (Len;D)D
+		ARG 1 aabb
+		ARG 2 offsetY
+	METHOD c copy ()Len;
+	METHOD c getOffsetBoundingBox (DDD)Len;
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
+	METHOD c setBounds (DDDDDD)Len;
+		ARG 1 aabbMinX
+		ARG 3 aabbMinY
+		ARG 5 aabbMinZ
+		ARG 7 aabbMaxX
+		ARG 9 aabbMaxY
+		ARG 11 aabbMaxZ
+	METHOD c isVecInXY (Lbo;)Z
+		ARG 1 var1
+	METHOD c calculateZOffset (Len;D)D
+		ARG 1 aabb
+		ARG 2 offsetZ
+	METHOD d offset (DDD)Len;
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord

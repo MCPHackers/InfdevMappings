@@ -1,0 +1,9 @@
+CLASS e BlockChest
+	FIELD a random Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 blockid
+	METHOD g isThereANeighborChest (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

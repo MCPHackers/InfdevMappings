@@ -1,0 +1,4 @@
+CLASS kb GuiMainMenu
+	FIELD a updateCounter F
+	FIELD h splashes [Ljava/lang/String;
+	FIELD j currentSplash Ljava/lang/String;

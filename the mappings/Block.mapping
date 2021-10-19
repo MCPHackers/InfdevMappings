@@ -1,0 +1,286 @@
+CLASS gs Block
+	FIELD A waterMoving Lgs;
+	FIELD B waterStill Lgs;
+	FIELD C lavaMoving Lgs;
+	FIELD D lavaStill Lgs;
+	FIELD E sand Lgs;
+	FIELD F gravel Lgs;
+	FIELD G oreGold Lgs;
+	FIELD H oreIron Lgs;
+	FIELD I oreCoal Lgs;
+	FIELD J wood Lgs;
+	FIELD K leaves Lct;
+	FIELD L sponge Lgs;
+	FIELD M glass Lgs;
+	FIELD N woolRed Lgs;
+	FIELD O woolOrange Lgs;
+	FIELD P woolYellow Lgs;
+	FIELD Q woolLime Lgs;
+	FIELD R woolGreen Lgs;
+	FIELD S woolAquaGreen Lgs;
+	FIELD T woolCyan Lgs;
+	FIELD U woolBlue Lgs;
+	FIELD V woolPurple Lgs;
+	FIELD W woolIndigo Lgs;
+	FIELD X woolViolet Lgs;
+	FIELD Y woolMagenta Lgs;
+	FIELD Z woolPink Lgs;
+	FIELD aA tilledField Lgs;
+	FIELD aB stoneOvenIdle Lgs;
+	FIELD aC stoneOvenActive Lgs;
+	FIELD aD signPost Lgs;
+	FIELD aE door Lgs;
+	FIELD aF ladder Lgs;
+	FIELD aG rail Lgs;
+	FIELD aH stairCobblestone Lgs;
+	FIELD aI blockIndexInTexture I
+	FIELD aJ blockID I
+	FIELD aK blockHardness F
+	FIELD aL blockResistance F
+	FIELD aM minX D
+	FIELD aN minY D
+	FIELD aO minZ D
+	FIELD aP maxX D
+	FIELD aQ maxY D
+	FIELD aR maxZ D
+	FIELD aS stepSound Lcq;
+	FIELD aT blockParticleGravity F
+	FIELD aU blockMaterial Ljy;
+	FIELD aa woolDarkGray Lgs;
+	FIELD ab woolGray Lgs;
+	FIELD ac woolWhite Lgs;
+	FIELD ad plantYellow Lhv;
+	FIELD ae plantRed Lhv;
+	FIELD af mushroomBrown Lhv;
+	FIELD ag mushroomRed Lhv;
+	FIELD ah blockGold Lgs;
+	FIELD ai blockSteel Lgs;
+	FIELD aj slabDouble Lgs;
+	FIELD ak slabSingle Lgs;
+	FIELD al brick Lgs;
+	FIELD am tnt Lgs;
+	FIELD an bookshelf Lgs;
+	FIELD ao mossyCobblestone Lgs;
+	FIELD ap obsidian Lgs;
+	FIELD aq torch Lgs;
+	FIELD ar fire Ljv;
+	FIELD as spawner Lgs;
+	FIELD at stairPlanks Lgs;
+	FIELD au chest Lgs;
+	FIELD av gears Lgs;
+	FIELD aw oreDiamond Lgs;
+	FIELD ax blockDiamond Lgs;
+	FIELD ay workbench Lgs;
+	FIELD az crops Lgs;
+	FIELD e soundPowderFootstep Lcq;
+	FIELD f soundWoodFootstep Lcq;
+	FIELD g soundGravelFootstep Lcq;
+	FIELD h soundGrassFootstep Lcq;
+	FIELD i soundStoneFootstep Lcq;
+	FIELD j soundMetalFootstep Lcq;
+	FIELD k soundGlassFootstep Lcq;
+	FIELD l soundClothFootstep Lcq;
+	FIELD m soundSandFootstep Lcq;
+	FIELD n blocksList [Lgs;
+	FIELD o tickOnLoad [Z
+	FIELD p opaqueCubeLookup [Z
+	FIELD q lightOpacity [I
+	FIELD r canBlockGrass [Z
+	FIELD s lightValue [I
+	FIELD t stone Lgs;
+	FIELD u grass Lih;
+	FIELD v dirt Lgs;
+	FIELD w cobblestone Lgs;
+	FIELD x planks Lgs;
+	FIELD y sapling Lgs;
+	FIELD z bedrock Lgs;
+	METHOD <init> (IILjy;)V
+		ARG 1 blockid
+		ARG 2 textureIndexSlot
+		ARG 3 material
+	METHOD <init> (ILjy;)V
+		ARG 1 blockid
+		ARG 2 material
+	METHOD a getRenderType ()I
+	METHOD a setLightValue (F)Lgs;
+		ARG 1 maxLightLevel
+	METHOD a setBlockBounds (FFFFFF)V
+		ARG 1 minXBound
+		ARG 2 minYBound
+		ARG 3 minZBound
+		ARG 4 maxXBound
+		ARG 5 maxYBound
+		ARG 6 maxZBound
+	METHOD a getBlockTextureFromSide (I)I
+		ARG 1 textureIndexSlot
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+		ARG 1 textureIndexSlot
+		ARG 2 metadataValue
+	METHOD a idDropped (ILjava/util/Random;)I
+		ARG 1 blockid
+	METHOD a canCollideCheck (IZ)Z
+		ARG 1 nya1
+	METHOD a isVecInsideYZBounds (Lbo;)Z
+		ARG 1 var1
+	METHOD a setStepSound (Lcq;)Lgs;
+		ARG 1 soundName
+	METHOD a getExplosionResistance (Leq;)F
+		ARG 1 entity
+	METHOD a canPlaceBlockAt (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD a onBlockDestroyedByPlayer (Lfe;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD a dropBlockAsItemWithChance (Lfe;IIIIF)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+		ARG 6 nya5
+	METHOD a collisionRayTrace (Lfe;IIILbo;Lbo;)Lhb;
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 var1
+		ARG 6 var2
+	METHOD a getCollidingBoundingBoxes (Lfe;IIILen;Ljava/util/ArrayList;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 aabb
+		ARG 6 arrayList
+	METHOD a onEntityWalking (Lfe;IIILeq;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entity
+	METHOD a velocityToAddToEntity (Lfe;IIILeq;Lbo;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entity
+		ARG 6 var1
+	METHOD a blockActivated (Lfe;IIILgi;)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entityPlayer
+	METHOD a updateTick (Lfe;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD a blockStrength (Lgi;)F
+		ARG 1 entityPlayer
+	METHOD a setBlockBoundsBasedOnState (Liv;III)V
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD a getBlockTextureGeneric (Liv;IIII)I
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 metadataValue
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a_ getSelectedBoundingBoxFromPool (Lfe;III)Len;
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD a_ onBlockPlaced (Lfe;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD b isOpaqueCube ()Z
+	METHOD b setResistance (F)Lgs;
+		ARG 1 explosionResistance
+	METHOD b isVecInsideXZBounds (Lbo;)Z
+		ARG 1 var1
+	METHOD b onBlockRemoval (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD b onNeighborBlockChange (Lfe;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD b onBlockClicked (Lfe;IIILgi;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entityPlayer
+	METHOD b randomDisplayTick (Lfe;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD b shouldSideBeRendered (Liv;IIII)Z
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD b setTickOnLoad (Z)V
+		ARG 1 tick
+	METHOD c renderAsNormalBlock ()Z
+	METHOD c setHardness (F)Lgs;
+		ARG 1 blockHardness
+	METHOD c setLightOpacity (I)Lgs;
+		ARG 1 opacity
+	METHOD c isVecInsideXYBounds (Lbo;)Z
+		ARG 1 var1
+	METHOD c onBlockDestroyedByExplosion (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD c getBlockBrightness (Liv;III)F
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD d isCollidable ()Z
+	METHOD d getCollisionBoundingBoxFromPool (Lfe;III)Len;
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD d dropBlockAsItem (Lfe;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD d getRenderColor (Liv;III)I
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD e tickRate ()I
+	METHOD e onBlockAdded (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD f getRenderBlockPass ()I
+	METHOD g getCanBlockGrass ()Z

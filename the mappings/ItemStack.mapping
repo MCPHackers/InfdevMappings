@@ -1,0 +1,29 @@
+CLASS hw ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d itemDamage I
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 stackSize
+	METHOD <init> (III)V
+		ARG 1 itemID
+		ARG 2 stackSize
+		ARG 3 itemDamage
+	METHOD a getItem ()Lge;
+	METHOD a splitStack (I)Lhw;
+	METHOD a onDestroyBlock (IIII)V
+	METHOD a writeToNBT (Lae;)Lae;
+	METHOD a getDamageVsEntity (Leq;)I
+	METHOD a useItemRightClick (Lfe;Lgi;)Lhw;
+	METHOD a onItemDestroyedByUse (Lgi;)V
+	METHOD a useItem (Lgi;Lfe;IIII)Z
+	METHOD a getStrVsBlock (Lgs;)F
+	METHOD a hitEntity (Lka;)V
+	METHOD b getIconIndex ()I
+	METHOD b damageItem (I)V
+	METHOD b readFromNBT (Lae;)V
+	METHOD b canHarvestBlock (Lgs;)Z
+	METHOD b useItemOnEntity (Lka;)V
+	METHOD c getMaxStackSize ()I
+	METHOD d isItemStackDamageable ()I

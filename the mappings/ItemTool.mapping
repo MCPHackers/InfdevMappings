@@ -1,0 +1,8 @@
+CLASS ds ItemTool
+	FIELD aD blocksEffectiveAgainst [Lgs;
+	FIELD aE efficiencyOnProperMaterial F
+	FIELD aF damageVsEntity I
+	FIELD a toolMaterial I
+	METHOD <init> (III[Lgs;)V
+		ARG 1 itemid
+		ARG 4 block

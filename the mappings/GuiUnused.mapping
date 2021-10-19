@@ -1,0 +1,3 @@
+CLASS bw GuiUnused
+	FIELD a message1 Ljava/lang/String;
+	FIELD h message2 Ljava/lang/String;

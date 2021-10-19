@@ -1,0 +1,10 @@
+CLASS eu MetadataChunkBlock
+	FIELD a field_1299_a Lec;
+	FIELD b field_1298_b I
+	FIELD c field_1304_c I
+	FIELD d field_1303_d I
+	FIELD e field_1302_e I
+	FIELD f field_1301_f I
+	FIELD g field_1300_g I
+	METHOD a func_866_a (IIIIII)Z
+	METHOD a func_4127_a (Lfe;)V

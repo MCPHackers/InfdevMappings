@@ -1,0 +1,11 @@
+CLASS hu ItemArmor
+	FIELD aD armorType I
+	FIELD aE damageReduceAmount I
+	FIELD aF renderIndex I
+	FIELD aG damageReduceAmountArray [I
+	FIELD aH maxDamageArray [I
+	FIELD a armorLevel I
+	METHOD <init> (IIII)V
+		ARG 1 itemid
+		ARG 3 renderIndex
+		ARG 4 armorType

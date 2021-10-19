@@ -1,0 +1,6 @@
+CLASS cv GuiYesNo
+	FIELD a parentScreen Ldc;
+	FIELD h message1 Ljava/lang/String;
+	FIELD j message2 Ljava/lang/String;
+	FIELD k worldNumber I
+	METHOD <init> GuiYesNo (Ldc;Ljava/lang/String;Ljava/lang/String;I)V

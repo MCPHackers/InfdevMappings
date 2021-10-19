@@ -1,0 +1,2 @@
+CLASS gh NBTTagShort
+	FIELD a shortValue S
