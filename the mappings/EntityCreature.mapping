@@ -1,0 +1,14 @@
+CLASS hn EntityCreature
+	FIELD a pathToEntity Ldj;
+	FIELD aa playerToAttack Leq;
+	FIELD ab hasAttacked Z
+	METHOD a findPlayerToAttack ()Leq;
+	METHOD a getBlockPathWeight (III)F
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a canEntityBeSeen (Leq;)Z
+		ARG 1 entity
+	METHOD a attackEntity (Leq;F)V
+		ARG 1 entity
+		ARG 2 xCoord

@@ -1,0 +1,2 @@
+CLASS iw EnumOSMappingHelper
+	FIELD a enumOSMappingArray [I

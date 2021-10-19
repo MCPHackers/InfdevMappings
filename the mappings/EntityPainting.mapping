@@ -1,0 +1,11 @@
+CLASS cy EntityPainting
+	FIELD X tickCounter1 I
+	FIELD Y xPosition I
+	FIELD Z yPosition I
+	FIELD a direction I
+	FIELD aa zPosition I
+	FIELD b art Lhr;
+	METHOD a setDirection (I)V
+		ARG 1 direction
+	METHOD b onValidSurface ()Z
+	METHOD c getArtSize (I)F

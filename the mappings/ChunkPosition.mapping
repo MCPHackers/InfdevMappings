@@ -1,0 +1,8 @@
+CLASS ia ChunkPosition
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	METHOD <init> (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

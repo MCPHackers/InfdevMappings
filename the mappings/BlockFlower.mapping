@@ -1,0 +1,16 @@
+CLASS hv BlockFlower
+	METHOD <init> (II)V
+		ARG 1 blockid
+		ARG 2 blockIndexInTexture
+	METHOD b canThisPlantGrowOnThisBlockID (I)Z
+		ARG 1 blockid
+	METHOD g canBlockStay (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h checkFlowerChange (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

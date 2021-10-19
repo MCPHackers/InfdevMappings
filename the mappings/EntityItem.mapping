@@ -1,0 +1,14 @@
+CLASS gx EntityItem
+	FIELD X delayBeforeCanPickup I
+	FIELD Y hoverStart F
+	FIELD Z field_803_e I
+	FIELD a item Lhw;
+	FIELD aa health I
+	FIELD b age I
+	METHOD <init> (Lfe;DDDLhw;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 4 yCoord
+		ARG 6 zCoord
+		ARG 8 itemStack
+	METHOD a pushOutOfBlocks (DDD)Z

@@ -1,0 +1,6 @@
+CLASS em EntityPickupFX
+	FIELD a entityToPickUp Leq;
+	FIELD aj entityPickingUp Lka;
+	FIELD ak age I
+	FIELD al maxAge I
+	FIELD am yOffs F

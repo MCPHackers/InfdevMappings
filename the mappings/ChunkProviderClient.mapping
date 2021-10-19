@@ -1,0 +1,5 @@
+CLASS ey ChunkProviderClient
+	FIELD a byteSomething [B
+	FIELD b blankChunk [Ljw;
+	FIELD c worldObj Lfe;
+	FIELD d chunkLoader Lbg;

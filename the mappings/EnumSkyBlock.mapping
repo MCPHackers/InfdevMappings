@@ -1,0 +1,4 @@
+CLASS ec EnumSkyBlock
+	FIELD c defaultLightValue I
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 lightValue

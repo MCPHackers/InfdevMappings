@@ -1,0 +1,19 @@
+CLASS eo EntityArrow
+	FIELD X yTile I
+	FIELD Y zTile I
+	FIELD Z inTile I
+	FIELD a arrowShake I
+	FIELD aa inGround Z
+	FIELD ab owner Lka;
+	FIELD ac ticksInGround I
+	FIELD ad ticksInAir I
+	FIELD b xTile I
+	METHOD <init> (Lfe;Lka;)V
+		ARG 1 world
+		ARG 2 entityLiving
+	METHOD a setArrowHeading (DDDFF)V
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
+		ARG 7 yaw
+		ARG 8 pitch

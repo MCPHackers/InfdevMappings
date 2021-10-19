@@ -1,0 +1,6 @@
+CLASS y BlockLeavesBase
+	FIELD a graphicsLevel Z
+	METHOD <init> (IILjy;Z)V
+		ARG 1 blockid
+		ARG 2 blockIndexInTexture
+		ARG 3 material

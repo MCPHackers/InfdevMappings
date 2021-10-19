@@ -1,0 +1,12 @@
+CLASS hr EnumArt
+	FIELD t title Ljava/lang/String;
+	FIELD u sizeX I
+	FIELD v sizeY I
+	FIELD w offsetX I
+	FIELD x offsetY I
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 title
+		ARG 4 sizeX
+		ARG 5 sizeY
+		ARG 6 offestX
+		ARG 7 offsetY

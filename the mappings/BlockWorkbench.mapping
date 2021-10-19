@@ -1,0 +1,3 @@
+CLASS fh BlockWorkbench
+	METHOD <init> (I)V
+		ARG 1 blockid

@@ -1,0 +1,37 @@
+CLASS jv BlockFire
+	FIELD a chanceToEncourageFire [I
+	FIELD b abilityToCatchFire [I
+	METHOD <init> (II)V
+		ARG 1 blockid
+		ARG 2 blockIndexInTexture
+	METHOD a setBurnRate (III)V
+		ARG 1 nya1
+		ARG 2 nya2
+		ARG 3 nya3
+	METHOD a tryToCatchBlockOnFire (Lfe;IIIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD b canBlockCatchFire (Liv;III)Z
+		ARG 1 blockAccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD e getChanceToEncourageFire (Lfe;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 nya4
+	METHOD g canNeighborCatchFire (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h getChanceOfNeighborsEncouragingFire (Lfe;III)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

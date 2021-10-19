@@ -1,0 +1,13 @@
+CLASS dp EffectRenderer
+	FIELD a worldObj Lfe;
+	FIELD b fxLayers [Ljava/util/List;
+	FIELD c renderer Lid;
+	FIELD d rand Ljava/util/Random;
+	METHOD a updateEffects ()V
+	METHOD a addBlockDestroyEffects (III)V
+	METHOD a addBlockHitEffects (IIII)V
+	METHOD a renderParticles (Leq;F)V
+	METHOD a clearEffects (Lfe;)V
+	METHOD a addEffect (Lix;)V
+	METHOD b getStatistics ()Ljava/lang/String;
+	METHOD b renderLitParticles (Leq;F)V

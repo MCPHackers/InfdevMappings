@@ -1,0 +1,12 @@
+CLASS jc ChunkProviderLoadOrGenerate
+	FIELD a lastQueriedChunkXPos I
+	FIELD b lastQueriedChunkZPos I
+	FIELD c blankChunk Ljw;
+	FIELD d chunkProvider Lch;
+	FIELD e chunkLoader Lbg;
+	FIELD f chunks [Ljw;
+	FIELD g worldObj Lfe;
+	FIELD h lastQueriedChunk Ljw;
+	METHOD a saveExtraChunkData (Ljw;)V
+	METHOD b saveChunk (Ljw;)V
+	METHOD c func_542_c (II)Ljw;

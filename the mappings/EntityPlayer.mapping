@@ -1,0 +1,19 @@
+CLASS gi EntityPlayer
+	FIELD X unusedByte B
+	FIELD Y score I
+	FIELD Z prevCameraYaw F
+	FIELD a swingProgressInt I
+	FIELD aa cameraYaw F
+	FIELD ab username Ljava/lang/String;
+	FIELD b inventory Lht;
+	METHOD a displayGUIFurnace (Lel;)V
+	METHOD a collideWithPlayer (Leq;)V
+	METHOD a getCurrentPlayerStrVsBlock (Lgs;)F
+	METHOD a dropPlayerItem (Lhw;)V
+	METHOD a dropPlayerItemWithRandomChoice (Lhw;Z)V
+	METHOD a displayGUIEditSign (Ljn;)V
+	METHOD a displayGUIChest (Lkd;)V
+	METHOD b onItemPickup (Leq;)V
+	METHOD b canHarvestBlock (Lgs;)Z
+	METHOD f_ displayWorkbenchGUI ()V
+	METHOD z getScore ()I

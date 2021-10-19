@@ -1,0 +1,13 @@
+CLASS hf BlockFarmland
+	METHOD <init> (I)V
+		ARG 1 blockid
+	METHOD g isCropsNearby (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h isWaterNearby (Lfe;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,0 +1,15 @@
+CLASS gd BlockSand
+	FIELD a fallInstantly Z
+	METHOD <init> (II)V
+		ARG 1 blockid
+		ARG 2 blockIndexInTexture
+	METHOD g canFallBelow (Lfe;III)Z
+		ARG 0 world
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD h tryToFall (Lfe;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

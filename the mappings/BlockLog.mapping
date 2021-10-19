@@ -1,0 +1,3 @@
+CLASS hc BlockLog
+	METHOD <init> (I)V
+		ARG 1 blockid

@@ -1,0 +1,67 @@
+CLASS ka EntityLiving
+	FIELD aA attackTime I
+	FIELD aB prevCameraPitch F
+	FIELD aC cameraPitch F
+	FIELD aD unused_flag Z
+	FIELD aE field_9326_T I
+	FIELD aF field_9325_U F
+	FIELD aG newPosZ F
+	FIELD aH newRotationYaw F
+	FIELD a livingSoundTime I
+	FIELD aI newRotationPitch F
+	FIELD aJ entityAge I
+	FIELD aK moveStrafing F
+	FIELD aL moveForward F
+	FIELD aM randomYawVelocity F
+	FIELD aN isJumping Z
+	FIELD aO defaultPitch F
+	FIELD aP moveSpeed F
+	FIELD ac heartsHalvesLife I
+	FIELD ad field_9365_p F
+	FIELD af field_9363_r F
+	FIELD ag renderYawOffset F
+	FIELD ah prevRenderYawOffset F
+	FIELD ai field_9362_u F
+	FIELD aj rotationYawHead F
+	FIELD ak prevRotationYawHead F
+	FIELD al field_9359_x F
+	FIELD am field_9358_y Z
+	FIELD an texture Ljava/lang/String;
+	FIELD ao field_9355_A Z
+	FIELD ap unused180 F
+	FIELD aq entityType Ljava/lang/String;
+	FIELD ar field_9349_D F
+	FIELD as scoreValue I
+	FIELD at field_9345_F F
+	FIELD au health I
+	FIELD av prevHealth I
+	FIELD aw hurtTime I
+	FIELD ax maxHurtTime I
+	FIELD ay attackedAtYaw F
+	FIELD az deathTime I
+	METHOD A spawnExplosionParticle ()V
+	METHOD B isOnLadder ()Z
+	METHOD C jump ()V
+	METHOD D onEntityDeath ()V
+	METHOD a getCanSpawnHere (DDD)Z
+		ARG 1 nya1
+		ARG 3 nya2
+		ARG 5 nya3
+	METHOD a heal (I)V
+		ARG 1 nya1
+	METHOD a knockBack (Leq;IDD)V
+		ARG 1 entity
+		ARG 2 nya1
+		ARG 3 nya2
+		ARG 5 nya3
+	METHOD b scoreValue ()I
+	METHOD d updatePlayerActionState ()V
+	METHOD d moveEntityWithHeading (FF)V
+		ARG 1 nya1
+		ARG 2 moveForward
+	METHOD e onLivingUpdate ()V
+	METHOD f livingSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h getDeathSound ()Ljava/lang/String;
+	METHOD i onDeath (Leq;)V
+		ARG 1 entity

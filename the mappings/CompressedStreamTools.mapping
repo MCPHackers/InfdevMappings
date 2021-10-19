@@ -1,0 +1,5 @@
+CLASS ap CompressedStreamTools
+	METHOD a write (Lae;Ljava/io/DataOutput;)V
+	METHOD a writeGzippedCompoundToOutputStream (Lae;Ljava/io/OutputStream;)V
+	METHOD a read (Ljava/io/DataInput;)Lae;
+	METHOD a loadGzippedCompoundFromOutputStream (Ljava/io/InputStream;)Lae;
