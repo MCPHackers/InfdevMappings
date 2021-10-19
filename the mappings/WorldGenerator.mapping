@@ -1,0 +1,3 @@
+CLASS br WorldGenerator
+	METHOD a func_517_a (DDD)V
+	METHOD a generate (Lfe;Ljava/util/Random;III)Z

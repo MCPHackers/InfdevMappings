@@ -1,0 +1,2 @@
+CLASS jb RecipeSorter
+	FIELD a craftingManager Lgy;

@@ -1,0 +1,2 @@
+CLASS ji RenderGiantZombie
+	FIELD f scale F

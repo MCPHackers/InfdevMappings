@@ -1,0 +1,8 @@
+CLASS cw ThreadDownloadResources
+	FIELD a resourcesFolder Ljava/io/File;
+	FIELD b mc Law;
+	FIELD c closing Z
+	METHOD a closeMinecraft ()V
+	METHOD a loadResource (Ljava/io/File;Ljava/lang/String;)V
+	METHOD a downloadResource (Ljava/net/URL;Ljava/io/File;I)V
+	METHOD a downloadAndInstallResource (Ljava/net/URL;Ljava/lang/String;)V

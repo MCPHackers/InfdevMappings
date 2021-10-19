@@ -1,0 +1,5 @@
+CLASS js TileEntityRenderer
+	FIELD a instance Ljs;
+	FIELD e renderEngine Lid;
+	METHOD a getFontRenderer ()Lej;
+	METHOD a renderTileEntityAt (Lbk;DDDF)V

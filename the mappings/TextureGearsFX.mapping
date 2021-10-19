@@ -1,0 +1,5 @@
+CLASS av TextureGearsFX
+	FIELD a gearsInt1 I
+	FIELD b gearsIntArray1 [I
+	FIELD c gearsIntArray2 [I
+	FIELD d gearsInt2 I

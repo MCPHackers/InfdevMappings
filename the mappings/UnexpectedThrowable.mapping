@@ -1,0 +1,3 @@
+CLASS g UnexpectedThrowable
+	FIELD a description Ljava/lang/String;
+	FIELD b exception Ljava/lang/Exception;

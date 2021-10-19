@@ -1,0 +1,20 @@
+CLASS aj PlayerController
+	FIELD a mc Law;
+	FIELD b field_1064_b Z
+	METHOD a setPartialTime (F)V
+	METHOD a clickBlock (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a sendBlockRemoving (IIII)V
+	METHOD a func_717_a (Lfe;)V
+	METHOD a flipPlayer (Lgi;)V
+	METHOD b resetBlockRemoving ()V
+	METHOD b sendBlockRemoved (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD b func_6473_b (Lgi;)V
+	METHOD c getBlockReachDistance ()F
+	METHOD d updateController ()V
+	METHOD e shouldDrawHUD ()Z

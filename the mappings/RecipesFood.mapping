@@ -1,0 +1,2 @@
+CLASS am RecipesFood
+	METHOD a addRecipes (Lgy;)V

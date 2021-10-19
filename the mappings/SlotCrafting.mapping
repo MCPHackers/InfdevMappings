@@ -1,0 +1,2 @@
+CLASS co SlotCrafting
+	FIELD a craftMatrix Lkd;

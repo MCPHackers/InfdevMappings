@@ -1,0 +1,3 @@
+CLASS bl SoundPoolEntry
+	FIELD a soundName Ljava/lang/String;
+	FIELD b soundUrl Ljava/net/URL;

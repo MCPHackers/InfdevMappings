@@ -1,0 +1,6 @@
+CLASS he SoundPool
+	FIELD a numberOfSoundPoolEntries I
+	FIELD b rand Ljava/util/Random;
+	FIELD c nameToSoundPoolEntriesMapping Ljava/util/Map;
+	METHOD a getRandomSoundFromSoundPool (Ljava/lang/String;)Lbl;
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)Lbl;

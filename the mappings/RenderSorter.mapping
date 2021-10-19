@@ -1,0 +1,2 @@
+CLASS c RenderSorter
+	FIELD a entity Lgi;

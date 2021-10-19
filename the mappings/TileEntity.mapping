@@ -1,0 +1,15 @@
+CLASS bk TileEntity
+	FIELD a worldObj Lfe;
+	FIELD b xCoord I
+	FIELD c yCoord I
+	FIELD d zCoord I
+	FIELD e nameToClassMap Ljava/util/Map;
+	FIELD f classToNameMap Ljava/util/Map;
+	METHOD a getDistanceFrom (DDD)D
+	METHOD a readFromNBT (Lae;)V
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD b writeToNBT (Lae;)V
+	METHOD c createAndLoadEntity (Lae;)Lbk;
+	METHOD d onInventoryChanged ()V
+	METHOD e updateEntity ()V
+	METHOD f getBlockMetadata ()I

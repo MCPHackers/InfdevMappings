@@ -1,0 +1,7 @@
+CLASS ba RenderItem
+	FIELD d renderBlocks Lcr;
+	FIELD e random Ljava/util/Random;
+	METHOD a renderTexturedQuad (IIIIII)V
+	METHOD a renderQuad (Lag;IIIII)V
+	METHOD a drawItemIntoGui (Lej;Lid;Lhw;II)V
+	METHOD b renderItemOverlayIntoGUI (Lej;Lid;Lhw;II)V

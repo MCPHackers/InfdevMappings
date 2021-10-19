@@ -1,0 +1,4 @@
+CLASS dz RenderPainting
+	FIELD d rand Ljava/util/Random;
+	METHOD a func_160_a (Lcy;FF)V
+	METHOD a func_159_a (Lcy;IIII)V

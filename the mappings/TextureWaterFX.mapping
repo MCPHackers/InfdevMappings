@@ -1,0 +1,6 @@
+CLASS hp TextureWaterFX
+	FIELD a field_1158_g [F
+	FIELD b field_1157_h [F
+	FIELD c field_1156_i [F
+	FIELD d field_1155_j [F
+	FIELD j tickCounter I

@@ -1,0 +1,12 @@
+CLASS ag Tessellator
+	FIELD a instance Lag;
+	METHOD a draw ()V
+	METHOD a addVertex (DDD)V
+	METHOD a addVertexWithUV (DDDDD)V
+	METHOD a setColorOpaque_F (FFF)V
+	METHOD a setColorRGBA_F (FFFF)V
+	METHOD a startDrawing (I)V
+	METHOD b startDrawingQuads ()V
+	METHOD b setTranslationD (DDD)V
+	METHOD b setNormal (FFF)V
+	METHOD b setColorOpaque_I (I)V

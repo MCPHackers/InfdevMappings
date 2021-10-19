@@ -1,0 +1,7 @@
+CLASS id RenderEngine
+	FIELD g options Lja;
+	METHOD a updateDynamicTextures ()V
+	METHOD a registerTextureFX (Lat;)V
+	METHOD a getTexture (Ljava/lang/String;)I
+	METHOD b refreshTextures ()V
+	METHOD b bindTexture (I)V
