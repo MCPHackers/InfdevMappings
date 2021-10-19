@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/MinecraftApplet
+	FIELD a mcCanvas Ljava/awt/Canvas;
+	FIELD b mc Law;
+	FIELD c mcThread Ljava/lang/Thread;
+	METHOD a startMainThread ()V
+	METHOD b shutdown ()V
+	METHOD c clearApplet ()V
