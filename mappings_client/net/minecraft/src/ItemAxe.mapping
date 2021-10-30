@@ -1,5 +1,5 @@
-CLASS ez net/minecraft/src/ItemAxe
-	FIELD aD blocksEffectiveAgainst [Lgs;
+CLASS net/minecraft/a/b/j net/minecraft/src/ItemAxe
+	FIELD aA blocksEffectiveAgainst [Lnet/minecraft/a/a/b/aa;
 	METHOD <init> (II)V
-		ARG 1 itemid
-		ARG 2 toolTier
+		ARG 1 id
+		ARG 2 mat

@@ -1,2 +1,0 @@
-CLASS gr net/minecraft/src/EntityMonster
-	FIELD Z attackStrength I

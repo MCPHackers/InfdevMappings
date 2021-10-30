@@ -1,4 +1,5 @@
-CLASS bc net/minecraft/src/ItemBucket
-	FIELD a isFull I
+CLASS net/minecraft/a/b/b net/minecraft/src/ItemBucket
+	FIELD aA isFull I
 	METHOD <init> (II)V
-		ARG 1 itemid
+		ARG 1 id
+		ARG 2 contains

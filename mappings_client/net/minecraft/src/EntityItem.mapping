@@ -1,14 +1,13 @@
-CLASS gx net/minecraft/src/EntityItem
-	FIELD X delayBeforeCanPickup I
-	FIELD Y hoverStart F
-	FIELD Z field_803_e I
-	FIELD a item Lhw;
-	FIELD aa health I
+CLASS net/minecraft/a/c/c/b net/minecraft/src/EntityItem
+	FIELD S delayBeforeCanPickup I
+	FIELD T field_804_d F
+	FIELD U field_803_e I
+	FIELD V health I
+	FIELD a item Lnet/minecraft/a/b/o;
 	FIELD b age I
-	METHOD <init> (Lfe;DDDLhw;)V
-		ARG 1 world
-		ARG 2 xCoord
-		ARG 4 yCoord
-		ARG 6 zCoord
-		ARG 8 itemStack
-	METHOD a pushOutOfBlocks (DDD)Z
+	METHOD <init> (Lnet/minecraft/a/a/h;DDDLnet/minecraft/a/b/o;)V
+		ARG 1 h
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 stack

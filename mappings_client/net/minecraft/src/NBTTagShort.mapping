@@ -1,2 +1,4 @@
-CLASS gh net/minecraft/src/NBTTagShort
+CLASS com/a/a/h net/minecraft/src/NBTTagShort
 	FIELD a shortValue S
+	METHOD <init> (S)V
+		ARG 1 short1

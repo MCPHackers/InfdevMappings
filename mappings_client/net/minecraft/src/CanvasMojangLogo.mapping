@@ -1,2 +1,4 @@
-CLASS fs net/minecraft/src/CanvasMojangLogo
+CLASS net/minecraft/client/n net/minecraft/src/CanvasMojangLogo
 	FIELD a logo Ljava/awt/image/BufferedImage;
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 graphics

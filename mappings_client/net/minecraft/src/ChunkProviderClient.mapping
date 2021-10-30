@@ -1,5 +1,11 @@
-CLASS ey net/minecraft/src/ChunkProviderClient
-	FIELD a byteSomething [B
-	FIELD b blankChunk [Ljw;
-	FIELD c worldObj Lfe;
-	FIELD d chunkLoader Lbg;
+CLASS net/minecraft/a/a/c/b net/minecraft/src/ChunkProviderClient
+	FIELD a chunkMapping [Lnet/minecraft/a/a/c/e;
+	FIELD b worldObj Lnet/minecraft/a/a/h;
+	FIELD c chunkLoader Lnet/minecraft/a/a/c/a/b;
+	FIELD d blankChunk [B
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/a/c/a/b;)V
+		ARG 1 h
+		ARG 2 b
+	METHOD c loadChunk (II)Lnet/minecraft/a/a/c/e;
+		ARG 1 x
+		ARG 2 z

@@ -1,1 +1,1 @@
-CLASS cl net/minecraft/src/EntityBubbleFX
+CLASS net/minecraft/client/f/a net/minecraft/src/EntityBubbleFX

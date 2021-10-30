@@ -1,5 +1,18 @@
-CLASS dg net/minecraft/src/ItemRenderer
+CLASS net/minecraft/client/a/g net/minecraft/src/ItemRenderer
+	FIELD a mc Lnet/minecraft/client/f;
+	FIELD b itemToRender Lnet/minecraft/a/b/o;
+	FIELD c equippedProgress F
+	FIELD d prevEquippedProgress F
+	FIELD e swingProgressInt I
+	FIELD f isSwinging Z
+	FIELD g renderBlocksInstance Lnet/minecraft/client/a/f;
+	METHOD <init> (Lnet/minecraft/client/f;)V
+		ARG 1 f
 	METHOD a updateEquippedItem ()V
 	METHOD a renderItemInFirstPerson (F)V
+		ARG 1 f
+	METHOD b func_9449_b ()V
 	METHOD b renderOverlays (F)V
-	METHOD c resetEquippedProgress ()V
+		ARG 1 f
+	METHOD c swingItem ()V
+	METHOD d func_9450_c ()V

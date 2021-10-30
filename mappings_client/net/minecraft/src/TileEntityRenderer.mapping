@@ -1,5 +1,31 @@
-CLASS js net/minecraft/src/TileEntityRenderer
-	FIELD a instance Ljs;
-	FIELD e renderEngine Lid;
-	METHOD a getFontRenderer ()Lej;
-	METHOD a renderTileEntityAt (Lbk;DDDF)V
+CLASS net/minecraft/client/a/d/c net/minecraft/src/TileEntityRenderer
+	FIELD a instance Lnet/minecraft/client/a/d/c;
+	FIELD b posX D
+	FIELD c posY D
+	FIELD d posZ D
+	FIELD e renderEngine Lnet/minecraft/client/a/l;
+	FIELD f specialRendererMap Ljava/util/Map;
+	FIELD g fontRenderer Lnet/minecraft/client/c/k;
+	FIELD h worldObj Lnet/minecraft/a/a/h;
+	METHOD a getFontRenderer ()Lnet/minecraft/client/c/k;
+	METHOD a getSpecialRendererForClass (Ljava/lang/Class;)Lnet/minecraft/client/a/d/b;
+		ARG 1 class1
+	METHOD a hasSpecialRenderer (Lnet/minecraft/a/a/b/a/a;)Z
+		ARG 1 a
+	METHOD a renderTileEntityAt (Lnet/minecraft/a/a/b/a/a;DDDF)V
+		ARG 1 a
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 w
+	METHOD a renderTileEntity (Lnet/minecraft/a/a/b/a/a;F)V
+		ARG 1 a
+		ARG 2 float2
+	METHOD a renderTileEntity (Lnet/minecraft/a/a/h;Lnet/minecraft/client/a/l;Lnet/minecraft/client/c/k;Lnet/minecraft/a/c/e/a;F)V
+		ARG 1 h
+		ARG 2 l
+		ARG 3 k
+		ARG 4 a
+		ARG 5 float5
+	METHOD b getSpecialRendererForEntity (Lnet/minecraft/a/a/b/a/a;)Lnet/minecraft/client/a/d/b;
+		ARG 1 a

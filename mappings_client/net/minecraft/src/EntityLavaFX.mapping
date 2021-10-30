@@ -1,3 +1,7 @@
-CLASS ff net/minecraft/src/EntityLavaFX
-	FIELD a lavaParticleScale F
-	METHOD <init> EntityLavaFX (Lfe;DDD)V
+CLASS net/minecraft/client/f/g net/minecraft/src/EntityLavaFX
+	FIELD ad field_674_a F
+	METHOD <init> (Lnet/minecraft/a/a/h;DDD)V
+		ARG 1 h
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4

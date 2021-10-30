@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/c/a/e net/minecraft/src/EntityMob
+	FIELD a attackStrength I

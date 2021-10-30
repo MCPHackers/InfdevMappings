@@ -1,10 +1,10 @@
-CLASS ij net/minecraft/src/EntityFallingSand
+CLASS net/minecraft/a/c/c/c net/minecraft/src/EntityFallingSand
 	FIELD a blockID I
 	FIELD b fallTime I
-	METHOD <init> (Lfe;FFFI)V
-		ARG 1 world
-		ARG 2 xCoord
-		ARG 3 yCoord
-		ARG 4 zCoord
-		ARG 5 blockid
-	METHOD b getWorld ()Lfe;
+	METHOD <init> (Lnet/minecraft/a/a/h;FFFI)V
+		ARG 1 h
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+	METHOD b getWorld ()Lnet/minecraft/a/a/h;

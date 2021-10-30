@@ -1,6 +1,10 @@
-CLASS cv net/minecraft/src/GuiYesNo
-	FIELD a parentScreen Ldc;
+CLASS net/minecraft/client/c/h net/minecraft/src/GuiYesNo
+	FIELD g parentScreen Lnet/minecraft/client/c/i;
 	FIELD h message1 Ljava/lang/String;
 	FIELD j message2 Ljava/lang/String;
 	FIELD k worldNumber I
-	METHOD <init> GuiYesNo (Ldc;Ljava/lang/String;Ljava/lang/String;I)V
+	METHOD <init> (Lnet/minecraft/client/c/i;Ljava/lang/String;Ljava/lang/String;I)V
+		ARG 1 i
+		ARG 2 string2
+		ARG 3 string3
+		ARG 4 integer

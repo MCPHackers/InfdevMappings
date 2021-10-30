@@ -1,16 +1,15 @@
-CLASS it net/minecraft/src/ModelBase
-	FIELD l onGround F
+CLASS net/minecraft/client/b/n net/minecraft/src/ModelBase
 	METHOD a render (FFFFFF)V
-		ARG 1 nya1
-		ARG 2 nya2
-		ARG 3 nya3
-		ARG 4 nya4
-		ARG 5 nya5
-		ARG 6 nya6
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 float4
+		ARG 5 float5
+		ARG 6 float6
 	METHOD b setRotationAngles (FFFFFF)V
-		ARG 1 nya1
-		ARG 2 nya2
-		ARG 3 nya3
-		ARG 4 nya4
-		ARG 5 nya5
-		ARG 6 nya6
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 float4
+		ARG 5 float5
+		ARG 6 float6

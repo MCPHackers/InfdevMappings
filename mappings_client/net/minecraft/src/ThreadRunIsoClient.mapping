@@ -1,2 +1,4 @@
-CLASS ft net/minecraft/src/ThreadRunIsoClient
-	FIELD a isoCanvas Lbe;
+CLASS net/minecraft/isom/c net/minecraft/src/ThreadRunIsoClient
+	FIELD a isoCanvas Lnet/minecraft/isom/a;
+	METHOD <init> (Lnet/minecraft/isom/a;)V
+		ARG 1 a

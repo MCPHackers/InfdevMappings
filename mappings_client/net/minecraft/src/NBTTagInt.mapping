@@ -1,2 +1,4 @@
-CLASS by net/minecraft/src/NBTTagInt
+CLASS com/a/a/d net/minecraft/src/NBTTagInt
 	FIELD a intValue I
+	METHOD <init> (I)V
+		ARG 1 i

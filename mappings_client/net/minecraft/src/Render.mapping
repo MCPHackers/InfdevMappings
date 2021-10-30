@@ -1,24 +1,24 @@
-CLASS bq net/minecraft/src/Render
-	FIELD a renderManager Lfl;
+CLASS net/minecraft/client/a/a/f net/minecraft/src/Render
+	FIELD a renderManager Lnet/minecraft/client/a/a/j;
 	FIELD b shadowSize F
 	FIELD c field_194_c F
-	FIELD d modelBase Lit;
-	FIELD e renderBlocksVar Lcr;
-	METHOD <init> RenderCreeper ()V
-	METHOD a getWorldFromRenderManager ()Lfe;
-	METHOD a renderAABB (Len;)V
-	METHOD a renderOffsetAABB (Len;DDD)V
-	METHOD a renderEntityOnFire (Leq;DDDF)V
-	METHOD a doRender (Leq;DDDFF)V
-		ARG 1 entityLiving
-		ARG 2 xCoord
-		ARG 4 sqrt_double
-		ARG 6 yCoord
-		ARG 8 nya1
-		ARG 9 nya2
-	METHOD a setRenderManager (Lfl;)V
-	METHOD a renderShadowOnBlock (Lgs;DDDIIIFFDDD)V
 	METHOD a loadTexture (Ljava/lang/String;)V
+		ARG 1 tex
 	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD b doRenderShadowAndFire (Leq;DDDFF)V
-	METHOD c renderShadow (Leq;DDDFF)V
+		ARG 1 string1
+		ARG 2 string2
+	METHOD a doRenderShadowAndFire (Lnet/minecraft/a/c/b;DDDF)V
+		ARG 1 b
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+	METHOD a doRender (Lnet/minecraft/a/c/b;DDDFF)V
+		ARG 1 f
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+		ARG 9 float6
+	METHOD a setRenderManager (Lnet/minecraft/client/a/a/j;)V
+		ARG 1 renderMan

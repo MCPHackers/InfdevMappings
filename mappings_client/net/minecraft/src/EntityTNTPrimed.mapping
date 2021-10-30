@@ -1,7 +1,7 @@
-CLASS db net/minecraft/src/EntityTNTPrimed
+CLASS net/minecraft/a/c/c/a net/minecraft/src/EntityTNTPrimed
 	FIELD a fuse I
-	METHOD <init> (Lfe;FFF)V
-		ARG 2 xCoord
-		ARG 3 yCoord
-		ARG 4 zCoord
-	METHOD b createExplosion ()V
+	METHOD <init> (Lnet/minecraft/a/a/h;FFF)V
+		ARG 1 h
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

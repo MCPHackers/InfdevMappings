@@ -1,4 +1,52 @@
-CLASS dl net/minecraft/src/WorldRenderer
-	FIELD b chunksUpdated I
-	FIELD o isInFrustum Z
-	METHOD a chunkIndex (Leq;)F
+CLASS net/minecraft/client/a/h net/minecraft/src/WorldRenderer
+	FIELD A posZPlus I
+	FIELD B rendererBoundingBox Lnet/minecraft/a/d/b;
+	FIELD C isInitialized Z
+	FIELD a chunkUpdates I
+	FIELD b posXMinus I
+	FIELD c posYMinus I
+	FIELD d posZMinus I
+	FIELD e isInFrustrum Z
+	FIELD f skipRenderPass [Z
+	FIELD g needsUpdate Z
+	FIELD h isVisible Z
+	FIELD i isWaitingOnOcclusionQuery Z
+	FIELD j glOcclusionQuery I
+	FIELD k isChunkLit Z
+	FIELD l tileEntityRenderers Ljava/util/List;
+	FIELD m worldObj Lnet/minecraft/a/a/h;
+	FIELD n glRenderList I
+	FIELD o tessellator Lnet/minecraft/client/a/d;
+	FIELD p posX I
+	FIELD q posY I
+	FIELD r posZ I
+	FIELD s sizeWidth I
+	FIELD t sizeHeight I
+	FIELD u sizeDepth I
+	FIELD v posXClip I
+	FIELD w posYClip I
+	FIELD x posZClip I
+	FIELD y posXPlus I
+	FIELD z posYPlus I
+	METHOD <init> (Lnet/minecraft/a/a/h;IIIII)V
+		ARG 1 h
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 integer6
+	METHOD a updateRenderer ()Z
+	METHOD a getGLCallListForPass (I)I
+		ARG 1 integer
+	METHOD a setPosition (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a distanceToEntitySquared (Lnet/minecraft/a/c/b;)F
+	METHOD a updateInFrustrum (Lnet/minecraft/client/a/b/c;)V
+		ARG 1 c
+	METHOD b func_1204_c ()V
+	METHOD c callOcclusionQueryList ()V
+	METHOD d skipAllRenderPasses ()Z
+	METHOD e markDirty ()V
+	METHOD f setDontDraw ()V

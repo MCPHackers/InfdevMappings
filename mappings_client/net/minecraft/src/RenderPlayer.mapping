@@ -1,6 +1,13 @@
-CLASS dx net/minecraft/src/RenderPlayer
-	FIELD f modelBipedMain Lfg;
-	FIELD g modelArmorChestplate Lfg;
-	FIELD h modelArmor Lfg;
-	FIELD i armorFilenamePrefix [Ljava/lang/String;
+CLASS net/minecraft/client/a/a/g net/minecraft/src/RenderPlayer
+	FIELD e modelBipedMain Lnet/minecraft/client/b/j;
+	FIELD f modelArmorChestplate Lnet/minecraft/client/b/j;
+	FIELD g modelArmor Lnet/minecraft/client/b/j;
+	FIELD h armorFilenamePrefix [Ljava/lang/String;
 	METHOD a drawFirstPersonHand ()V
+	METHOD a renderPlayer (Lnet/minecraft/a/c/e/a;DDDFF)V
+		ARG 1 a
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+		ARG 9 float6

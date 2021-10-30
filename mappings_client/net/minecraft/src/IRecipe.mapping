@@ -1,4 +1,0 @@
-CLASS dw net/minecraft/src/IRecipe
-	METHOD a getRecipeSize ()I
-	METHOD a matchRecipe ([I)Z
-	METHOD b createResult ([I)Lhw;

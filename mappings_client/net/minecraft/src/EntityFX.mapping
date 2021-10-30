@@ -1,18 +1,33 @@
-CLASS ix net/minecraft/src/EntityFX
-	FIELD X particleTextureJitterX F
-	FIELD Y particleTextureJitterY F
-	FIELD Z particleAge I
-	FIELD aa particleMaxAge I
-	FIELD ab particleScale F
-	FIELD ac particleGravity F
-	FIELD ad particleRed F
-	FIELD ae particleGreen F
-	FIELD af particleBlue F
-	FIELD ag interpPosX D
-	FIELD ah interpPosY D
-	FIELD ai interpPosZ D
-	FIELD b particleTextureIndex I
-	METHOD a renderParticle (Lag;FFFFFF)V
-	METHOD b getFXLayer ()I
-	METHOD c multiplyVelocity (F)Lix;
-	METHOD d multipleParticleScaleBy (F)Lix;
+CLASS net/minecraft/client/f/k net/minecraft/src/EntityFX
+	FIELD S particleTextureJitterY F
+	FIELD T particleAge I
+	FIELD U particleMaxAge I
+	FIELD V particleScale F
+	FIELD W particleGravity F
+	FIELD X particleBlue F
+	FIELD Y particleGreen F
+	FIELD Z particleRed F
+	FIELD a particleTextureIndex I
+	FIELD aa interpPosX D
+	FIELD ab interpPosY D
+	FIELD ac interpPosZ D
+	FIELD b particleTextureJitterX F
+	METHOD <init> (Lnet/minecraft/a/a/h;DDDDDD)V
+		ARG 1 h
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 mX
+		ARG 10 mY
+		ARG 12 mZ
+	METHOD a renderParticle (Lnet/minecraft/client/a/d;FFFFFF)V
+		ARG 1 d
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 float4
+		ARG 5 float5
+		ARG 6 float6
+		ARG 7 float7
+	METHOD b size ()I
+	METHOD c func_405_d (F)Lnet/minecraft/client/f/k;
+		ARG 1 f

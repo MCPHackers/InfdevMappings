@@ -1,0 +1,20 @@
+CLASS net/minecraft/a/a/c/d net/minecraft/src/ChunkProvider
+	FIELD a field_28064_b Lnet/minecraft/a/a/c/e;
+	FIELD b chunkProvider Lnet/minecraft/a/a/c/a;
+	FIELD c chunkLoader Lnet/minecraft/a/a/c/a/b;
+	FIELD d chunkMap [Lnet/minecraft/a/a/c/e;
+	FIELD e world Lnet/minecraft/a/a/h;
+	FIELD f chunkXPos I
+	FIELD g chunkZPos I
+	FIELD h currentChunk Lnet/minecraft/a/a/c/e;
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/a/c/a/b;Lnet/minecraft/a/a/c/a;)V
+		ARG 1 h
+		ARG 2 b
+		ARG 3 a
+	METHOD a saveChunkMap (Lnet/minecraft/a/a/c/e;)V
+		ARG 1 e
+	METHOD b saveChunk (Lnet/minecraft/a/a/c/e;)V
+		ARG 1 e
+	METHOD c loadChunkAtPos (II)Lnet/minecraft/a/a/c/e;
+		ARG 1 x
+		ARG 2 z

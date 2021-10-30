@@ -1,24 +1,19 @@
-CLASS ht net/minecraft/src/InventoryPlayer
-	FIELD a mainInventory [Lhw;
-	FIELD b armorInventory [Lhw;
+CLASS net/minecraft/a/c/e/b net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lnet/minecraft/a/b/o;
+	FIELD b armorInventory [Lnet/minecraft/a/b/o;
 	FIELD c currentItem I
-	FIELD d player Lgi;
-	METHOD a setCurrentItem (IZ)V
-	METHOD a getDamageVsEntity (Leq;)I
-	METHOD a writeToNBT (Ler;)Ler;
-	METHOD a getStrVsBlock (Lgs;)F
-	METHOD a addItemStackToInventory (Lhw;)Z
+	FIELD d player Lnet/minecraft/a/c/e/a;
+	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD a addItemStackToInventory (Lnet/minecraft/a/b/o;)Z
+		ARG 1 stack
 	METHOD b changeCurrentItem (I)V
-	METHOD b storePartialItemStack (II)I
-	METHOD b readFromNBT (Ler;)V
-	METHOD b canHarvestBlock (Lgs;)Z
+		ARG 1 slot
 	METHOD c consumeInventoryItem (I)Z
-	METHOD d armorItemInSlot (I)Lhw;
-	METHOD e getCurrentItem ()Lhw;
-	METHOD e damageArmor (I)V
-	METHOD f decrementAnimations ()V
-	METHOD f getInventorySlotContainItem (I)I
-	METHOD g getTotalArmorValue ()I
-	METHOD g storeItemStack (I)I
-	METHOD h dropAllItems ()V
-	METHOD i getFirstEmptyStack ()I
+		ARG 1 slot
+	METHOD d getCurrentItem (I)I
+		ARG 1 id
+	METHOD e getCurrentItem ()Lnet/minecraft/a/b/o;
+	METHOD f getPlayerArmorValue ()I
+	METHOD g dropAllItems ()V
+	METHOD h getFirstEmptyStack ()I

@@ -1,5 +1,5 @@
-CLASS av net/minecraft/src/TextureGearsFX
-	FIELD a gearsInt1 I
-	FIELD b gearsIntArray1 [I
-	FIELD c gearsIntArray2 [I
-	FIELD d gearsInt2 I
+CLASS net/minecraft/client/a/c/c net/minecraft/src/TextureGearsFX
+	FIELD f animationSpeed I
+	FIELD g gearBuffer [I
+	FIELD h middleGearBuffer [I
+	FIELD i texture I

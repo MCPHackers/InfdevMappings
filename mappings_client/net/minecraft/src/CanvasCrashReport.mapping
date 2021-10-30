@@ -1,1 +1,3 @@
-CLASS il net/minecraft/src/CanvasCrashReport
+CLASS net/minecraft/client/q net/minecraft/src/CanvasCrashReport
+	METHOD <init> (I)V
+		ARG 1 i

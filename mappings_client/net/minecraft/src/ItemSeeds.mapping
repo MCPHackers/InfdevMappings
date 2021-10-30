@@ -1,5 +1,5 @@
-CLASS dm net/minecraft/src/ItemSeeds
-	FIELD a blockType I
+CLASS net/minecraft/a/b/g net/minecraft/src/ItemSeeds
+	FIELD aA field_318_a I
 	METHOD <init> (II)V
-		ARG 1 itemid
-		ARG 2 blockType
+		ARG 1 id
+		ARG 2 type

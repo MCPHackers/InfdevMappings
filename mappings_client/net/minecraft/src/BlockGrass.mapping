@@ -1,3 +1,3 @@
-CLASS ih net/minecraft/src/BlockGrass
+CLASS net/minecraft/a/a/b/aj net/minecraft/src/BlockGrass
 	METHOD <init> (I)V
-		ARG 1 blockid
+		ARG 1 id

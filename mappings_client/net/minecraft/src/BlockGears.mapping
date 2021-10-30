@@ -1,4 +1,4 @@
-CLASS ar net/minecraft/src/BlockGears
+CLASS net/minecraft/a/a/b/k net/minecraft/src/BlockGears
 	METHOD <init> (II)V
-		ARG 1 blockid
-		ARG 2 blockIndexInTexture
+		ARG 1 id
+		ARG 2 tex

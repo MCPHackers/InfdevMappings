@@ -1,3 +1,5 @@
-CLASS ew net/minecraft/src/ChatLine
+CLASS net/minecraft/client/m net/minecraft/src/ChatLine
 	FIELD a message Ljava/lang/String;
 	FIELD b updateCounter I
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 text

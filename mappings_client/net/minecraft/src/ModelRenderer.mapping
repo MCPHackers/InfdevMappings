@@ -1,20 +1,33 @@
-CLASS bz net/minecraft/src/ModelRenderer
-	FIELD a rotationPointX F
-	FIELD b rotationPointY F
-	FIELD c rotationPointZ F
-	FIELD d rotateAngleX F
-	FIELD e rotateAngleY F
-	FIELD f rotateAngleZ F
-	FIELD g mirror Z
-	FIELD h showModel Z
-	FIELD i isHidden Z
-	FIELD j corners [Lhi;
-	FIELD k faces [Lfw;
-	FIELD l textureOffsetX I
-	FIELD m textureOffsetY I
-	FIELD n compiled Z
-	FIELD o displayList I
+CLASS net/minecraft/client/b/d net/minecraft/src/ModelRenderer
+	FIELD a rotationPointY F
+	FIELD b rotateAngleX F
+	FIELD c rotateAngleY F
+	FIELD d rotateAngleZ F
+	FIELD e mirror Z
+	FIELD f showModel Z
+	FIELD g corners [Lnet/minecraft/client/b/l;
+	FIELD h faces [Lnet/minecraft/client/b/k;
+	FIELD i textureOffsetX I
+	FIELD j textureOffsetY I
+	FIELD k rotationPointX F
+	FIELD l rotationPointZ F
+	FIELD m compiled Z
+	FIELD n displayList I
+	FIELD o field_1402_i Z
+	METHOD <init> (II)V
+		ARG 1 integer1
+		ARG 2 integer2
 	METHOD a render (F)V
+		ARG 1 float1
 	METHOD a setRotationPoint (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a addBox (FFFIIIF)V
-	METHOD b compileDisplayList (F)V
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 integer6
+		ARG 7 float7

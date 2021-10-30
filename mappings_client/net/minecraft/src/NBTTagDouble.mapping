@@ -1,2 +1,4 @@
-CLASS fa net/minecraft/src/NBTTagDouble
+CLASS com/a/a/g net/minecraft/src/NBTTagDouble
 	FIELD a doubleValue D
+	METHOD <init> (D)V
+		ARG 1 d

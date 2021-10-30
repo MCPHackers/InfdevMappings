@@ -1,8 +1,16 @@
-CLASS hb net/minecraft/src/MovingObjectPosition
+CLASS net/minecraft/a/d/c net/minecraft/src/MovingObjectPosition
 	FIELD a typeOfHit I
 	FIELD b blockX I
 	FIELD c blockY I
 	FIELD d blockZ I
 	FIELD e sideHit I
-	FIELD f hitVec Lbo;
-	FIELD g entityHit Leq;
+	FIELD f hitVec Lnet/minecraft/a/d/a;
+	FIELD g entityHit Lnet/minecraft/a/c/b;
+	METHOD <init> (IIIILnet/minecraft/a/d/a;)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 a
+	METHOD <init> (Lnet/minecraft/a/c/b;)V
+		ARG 1 b

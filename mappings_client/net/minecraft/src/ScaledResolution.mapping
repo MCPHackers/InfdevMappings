@@ -1,5 +1,8 @@
-CLASS cn net/minecraft/src/ScaledResolution
+CLASS net/minecraft/client/c/g net/minecraft/src/ScaledResolution
 	FIELD a scaledWidth I
 	FIELD b scaledHeight I
+	METHOD <init> (II)V
+		ARG 1 w
+		ARG 2 h
 	METHOD a getScaledWidth ()I
 	METHOD b getScaledHeight ()I

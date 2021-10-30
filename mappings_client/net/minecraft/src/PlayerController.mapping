@@ -1,20 +1,28 @@
-CLASS aj net/minecraft/src/PlayerController
-	FIELD a mc Law;
+CLASS net/minecraft/client/d/b net/minecraft/src/PlayerController
+	FIELD a mc Lnet/minecraft/client/f;
 	FIELD b field_1064_b Z
+	METHOD <init> (Lnet/minecraft/client/f;)V
+		ARG 1 f
+	METHOD a resetBlockRemoving ()V
 	METHOD a setPartialTime (F)V
+		ARG 1 time
 	METHOD a clickBlock (III)V
-		ARG 1 xCoord
-		ARG 2 yCoord
-		ARG 3 zCoord
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a sendBlockRemoving (IIII)V
-	METHOD a func_717_a (Lfe;)V
-	METHOD a flipPlayer (Lgi;)V
-	METHOD b resetBlockRemoving ()V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a flipPlayer (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 a
+	METHOD b getBlockReachDistance ()F
 	METHOD b sendBlockRemoved (III)Z
-		ARG 1 xCoord
-		ARG 2 yCoord
-		ARG 3 zCoord
-	METHOD b func_6473_b (Lgi;)V
-	METHOD c getBlockReachDistance ()F
-	METHOD d updateController ()V
-	METHOD e shouldDrawHUD ()Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b func_6473_b (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD c updateController ()V
+	METHOD d shouldDrawHUD ()Z

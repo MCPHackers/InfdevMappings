@@ -1,4 +1,4 @@
-CLASS l net/minecraft/src/BlockOreStorage
+CLASS net/minecraft/a/a/b/c net/minecraft/src/BlockOreStorage
 	METHOD <init> (II)V
-		ARG 1 blockid
-		ARG 2 blockIndexInTexture
+		ARG 1 id
+		ARG 2 tex

@@ -1,2 +1,2 @@
-CLASS gf net/minecraft/src/RenderFallingSand
-	FIELD d field_197_d Lcr;
+CLASS net/minecraft/client/a/a/k net/minecraft/src/RenderFallingSand
+	FIELD d renderBlocks Lnet/minecraft/client/a/f;

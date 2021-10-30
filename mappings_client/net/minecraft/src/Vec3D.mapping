@@ -1,21 +1,29 @@
-CLASS bo net/minecraft/src/Vec3D
+CLASS net/minecraft/a/d/a net/minecraft/src/Vec3D
 	FIELD a xCoord D
 	FIELD b yCoord D
 	FIELD c zCoord D
-	FIELD d vectorList Ljava/util/List;
-	FIELD e nextVector I
-	METHOD a initialize ()V
-	METHOD a createVectorHelper (DDD)Lbo;
-	METHOD a subtract (Lbo;)Lbo;
-	METHOD a getIntermediateWithXValue (Lbo;D)Lbo;
-	METHOD b normalize ()Lbo;
-	METHOD b createVector (DDD)Lbo;
-	METHOD b crossProduct (Lbo;)Lbo;
-	METHOD b getIntermediateWithYValue (Lbo;D)Lbo;
-	METHOD c lengthVector ()D
-	METHOD c addVector (DDD)Lbo;
-	METHOD c distanceTo (Lbo;)D
-	METHOD c getIntermediateWithZValue (Lbo;D)Lbo;
-	METHOD d squareDistanceTo (DDD)D
-	METHOD d squareDistanceTo (Lbo;)D
-	METHOD e setComponents (DDD)Lbo;
+	METHOD <init> (DDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD a normalize ()Lnet/minecraft/a/d/a;
+	METHOD a addVector (DDD)Lnet/minecraft/a/d/a;
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD a subtract (Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/a;
+		ARG 1 a
+	METHOD a getIntermediateWithXValue (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
+		ARG 1 a
+		ARG 2 double2
+	METHOD b lengthVector ()D
+	METHOD b distanceTo (Lnet/minecraft/a/d/a;)D
+		ARG 1 a
+	METHOD b getIntermediateWithYValue (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
+		ARG 1 a
+		ARG 2 double2
+	METHOD c squareDistanceTo (Lnet/minecraft/a/d/a;)D
+		ARG 1 a
+	METHOD c getIntermediateWithZValue (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
+		ARG 1 a
+		ARG 2 double2

@@ -1,2 +1,4 @@
-CLASS gz net/minecraft/src/NBTTagByteArray
+CLASS com/a/a/i net/minecraft/src/NBTTagByteArray
 	FIELD a byteArray [B
+	METHOD <init> ([B)V
+		ARG 1 arr

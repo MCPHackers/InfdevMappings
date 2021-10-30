@@ -1,25 +1,33 @@
-CLASS jg net/minecraft/src/ChunkProviderGenerate
-	FIELD a field_4185_d [D
-	FIELD b field_4184_e [D
-	FIELD c field_4183_f [D
-	FIELD d field_4182_g [D
-	FIELD e field_4181_h [D
-	FIELD f field_914_i [[I
-	FIELD g rand Ljava/util/Random;
-	FIELD h field_912_k Lgc;
-	FIELD i field_911_l Lgc;
-	FIELD j field_910_m Lgc;
-	FIELD k field_909_n Lgc;
-	FIELD l field_908_o Lgc;
-	FIELD m field_922_a Lgc;
-	FIELD n field_921_b Lgc;
-	FIELD o mobSpawnerNoise Lgc;
-	FIELD p worldObj Lfe;
-	FIELD q field_4180_q [D
-	FIELD r sandNoise [D
-	FIELD s gravelNoise [D
-	FIELD t stoneNoise [D
-	METHOD a generateTerrain (II[B)V
-	METHOD a func_4061_a ([DIIIIII)[D
-	METHOD b replaceBlocks (II[B)V
-	METHOD c field_902_u (II[B)V
+CLASS net/minecraft/a/a/d/a net/minecraft/src/ChunkProviderGenerate
+	FIELD a rand Ljava/util/Random;
+	FIELD b field_912_k Lnet/minecraft/a/a/d/a/c;
+	FIELD c field_911_l Lnet/minecraft/a/a/d/a/c;
+	FIELD d field_910_m Lnet/minecraft/a/a/d/a/c;
+	FIELD e field_909_n Lnet/minecraft/a/a/d/a/c;
+	FIELD f field_908_o Lnet/minecraft/a/a/d/a/c;
+	FIELD g field_922_a Lnet/minecraft/a/a/d/a/c;
+	FIELD h field_921_b Lnet/minecraft/a/a/d/a/c;
+	FIELD i mobSpawnerNoise Lnet/minecraft/a/a/d/a/c;
+	FIELD j worldObj Lnet/minecraft/a/a/h;
+	FIELD k field_4180_q [D
+	FIELD l field_4185_d [D
+	FIELD m field_4184_e [D
+	FIELD n field_4183_f [D
+	FIELD o field_4182_g [D
+	FIELD p field_4181_h [D
+	METHOD <init> (Lnet/minecraft/a/a/h;J)V
+		ARG 1 h
+		ARG 2 seed
+	METHOD a generateCaves (II[BDDDFFFIID)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 arr
+		ARG 4 double4
+		ARG 6 double5
+		ARG 8 double6
+		ARG 10 float7
+		ARG 11 float8
+		ARG 12 float9
+		ARG 13 integer10
+		ARG 14 integer11
+		ARG 15 double12

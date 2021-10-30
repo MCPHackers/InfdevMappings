@@ -1,2 +1,2 @@
-CLASS ay net/minecraft/src/RenderTNTPrimed
-	FIELD d blockRenderer Lcr;
+CLASS net/minecraft/client/a/a/d net/minecraft/src/RenderTNTPrimed
+	FIELD d renderBlocks Lnet/minecraft/client/a/f;

@@ -1,2 +1,4 @@
-CLASS bh net/minecraft/src/WorldGenFlowers
+CLASS net/minecraft/a/a/d/b/a net/minecraft/src/WorldGenFlowers
 	FIELD a plantBlockId I
+	METHOD <init> (I)V
+		ARG 1 id

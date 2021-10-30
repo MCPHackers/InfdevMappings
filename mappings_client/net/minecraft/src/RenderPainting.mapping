@@ -1,4 +1,2 @@
-CLASS dz net/minecraft/src/RenderPainting
+CLASS net/minecraft/client/a/a/h net/minecraft/src/RenderPainting
 	FIELD d rand Ljava/util/Random;
-	METHOD a func_160_a (Lcy;FF)V
-	METHOD a func_159_a (Lcy;IIII)V

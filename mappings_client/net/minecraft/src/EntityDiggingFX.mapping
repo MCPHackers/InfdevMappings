@@ -1,1 +1,10 @@
-CLASS cm net/minecraft/src/EntityDiggingFX
+CLASS net/minecraft/client/f/b net/minecraft/src/EntityDiggingFX
+	METHOD <init> (Lnet/minecraft/a/a/h;DDDDDDLnet/minecraft/a/a/b/aa;)V
+		ARG 1 h
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 double5
+		ARG 10 double6
+		ARG 12 double7
+		ARG 14 aa

@@ -1,6 +1,13 @@
-CLASS hz net/minecraft/src/TileEntitySpecialRenderer
-	FIELD a tileEntityRenderer Ljs;
-	METHOD a getFontRenderer ()Lej;
-	METHOD a renderTileEntityMobSpawner (Lbk;DDDF)V
+CLASS net/minecraft/client/a/d/b net/minecraft/src/TileEntitySpecialRenderer
+	FIELD a tileEntityRenderer Lnet/minecraft/client/a/d/c;
+	METHOD a getFontRenderer ()Lnet/minecraft/client/c/k;
 	METHOD a bindTextureByName (Ljava/lang/String;)V
-	METHOD a setTileEntityRenderer (Ljs;)V
+		ARG 1 string
+	METHOD a renderTileEntityAt (Lnet/minecraft/a/a/b/a/a;DDDF)V
+		ARG 1 tileEntity
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+	METHOD a setTileEntityRenderer (Lnet/minecraft/client/a/d/c;)V
+		ARG 1 tileEntityRenderer

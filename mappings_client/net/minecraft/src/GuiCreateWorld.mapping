@@ -1,7 +1,11 @@
-CLASS dt net/minecraft/src/GuiCreateWorld
-	FIELD a parentGuiScreen Ldc;
-	FIELD h screenHeader Ljava/lang/String;
-	FIELD j createClicked Z
-	METHOD a actionPerformed (I)V
-	METHOD c getSaveFileName (I)Ljava/lang/String;
-	METHOD d_ initButtons ()V
+CLASS net/minecraft/client/c/j net/minecraft/src/GuiCreateWorld
+	FIELD g currentScreen Lnet/minecraft/client/c/i;
+	FIELD h text Ljava/lang/String;
+	FIELD j worldSelected Z
+	METHOD <init> (Lnet/minecraft/client/c/i;)V
+		ARG 1 screen
+	METHOD a actionWorld (I)V
+		ARG 1 i
+	METHOD b getWorldName (I)Ljava/lang/String;
+		ARG 0 id
+	METHOD e_ buttons ()V

@@ -1,0 +1,2 @@
+CLASS com/jcraft/jorbis/CodeBook com/jcraft/jorbis/CodeBook
+	CLASS DecodeAux DecodeAux

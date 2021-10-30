@@ -1,2 +1,4 @@
-CLASS c net/minecraft/src/RenderSorter
-	FIELD a entity Lgi;
+CLASS net/minecraft/client/a/a net/minecraft/src/RenderSorter
+	FIELD a player Lnet/minecraft/a/c/e/a;
+	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 entity

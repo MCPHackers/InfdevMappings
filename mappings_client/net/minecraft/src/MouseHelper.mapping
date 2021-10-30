@@ -1,5 +1,13 @@
-CLASS hs net/minecraft/src/MouseHelper
+CLASS net/minecraft/client/p net/minecraft/src/MouseHelper
 	FIELD a deltaX I
 	FIELD b deltaY I
-	METHOD b ungrabMouseCursor ()V
-	METHOD c mouseXYChange ()V
+	FIELD c field_1117_c Ljava/awt/Component;
+	FIELD d robot Ljava/awt/Robot;
+	FIELD e xWidth I
+	FIELD f yHeight I
+	FIELD g cursor Lorg/lwjgl/input/Cursor;
+	FIELD h field_1115_e I
+	METHOD <init> (Ljava/awt/Component;)V
+		ARG 1 component
+	METHOD a grabMouseCursor ()V
+	METHOD b mouseXYChange ()V

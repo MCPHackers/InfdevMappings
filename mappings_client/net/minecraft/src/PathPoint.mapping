@@ -1,4 +1,4 @@
-CLASS d net/minecraft/src/PathPoint
+CLASS net/minecraft/a/a/a/a net/minecraft/src/PathPoint
 	FIELD a xCoord I
 	FIELD b yCoord I
 	FIELD c zCoord I
@@ -7,7 +7,14 @@ CLASS d net/minecraft/src/PathPoint
 	FIELD f totalPathDistance F
 	FIELD g distanceToNext F
 	FIELD h distanceToTarget F
-	FIELD i previous Ld;
+	FIELD i previous Lnet/minecraft/a/a/a/a;
 	FIELD j isFirst Z
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a isAssigned ()Z
-	METHOD a distanceTo (Ld;)F
+	METHOD a distanceTo (Lnet/minecraft/a/a/a/a;)F
+		ARG 1 point
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

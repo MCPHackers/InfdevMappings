@@ -1,2 +1,4 @@
-CLASS cp net/minecraft/src/NBTTagByte
+CLASS com/a/a/e net/minecraft/src/NBTTagByte
 	FIELD a byteValue B
+	METHOD <init> (B)V
+		ARG 1 byte1

@@ -1,8 +1,8 @@
-CLASS dd net/minecraft/src/EntityPlayerSP
-	FIELD a movementInput Lgj;
-	FIELD aQ mc Law;
-	METHOD a handleKeyPress (IZ)V
-	METHOD e_ resetPlayerKeyState ()V
-	METHOD g_ getCurrentEquippedItem ()Lhw;
-	METHOD i displayGUIInventory ()V
-	METHOD j getPlayerArmorValue ()I
+CLASS net/minecraft/client/g/a net/minecraft/src/EntityPlayerSP
+	FIELD a movementInput Lnet/minecraft/client/g/b;
+	FIELD as mc Lnet/minecraft/client/f;
+	METHOD <init> (Lnet/minecraft/client/f;Lnet/minecraft/a/a/h;Lnet/minecraft/client/o;)V
+		ARG 1 f
+		ARG 2 h
+		ARG 3 o
+	METHOD g_ destroyCurrentEquippedItem ()V

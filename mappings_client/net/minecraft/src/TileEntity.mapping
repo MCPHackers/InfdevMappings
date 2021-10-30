@@ -1,15 +1,19 @@
-CLASS bk net/minecraft/src/TileEntity
-	FIELD a worldObj Lfe;
-	FIELD b xCoord I
-	FIELD c yCoord I
-	FIELD d zCoord I
+CLASS net/minecraft/a/a/b/a/a net/minecraft/src/TileEntity
+	FIELD a worldObj Lnet/minecraft/a/a/h;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
 	FIELD e nameToClassMap Ljava/util/Map;
 	FIELD f classToNameMap Ljava/util/Map;
-	METHOD a getDistanceFrom (DDD)D
-	METHOD a readFromNBT (Lae;)V
+	METHOD a readFromNBT (Lcom/a/a/c;)V
+		ARG 1 c
 	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
-	METHOD b writeToNBT (Lae;)V
-	METHOD c createAndLoadEntity (Lae;)Lbk;
+		ARG 0 tileEntity
+		ARG 1 name
+	METHOD b writeToNBT (Lcom/a/a/c;)V
+		ARG 1 c
+	METHOD c createAndLoadEntity (Lcom/a/a/c;)Lnet/minecraft/a/a/b/a/a;
+		ARG 0 c
 	METHOD d onInventoryChanged ()V
 	METHOD e updateEntity ()V
 	METHOD f getBlockMetadata ()I

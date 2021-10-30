@@ -1,13 +1,15 @@
-CLASS el net/minecraft/src/TileEntityFurnace
-	FIELD e furnaceItemStacks [Lhw;
+CLASS net/minecraft/a/a/b/a/b net/minecraft/src/TileEntityFurnace
+	FIELD e furnaceItemStacks [Lnet/minecraft/a/b/o;
 	FIELD f furnaceBurnTime I
 	FIELD g currentItemBurnTime I
 	FIELD h furnaceCookTime I
-	METHOD a getItemBurnTime (Lhw;)I
+	METHOD a getItemBurnTime (Lnet/minecraft/a/b/o;)I
+		ARG 0 stack
 	METHOD b getCookProgressScaled (I)I
+		ARG 1 i
 	METHOD c getBurnTimeRemainingScaled (I)I
-	METHOD d getSmeltingResult (I)I
-		ARG 1 result
+		ARG 1 i
+	METHOD d getRecipes (I)I
+		ARG 0 id
 	METHOD g isBurning ()Z
-	METHOD h smeltItem ()V
-	METHOD i canSmelt ()Z
+	METHOD h canSmelt ()Z

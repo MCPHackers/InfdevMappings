@@ -1,5 +1,8 @@
-CLASS gk net/minecraft/src/GuiControls
-	FIELD a screenTitle Ljava/lang/String;
-	FIELD h parentScreen Ldc;
-	FIELD j options Lja;
+CLASS net/minecraft/client/c/n net/minecraft/src/GuiControls
+	FIELD g parentScreen Lnet/minecraft/client/c/i;
+	FIELD h screenTitle Ljava/lang/String;
+	FIELD j options Lnet/minecraft/client/u;
 	FIELD k buttonId I
+	METHOD <init> (Lnet/minecraft/client/c/i;Lnet/minecraft/client/u;)V
+		ARG 1 i
+		ARG 2 u

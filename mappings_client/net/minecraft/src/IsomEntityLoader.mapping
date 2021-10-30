@@ -1,0 +1,14 @@
+CLASS net/minecraft/a/a/c/a/d net/minecraft/src/IsomEntityLoader
+	FIELD a time J
+	FIELD b amount Ljava/lang/Long;
+	FIELD c worldLoader Lnet/minecraft/a/a/c/a/a;
+	FIELD f channel Ljava/nio/channels/FileChannel;
+	METHOD <init> (Ljava/lang/Long;Ljava/io/File;Ljava/io/File;)V
+		ARG 1 l
+		ARG 2 zoneFile
+		ARG 3 entityFile
+	METHOD a closeWorld ()V
+	METHOD a loadFileDataBuffer (I)Lnet/minecraft/a/a/c/a/f;
+		ARG 1 id
+	METHOD b (I)Z
+		ARG 1 id

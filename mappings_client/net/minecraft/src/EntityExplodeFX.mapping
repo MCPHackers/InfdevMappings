@@ -1,1 +1,1 @@
-CLASS go net/minecraft/src/EntityExplodeFX
+CLASS net/minecraft/client/f/h net/minecraft/src/EntityExplodeFX

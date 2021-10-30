@@ -1,20 +1,20 @@
-CLASS gn net/minecraft/src/RenderLiving
-	FIELD d mainModel Lit;
-	FIELD e renderPassModel Lit;
-	METHOD <init> (Lit;F)V
-		ARG 1 mainModel
-		ARG 2 shadowSize
-	METHOD a setRenderPassModel (Lit;)V
-		ARG 1 renderPassModel
-	METHOD a getMaxDeathRotation (Lka;)F
-		ARG 1 eVar
-	METHOD a preRenderCallback (Lka;F)V
-		ARG 1 entityLiving
-		ARG 2 nya1
-	METHOD a getColorMultiplier (Lka;FF)I
-		ARG 1 entityLiving
-		ARG 2 nya1
-		ARG 3 nya2
-	METHOD a shouldRenderPass (Lka;I)Z
-		ARG 1 eVar
-		ARG 2 i
+CLASS net/minecraft/client/a/a/l net/minecraft/src/RenderLiving
+	FIELD d mainModel Lnet/minecraft/client/b/n;
+	FIELD e renderPassModel Lnet/minecraft/client/b/n;
+	METHOD <init> (Lnet/minecraft/client/b/n;F)V
+		ARG 1 n
+		ARG 2 float2
+	METHOD a getDeathMaxRotation (Lnet/minecraft/a/c/f;)F
+		ARG 1 f
+	METHOD a preRenderCallback (Lnet/minecraft/a/c/f;F)V
+		ARG 1 f
+		ARG 2 float2
+	METHOD a getColorMultiplier (Lnet/minecraft/a/c/f;FF)I
+		ARG 1 f
+		ARG 2 float2
+		ARG 3 float3
+	METHOD a shouldRenderPass (Lnet/minecraft/a/c/f;I)Z
+		ARG 1 f
+		ARG 2 integer
+	METHOD a setRenderPassModel (Lnet/minecraft/client/b/n;)V
+		ARG 1 n

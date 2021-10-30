@@ -1,2 +1,2 @@
-CLASS ii net/minecraft/src/TileEntityChest
-	FIELD e chestContents [Lhw;
+CLASS net/minecraft/a/a/b/a/c net/minecraft/src/TileEntityChest
+	FIELD e chestContents [Lnet/minecraft/a/b/o;

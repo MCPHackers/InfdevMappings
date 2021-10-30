@@ -1,8 +1,11 @@
-CLASS cw net/minecraft/src/ThreadDownloadResources
-	FIELD a resourcesFolder Ljava/io/File;
-	FIELD b mc Law;
-	FIELD c closing Z
-	METHOD a closeMinecraft ()V
-	METHOD a loadResource (Ljava/io/File;Ljava/lang/String;)V
-	METHOD a downloadResource (Ljava/net/URL;Ljava/io/File;I)V
-	METHOD a downloadAndInstallResource (Ljava/net/URL;Ljava/lang/String;)V
+CLASS net/minecraft/client/l net/minecraft/src/ThreadDownloadResources
+	FIELD a folder Ljava/io/File;
+	FIELD b mc Lnet/minecraft/client/f;
+	FIELD c finished Z
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/f;)V
+		ARG 1 file
+		ARG 2 minecraft
+	METHOD a clearApplet ()V
+	METHOD a writeFiles (Ljava/net/URL;Ljava/io/File;)V
+		ARG 1 uRL
+		ARG 2 file

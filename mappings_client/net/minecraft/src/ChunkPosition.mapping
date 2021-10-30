@@ -1,8 +1,10 @@
-CLASS ia net/minecraft/src/ChunkPosition
+CLASS net/minecraft/a/a/i net/minecraft/src/ChunkPosition
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
 	METHOD <init> (III)V
-		ARG 1 xCoord
-		ARG 2 yCoord
-		ARG 3 zCoord
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

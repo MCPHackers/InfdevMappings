@@ -1,4 +1,3 @@
-CLASS dk net/minecraft/src/SignModel
-	FIELD a signBoard Lbz;
-	FIELD b signStick Lbz;
-	METHOD a func_887_a ()V
+CLASS net/minecraft/client/b/e net/minecraft/src/SignModel
+	FIELD a signBoard Lnet/minecraft/client/b/d;
+	FIELD b signStick Lnet/minecraft/client/b/d;

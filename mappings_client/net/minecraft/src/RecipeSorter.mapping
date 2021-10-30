@@ -1,2 +1,0 @@
-CLASS jb net/minecraft/src/RecipeSorter
-	FIELD a craftingManager Lgy;

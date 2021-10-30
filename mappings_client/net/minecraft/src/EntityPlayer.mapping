@@ -1,19 +1,24 @@
-CLASS gi net/minecraft/src/EntityPlayer
-	FIELD X unusedByte B
-	FIELD Y score I
-	FIELD Z prevCameraYaw F
-	FIELD a swingProgressInt I
-	FIELD aa cameraYaw F
-	FIELD ab username Ljava/lang/String;
-	FIELD b inventory Lht;
-	METHOD a displayGUIFurnace (Lel;)V
-	METHOD a collideWithPlayer (Leq;)V
-	METHOD a getCurrentPlayerStrVsBlock (Lgs;)F
-	METHOD a dropPlayerItem (Lhw;)V
-	METHOD a dropPlayerItemWithRandomChoice (Lhw;Z)V
-	METHOD a displayGUIEditSign (Ljn;)V
-	METHOD a displayGUIChest (Lkd;)V
-	METHOD b onItemPickup (Leq;)V
-	METHOD b canHarvestBlock (Lgs;)Z
+CLASS net/minecraft/a/c/e/a net/minecraft/src/EntityPlayer
+	FIELD S field_9371_f B
+	FIELD T score I
+	FIELD U field_775_e F
+	FIELD V field_774_f F
+	FIELD W username Ljava/lang/String;
+	FIELD a damageRemainder I
+	FIELD b inventory Lnet/minecraft/a/c/e/b;
+	METHOD a displayGUIFurnace (Lnet/minecraft/a/a/b/a/b;)V
+		ARG 1 b
+	METHOD a displayGUIEditSign (Lnet/minecraft/a/a/b/a/d;)V
+		ARG 1 d
+	METHOD a canHarvestBlock (Lnet/minecraft/a/a/b/aa;)Z
+		ARG 1 block
+	METHOD a dropPlayerItem (Lnet/minecraft/a/b/o;)V
+		ARG 1 stack
+	METHOD a dropItem (Lnet/minecraft/a/b/o;Z)V
+		ARG 1 stack
+		ARG 2 motion
+	METHOD a displayGUIChest (Lnet/minecraft/a/b;)V
+		ARG 1 b
+	METHOD a onItemPickup (Lnet/minecraft/a/c/b;)V
+		ARG 1 b
 	METHOD f_ displayWorkbenchGUI ()V
-	METHOD z getScore ()I

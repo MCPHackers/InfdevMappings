@@ -1,37 +1,33 @@
-CLASS jv net/minecraft/src/BlockFire
+CLASS net/minecraft/a/a/b/an net/minecraft/src/BlockFire
 	FIELD a chanceToEncourageFire [I
-	FIELD b abilityToCatchFire [I
+	FIELD ao abilityToCatchFire [I
 	METHOD <init> (II)V
-		ARG 1 blockid
-		ARG 2 blockIndexInTexture
+		ARG 1 id
+		ARG 2 tex
 	METHOD a setBurnRate (III)V
-		ARG 1 nya1
-		ARG 2 nya2
-		ARG 3 nya3
-	METHOD a tryToCatchBlockOnFire (Lfe;IIIILjava/util/Random;)V
+		ARG 1 id
+		ARG 2 chances
+		ARG 3 ability
+	METHOD a tryToCatchBlockOnFire (Lnet/minecraft/a/a/h;IIIILjava/util/Random;)V
 		ARG 1 world
-		ARG 2 xCoord
-		ARG 3 yCoord
-		ARG 4 zCoord
-		ARG 5 nya4
-	METHOD b canBlockCatchFire (Liv;III)Z
-		ARG 1 blockAccess
-		ARG 2 xCoord
-		ARG 3 yCoord
-		ARG 4 zCoord
-	METHOD e getChanceToEncourageFire (Lfe;IIII)I
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 rand
+	METHOD c canBlockCatchFire (Lnet/minecraft/a/a/j;III)Z
+		ARG 1 j
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e getChanceToEncourageFire (Lnet/minecraft/a/a/h;IIII)I
+		ARG 1 h
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 maxChances
+	METHOD g func_263_h (Lnet/minecraft/a/a/h;III)Z
 		ARG 1 world
-		ARG 2 xCoord
-		ARG 3 yCoord
-		ARG 4 zCoord
-		ARG 5 nya4
-	METHOD g canNeighborCatchFire (Lfe;III)Z
-		ARG 1 world
-		ARG 2 xCoord
-		ARG 3 yCoord
-		ARG 4 zCoord
-	METHOD h getChanceOfNeighborsEncouragingFire (Lfe;III)I
-		ARG 1 world
-		ARG 2 xCoord
-		ARG 3 yCoord
-		ARG 4 zCoord
+		ARG 2 x
+		ARG 3 y
+		ARG 4 integer4

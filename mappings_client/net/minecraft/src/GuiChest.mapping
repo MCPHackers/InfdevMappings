@@ -1,4 +1,7 @@
-CLASS hd net/minecraft/src/GuiChest
-	FIELD k upperChestInventory Lkd;
-	FIELD l lowerChestInventory Lkd;
+CLASS net/minecraft/client/c/a/i net/minecraft/src/GuiChest
+	FIELD k upperChestInventory Lnet/minecraft/a/b;
+	FIELD l lowerChestInventory Lnet/minecraft/a/b;
 	FIELD m inventoryRows I
+	METHOD <init> (Lnet/minecraft/a/b;Lnet/minecraft/a/b;)V
+		ARG 1 b1
+		ARG 2 b2

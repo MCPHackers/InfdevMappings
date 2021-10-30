@@ -1,19 +1,19 @@
-CLASS eo net/minecraft/src/EntityArrow
-	FIELD X yTile I
-	FIELD Y zTile I
-	FIELD Z inTile I
+CLASS net/minecraft/a/c/d/a net/minecraft/src/EntityArrow
+	FIELD S yTile I
+	FIELD T zTile I
+	FIELD U inTile I
+	FIELD V inGround Z
+	FIELD W owner Lnet/minecraft/a/c/f;
+	FIELD X ticksInGround I
+	FIELD Y ticksInAir I
 	FIELD a arrowShake I
-	FIELD aa inGround Z
-	FIELD ab owner Lka;
-	FIELD ac ticksInGround I
-	FIELD ad ticksInAir I
 	FIELD b xTile I
-	METHOD <init> (Lfe;Lka;)V
-		ARG 1 world
-		ARG 2 entityLiving
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/c/f;)V
+		ARG 1 h
+		ARG 2 f
 	METHOD a setArrowHeading (DDDFF)V
-		ARG 1 xCoord
-		ARG 3 yCoord
-		ARG 5 zCoord
-		ARG 7 yaw
-		ARG 8 pitch
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 ya
+		ARG 8 p

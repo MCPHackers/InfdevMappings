@@ -1,11 +1,28 @@
-CLASS iq net/minecraft/src/GuiButton
-	FIELD a xPosition I
-	FIELD b yPosition I
-	FIELD c displayString Ljava/lang/String;
-	FIELD d id I
-	FIELD e enabled Z
-	FIELD f enabled2 Z
-	FIELD g width I
-	FIELD h height I
+CLASS net/minecraft/client/c/o net/minecraft/src/GuiButton
+	FIELD a displayString Ljava/lang/String;
+	FIELD b id I
+	FIELD c enabled Z
+	FIELD d width I
+	FIELD e height I
+	FIELD f xPosition I
+	FIELD g yPosition I
+	FIELD h enabled2 Z
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 string
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 string
 	METHOD a mousePressed (II)Z
-	METHOD a drawButton (Law;II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawButton (Lnet/minecraft/client/f;II)V
+		ARG 1 f
+		ARG 2 x
+		ARG 3 y

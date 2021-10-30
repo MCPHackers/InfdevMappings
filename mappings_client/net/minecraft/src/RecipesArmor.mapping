@@ -1,4 +1,5 @@
-CLASS ab net/minecraft/src/RecipesArmor
+CLASS net/minecraft/a/b/a/a net/minecraft/src/RecipesArmor
 	FIELD a recipePatterns [[Ljava/lang/String;
 	FIELD b recipeItems [[Ljava/lang/Object;
-	METHOD a addRecipes (Lgy;)V
+	METHOD a addRecipes (Lnet/minecraft/a/b/a/f;)V
+		ARG 1 f

@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/c/a/b net/minecraft/src/ContainerPlayer
+	FIELD k craftMatrix Lnet/minecraft/client/c/a/a;
+	FIELD l craftResult Lnet/minecraft/a/b;
+	METHOD <init> (Lnet/minecraft/a/c/e/b;)V
+		ARG 1 b

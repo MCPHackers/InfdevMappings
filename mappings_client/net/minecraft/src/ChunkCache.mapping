@@ -1,15 +1,16 @@
-CLASS ev net/minecraft/src/ChunkCache
+CLASS net/minecraft/a/a/g net/minecraft/src/ChunkCache
 	FIELD a chunkX I
 	FIELD b chunkZ I
-	FIELD c chunkArray [[Ljw;
-	FIELD d worldObj Lfe;
-	METHOD <init> (Lfe;IIIIII)V
-		ARG 1 world
+	FIELD c chunkArray [[Lnet/minecraft/a/a/c/e;
+	FIELD d worldObj Lnet/minecraft/a/a/h;
+	METHOD <init> (Lnet/minecraft/a/a/h;IIII)V
+		ARG 1 worldObj
+		ARG 2 x
+		ARG 3 z
+		ARG 4 x1
+		ARG 5 z1
 	METHOD a getLightValueExt (IIIZ)I
-		ARG 1 xCoord
-		ARG 2 yCoord
-		ARG 3 zCoord
-	METHOD d getLightValue (III)I
-		ARG 1 xCoord
-		ARG 2 yCoord
-		ARG 3 zCoord
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 update

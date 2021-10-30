@@ -1,2 +1,1 @@
-CLASS ib net/minecraft/src/EntityPig
-	FIELD a getSaddled Z
+CLASS net/minecraft/a/c/b/c net/minecraft/src/EntityPig

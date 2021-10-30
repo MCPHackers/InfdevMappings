@@ -1,19 +1,34 @@
-CLASS dc net/minecraft/src/GuiScreen
-	FIELD b id Law;
-	FIELD c width I
-	FIELD d height I
-	FIELD e controlList Ljava/util/List;
-	FIELD f allowUserInput Z
-	FIELD g fontRenderer Lej;
+CLASS net/minecraft/client/c/i net/minecraft/src/GuiScreen
+	FIELD a mc Lnet/minecraft/client/f;
+	FIELD b width I
+	FIELD c height I
+	FIELD d controlList Ljava/util/List;
+	FIELD e field_948_f Z
+	FIELD f font Lnet/minecraft/client/c/k;
 	METHOD a onGuiClosed ()V
 	METHOD a keyTyped (CI)V
+		ARG 1 character
+		ARG 2 integer
 	METHOD a drawScreen (IIF)V
-	METHOD a drawSlotInventory (III)V
-	METHOD a setWorldAndResolution (Law;II)V
-	METHOD a actionPerformed (Liq;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 float3
+	METHOD a mouseClicked (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 id
+	METHOD a actionPerformed (Lnet/minecraft/client/c/o;)V
+		ARG 1 button
+	METHOD a setWorldAndResolution (Lnet/minecraft/client/f;II)V
+		ARG 1 game
+		ARG 2 w
+		ARG 3 h
 	METHOD a deleteWorld (ZI)V
+		ARG 1 boolean1
+		ARG 2 id
 	METHOD b initGui ()V
-	METHOD c updateScreen ()V
-	METHOD d doesGuiPauseGame ()Z
-	METHOD g handleKeyboardInput ()V
+	METHOD c doesGuiPauseGame ()Z
+	METHOD e handleMouseInput ()V
+	METHOD f handleKeyboardInput ()V
+	METHOD g updateScreen ()V
 	METHOD h drawDefaultBackground ()V

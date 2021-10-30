@@ -1,13 +1,22 @@
-CLASS jp net/minecraft/src/EntityMinecart
-	FIELD X minecartRockDirection I
-	FIELD Y cargoItems [Lhw;
-	FIELD Z isInReverse Z
+CLASS net/minecraft/a/c/c/d net/minecraft/src/EntityMinecart
+	FIELD S minecartRockDirection I
+	FIELD T cargoItems [Lnet/minecraft/a/b/o;
+	FIELD U field_855_j [[[I
 	FIELD a minecartCurrentDamage I
-	FIELD aa MATRIX [[[I
 	FIELD b minecartTimeSinceHit I
-	METHOD <init> (Lfe;DDD)V
-		ARG 2 xCoord
-		ARG 4 yCoord
-		ARG 6 zCoord
-	METHOD a getPos (DDD)Lbo;
-	METHOD a getPosOffset (DDDD)Lbo;
+	METHOD <init> (Lnet/minecraft/a/a/h;DDD)V
+		ARG 1 h
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+	METHOD a func_515_a (DDDD)Lnet/minecraft/a/d/a;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 dir
+	METHOD a interact (Lnet/minecraft/a/c/b;)V
+		ARG 1 b
+	METHOD e func_514_g (DDD)Lnet/minecraft/a/d/a;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

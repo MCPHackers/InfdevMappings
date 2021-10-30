@@ -1,2 +1,4 @@
-CLASS iu net/minecraft/src/WorldGenLiquids
+CLASS net/minecraft/a/a/d/b/d net/minecraft/src/WorldGenLiquids
 	FIELD a liquidBlockId I
+	METHOD <init> (I)V
+		ARG 1 id

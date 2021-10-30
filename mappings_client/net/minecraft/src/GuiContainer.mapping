@@ -1,10 +1,9 @@
-CLASS hj net/minecraft/src/GuiContainer
-	FIELD a xSize I
+CLASS net/minecraft/client/c/a/j net/minecraft/src/GuiContainer
+	FIELD g xSize I
 	FIELD h ySize I
-	FIELD j inventorySlots Ljava/util/List;
-	FIELD k itemRenderer Lba;
-	FIELD l itemStack Lhw;
-	METHOD a drawGuiContainerBackgroundLayer (F)V
-	METHOD a inventorySlots (Lgq;)V
-	METHOD a onCraftMatrixChanged (Lkd;)V
-	METHOD c_ drawGuiContainerForegroundLayer ()V
+	FIELD j slotsList Ljava/util/List;
+	FIELD k itemRenderer Lnet/minecraft/client/a/a/e;
+	FIELD l item Lnet/minecraft/a/b/o;
+	METHOD c_ onCraftMatrixChanged ()V
+	METHOD d drawGuiContainerBackgroundLayer ()V
+	METHOD d_ drawGuiContainerForegroundLayer ()V

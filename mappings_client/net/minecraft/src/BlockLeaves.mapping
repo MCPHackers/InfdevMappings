@@ -1,6 +1,7 @@
-CLASS ct net/minecraft/src/BlockLeaves
-	FIELD b textureIndexSlot I
+CLASS net/minecraft/a/a/b/p net/minecraft/src/BlockLeaves
+	FIELD ao baseIndexInPNG I
 	METHOD <init> (II)V
-		ARG 1 blockid
-		ARG 2 blockIndexInTexture
+		ARG 1 id
+		ARG 2 tex
 	METHOD a setGraphicsLevel (Z)V
+		ARG 1 flag

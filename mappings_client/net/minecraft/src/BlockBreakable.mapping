@@ -1,6 +1,7 @@
-CLASS ig net/minecraft/src/BlockBreakable
+CLASS net/minecraft/a/a/b/ai net/minecraft/src/BlockBreakable
 	FIELD a localFlag Z
-	METHOD <init> (IILjy;Z)V
-		ARG 1 blockid
-		ARG 2 blockIndexInTexture
-		ARG 3 material
+	METHOD <init> (IILnet/minecraft/a/a/e/c;Z)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 mat
+		ARG 4 flag

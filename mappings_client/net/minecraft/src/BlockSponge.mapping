@@ -1,1 +1,3 @@
-CLASS ip net/minecraft/src/BlockSponge
+CLASS net/minecraft/a/a/b/ak net/minecraft/src/BlockSponge
+	METHOD <init> (I)V
+		ARG 1 id

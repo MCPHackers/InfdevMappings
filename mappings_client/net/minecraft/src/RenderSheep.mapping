@@ -1,1 +1,5 @@
-CLASS iz net/minecraft/src/RenderSheep
+CLASS net/minecraft/client/a/a/m net/minecraft/src/RenderSheep
+	METHOD <init> (Lnet/minecraft/client/b/n;Lnet/minecraft/client/b/n;F)V
+		ARG 1 n1
+		ARG 2 n2
+		ARG 3 float3

@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/b/a/d net/minecraft/src/RecipesIngots
+	FIELD a recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Lnet/minecraft/a/b/a/f;)V
+		ARG 1 f

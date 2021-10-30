@@ -1,6 +1,6 @@
-CLASS au net/minecraft/src/ItemPickaxe
-	FIELD aD blocksEffectiveAgainst [Lgs;
-	FIELD aE getHarvestLevel I
+CLASS net/minecraft/a/b/a net/minecraft/src/ItemPickaxe
+	FIELD aA blocksEffectiveAgainst [Lnet/minecraft/a/a/b/aa;
+	FIELD aB harvestLevel I
 	METHOD <init> (II)V
-		ARG 1 itemid
-		ARG 2 toolTier
+		ARG 1 id
+		ARG 2 mat
