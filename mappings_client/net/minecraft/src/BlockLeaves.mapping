@@ -1,5 +1,5 @@
 CLASS net/minecraft/a/a/b/p net/minecraft/src/BlockLeaves
-	FIELD ao baseIndexInPNG I
+	FIELD ao leafTexIndex I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
