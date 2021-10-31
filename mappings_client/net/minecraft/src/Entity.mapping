@@ -20,7 +20,7 @@ CLASS net/minecraft/a/c/b net/minecraft/src/Entity
 	FIELD S ySize F
 	FIELD T inWater Z
 	FIELD U firstUpdate Z
-	FIELD a isCollided Z
+	FIELD a surfaceCollision Z
 	FIELD b nextStepDistance I
 	FIELD c preventEntitySpawning Z
 	FIELD d riddenByEntity Lnet/minecraft/a/c/b;
