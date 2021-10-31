@@ -1,7 +1,7 @@
 CLASS net/minecraft/a/a/c/e net/minecraft/src/Chunk
 	FIELD a isLit Z
 	FIELD b blocks [B
-	FIELD c isChunkLoaded2 Z
+	FIELD c isChunkLoaded Z
 	FIELD d worldObj Lnet/minecraft/a/a/h;
 	FIELD e data Lnet/minecraft/a/a/c/c;
 	FIELD f skylightMap Lnet/minecraft/a/a/c/c;
@@ -14,9 +14,9 @@ CLASS net/minecraft/a/a/c/e net/minecraft/src/Chunk
 	FIELD m isTerrainPopulated Z
 	FIELD n isModified Z
 	FIELD o neverSave Z
-	FIELD p isChunkLoaded Z
+	FIELD p isChunkRendered Z
 	FIELD q hasEntities Z
-	FIELD r lowestBlockHeight I
+	FIELD r height I
 	METHOD <init> (Lnet/minecraft/a/a/h;II)V
 		ARG 1 h
 		ARG 2 integer2
@@ -26,7 +26,7 @@ CLASS net/minecraft/a/a/c/e net/minecraft/src/Chunk
 		ARG 2 arr
 		ARG 3 integer3
 		ARG 4 integer4
-	METHOD a func_1024_c ()V
+	METHOD a generateHeightMap ()V
 	METHOD a isAtLocation (II)Z
 		ARG 1 x
 		ARG 2 z
@@ -74,7 +74,7 @@ CLASS net/minecraft/a/a/c/e net/minecraft/src/Chunk
 		ARG 2 y
 		ARG 3 z
 		ARG 4 value
-	METHOD c func_996_c (II)V
+	METHOD c updateSkylight_do (II)V
 		ARG 1 x
 		ARG 2 z
 	METHOD c canBlockSeeTheSky (III)Z
@@ -85,11 +85,11 @@ CLASS net/minecraft/a/a/c/e net/minecraft/src/Chunk
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD e func_1020_f (III)V
+	METHOD e checkSkylightNeighborHeight (III)V
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
-	METHOD f func_1003_g (III)V
+	METHOD f relightBlock (III)V
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3

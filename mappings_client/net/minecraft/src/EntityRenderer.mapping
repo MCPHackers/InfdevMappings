@@ -8,14 +8,14 @@ CLASS net/minecraft/client/a/e net/minecraft/src/EntityRenderer
 	FIELD g mouseMovement I
 	FIELD h mouseMoved I
 	FIELD i random Ljava/util/Random;
-	FIELD j field_1394_b I
-	FIELD k field_1393_c I
+	FIELD j unusedInt1 I
+	FIELD k unusedInt2 I
 	FIELD l fogColorBuffer Ljava/nio/FloatBuffer;
 	FIELD m fogColorRed F
 	FIELD n fogColorGreen F
 	FIELD o fogColorBlue F
-	FIELD p fogColor2 F
-	FIELD q fogColor1 F
+	FIELD p prevFogColor F
+	FIELD q fogColor F
 	METHOD <init> (Lnet/minecraft/client/f;)V
 		ARG 1 f
 	METHOD a updateRenderer ()V
@@ -23,7 +23,7 @@ CLASS net/minecraft/client/a/e net/minecraft/src/EntityRenderer
 		ARG 1 f
 	METHOD a setupFog (I)V
 		ARG 1 i
-	METHOD b func_905_b ()V
+	METHOD b setupOverlayRendering ()V
 	METHOD b getMouseOver (F)Lnet/minecraft/a/d/a;
 		ARG 1 f
 	METHOD c hurtCameraEffect (F)V

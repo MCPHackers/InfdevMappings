@@ -1,20 +1,20 @@
 CLASS net/minecraft/a/a/d/a net/minecraft/src/ChunkProviderGenerate
 	FIELD a rand Ljava/util/Random;
-	FIELD b field_912_k Lnet/minecraft/a/a/d/a/c;
-	FIELD c field_911_l Lnet/minecraft/a/a/d/a/c;
-	FIELD d field_910_m Lnet/minecraft/a/a/d/a/c;
-	FIELD e field_909_n Lnet/minecraft/a/a/d/a/c;
-	FIELD f field_908_o Lnet/minecraft/a/a/d/a/c;
-	FIELD g field_922_a Lnet/minecraft/a/a/d/a/c;
-	FIELD h field_921_b Lnet/minecraft/a/a/d/a/c;
+	FIELD b noiseGen1 Lnet/minecraft/a/a/d/a/c;
+	FIELD c noiseGen2 Lnet/minecraft/a/a/d/a/c;
+	FIELD d noiseGen3 Lnet/minecraft/a/a/d/a/c;
+	FIELD e noiseGen4 Lnet/minecraft/a/a/d/a/c;
+	FIELD f noiseGen5 Lnet/minecraft/a/a/d/a/c;
+	FIELD g noiseGen6 Lnet/minecraft/a/a/d/a/c;
+	FIELD h noiseGen7 Lnet/minecraft/a/a/d/a/c;
 	FIELD i mobSpawnerNoise Lnet/minecraft/a/a/d/a/c;
 	FIELD j worldObj Lnet/minecraft/a/a/h;
-	FIELD k field_4180_q [D
-	FIELD l field_4185_d [D
-	FIELD m field_4184_e [D
-	FIELD n field_4183_f [D
-	FIELD o field_4182_g [D
-	FIELD p field_4181_h [D
+	FIELD k noiseArray [D
+	FIELD l noise3 [D
+	FIELD m noise1 [D
+	FIELD n noise2 [D
+	FIELD o noise6 [D
+	FIELD p noise7 [D
 	METHOD <init> (Lnet/minecraft/a/a/h;J)V
 		ARG 1 h
 		ARG 2 seed

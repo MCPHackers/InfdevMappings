@@ -14,7 +14,7 @@ CLASS net/minecraft/client/a/l net/minecraft/src/RenderEngine
 		ARG 0 i
 	METHOD a unwrapImageByColumns (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
 		ARG 0 image
-	METHOD a func_28148_b (Ljava/awt/image/BufferedImage;I)V
+	METHOD a setupTexture (Ljava/awt/image/BufferedImage;I)V
 		ARG 1 image
 		ARG 2 i
 	METHOD a getTexture (Ljava/lang/String;)I

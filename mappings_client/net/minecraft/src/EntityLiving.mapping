@@ -6,7 +6,7 @@ CLASS net/minecraft/a/c/f net/minecraft/src/EntityLiving
 	FIELD X heartsHalvesLife I
 	FIELD Y renderYawOffset F
 	FIELD Z prevRenderYawOffset F
-	FIELD a field_9361_v F
+	FIELD a prevRidingRotUnused F
 	FIELD aa texture Ljava/lang/String;
 	FIELD ab health I
 	FIELD ac prevHealth I
@@ -15,17 +15,17 @@ CLASS net/minecraft/a/c/f net/minecraft/src/EntityLiving
 	FIELD af attackedAtYaw F
 	FIELD ag deathTime I
 	FIELD ah attackTime I
-	FIELD ai cameraPitch F
-	FIELD aj field_9328_R F
-	FIELD ak field_705_Q F
-	FIELD al field_704_R F
-	FIELD am field_703_S F
+	FIELD ai prevCameraPitch F
+	FIELD aj cameraPitch F
+	FIELD ak prevLimbYaw F
+	FIELD al limbYaw F
+	FIELD am limbSwing F
 	FIELD an entityAge I
 	FIELD ao moveStrafing F
 	FIELD ap moveForward F
 	FIELD aq isJumping Z
 	FIELD ar moveSpeed F
-	FIELD b field_9360_w F
+	FIELD b rotationUnused F
 	METHOD a getCanSpawnHere (FFF)Z
 		ARG 1 x
 		ARG 2 y

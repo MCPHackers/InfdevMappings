@@ -9,7 +9,7 @@ CLASS net/minecraft/a/a/b/ah net/minecraft/src/BlockFlower
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD h func_268_h (Lnet/minecraft/a/a/h;III)V
+	METHOD h checkFlowerChange (Lnet/minecraft/a/a/h;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

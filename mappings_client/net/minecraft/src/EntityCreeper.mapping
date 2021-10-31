@@ -3,3 +3,4 @@ CLASS net/minecraft/a/c/a/d net/minecraft/src/EntityCreeper
 	FIELD U lastActiveTime I
 	FIELD V maxTime I
 	FIELD W creeperState I
+	METHOD c getCreeperFlashTime (F)F

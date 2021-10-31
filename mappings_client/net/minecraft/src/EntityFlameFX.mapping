@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/f/c net/minecraft/src/EntityFlameFX
-	FIELD ad field_672_a F
+	FIELD ad flameScale F
 	METHOD <init> (Lnet/minecraft/a/a/h;DDD)V
 		ARG 1 h
 		ARG 2 double2

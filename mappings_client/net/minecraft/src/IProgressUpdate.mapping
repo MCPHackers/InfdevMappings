@@ -1,5 +1,5 @@
 CLASS a/b net/minecraft/src/IProgressUpdate
-	METHOD a func_594_b ()V
+	METHOD a displayProgressMessage ()V
 	METHOD a setLoadingProgress (I)V
 		ARG 1 integer
 	METHOD b displayLoadingString (Ljava/lang/String;)V

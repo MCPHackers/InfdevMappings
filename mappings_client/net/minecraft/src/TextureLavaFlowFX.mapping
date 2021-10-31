@@ -1,6 +1,6 @@
 CLASS net/minecraft/client/a/c/f net/minecraft/src/TextureLavaFlowFX
-	FIELD f field_1143_g [F
-	FIELD g field_1142_h [F
-	FIELD h field_1141_i [F
-	FIELD i field_1140_j [F
-	FIELD j field_1139_k I
+	FIELD f red [F
+	FIELD g green [F
+	FIELD h blue [F
+	FIELD i alpha [F
+	FIELD j tickCounter I

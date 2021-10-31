@@ -1,0 +1,2 @@
+CLASS net/minecraft/isom/e net/minecraft/src/EnumOSMappingHelper2
+	FIELD a osValues [I

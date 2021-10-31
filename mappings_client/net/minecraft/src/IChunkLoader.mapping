@@ -1,5 +1,5 @@
 CLASS net/minecraft/a/a/c/a/b net/minecraft/src/IChunkLoader
-	METHOD a func_814_a ()V
+	METHOD a chunkTick ()V
 	METHOD a loadChunk (Lnet/minecraft/a/a/h;II)Lnet/minecraft/a/a/c/e;
 		ARG 1 h
 		ARG 2 integer2

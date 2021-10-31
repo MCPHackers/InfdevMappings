@@ -1,7 +1,7 @@
 CLASS net/minecraft/client/a/a/f net/minecraft/src/Render
 	FIELD a renderManager Lnet/minecraft/client/a/a/j;
 	FIELD b shadowSize F
-	FIELD c field_194_c F
+	FIELD c shadowOpaque F
 	METHOD a loadTexture (Ljava/lang/String;)V
 		ARG 1 tex
 	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V

@@ -5,10 +5,10 @@ CLASS net/minecraft/a/a/d/a/a net/minecraft/src/NoiseGeneratorPerlin
 	FIELD d zCoord D
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
-	METHOD a func_801_a (DD)D
+	METHOD a generateNoise (DD)D
 		ARG 1 x
 		ARG 3 z
-	METHOD a func_803_a (DDD)D
+	METHOD a generateNoiseD (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
@@ -17,7 +17,7 @@ CLASS net/minecraft/a/a/d/a/a net/minecraft/src/NoiseGeneratorPerlin
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD a func_805_a ([DIIIIIIDDDD)V
+	METHOD a populateNoiseArray ([DIIIIIIDDDD)V
 		ARG 1 arr
 		ARG 2 integer2
 		ARG 3 integer3

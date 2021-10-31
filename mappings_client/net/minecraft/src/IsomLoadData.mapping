@@ -4,6 +4,7 @@ CLASS net/minecraft/a/a/c/a/f net/minecraft/src/IsomLoadData
 	METHOD <init> (Ljava/nio/channels/FileChannel;J)V
 		ARG 1 c
 		ARG 2 a
+	METHOD a flushStream ()V
 	METHOD a loadMagicNumber (I)Ljava/nio/ByteBuffer;
 		ARG 1 i
 	METHOD a writeBufferPos (Ljava/nio/ByteBuffer;I)V

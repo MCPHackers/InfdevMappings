@@ -28,6 +28,6 @@ CLASS net/minecraft/client/f/k net/minecraft/src/EntityFX
 		ARG 5 float5
 		ARG 6 float6
 		ARG 7 float7
-	METHOD b size ()I
-	METHOD c func_405_d (F)Lnet/minecraft/client/f/k;
+	METHOD b getFXLayer ()I
+	METHOD c multipleParticleScaleBy (F)Lnet/minecraft/client/f/k;
 		ARG 1 f

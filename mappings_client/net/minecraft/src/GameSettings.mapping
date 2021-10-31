@@ -1,15 +1,15 @@
 CLASS net/minecraft/client/u net/minecraft/src/GameSettings
 	FIELD A mc Lnet/minecraft/client/f;
 	FIELD B optionsFile Ljava/io/File;
-	FIELD a musicVolume Z
-	FIELD b soundVolume Z
+	FIELD a music Z
+	FIELD b sound Z
 	FIELD c invertMouse Z
-	FIELD d showDebugInfo Z
+	FIELD d showFPS Z
 	FIELD e renderDistance I
 	FIELD f viewBobbing Z
 	FIELD g anaglyph Z
 	FIELD h limitFramerate Z
-	FIELD i graphics Z
+	FIELD i fancyGraphics Z
 	FIELD j keyBindForward Lnet/minecraft/client/j;
 	FIELD k keyBindLeft Lnet/minecraft/client/j;
 	FIELD l keyBindBack Lnet/minecraft/client/j;
@@ -21,7 +21,7 @@ CLASS net/minecraft/client/u net/minecraft/src/GameSettings
 	FIELD r keyBindSave Lnet/minecraft/client/j;
 	FIELD s keyBindLoad Lnet/minecraft/client/j;
 	FIELD t keyBindings [Lnet/minecraft/client/j;
-	FIELD u field_22135_k I
+	FIELD u numberOfOptions I
 	FIELD v difficulty I
 	FIELD w thirdPersonView Z
 	FIELD x RENDER_DISTANCES [Ljava/lang/String;
@@ -31,7 +31,7 @@ CLASS net/minecraft/client/u net/minecraft/src/GameSettings
 		ARG 1 f
 		ARG 2 file
 	METHOD a saveOptions ()V
-	METHOD a getOptionDisplayString (I)Ljava/lang/String;
+	METHOD a getKeyBindingDescription (I)Ljava/lang/String;
 		ARG 1 option
 	METHOD a setKeyBinding (II)V
 		ARG 1 i

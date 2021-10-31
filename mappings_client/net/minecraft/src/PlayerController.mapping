@@ -1,6 +1,6 @@
 CLASS net/minecraft/client/d/b net/minecraft/src/PlayerController
 	FIELD a mc Lnet/minecraft/client/f;
-	FIELD b field_1064_b Z
+	FIELD b isInTestMode Z
 	METHOD <init> (Lnet/minecraft/client/f;)V
 		ARG 1 f
 	METHOD a resetBlockRemoving ()V
@@ -22,7 +22,7 @@ CLASS net/minecraft/client/d/b net/minecraft/src/PlayerController
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b func_6473_b (Lnet/minecraft/a/c/e/a;)V
+	METHOD b onRespawn (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 player
 	METHOD c updateController ()V
 	METHOD d shouldDrawHUD ()Z

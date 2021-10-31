@@ -1,0 +1,11 @@
+CLASS net/minecraft/client/c/j net/minecraft/src/GuiSelectWorld
+	FIELD g currentScreen Lnet/minecraft/client/c/i;
+	FIELD h screenTitle Ljava/lang/String;
+	FIELD j selected Z
+	METHOD <init> (Lnet/minecraft/client/c/i;)V
+		ARG 1 screen
+	METHOD a actionWorld (I)V
+		ARG 1 i
+	METHOD b getWorldName (I)Ljava/lang/String;
+		ARG 0 id
+	METHOD e_ buttons ()V

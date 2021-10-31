@@ -1,11 +1,11 @@
 CLASS net/minecraft/a/a/f net/minecraft/src/MetadataChunkBlock
-	FIELD a field_1299_a Lnet/minecraft/a/a/e;
-	FIELD b field_1298_b I
-	FIELD c field_1304_c I
-	FIELD d field_1303_d I
-	FIELD e field_1302_e I
-	FIELD f field_1301_f I
-	FIELD g field_1300_g I
+	FIELD a skyBlock Lnet/minecraft/a/a/e;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e maxX I
+	FIELD f maxY I
+	FIELD g maxZ I
 	METHOD <init> (Lnet/minecraft/a/a/e;IIIIII)V
 		ARG 1 e
 		ARG 2 integer2

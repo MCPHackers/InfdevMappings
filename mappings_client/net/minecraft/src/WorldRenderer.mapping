@@ -45,7 +45,7 @@ CLASS net/minecraft/client/a/h net/minecraft/src/WorldRenderer
 	METHOD a distanceToEntitySquared (Lnet/minecraft/a/c/b;)F
 	METHOD a updateInFrustrum (Lnet/minecraft/client/a/b/c;)V
 		ARG 1 c
-	METHOD b func_1204_c ()V
+	METHOD b stopRendering ()V
 	METHOD c callOcclusionQueryList ()V
 	METHOD d skipAllRenderPasses ()Z
 	METHOD e markDirty ()V

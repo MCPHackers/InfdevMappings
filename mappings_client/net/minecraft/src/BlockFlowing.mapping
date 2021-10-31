@@ -21,7 +21,7 @@ CLASS net/minecraft/a/a/b/l net/minecraft/src/BlockFlowing
 		ARG 3 y
 		ARG 4 z
 		ARG 5 w
-	METHOD h func_30003_j (Lnet/minecraft/a/a/h;III)V
+	METHOD h updateFlow (Lnet/minecraft/a/a/h;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

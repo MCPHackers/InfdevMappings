@@ -3,8 +3,8 @@ CLASS net/minecraft/client/c/i net/minecraft/src/GuiScreen
 	FIELD b width I
 	FIELD c height I
 	FIELD d controlList Ljava/util/List;
-	FIELD e field_948_f Z
-	FIELD f font Lnet/minecraft/client/c/k;
+	FIELD e allowUserInput Z
+	FIELD f fontRenderer Lnet/minecraft/client/c/k;
 	METHOD a onGuiClosed ()V
 	METHOD a keyTyped (CI)V
 		ARG 1 character

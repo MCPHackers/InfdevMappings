@@ -13,10 +13,11 @@ CLASS net/minecraft/isom/a net/minecraft/src/CanvasIsomPreview
 	FIELD l yPosition I
 	METHOD a shutdown ()V
 	METHOD a setBrightness (I)V
+	METHOD a getZone (II)Lnet/minecraft/isom/b;
 	METHOD a loadLevel (Ljava/lang/String;)V
 	METHOD a isRunning (Lnet/minecraft/isom/a;)Z
 		ARG 0 isomPreview
-	METHOD b showNextBuffer ()V
+	METHOD b render ()V
 	METHOD keyPressed (Ljava/awt/event/KeyEvent;)V
 		ARG 1 keyEvent
 	METHOD keyReleased (Ljava/awt/event/KeyEvent;)V
@@ -39,6 +40,5 @@ CLASS net/minecraft/isom/a net/minecraft/src/CanvasIsomPreview
 		ARG 1 mouseEvent
 	METHOD paint (Ljava/awt/Graphics;)V
 		ARG 1 graphics
-	METHOD run ()V
 	METHOD update (Ljava/awt/Graphics;)V
 		ARG 1 graphics

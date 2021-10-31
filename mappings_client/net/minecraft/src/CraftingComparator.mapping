@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/b/a/i net/minecraft/src/CraftingComparator
-	METHOD <init> (Lnet/minecraft/a/b/a/f;)V
-		ARG 1 f

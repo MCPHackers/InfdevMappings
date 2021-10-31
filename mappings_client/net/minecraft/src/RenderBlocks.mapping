@@ -5,7 +5,7 @@ CLASS net/minecraft/client/a/f net/minecraft/src/RenderBlocks
 	FIELD d renderAllFaces Z
 	METHOD <init> (Lnet/minecraft/a/a/j;)V
 		ARG 1 j
-	METHOD a shouldSideBeRendered (IIILnet/minecraft/a/a/e/c;)F
+	METHOD a getFluidHeight (IIILnet/minecraft/a/a/e/c;)F
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
@@ -42,7 +42,7 @@ CLASS net/minecraft/client/a/f net/minecraft/src/RenderBlocks
 		ARG 3 j
 		ARG 4 k
 		ARG 5 l
-	METHOD a (Lnet/minecraft/a/a/b/aa;Lnet/minecraft/a/a/h;III)V
+	METHOD a renderBlockFallingSand (Lnet/minecraft/a/a/b/aa;Lnet/minecraft/a/a/h;III)V
 		ARG 1 aa
 		ARG 2 h
 		ARG 3 integer3
@@ -54,7 +54,7 @@ CLASS net/minecraft/client/a/f net/minecraft/src/RenderBlocks
 		ARG 4 double3
 		ARG 6 double4
 		ARG 8 integer
-	METHOD b func_1245_b (Lnet/minecraft/a/a/b/aa;IDDD)V
+	METHOD b renderBlockCrops (Lnet/minecraft/a/a/b/aa;IDDD)V
 		ARG 1 aa
 		ARG 2 integer
 		ARG 3 double3

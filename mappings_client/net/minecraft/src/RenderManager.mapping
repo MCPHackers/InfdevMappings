@@ -8,16 +8,16 @@ CLASS net/minecraft/client/a/a/j net/minecraft/src/RenderManager
 	FIELD g playerViewY F
 	FIELD h options Lnet/minecraft/client/u;
 	FIELD i entityRenderMap Ljava/util/Map;
-	FIELD j field_1222_l D
-	FIELD k field_1221_m D
-	FIELD l field_1220_n D
-	METHOD a func_851_a (DDD)D
+	FIELD j viewerPosX D
+	FIELD k viewerPosY D
+	FIELD l viewerPosZ D
+	METHOD a getDistanceToCamera (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 	METHOD a getEntityClassRenderObject (Ljava/lang/Class;)Lnet/minecraft/client/a/a/f;
 		ARG 1 class1
-	METHOD a func_852_a (Lnet/minecraft/a/a/h;)V
+	METHOD a set (Lnet/minecraft/a/a/h;)V
 		ARG 1 h
 	METHOD a cacheActiveRenderInfo (Lnet/minecraft/a/a/h;Lnet/minecraft/client/a/l;Lnet/minecraft/client/c/k;Lnet/minecraft/a/c/e/a;Lnet/minecraft/client/u;F)V
 		ARG 1 h

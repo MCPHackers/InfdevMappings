@@ -1,6 +1,6 @@
 CLASS net/minecraft/client/b/m net/minecraft/src/ModelCreeper
 	FIELD a head Lnet/minecraft/client/b/d;
-	FIELD b field_1270_b Lnet/minecraft/client/b/d;
+	FIELD b headwear Lnet/minecraft/client/b/d;
 	FIELD c body Lnet/minecraft/client/b/d;
 	FIELD d leg1 Lnet/minecraft/client/b/d;
 	FIELD e leg2 Lnet/minecraft/client/b/d;

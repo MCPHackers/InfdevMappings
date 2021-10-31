@@ -1,8 +1,8 @@
 CLASS net/minecraft/a/a/b/a/a net/minecraft/src/TileEntity
 	FIELD a worldObj Lnet/minecraft/a/a/h;
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
+	FIELD b xCoord I
+	FIELD c yCoord I
+	FIELD d zCoord I
 	FIELD e nameToClassMap Ljava/util/Map;
 	FIELD f classToNameMap Ljava/util/Map;
 	METHOD a readFromNBT (Lcom/a/a/c;)V

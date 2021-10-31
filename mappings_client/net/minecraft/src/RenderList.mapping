@@ -1,25 +1,25 @@
 CLASS net/minecraft/client/a/j net/minecraft/src/RenderList
-	FIELD a field_1242_a I
-	FIELD b field_1241_b I
-	FIELD c field_1240_c I
-	FIELD d field_1239_d F
-	FIELD e field_1238_e F
-	FIELD f field_1237_f F
-	FIELD g field_1236_g Ljava/nio/IntBuffer;
-	FIELD h field_1235_h Z
-	FIELD i field_1234_i Z
-	METHOD a func_860_a ()V
-	METHOD a func_858_a (I)V
+	FIELD a posX I
+	FIELD b posY I
+	FIELD c posZ I
+	FIELD d playerPosX F
+	FIELD e playerPosY F
+	FIELD f playerPosZ F
+	FIELD g buffer Ljava/nio/IntBuffer;
+	FIELD h render Z
+	FIELD i isCached Z
+	METHOD a render ()V
+	METHOD a render (I)V
 		ARG 1 integer
-	METHOD a func_862_a (III)Z
+	METHOD a isRenderedAt (III)Z
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
-	METHOD a func_861_a (IIIDDD)V
+	METHOD a setLocation (IIIDDD)V
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 double4
 		ARG 6 double5
 		ARG 8 double6
-	METHOD b func_859_b ()V
+	METHOD b reset ()V

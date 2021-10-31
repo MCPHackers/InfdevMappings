@@ -2,7 +2,7 @@ CLASS net/minecraft/client/e/c net/minecraft/src/SoundManager
 	FIELD a sndSystem Lpaulscode/sound/SoundSystem;
 	FIELD b soundPoolSounds Lnet/minecraft/client/e/b;
 	FIELD c soundPoolMusic Lnet/minecraft/client/e/b;
-	FIELD d field_587_e I
+	FIELD d playedSoundsCount I
 	FIELD e options Lnet/minecraft/client/u;
 	FIELD f loaded Z
 	METHOD a onSoundOptionsChanged ()V
@@ -20,7 +20,7 @@ CLASS net/minecraft/client/e/c net/minecraft/src/SoundManager
 	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
 		ARG 1 sound
 		ARG 2 file
-	METHOD a func_338_a (Lnet/minecraft/a/c/f;F)V
+	METHOD a setListener (Lnet/minecraft/a/c/f;F)V
 		ARG 1 entity
 		ARG 2 f
 	METHOD a loadSoundSettings (Lnet/minecraft/client/u;)V

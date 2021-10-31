@@ -26,7 +26,7 @@ CLASS net/minecraft/a/a/b/an net/minecraft/src/BlockFire
 		ARG 3 y
 		ARG 4 z
 		ARG 5 maxChances
-	METHOD g func_263_h (Lnet/minecraft/a/a/h;III)Z
+	METHOD g canNeighborBurn (Lnet/minecraft/a/a/h;III)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

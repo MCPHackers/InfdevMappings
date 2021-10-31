@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/a/c/d net/minecraft/src/TextureLavaFX
-	FIELD f field_1147_g [F
-	FIELD g field_1146_h [F
-	FIELD h field_1145_i [F
-	FIELD i field_1144_j [F
+	FIELD f red [F
+	FIELD g green [F
+	FIELD h blue [F
+	FIELD i alpha [F

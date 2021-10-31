@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/a/c/c net/minecraft/src/TextureGearsFX
-	FIELD f animationSpeed I
-	FIELD g gearBuffer [I
-	FIELD h middleGearBuffer [I
-	FIELD i texture I
+	FIELD f gearRotation I
+	FIELD g gearColor [I
+	FIELD h gearMiddleColor [I
+	FIELD i gearRotationDir I

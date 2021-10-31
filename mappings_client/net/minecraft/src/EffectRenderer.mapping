@@ -7,7 +7,7 @@ CLASS net/minecraft/client/f/d net/minecraft/src/EffectRenderer
 		ARG 1 h
 		ARG 2 l
 	METHOD a updateEffects ()V
-	METHOD a func_1187_b (F)V
+	METHOD a renderLitParticles (F)V
 		ARG 1 f
 	METHOD a addBlockDestroyEffects (III)V
 		ARG 1 x

@@ -1,16 +1,16 @@
 CLASS net/minecraft/client/f net/minecraft/src/Minecraft
-	FIELD A rain Z
-	FIELD B fullScreen Z
+	FIELD A isRaining Z
+	FIELD B fullscreen Z
 	FIELD C glCapabilities Lnet/minecraft/client/k;
 	FIELD D timer Lnet/minecraft/client/i;
-	FIELD E canvas Ljava/awt/Canvas;
+	FIELD E mcCanvas Ljava/awt/Canvas;
 	FIELD F loadingScreen Lnet/minecraft/client/b;
 	FIELD G downloadResourcesThread Lnet/minecraft/client/l;
 	FIELD H ticksRan I
 	FIELD I leftClickCounter I
-	FIELD J displayWidth I
-	FIELD K displayHeight I
-	FIELD L mcFolder Ljava/io/File;
+	FIELD J tempDisplayWidth I
+	FIELD K tempDisplayHeight I
+	FIELD L mcDataDir Ljava/io/File;
 	FIELD M frameTimes [J
 	FIELD N tickTimes I
 	FIELD O textureWaterFX Lnet/minecraft/client/a/c/g;
@@ -20,8 +20,8 @@ CLASS net/minecraft/client/f net/minecraft/src/Minecraft
 	FIELD S mouseTicksRan I
 	FIELD T systemTime J
 	FIELD a playerController Lnet/minecraft/client/d/b;
-	FIELD b width I
-	FIELD c height I
+	FIELD b displayWidth I
+	FIELD c displayHeight I
 	FIELD d theWorld Lnet/minecraft/a/a/h;
 	FIELD e renderGlobal Lnet/minecraft/client/a/b;
 	FIELD f thePlayer Lnet/minecraft/client/g/a;
@@ -31,11 +31,11 @@ CLASS net/minecraft/client/f net/minecraft/src/Minecraft
 	FIELD j appletMode Z
 	FIELD k isGamePaused Z
 	FIELD l renderEngine Lnet/minecraft/client/a/l;
-	FIELD m font Lnet/minecraft/client/c/k;
+	FIELD m fontRenderer Lnet/minecraft/client/c/k;
 	FIELD n currentScreen Lnet/minecraft/client/c/i;
 	FIELD o entityRenderer Lnet/minecraft/client/a/e;
-	FIELD p mapUser Ljava/lang/String;
-	FIELD q mapId I
+	FIELD p loadMapUser Ljava/lang/String;
+	FIELD q loadMapID I
 	FIELD r ingameGUI Lnet/minecraft/client/c/m;
 	FIELD s skipRenderWorld Z
 	FIELD t objectMouseOver Lnet/minecraft/a/d/c;
@@ -43,7 +43,7 @@ CLASS net/minecraft/client/f net/minecraft/src/Minecraft
 	FIELD v sndManager Lnet/minecraft/client/e/c;
 	FIELD w mouseHelper Lnet/minecraft/client/p;
 	FIELD x running Z
-	FIELD y fpsText Ljava/lang/String;
+	FIELD y debug Ljava/lang/String;
 	FIELD z inGameHasFocus Z
 	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 canvas
@@ -55,7 +55,7 @@ CLASS net/minecraft/client/f net/minecraft/src/Minecraft
 	METHOD a clickMouse (I)V
 		ARG 1 clickType
 	METHOD a setResolution (II)V
-	METHOD a changeWorld2 (Ljava/lang/String;)V
+	METHOD a startWorld (Ljava/lang/String;)V
 		ARG 1 string
 	METHOD a installResource (Ljava/lang/String;Ljava/io/File;)V
 		ARG 1 string
@@ -70,15 +70,15 @@ CLASS net/minecraft/client/f net/minecraft/src/Minecraft
 	METHOD a setGuiScreen (Lnet/minecraft/client/c/i;)V
 		ARG 1 screen
 	METHOD b shutdownMinecraftApplet ()V
-	METHOD b func_6255_d (Ljava/lang/String;)V
+	METHOD b preloadWorld (Ljava/lang/String;)V
 		ARG 1 string
 	METHOD c shutdown ()V
 	METHOD d setIngameFocus ()V
 	METHOD e displayInGameMenu ()V
 	METHOD f toggleFullscreen ()V
-	METHOD g func_6241_m ()Ljava/lang/String;
-	METHOD h func_6262_n ()Ljava/lang/String;
-	METHOD i func_6245_o ()Ljava/lang/String;
+	METHOD g debugInfoRenders ()Ljava/lang/String;
+	METHOD h getEntityDebug ()Ljava/lang/String;
+	METHOD i debugInfoEntities ()Ljava/lang/String;
 	METHOD j respawn ()V
 	METHOD k renderDebugDisplay ()V
 	METHOD l setIngameNotInFocus ()V

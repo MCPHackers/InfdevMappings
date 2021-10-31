@@ -79,21 +79,21 @@ CLASS net/minecraft/client/a/b net/minecraft/src/RenderGlobal
 		ARG 3 float3
 	METHOD a clipRenderersByFrustrum (Lnet/minecraft/client/a/b/c;)V
 		ARG 1 c
-	METHOD b getInfoRenders ()Ljava/lang/String;
+	METHOD b getDebugInfoRenders ()Ljava/lang/String;
 	METHOD b renderClouds (F)V
 		ARG 1 f
 	METHOD b markRenderersForNewPosition (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b func_949_a (IIIIII)V
+	METHOD b markBlocksForUpdate (IIIIII)V
 		ARG 1 i
 		ARG 2 i2
 		ARG 3 i3
 		ARG 4 i4
 		ARG 5 i5
 		ARG 6 i6
-	METHOD c getInfoEntities ()Ljava/lang/String;
+	METHOD c getDebugInfoEntities ()Ljava/lang/String;
 	METHOD d renderAllRenderLists ()V
 	METHOD e updateClouds ()V
 	METHOD g renderStars ()V

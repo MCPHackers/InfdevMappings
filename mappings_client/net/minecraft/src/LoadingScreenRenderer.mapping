@@ -1,12 +1,12 @@
 CLASS net/minecraft/client/b net/minecraft/src/LoadingScreenRenderer
-	FIELD a field_1004_a Ljava/lang/String;
+	FIELD a currentlyDisplayedProgress Ljava/lang/String;
 	FIELD b mc Lnet/minecraft/client/f;
-	FIELD c field_1007_c Ljava/lang/String;
-	FIELD d field_1006_d J
-	FIELD e field_1005_e Z
+	FIELD c currentlyDisplayedText Ljava/lang/String;
+	FIELD d systemTime J
+	FIELD e printText Z
 	METHOD <init> (Lnet/minecraft/client/f;)V
 		ARG 1 f
 	METHOD a printText (Ljava/lang/String;)V
 		ARG 1 string
-	METHOD c func_597_c (Ljava/lang/String;)V
+	METHOD c drawScreen (Ljava/lang/String;)V
 		ARG 1 string

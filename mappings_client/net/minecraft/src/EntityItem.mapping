@@ -1,7 +1,7 @@
 CLASS net/minecraft/a/c/c/b net/minecraft/src/EntityItem
 	FIELD S delayBeforeCanPickup I
-	FIELD T field_804_d F
-	FIELD U field_803_e I
+	FIELD T hoverStart F
+	FIELD U age2 I
 	FIELD V health I
 	FIELD a item Lnet/minecraft/a/b/o;
 	FIELD b age I

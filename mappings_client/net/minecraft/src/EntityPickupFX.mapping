@@ -1,9 +1,9 @@
 CLASS net/minecraft/client/f/e net/minecraft/src/EntityPickupFX
-	FIELD ad field_675_a Lnet/minecraft/a/c/b;
-	FIELD ae field_679_o Lnet/minecraft/a/c/f;
-	FIELD af field_678_p I
-	FIELD ag field_677_q I
-	FIELD ah field_676_r F
+	FIELD ad entityToPickUp Lnet/minecraft/a/c/b;
+	FIELD ae entityPickingUp Lnet/minecraft/a/c/f;
+	FIELD af age I
+	FIELD ag maxAge I
+	FIELD ah yOffs F
 	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/f;F)V
 		ARG 1 h
 		ARG 2 b

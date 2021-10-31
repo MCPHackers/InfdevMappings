@@ -1,3 +1,0 @@
-CLASS net/minecraft/isom/f net/minecraft/src/IsomWorldRenderer
-	METHOD a (Lnet/minecraft/isom/b;)V
-		ARG 1 IsomWorldChunks

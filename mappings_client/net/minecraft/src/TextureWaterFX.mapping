@@ -1,6 +1,6 @@
 CLASS net/minecraft/client/a/c/g net/minecraft/src/TextureWaterFX
-	FIELD f field_1158_g [F
-	FIELD g field_1157_h [F
-	FIELD h field_1156_i [F
-	FIELD i field_1155_j [F
+	FIELD f red [F
+	FIELD g green [F
+	FIELD h blue [F
+	FIELD i alpha [F
 	FIELD j tickCounter I

@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/f/j net/minecraft/src/EntitySmokeFX
-	FIELD ad field_671_a F
+	FIELD ad smokeParticleScale F
 	METHOD <init> (Lnet/minecraft/a/a/h;DDD)V
 		ARG 1 h
 		ARG 2 double2

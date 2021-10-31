@@ -1,6 +1,6 @@
 CLASS net/minecraft/a/a/b/am net/minecraft/src/BlockSign
 	FIELD a signEntityClass Ljava/lang/Class;
-	FIELD ao block I
+	FIELD ao itemDropID I
 	METHOD <init> (ILjava/lang/Class;I)V
 		ARG 1 tex
 		ARG 2 signClass

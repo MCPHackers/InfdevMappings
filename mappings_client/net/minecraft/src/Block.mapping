@@ -1,5 +1,5 @@
 CLASS net/minecraft/a/a/b/aa net/minecraft/src/Block
-	FIELD A wool Lnet/minecraft/a/a/b/aa;
+	FIELD A cloth Lnet/minecraft/a/a/b/aa;
 	FIELD B plantYellow Lnet/minecraft/a/a/b/ah;
 	FIELD C plantRed Lnet/minecraft/a/a/b/ah;
 	FIELD D mushroomBrown Lnet/minecraft/a/a/b/ah;
@@ -13,10 +13,10 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/src/Block
 	FIELD L bookShelf Lnet/minecraft/a/a/b/aa;
 	FIELD M cobblestoneMossy Lnet/minecraft/a/a/b/aa;
 	FIELD N obsidian Lnet/minecraft/a/a/b/aa;
-	FIELD O torchWood Lnet/minecraft/a/a/b/aa;
+	FIELD O torch Lnet/minecraft/a/a/b/aa;
 	FIELD P fire Lnet/minecraft/a/a/b/an;
-	FIELD Q chest Lnet/minecraft/a/a/b/aa;
-	FIELD R gears Lnet/minecraft/a/a/b/aa;
+	FIELD Q crate Lnet/minecraft/a/a/b/aa;
+	FIELD R cog Lnet/minecraft/a/a/b/aa;
 	FIELD S oreGold Lnet/minecraft/a/a/b/aa;
 	FIELD T blockDiamond Lnet/minecraft/a/a/b/aa;
 	FIELD U workbench Lnet/minecraft/a/a/b/aa;
@@ -24,11 +24,11 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/src/Block
 	FIELD W farmland Lnet/minecraft/a/a/b/aa;
 	FIELD X stoneOvenIdle Lnet/minecraft/a/a/b/aa;
 	FIELD Y stoneOvenActive Lnet/minecraft/a/a/b/aa;
-	FIELD Z signPost Lnet/minecraft/a/a/b/aa;
+	FIELD Z signStanding Lnet/minecraft/a/a/b/aa;
 	FIELD a soundPowderFootstep Lnet/minecraft/a/a/b/o;
 	FIELD aa doorWood Lnet/minecraft/a/a/b/aa;
 	FIELD ab ladder Lnet/minecraft/a/a/b/aa;
-	FIELD ac rail Lnet/minecraft/a/a/b/aa;
+	FIELD ac minecartTrack Lnet/minecraft/a/a/b/aa;
 	FIELD ad blockIndexInTexture I
 	FIELD ae blockID I
 	FIELD af minX D
@@ -48,7 +48,7 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/src/Block
 	FIELD at soundGlassFootstep Lnet/minecraft/a/a/b/o;
 	FIELD au soundClothFootstep Lnet/minecraft/a/a/b/o;
 	FIELD av soundSandFootstep Lnet/minecraft/a/a/b/o;
-	FIELD aw isBlockContainer [Z
+	FIELD aw canBlockGrass [Z
 	FIELD ax blockHardness F
 	FIELD ay blockResistance F
 	FIELD b blocksList [Lnet/minecraft/a/a/b/aa;
@@ -148,7 +148,7 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/src/Block
 		ARG 3 integer3
 		ARG 4 integer4
 		ARG 5 a
-	METHOD a getCollisionBoundingBoxFromPool (Lnet/minecraft/a/a/h;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+	METHOD a collisionRayTrace (Lnet/minecraft/a/a/h;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

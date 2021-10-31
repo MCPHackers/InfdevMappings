@@ -19,8 +19,8 @@ CLASS net/minecraft/a/c/b net/minecraft/src/Entity
 	FIELD R skinUrl Ljava/lang/String;
 	FIELD S ySize F
 	FIELD T inWater Z
-	FIELD U isFirstUpdate Z
-	FIELD a field_9293_aM Z
+	FIELD U firstUpdate Z
+	FIELD a isCollided Z
 	FIELD b nextStepDistance I
 	FIELD c preventEntitySpawning Z
 	FIELD d riddenByEntity Lnet/minecraft/a/c/b;

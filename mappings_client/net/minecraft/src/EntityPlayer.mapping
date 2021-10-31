@@ -1,8 +1,8 @@
 CLASS net/minecraft/a/c/e/a net/minecraft/src/EntityPlayer
-	FIELD S field_9371_f B
+	FIELD S unusedMiningCooldown B
 	FIELD T score I
-	FIELD U field_775_e F
-	FIELD V field_774_f F
+	FIELD U prevCameraYaw F
+	FIELD V cameraYaw F
 	FIELD W username Ljava/lang/String;
 	FIELD a damageRemainder I
 	FIELD b inventory Lnet/minecraft/a/c/e/b;

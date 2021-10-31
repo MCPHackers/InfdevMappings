@@ -13,7 +13,7 @@ CLASS net/minecraft/client/b/d net/minecraft/src/ModelRenderer
 	FIELD l rotationPointZ F
 	FIELD m compiled Z
 	FIELD n displayList I
-	FIELD o field_1402_i Z
+	FIELD o isHidden Z
 	METHOD <init> (II)V
 		ARG 1 integer1
 		ARG 2 integer2

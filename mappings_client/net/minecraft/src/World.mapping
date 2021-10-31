@@ -6,7 +6,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 	FIELD c skylightSubtracted I
 	FIELD d editingBlocks Z
 	FIELD e lightBrightnessTable [F
-	FIELD f player Lnet/minecraft/a/c/b;
+	FIELD f playerEntity Lnet/minecraft/a/c/b;
 	FIELD g difficultySetting I
 	FIELD h rand Ljava/util/Random;
 	FIELD i spawnX I
@@ -42,7 +42,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 		ARG 7 string
 		ARG 8 float5
 		ARG 9 float6
-	METHOD a func_4079_a (F)Lnet/minecraft/a/d/a;
+	METHOD a getSkyColor (F)Lnet/minecraft/a/d/a;
 		ARG 1 float1
 	METHOD a getChunkFromChunkCoords (II)Lnet/minecraft/a/a/c/e;
 		ARG 1 x
@@ -98,7 +98,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 		ARG 8 double5
 		ARG 10 double6
 		ARG 12 double7
-	METHOD a func_636_a (Ljava/util/List;)V
+	METHOD a addLoadedEntities (Ljava/util/List;)V
 		ARG 1 entityList
 	METHOD a addWorldAccess (Lnet/minecraft/a/a/a;)V
 		ARG 1 a
@@ -150,11 +150,11 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 	METHOD a rayTraceBlocks (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
 		ARG 1 a1
 		ARG 2 a2
-	METHOD a func_28105_a (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;Z)Lnet/minecraft/a/d/c;
+	METHOD a rayTraceBlocks_do (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;Z)Lnet/minecraft/a/d/c;
 		ARG 1 a1
 		ARG 2 a2
 		ARG 3 update
-	METHOD a func_675_a (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/b;)F
+	METHOD a getBlockDensity (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/b;)F
 		ARG 1 a
 		ARG 2 aabb
 	METHOD a checkIfAABBIsClear (Lnet/minecraft/a/d/b;)Z
@@ -179,7 +179,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 	METHOD b getHeightValue (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD b func_4031_h (IIII)V
+	METHOD b setBlockMetadata (IIII)V
 		ARG 1 nibble
 		ARG 2 x
 		ARG 3 y
@@ -200,7 +200,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
 		ARG 0 file
 		ARG 1 string
-	METHOD b func_632_b (Ljava/util/List;)V
+	METHOD b unloadEntities (Ljava/util/List;)V
 		ARG 1 entityList
 	METHOD b removeWorldAccess (Lnet/minecraft/a/a/a;)V
 		ARG 1 a
@@ -212,7 +212,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 	METHOD b getIsAnyLiquid (Lnet/minecraft/a/d/b;)Z
 		ARG 1 aabb
 	METHOD c updateEntities ()V
-	METHOD c func_628_d (F)Lnet/minecraft/a/d/a;
+	METHOD c getCloudColor (F)Lnet/minecraft/a/d/a;
 		ARG 1 float1
 	METHOD c getFirstUncoveredBlock (II)I
 		ARG 1 x
@@ -226,7 +226,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 		ARG 1 b
 	METHOD c isBoundingBoxBurning (Lnet/minecraft/a/d/b;)Z
 		ARG 1 aabb
-	METHOD d func_687_d ()Ljava/lang/String;
+	METHOD d getDebugLoadedEntities ()Ljava/lang/String;
 	METHOD d getFogColor (F)Lnet/minecraft/a/d/a;
 		ARG 1 float1
 	METHOD d chunkExists (II)Z
@@ -237,7 +237,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 id
-	METHOD e func_4085_a ()Lnet/minecraft/a/c/b;
+	METHOD e getPlayerEntity ()Lnet/minecraft/a/c/b;
 	METHOD e calculateFogLight (F)F
 		ARG 1 float1
 	METHOD e notifyBlocksOfNeighborChange (IIII)V
@@ -273,7 +273,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 id
-	METHOD i func_656_j ()V
+	METHOD i dropOldChunks ()V
 	METHOD i getBlockLightValue (III)I
 		ARG 1 x
 		ARG 2 y
@@ -295,7 +295,7 @@ CLASS net/minecraft/a/a/h net/minecraft/src/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD m func_698_b (III)V
+	METHOD m updateTileEntityChunkAndDoNothing (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

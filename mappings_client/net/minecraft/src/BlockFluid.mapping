@@ -1,12 +1,12 @@
 CLASS net/minecraft/a/a/b/q net/minecraft/src/BlockFluid
 	FIELD a liquidType I
-	METHOD a func_293_a (Lnet/minecraft/a/a/j;IIILnet/minecraft/a/a/e/c;)D
+	METHOD a getFlowDirection (Lnet/minecraft/a/a/j;IIILnet/minecraft/a/a/e/c;)D
 		ARG 0 j
 		ARG 1 integer2
 		ARG 2 integer3
 		ARG 3 integer4
 		ARG 4 c
-	METHOD b getPercentAir (I)F
+	METHOD b getFluidHeightPercent (I)F
 		ARG 0 air
 	METHOD c getEffectiveFlowDecay (Lnet/minecraft/a/a/j;III)I
 		ARG 1 j

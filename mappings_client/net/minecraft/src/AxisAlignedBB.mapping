@@ -19,7 +19,7 @@ CLASS net/minecraft/a/d/b net/minecraft/src/AxisAlignedBB
 		ARG 5 double3
 	METHOD a isVecInYZ (Lnet/minecraft/a/d/a;)Z
 		ARG 1 a
-	METHOD a func_1169_a (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+	METHOD a calculateIntercept (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
 		ARG 1 a1
 		ARG 2 a2
 	METHOD a intersectsWith (Lnet/minecraft/a/d/b;)Z
@@ -27,7 +27,7 @@ CLASS net/minecraft/a/d/b net/minecraft/src/AxisAlignedBB
 	METHOD a calculateXOffset (Lnet/minecraft/a/d/b;D)D
 		ARG 1 b
 		ARG 2 double2
-	METHOD b notchScreams (DDD)Lnet/minecraft/a/d/b;
+	METHOD b expand (DDD)Lnet/minecraft/a/d/b;
 		ARG 1 double1
 		ARG 3 double2
 		ARG 5 double3
@@ -45,7 +45,7 @@ CLASS net/minecraft/a/d/b net/minecraft/src/AxisAlignedBB
 	METHOD c calculateZOffset (Lnet/minecraft/a/d/b;D)D
 		ARG 1 b
 		ARG 2 double2
-	METHOD d func_28195_e (DDD)Lnet/minecraft/a/d/b;
+	METHOD d offset (DDD)Lnet/minecraft/a/d/b;
 		ARG 1 double1
 		ARG 3 double2
 		ARG 5 double3

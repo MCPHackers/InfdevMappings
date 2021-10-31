@@ -1,8 +1,8 @@
 CLASS net/minecraft/client/c/m net/minecraft/src/GuiIngame
 	FIELD a itemRenderer Lnet/minecraft/client/a/a/e;
-	FIELD b chatMessages Ljava/util/List;
+	FIELD b chatMessageList Ljava/util/List;
 	FIELD c rand Ljava/util/Random;
-	FIELD d game Lnet/minecraft/client/f;
+	FIELD d mc Lnet/minecraft/client/f;
 	FIELD e updateCounter I
 	FIELD f prevVignetteBrightness F
 	METHOD <init> (Lnet/minecraft/client/f;)V
