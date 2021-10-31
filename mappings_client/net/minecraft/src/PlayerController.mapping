@@ -1,13 +1,14 @@
 CLASS aj net/minecraft/src/PlayerController
 	FIELD a mc Law;
 	FIELD b field_1064_b Z
+	METHOD a init ()V
 	METHOD a setPartialTime (F)V
 	METHOD a clickBlock (III)V
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
 	METHOD a sendBlockRemoving (IIII)V
-	METHOD a func_717_a (Lfe;)V
+	METHOD a onWorldChange (Lfe;)V
 	METHOD a flipPlayer (Lgi;)V
 	METHOD b resetBlockRemoving ()V
 	METHOD b sendBlockRemoved (III)Z
@@ -16,5 +17,5 @@ CLASS aj net/minecraft/src/PlayerController
 		ARG 3 zCoord
 	METHOD b func_6473_b (Lgi;)V
 	METHOD c getBlockReachDistance ()F
-	METHOD d updateController ()V
+	METHOD d onUpdate ()V
 	METHOD e shouldDrawHUD ()Z

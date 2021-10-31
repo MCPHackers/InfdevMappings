@@ -1,4 +1,4 @@
-CLASS l net/minecraft/src/BlockOreStorage
+CLASS l net/minecraft/src/BlockOreBlock
 	METHOD <init> (II)V
 		ARG 1 blockid
 		ARG 2 blockIndexInTexture

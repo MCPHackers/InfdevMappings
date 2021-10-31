@@ -1,4 +1,4 @@
-CLASS hk net/minecraft/src/RailLogic
+CLASS hk net/minecraft/src/MinecartTrackLogic
 	FIELD a rail Lbn;
 	FIELD b worldObj Lfe;
 	FIELD c trackX I

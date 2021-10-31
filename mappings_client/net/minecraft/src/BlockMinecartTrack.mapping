@@ -1,4 +1,4 @@
-CLASS bn net/minecraft/src/BlockRail
+CLASS bn net/minecraft/src/BlockMinecartTrack
 	METHOD <init> (II)V
 		ARG 1 blockid
 		ARG 2 blockIndexIntexture

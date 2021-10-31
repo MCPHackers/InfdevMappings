@@ -1,5 +1,5 @@
 CLASS ct net/minecraft/src/BlockLeaves
-	FIELD b textureIndexSlot I
+	FIELD b leafTexIndex I
 	METHOD <init> (II)V
 		ARG 1 blockid
 		ARG 2 blockIndexInTexture

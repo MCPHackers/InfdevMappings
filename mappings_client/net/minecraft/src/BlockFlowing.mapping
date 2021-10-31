@@ -1,4 +1,4 @@
-CLASS ax net/minecraft/src/BlockFluidMoving
+CLASS ax net/minecraft/src/BlockFlowing
 	FIELD a numAdjacentSources I
 	FIELD b isOptimalFlowDirection [Z
 	FIELD c flowCost [I

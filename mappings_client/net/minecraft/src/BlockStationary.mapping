@@ -1,4 +1,4 @@
-CLASS af net/minecraft/src/BlockFluidStill
+CLASS af net/minecraft/src/BlockStationary
 	METHOD h updateTick (Lfe;III)V
 		ARG 1 world
 		ARG 2 xCoord

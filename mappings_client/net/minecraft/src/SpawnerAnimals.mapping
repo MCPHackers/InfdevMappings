@@ -1,0 +1,2 @@
+CLASS ck net/minecraft/src/SpawnerAnimals
+	METHOD a onUpdate (Lfe;)V
