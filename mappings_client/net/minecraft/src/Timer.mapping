@@ -1,4 +1,4 @@
-CLASS cc
+CLASS cc net/minecraft/src/Timer
 	FIELD b elapsedTicks I
 	FIELD c renderPartialTicks F
 	METHOD a updateTimer ()V

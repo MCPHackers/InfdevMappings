@@ -1,19 +1,19 @@
-CLASS et net/minecraft/src/BlockStair
+CLASS et net/minecraft/src/BlockStairs
 	FIELD a modelBlock Lgs;
 	METHOD <init> (ILgs;)V
 		ARG 1 blockid
 		ARG 2 block
-	METHOD g (Lfe;III)V
+	METHOD g updateState (Lfe;III)V
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD h (Lfe;III)Z
+	METHOD h isBlockSolid (Lfe;III)Z
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD i (Lfe;III)Z
+	METHOD i isBlockStair (Lfe;III)Z
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord

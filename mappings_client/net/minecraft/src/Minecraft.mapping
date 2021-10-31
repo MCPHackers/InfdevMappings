@@ -32,7 +32,7 @@ CLASS aw net/minecraft/src/Minecraft
 	FIELD i sessionData Lgg;
 	FIELD j minecraftUri Ljava/lang/String;
 	FIELD k mcCanvas Ljava/awt/Canvas;
-	FIELD l hideQuitButton Z
+	FIELD l appletMode Z
 	FIELD m isGamePaused Z
 	FIELD n renderEngine Lid;
 	FIELD o fontRenderer Lej;
@@ -43,7 +43,7 @@ CLASS aw net/minecraft/src/Minecraft
 	FIELD t rightClickDelayTimer I
 	FIELD u ingameGUI Lgl;
 	FIELD v skipRenderWorld Z
-	FIELD w field_9242_w Lfg;
+	FIELD w playerModelBiped Lfg;
 	FIELD x objectMouseOver Lhb;
 	FIELD y gameSettings Lja;
 	FIELD z mcApplet Lnet/minecraft/client/MinecraftApplet;
@@ -63,7 +63,7 @@ CLASS aw net/minecraft/src/Minecraft
 	METHOD c shutdownMinecraftApplet ()V
 	METHOD c checkGLError (Ljava/lang/String;)V
 	METHOD d shutdown ()V
-	METHOD d func_6255_d (Ljava/lang/String;)V
+	METHOD d preloadWorld (Ljava/lang/String;)V
 	METHOD e setIngameFocus ()V
 	METHOD f setIngameNotInFocus ()V
 	METHOD g displayInGameMenu ()V
@@ -72,7 +72,7 @@ CLASS aw net/minecraft/src/Minecraft
 	METHOD j isMultiplayerWorld ()Z
 	METHOD k getOpenGlCapsChecker ()Lcu;
 	METHOD l debugInfoRenders ()Ljava/lang/String;
-	METHOD m func_6262_n ()Ljava/lang/String;
+	METHOD m getEntityDebug ()Ljava/lang/String;
 	METHOD n debugInfoEntities ()Ljava/lang/String;
 	METHOD o respawn ()V
 	METHOD p loadScreen ()V

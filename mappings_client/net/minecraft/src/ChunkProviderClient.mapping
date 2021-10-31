@@ -1,5 +1,0 @@
-CLASS ey net/minecraft/src/ChunkProviderClient
-	FIELD a byteSomething [B
-	FIELD b blankChunk [Ljw;
-	FIELD c worldObj Lfe;
-	FIELD d chunkLoader Lbg;

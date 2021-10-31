@@ -15,6 +15,7 @@ CLASS fe net/minecraft/src/World
 	FIELD k y I
 	FIELD l z I
 	FIELD m isNewWorld Z
+	FIELD n randomSeed J
 	FIELD o setSizeOnDisk J
 	FIELD q lightingToUpdate Ljava/util/List;
 	FIELD r loadedEntityList Ljava/util/List;
@@ -22,6 +23,7 @@ CLASS fe net/minecraft/src/World
 	FIELD t scheduledTickTreeSet Ljava/util/TreeSet;
 	FIELD u scheduledTickSet Ljava/util/Set;
 	FIELD x field_1019_F J
+	METHOD a setSpawnLocation ()V
 	METHOD a playSoundEffect (DDDLjava/lang/String;F)V
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
 		ARG 1 xCoord

@@ -1,4 +1,4 @@
-CLASS jx net/minecraft/src/BlockSlab
+CLASS jx net/minecraft/src/BlockStep
 	FIELD a blockType Z
 	METHOD <init> (IZ)V
 		ARG 1 blockid

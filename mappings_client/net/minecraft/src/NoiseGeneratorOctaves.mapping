@@ -1,2 +1,5 @@
 CLASS gc net/minecraft/src/NoiseGeneratorOctaves
+	METHOD a generateNoiseOctaves (DD)D
+	METHOD a generateNoiseOctaves (DDD)D
 	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D
+	METHOD a generateNoiseOctaves ([DIIIIIIDDD)[D

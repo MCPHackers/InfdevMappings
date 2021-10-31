@@ -1,0 +1,4 @@
+CLASS fm net/minecraft/src/ThreadDownloadImage
+	FIELD a location Ljava/lang/String;
+	FIELD b buffer Lp;
+	FIELD c imageData Lei;

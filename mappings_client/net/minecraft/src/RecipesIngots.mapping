@@ -1,3 +1,3 @@
-CLASS fr net/minecraft/src/RecipesOreBlocks
+CLASS fr net/minecraft/src/RecipesIngots
 	FIELD a recipeItems [[Ljava/lang/Object;
 	METHOD a addRecipes (Lgy;)V

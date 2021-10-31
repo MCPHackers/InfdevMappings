@@ -1,0 +1,15 @@
+CLASS fi net/minecraft/src/RenderList
+	FIELD a posX I
+	FIELD b posY I
+	FIELD c posZ I
+	FIELD d playerPosX F
+	FIELD e playerPosY F
+	FIELD f playerPosZ F
+	FIELD g buffer Ljava/nio/IntBuffer;
+	FIELD h render Z
+	FIELD i isCached Z
+	METHOD a render ()V
+	METHOD a render (I)V
+	METHOD a isRenderedAt (III)Z
+	METHOD a setLocation (IIIDDD)V
+	METHOD b reset ()V

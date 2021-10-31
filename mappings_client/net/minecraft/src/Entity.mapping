@@ -12,6 +12,7 @@ CLASS eq net/minecraft/src/Entity
 	FIELD K stepHeight F
 	FIELD L noClip Z
 	FIELD M entityCollisionReduction F
+	FIELD N unusedBool Z
 	FIELD O rand Ljava/util/Random;
 	FIELD P ticksExisted I
 	FIELD Q fireResistance I
@@ -45,8 +46,8 @@ CLASS eq net/minecraft/src/Entity
 	FIELD t boundingBox Len;
 	FIELD u onGround Z
 	FIELD v isCollidedHorizontally Z
-	FIELD w beenAttacked Z
-	FIELD x field_9293_aM Z
+	FIELD w isCollided Z
+	FIELD x surfaceCollision Z
 	FIELD y isDead Z
 	FIELD z yOffset F
 	METHOD <init> (Lfe;)V

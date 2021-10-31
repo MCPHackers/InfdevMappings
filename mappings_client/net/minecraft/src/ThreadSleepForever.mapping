@@ -1,0 +1,2 @@
+CLASS ir net/minecraft/src/ThreadSleepForever
+	FIELD a mc Law;

@@ -1,2 +1,0 @@
-CLASS ik net/minecraft/src/RecipesUtilities
-	METHOD a addRecipes (Lgy;)V

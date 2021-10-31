@@ -1,0 +1,6 @@
+CLASS ey net/minecraft/src/ChunkProviderIso
+	FIELD a blocks [B
+	FIELD b chunks [Ljw;
+	FIELD c worldObj Lfe;
+	FIELD d chunkLoader Lbg;
+	METHOD c getChunkAt (II)Ljw;

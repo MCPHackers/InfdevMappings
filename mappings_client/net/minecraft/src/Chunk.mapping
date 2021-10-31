@@ -7,7 +7,7 @@ CLASS jw net/minecraft/src/Chunk
 	FIELD f skylightMap Lic;
 	FIELD g blocklightMap Lic;
 	FIELD h heightMap [B
-	FIELD i lowestBlockHeight I
+	FIELD i height I
 	FIELD j xPosition I
 	FIELD k zPosition I
 	FIELD l chunkTileEntityMap Ljava/util/Map;
@@ -15,6 +15,7 @@ CLASS jw net/minecraft/src/Chunk
 	FIELD n isTerrainPopulated Z
 	FIELD o isModified Z
 	FIELD p neverSave Z
+	FIELD q isChunkRendered Z
 	FIELD r hasEntities Z
 	FIELD s lastSaveTime J
 	METHOD <init> (Lfe;II)V
@@ -26,7 +27,7 @@ CLASS jw net/minecraft/src/Chunk
 		ARG 2 byteArray
 		ARG 3 xCoord
 		ARG 4 zCoord
-	METHOD a func_1014_a ()V
+	METHOD a doNothing ()V
 	METHOD a isAtLocation (II)Z
 		ARG 1 xCoord
 		ARG 2 zCoord
@@ -54,7 +55,7 @@ CLASS jw net/minecraft/src/Chunk
 	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Len;Ljava/util/List;)V
 		ARG 2 aabb
 	METHOD a needsSaving (Z)Z
-	METHOD b generateSkylightMap ()V
+	METHOD b generateHeightMap ()V
 	METHOD b getHeightValue (II)I
 		ARG 1 nya1
 		ARG 2 nya2
@@ -63,7 +64,7 @@ CLASS jw net/minecraft/src/Chunk
 	METHOD b removeEntity (Leq;)V
 		ARG 1 entity
 	METHOD c onChunkLoad ()V
-	METHOD c propagateSkylightOcclusion (II)V
+	METHOD c updateSkylight_do (II)V
 	METHOD c canBlockSeeTheSky (III)Z
 	METHOD c getBlockLightValue (IIII)I
 	METHOD d onChunkUnload ()V
