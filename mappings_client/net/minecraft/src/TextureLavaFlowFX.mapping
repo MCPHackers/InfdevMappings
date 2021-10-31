@@ -1,6 +1,0 @@
-CLASS net/minecraft/client/a/c/f net/minecraft/src/TextureLavaFlowFX
-	FIELD f red [F
-	FIELD g green [F
-	FIELD h blue [F
-	FIELD i alpha [F
-	FIELD j tickCounter I

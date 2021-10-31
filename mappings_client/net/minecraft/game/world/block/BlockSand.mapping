@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/b/z net/minecraft/game/world/block/BlockSand
+	FIELD a fallInstantly Z
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex

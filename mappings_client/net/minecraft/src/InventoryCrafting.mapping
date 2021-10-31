@@ -1,8 +1,0 @@
-CLASS net/minecraft/client/c/a/a net/minecraft/src/InventoryCrafting
-	FIELD a stackList [Lnet/minecraft/a/b/o;
-	FIELD b gridSize I
-	FIELD c craftingInventory Lnet/minecraft/client/c/a/j;
-	METHOD <init> (Lnet/minecraft/client/c/a/j;II)V
-		ARG 1 j
-		ARG 2 integer2
-		ARG 3 integer3

@@ -1,0 +1,20 @@
+CLASS net/minecraft/client/a/a/e net/minecraft/client/render/entity/RenderItem
+	FIELD d renderBlocks Lnet/minecraft/client/a/f;
+	FIELD e random Ljava/util/Random;
+	METHOD a renderQuad (Lnet/minecraft/client/a/d;IIIII)V
+		ARG 0 t
+		ARG 1 x
+		ARG 2 y
+		ARG 3 x1
+		ARG 4 y1
+		ARG 5 color
+	METHOD a renderItemIntoGUI (Lnet/minecraft/client/a/l;Lnet/minecraft/a/b/o;II)V
+		ARG 1 renderEngine
+		ARG 2 item
+		ARG 3 x
+		ARG 4 y
+	METHOD a renderItemOverlayIntoGUI (Lnet/minecraft/client/c/k;Lnet/minecraft/a/b/o;II)V
+		ARG 1 k
+		ARG 2 o
+		ARG 3 x
+		ARG 4 y

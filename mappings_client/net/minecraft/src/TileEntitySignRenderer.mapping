@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/a/d/a net/minecraft/src/TileEntitySignRenderer
-	FIELD a modelSign Lnet/minecraft/client/b/e;

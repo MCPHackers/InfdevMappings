@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/a/a/k net/minecraft/client/render/entity/RenderFallingSand
+	FIELD d renderBlocks Lnet/minecraft/client/a/f;

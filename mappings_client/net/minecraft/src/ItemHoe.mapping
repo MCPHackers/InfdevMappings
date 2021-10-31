@@ -1,4 +1,0 @@
-CLASS net/minecraft/a/b/r net/minecraft/src/ItemHoe
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 damage

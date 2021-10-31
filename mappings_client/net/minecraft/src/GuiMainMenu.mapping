@@ -1,4 +1,0 @@
-CLASS net/minecraft/client/v net/minecraft/src/GuiMainMenu
-	FIELD g frames F
-	FIELD h splashes [Ljava/lang/String;
-	FIELD j splashString Ljava/lang/String;

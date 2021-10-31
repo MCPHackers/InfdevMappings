@@ -1,0 +1,32 @@
+CLASS net/minecraft/client/e/c net/minecraft/client/sound/SoundManager
+	FIELD a sndSystem Lpaulscode/sound/SoundSystem;
+	FIELD b soundPoolSounds Lnet/minecraft/client/e/b;
+	FIELD c soundPoolMusic Lnet/minecraft/client/e/b;
+	FIELD d playedSoundsCount I
+	FIELD e options Lnet/minecraft/client/u;
+	FIELD f loaded Z
+	METHOD a onSoundOptionsChanged ()V
+	METHOD a playSoundFX (Ljava/lang/String;FF)V
+		ARG 1 string
+		ARG 2 float2
+		ARG 3 float3
+	METHOD a playSound (Ljava/lang/String;FFFFF)V
+		ARG 1 string
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 float4
+		ARG 5 float5
+		ARG 6 float6
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 sound
+		ARG 2 file
+	METHOD a setListener (Lnet/minecraft/a/c/f;F)V
+		ARG 1 entity
+		ARG 2 f
+	METHOD a loadSoundSettings (Lnet/minecraft/client/u;)V
+		ARG 1 u
+	METHOD b closeMinecraft ()V
+	METHOD b addMusic (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 sound
+		ARG 2 file
+	METHOD c tryToSetLibraryAndCodecs ()V

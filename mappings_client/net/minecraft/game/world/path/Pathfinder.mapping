@@ -1,0 +1,41 @@
+CLASS net/minecraft/a/a/a/c net/minecraft/game/world/path/Pathfinder
+	FIELD a worldMap Lnet/minecraft/a/a/j;
+	FIELD b path Lnet/minecraft/a/a/a/d;
+	FIELD c pointMap Ljava/util/Map;
+	FIELD d pathOptions [Lnet/minecraft/a/a/a/a;
+	METHOD <init> (Lnet/minecraft/a/a/j;)V
+		ARG 1 j
+	METHOD a openPoint (III)Lnet/minecraft/a/a/a/a;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a findPathOptions (IIILnet/minecraft/a/a/a/a;)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 point
+	METHOD a createEntityPath (Lnet/minecraft/a/a/a/a;)Lnet/minecraft/a/a/a/b;
+		ARG 0 point
+	METHOD a createEntityPathTo (Lnet/minecraft/a/c/b;DDDF)Lnet/minecraft/a/a/a/b;
+		ARG 1 b
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 range
+	METHOD a createEntityPathTo (Lnet/minecraft/a/c/b;IIIF)Lnet/minecraft/a/a/a/b;
+		ARG 1 b
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 range
+	METHOD a getSafePoint (Lnet/minecraft/a/c/b;IIILnet/minecraft/a/a/a/a;I)Lnet/minecraft/a/a/a/a;
+		ARG 1 b
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 point
+		ARG 6 i
+	METHOD a createEntityPathTo (Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/b;F)Lnet/minecraft/a/a/a/b;
+		ARG 1 b1
+		ARG 2 b2
+		ARG 3 f

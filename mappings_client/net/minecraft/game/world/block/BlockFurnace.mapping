@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/b/u net/minecraft/game/world/block/BlockFurnace
+	FIELD a isActive Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 flag

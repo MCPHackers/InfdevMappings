@@ -1,0 +1,34 @@
+CLASS net/minecraft/client/c/i net/minecraft/client/gui/GuiScreen
+	FIELD a mc Lnet/minecraft/client/f;
+	FIELD b width I
+	FIELD c height I
+	FIELD d controlList Ljava/util/List;
+	FIELD e allowUserInput Z
+	FIELD f fontRenderer Lnet/minecraft/client/c/k;
+	METHOD a onGuiClosed ()V
+	METHOD a keyTyped (CI)V
+		ARG 1 character
+		ARG 2 integer
+	METHOD a drawScreen (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 float3
+	METHOD a mouseClicked (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 id
+	METHOD a actionPerformed (Lnet/minecraft/client/c/o;)V
+		ARG 1 button
+	METHOD a setWorldAndResolution (Lnet/minecraft/client/f;II)V
+		ARG 1 game
+		ARG 2 w
+		ARG 3 h
+	METHOD a deleteWorld (ZI)V
+		ARG 1 boolean1
+		ARG 2 id
+	METHOD b initGui ()V
+	METHOD c doesGuiPauseGame ()Z
+	METHOD e handleMouseInput ()V
+	METHOD f handleKeyboardInput ()V
+	METHOD g updateScreen ()V
+	METHOD h drawDefaultBackground ()V

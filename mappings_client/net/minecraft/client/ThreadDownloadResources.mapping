@@ -1,0 +1,11 @@
+CLASS net/minecraft/client/l net/minecraft/client/ThreadDownloadResources
+	FIELD a folder Ljava/io/File;
+	FIELD b mc Lnet/minecraft/client/f;
+	FIELD c finished Z
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/f;)V
+		ARG 1 file
+		ARG 2 minecraft
+	METHOD a clearApplet ()V
+	METHOD a writeFiles (Ljava/net/URL;Ljava/io/File;)V
+		ARG 1 uRL
+		ARG 2 file

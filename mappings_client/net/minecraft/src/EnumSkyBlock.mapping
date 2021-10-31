@@ -1,6 +1,0 @@
-CLASS net/minecraft/a/a/e net/minecraft/src/EnumSkyBlock
-	FIELD a Sky Lnet/minecraft/a/a/e;
-	FIELD b Block Lnet/minecraft/a/a/e;
-	FIELD c defaultLightValue I
-	METHOD <init> (Ljava/lang/String;II)V
-		ARG 3 value

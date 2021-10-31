@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/b/a/f net/minecraft/game/item/recipe/CraftingManager
+	FIELD a instance Lnet/minecraft/a/b/a/f;
+	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Lnet/minecraft/a/b/a/f;
+	METHOD a addRecipe (Lnet/minecraft/a/b/o;[Ljava/lang/Object;)V
+		ARG 1 stack
+		ARG 2 slots
+	METHOD a findMatchingRecipe ([I)Lnet/minecraft/a/b/o;
+		ARG 1 slots

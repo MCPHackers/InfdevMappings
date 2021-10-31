@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/a/b/a/d net/minecraft/src/TileEntitySign
-	FIELD e signText [Ljava/lang/String;
-	FIELD f lineBeingEdited I

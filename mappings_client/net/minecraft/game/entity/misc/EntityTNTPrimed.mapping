@@ -1,0 +1,7 @@
+CLASS net/minecraft/a/c/c/a net/minecraft/game/entity/misc/EntityTNTPrimed
+	FIELD a fuse I
+	METHOD <init> (Lnet/minecraft/a/a/h;FFF)V
+		ARG 1 h
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/a/b/ad net/minecraft/src/BlockLog
-	METHOD <init> (I)V
-		ARG 1 id

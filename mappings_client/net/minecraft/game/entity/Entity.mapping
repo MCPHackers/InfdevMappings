@@ -1,0 +1,132 @@
+CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
+	FIELD A prevDistanceWalkedModified F
+	FIELD B distanceWalkedModified F
+	FIELD C canTriggerWalking Z
+	FIELD D fallDistance F
+	FIELD E lastTickPosX D
+	FIELD F lastTickPosY D
+	FIELD G lastTickPosZ D
+	FIELD H stepHeight F
+	FIELD I noClip Z
+	FIELD J entityCollisionReduction F
+	FIELD K rand Ljava/util/Random;
+	FIELD L ticksExisted I
+	FIELD M fireResistance I
+	FIELD N fire I
+	FIELD O maxAir I
+	FIELD P heartsLife I
+	FIELD Q air I
+	FIELD R skinUrl Ljava/lang/String;
+	FIELD S ySize F
+	FIELD T inWater Z
+	FIELD U firstUpdate Z
+	FIELD a surfaceCollision Z
+	FIELD b nextStepDistance I
+	FIELD c preventEntitySpawning Z
+	FIELD d riddenByEntity Lnet/minecraft/a/c/b;
+	FIELD e ridingEntity Lnet/minecraft/a/c/b;
+	FIELD f worldObj Lnet/minecraft/a/a/h;
+	FIELD g prevPosX D
+	FIELD h prevPosY D
+	FIELD i prevPosZ D
+	FIELD j posX D
+	FIELD k posY D
+	FIELD l posZ D
+	FIELD m motionZ D
+	FIELD n motionY D
+	FIELD o motionX D
+	FIELD p rotationYaw F
+	FIELD q rotationPitch F
+	FIELD r prevRotationYaw F
+	FIELD s prevRotationPitch F
+	FIELD t boundingBox Lnet/minecraft/a/d/b;
+	FIELD u onGround Z
+	FIELD v isCollidedHorizontally Z
+	FIELD w isDead Z
+	FIELD x yOffset F
+	FIELD y width F
+	FIELD z height F
+	METHOD <init> (Lnet/minecraft/a/a/h;)V
+		ARG 1 h
+	METHOD a setPosition (DDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD a getEntityBrightness (F)F
+		ARG 1 float1
+	METHOD a setSize (FF)V
+		ARG 1 float1
+		ARG 2 float2
+	METHOD a entityDropItem (IIF)Lnet/minecraft/a/c/c/b;
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 float3
+	METHOD a writeEntityToNBT (Lcom/a/a/c;)V
+		ARG 1 c
+	METHOD a isInsideOfMaterial (Lnet/minecraft/a/a/e/c;)Z
+		ARG 1 c
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z
+		ARG 1 b
+		ARG 2 integer
+	METHOD a onCollideWithPlayer (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD a newDoubleNBTList ([D)Lcom/a/a/f;
+		ARG 0 arr
+	METHOD b isOffsetPositionInLiquid (DDD)Z
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD b setLocationAndAngles (DDDFF)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+		ARG 7 float4
+		ARG 8 float5
+	METHOD b updateFallen (F)V
+		ARG 1 float1
+	METHOD b moveFlying (FFF)V
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+	METHOD b dealFireDamage (I)V
+		ARG 1 integer
+	METHOD b dropItemWithOffset (II)Lnet/minecraft/a/c/c/b;
+		ARG 1 integer1
+		ARG 2 integer2
+	METHOD b readEntityFromNBT (Lcom/a/a/c;)V
+		ARG 1 c
+	METHOD b getDistanceToEntity (Lnet/minecraft/a/c/b;)D
+		ARG 1 b
+	METHOD b_ onUpdate ()V
+	METHOD c moveEntity (DDD)V
+		ARG 1 d
+		ARG 3 d1
+		ARG 5 d2
+	METHOD c addEntityID (Lcom/a/a/c;)Z
+		ARG 1 c
+	METHOD c applyEntityCollision (Lnet/minecraft/a/c/b;)V
+		ARG 1 b
+	METHOD d addVelocity (DDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD d writeToNBT (Lcom/a/a/c;)V
+		ARG 1 c
+	METHOD d getCollisionBox (Lnet/minecraft/a/c/b;)Lnet/minecraft/a/d/b;
+		ARG 1 b
+	METHOD e readFromNBT (Lcom/a/a/c;)V
+		ARG 1 c
+	METHOD h_ canBeCollidedWith ()Z
+	METHOD i preparePlayerToSpawn ()V
+	METHOD j setEntityDead ()V
+	METHOD k onEntityUpdate ()V
+	METHOD l kill ()V
+	METHOD m getBoundingBox ()Lnet/minecraft/a/d/b;
+	METHOD n handleWaterMovement ()Z
+	METHOD o getEyeHeight ()F
+	METHOD p handleLavaMovement ()Z
+	METHOD q canBePushed ()Z
+	METHOD r getEntityTexture ()Ljava/lang/String;
+	METHOD s isEntityAlive ()Z
+	METHOD t isEntityInsideOpaqueBlock ()Z
+	METHOD u updateRidden ()V

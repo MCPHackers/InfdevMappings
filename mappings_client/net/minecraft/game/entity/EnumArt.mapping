@@ -1,0 +1,31 @@
+CLASS net/minecraft/a/c/d net/minecraft/game/entity/EnumArt
+	FIELD a Kebab Lnet/minecraft/a/c/d;
+	FIELD b title Ljava/lang/String;
+	FIELD c sizeX I
+	FIELD d sizeY I
+	FIELD e offsetX I
+	FIELD f offsetY I
+	FIELD g Aztec Lnet/minecraft/a/c/d;
+	FIELD h Alban Lnet/minecraft/a/c/d;
+	FIELD i Aztec2 Lnet/minecraft/a/c/d;
+	FIELD j Bomb Lnet/minecraft/a/c/d;
+	FIELD k Plant Lnet/minecraft/a/c/d;
+	FIELD l Wasteland Lnet/minecraft/a/c/d;
+	FIELD m Pool Lnet/minecraft/a/c/d;
+	FIELD n Courbet Lnet/minecraft/a/c/d;
+	FIELD o Sea Lnet/minecraft/a/c/d;
+	FIELD p Sunset Lnet/minecraft/a/c/d;
+	FIELD q Wanderer Lnet/minecraft/a/c/d;
+	FIELD r Match Lnet/minecraft/a/c/d;
+	FIELD s Bust Lnet/minecraft/a/c/d;
+	FIELD t Stage Lnet/minecraft/a/c/d;
+	FIELD u Void Lnet/minecraft/a/c/d;
+	FIELD v SkullAndRoses Lnet/minecraft/a/c/d;
+	FIELD w Fighters Lnet/minecraft/a/c/d;
+	FIELD x Pointer Lnet/minecraft/a/c/d;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 string3
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 integer6
+		ARG 7 integer7

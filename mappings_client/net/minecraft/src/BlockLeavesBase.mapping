@@ -1,7 +1,0 @@
-CLASS net/minecraft/a/a/b/f net/minecraft/src/BlockLeavesBase
-	FIELD a graphicsLevel Z
-	METHOD <init> (IILnet/minecraft/a/a/e/c;Z)V
-		ARG 1 id
-		ARG 2 tex
-		ARG 3 mat
-		ARG 4 flag

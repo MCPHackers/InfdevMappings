@@ -1,6 +1,0 @@
-CLASS net/minecraft/client/f/i net/minecraft/src/EntityRainFX
-	METHOD <init> (Lnet/minecraft/a/a/h;DDD)V
-		ARG 1 h
-		ARG 2 double2
-		ARG 4 double3
-		ARG 6 double4

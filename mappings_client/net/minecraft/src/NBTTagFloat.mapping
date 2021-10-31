@@ -1,4 +1,0 @@
-CLASS com/a/a/b net/minecraft/src/NBTTagFloat
-	FIELD a floatValue F
-	METHOD <init> (F)V
-		ARG 1 f

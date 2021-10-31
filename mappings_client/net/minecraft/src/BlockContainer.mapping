@@ -1,2 +1,0 @@
-CLASS net/minecraft/a/a/b/s net/minecraft/src/BlockContainer
-	METHOD a_ getBlockEntity ()Lnet/minecraft/a/a/b/a/a;

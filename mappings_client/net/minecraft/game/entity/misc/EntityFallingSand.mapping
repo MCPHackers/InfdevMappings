@@ -1,0 +1,10 @@
+CLASS net/minecraft/a/c/c/c net/minecraft/game/entity/misc/EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD <init> (Lnet/minecraft/a/a/h;FFFI)V
+		ARG 1 h
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+	METHOD b getWorld ()Lnet/minecraft/a/a/h;

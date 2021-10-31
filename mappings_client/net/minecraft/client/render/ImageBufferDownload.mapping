@@ -1,0 +1,16 @@
+CLASS net/minecraft/client/a/c net/minecraft/client/render/ImageBufferDownload
+	FIELD a imageData [I
+	FIELD b imageWidth I
+	FIELD c imageHeight I
+	METHOD a setAreaTransparent (IIII)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+	METHOD a parseUserSkin (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 bufferedImage
+	METHOD b setAreaOpaque (IIII)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4

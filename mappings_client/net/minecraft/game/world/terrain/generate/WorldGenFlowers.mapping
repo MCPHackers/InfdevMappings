@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/a/d/b/a net/minecraft/game/world/terrain/generate/WorldGenFlowers
+	FIELD a plantBlockId I
+	METHOD <init> (I)V
+		ARG 1 id

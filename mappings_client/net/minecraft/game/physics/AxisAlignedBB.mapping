@@ -1,0 +1,51 @@
+CLASS net/minecraft/a/d/b net/minecraft/game/physics/AxisAlignedBB
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	METHOD <init> (DDDDDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+		ARG 7 double4
+		ARG 9 double5
+		ARG 11 double6
+	METHOD a copy ()Lnet/minecraft/a/d/b;
+	METHOD a addCoord (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD a isVecInYZ (Lnet/minecraft/a/d/a;)Z
+		ARG 1 a
+	METHOD a calculateIntercept (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+		ARG 1 a1
+		ARG 2 a2
+	METHOD a intersectsWith (Lnet/minecraft/a/d/b;)Z
+		ARG 1 b
+	METHOD a calculateXOffset (Lnet/minecraft/a/d/b;D)D
+		ARG 1 b
+		ARG 2 double2
+	METHOD b expand (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD b isVecInXZ (Lnet/minecraft/a/d/a;)Z
+		ARG 1 a
+	METHOD b calculateYOffset (Lnet/minecraft/a/d/b;D)D
+		ARG 1 b
+		ARG 2 double2
+	METHOD c getOffsetBoundingBox (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD c isVecInXY (Lnet/minecraft/a/d/a;)Z
+		ARG 1 a
+	METHOD c calculateZOffset (Lnet/minecraft/a/d/b;D)D
+		ARG 1 b
+		ARG 2 double2
+	METHOD d offset (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3

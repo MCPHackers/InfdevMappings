@@ -1,0 +1,44 @@
+CLASS net/minecraft/client/u net/minecraft/client/GameSettings
+	FIELD A mc Lnet/minecraft/client/f;
+	FIELD B optionsFile Ljava/io/File;
+	FIELD a music Z
+	FIELD b sound Z
+	FIELD c invertMouse Z
+	FIELD d showFPS Z
+	FIELD e renderDistance I
+	FIELD f viewBobbing Z
+	FIELD g anaglyph Z
+	FIELD h limitFramerate Z
+	FIELD i fancyGraphics Z
+	FIELD j keyBindForward Lnet/minecraft/client/j;
+	FIELD k keyBindLeft Lnet/minecraft/client/j;
+	FIELD l keyBindBack Lnet/minecraft/client/j;
+	FIELD m keyBindRight Lnet/minecraft/client/j;
+	FIELD n keyBindJump Lnet/minecraft/client/j;
+	FIELD o keyBindInventory Lnet/minecraft/client/j;
+	FIELD p keyBindDrop Lnet/minecraft/client/j;
+	FIELD q keyBindToggleFog Lnet/minecraft/client/j;
+	FIELD r keyBindSave Lnet/minecraft/client/j;
+	FIELD s keyBindLoad Lnet/minecraft/client/j;
+	FIELD t keyBindings [Lnet/minecraft/client/j;
+	FIELD u numberOfOptions I
+	FIELD v difficulty I
+	FIELD w thirdPersonView Z
+	FIELD x RENDER_DISTANCES [Ljava/lang/String;
+	FIELD y DIFFICULTIES [Ljava/lang/String;
+	FIELD z keyBindChat Lnet/minecraft/client/j;
+	METHOD <init> (Lnet/minecraft/client/f;Ljava/io/File;)V
+		ARG 1 f
+		ARG 2 file
+	METHOD a saveOptions ()V
+	METHOD a getKeyBindingDescription (I)Ljava/lang/String;
+		ARG 1 option
+	METHOD a setKeyBinding (II)V
+		ARG 1 i
+		ARG 2 newKey
+	METHOD b loadOptions ()V
+	METHOD b getKeyBinding (I)Ljava/lang/String;
+		ARG 1 id
+	METHOD b setOptionValue (II)V
+		ARG 1 id
+		ARG 2 type

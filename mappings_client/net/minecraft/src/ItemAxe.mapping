@@ -1,5 +1,0 @@
-CLASS net/minecraft/a/b/j net/minecraft/src/ItemAxe
-	FIELD aA blocksEffectiveAgainst [Lnet/minecraft/a/a/b/aa;
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 mat

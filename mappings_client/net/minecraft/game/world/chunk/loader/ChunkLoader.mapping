@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/a/c/a/e net/minecraft/game/world/chunk/loader/ChunkLoader
+	FIELD a saveDir Ljava/io/File;
+	FIELD b createIfNecessary Z
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 file
+		ARG 2 boolean2
+	METHOD a chunkFileForXZ (II)Ljava/io/File;
+		ARG 1 x
+		ARG 2 z
+	METHOD a storeChunkInCompound (Lnet/minecraft/a/a/c/e;Lnet/minecraft/a/a/h;Lcom/a/a/c;)V
+		ARG 0 e
+		ARG 1 h
+		ARG 2 c
+	METHOD a loadChunkIntoWorldFromCompound (Lnet/minecraft/a/a/h;Lcom/a/a/c;)Lnet/minecraft/a/a/c/e;
+		ARG 0 h
+		ARG 1 c

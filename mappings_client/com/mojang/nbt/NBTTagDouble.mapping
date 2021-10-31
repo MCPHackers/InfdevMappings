@@ -1,0 +1,4 @@
+CLASS com/a/a/g com/mojang/nbt/NBTTagDouble
+	FIELD a doubleValue D
+	METHOD <init> (D)V
+		ARG 1 d

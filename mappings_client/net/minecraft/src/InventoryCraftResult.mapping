@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/c/a/h net/minecraft/src/InventoryCraftResult
-	FIELD a stackResult [Lnet/minecraft/a/b/o;

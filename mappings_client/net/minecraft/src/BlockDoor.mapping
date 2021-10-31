@@ -1,5 +1,0 @@
-CLASS net/minecraft/a/a/b/al net/minecraft/src/BlockDoor
-	METHOD <init> (I)V
-		ARG 1 id
-	METHOD b getState (I)I
-		ARG 0 id

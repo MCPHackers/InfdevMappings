@@ -1,0 +1,34 @@
+CLASS net/minecraft/a/b/o net/minecraft/game/item/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d itemDamage I
+	METHOD <init> (I)V
+		ARG 1 integer
+	METHOD <init> (II)V
+		ARG 1 integer1
+		ARG 2 integer2
+	METHOD <init> (III)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD <init> (Lcom/a/a/c;)V
+		ARG 1 c
+	METHOD <init> (Lnet/minecraft/a/a/b/aa;)V
+		ARG 1 aa
+	METHOD <init> (Lnet/minecraft/a/a/b/aa;I)V
+		ARG 1 aa
+		ARG 2 id
+	METHOD <init> (Lnet/minecraft/a/b/k;)V
+		ARG 1 k
+	METHOD <init> (Lnet/minecraft/a/b/k;I)V
+		ARG 1 k
+		ARG 2 id
+	METHOD a getItem ()Lnet/minecraft/a/b/k;
+	METHOD a splitStack (I)Lnet/minecraft/a/b/o;
+		ARG 1 integer
+	METHOD a writeToNBT (Lcom/a/a/c;)Lcom/a/a/c;
+		ARG 1 c
+	METHOD b getItemDamageForDisplay ()I
+	METHOD b damageItem (I)V
+		ARG 1 integer

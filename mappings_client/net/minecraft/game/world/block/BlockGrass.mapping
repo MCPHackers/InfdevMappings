@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/b/aj net/minecraft/game/world/block/BlockGrass
+	METHOD <init> (I)V
+		ARG 1 id

@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/a/a/n net/minecraft/client/render/entity/RenderGiantZombie
+	FIELD e scale F
+	METHOD <init> (Lnet/minecraft/client/b/n;FF)V
+		ARG 1 n
+		ARG 2 float2
+		ARG 3 float3

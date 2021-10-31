@@ -1,0 +1,6 @@
+CLASS a/b util/IProgressUpdate
+	METHOD a displayProgressMessage ()V
+	METHOD a setLoadingProgress (I)V
+		ARG 1 integer
+	METHOD b displayLoadingString (Ljava/lang/String;)V
+		ARG 1 text

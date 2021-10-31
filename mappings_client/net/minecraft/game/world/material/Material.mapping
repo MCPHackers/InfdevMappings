@@ -1,0 +1,21 @@
+CLASS net/minecraft/a/a/e/c net/minecraft/game/world/material/Material
+	FIELD a air Lnet/minecraft/a/a/e/c;
+	FIELD b grassMaterial Lnet/minecraft/a/a/e/c;
+	FIELD c ground Lnet/minecraft/a/a/e/c;
+	FIELD d rock Lnet/minecraft/a/a/e/c;
+	FIELD e iron Lnet/minecraft/a/a/e/c;
+	FIELD f water Lnet/minecraft/a/a/e/c;
+	FIELD g lava Lnet/minecraft/a/a/e/c;
+	FIELD h leaves Lnet/minecraft/a/a/e/c;
+	FIELD i plants Lnet/minecraft/a/a/e/c;
+	FIELD j sponge Lnet/minecraft/a/a/e/c;
+	FIELD k cloth Lnet/minecraft/a/a/e/c;
+	FIELD l fire Lnet/minecraft/a/a/e/c;
+	FIELD m sand Lnet/minecraft/a/a/e/c;
+	FIELD n circuits Lnet/minecraft/a/a/e/c;
+	FIELD o glass Lnet/minecraft/a/a/e/c;
+	FIELD p tnt Lnet/minecraft/a/a/e/c;
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z

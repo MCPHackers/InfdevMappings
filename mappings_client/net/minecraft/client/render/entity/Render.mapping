@@ -1,0 +1,24 @@
+CLASS net/minecraft/client/a/a/f net/minecraft/client/render/entity/Render
+	FIELD a renderManager Lnet/minecraft/client/a/a/j;
+	FIELD b shadowSize F
+	FIELD c shadowOpaque F
+	METHOD a loadTexture (Ljava/lang/String;)V
+		ARG 1 tex
+	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 string1
+		ARG 2 string2
+	METHOD a doRenderShadowAndFire (Lnet/minecraft/a/c/b;DDDF)V
+		ARG 1 b
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+	METHOD a doRender (Lnet/minecraft/a/c/b;DDDFF)V
+		ARG 1 f
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+		ARG 9 float6
+	METHOD a setRenderManager (Lnet/minecraft/client/a/a/j;)V
+		ARG 1 renderMan

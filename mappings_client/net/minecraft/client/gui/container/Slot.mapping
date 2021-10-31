@@ -1,0 +1,22 @@
+CLASS net/minecraft/client/c/a/g net/minecraft/client/gui/container/Slot
+	FIELD a slotIndex I
+	FIELD b xDisplayPosition I
+	FIELD c yDisplayPosition I
+	FIELD d inventory Lnet/minecraft/a/b;
+	FIELD e slotContainer Lnet/minecraft/client/c/a/j;
+	METHOD <init> (Lnet/minecraft/client/c/a/j;Lnet/minecraft/a/b;III)V
+		ARG 1 j
+		ARG 2 b
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 integer5
+	METHOD a onPickupFromSlot ()V
+	METHOD a getIsMouseOverSlot (II)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD a isItemValid (Lnet/minecraft/a/b/o;)Z
+		ARG 1 o
+	METHOD b getRenderIndex ()I
+	METHOD b putStack (Lnet/minecraft/a/b/o;)V
+		ARG 1 stack
+	METHOD c onSlotChanged ()V

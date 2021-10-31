@@ -1,0 +1,54 @@
+CLASS com/a/a/c com/mojang/nbt/NBTTagCompound
+	FIELD a tagMap Ljava/util/Map;
+	METHOD a hasKey (Ljava/lang/String;)Z
+		ARG 1 string
+	METHOD a setByte (Ljava/lang/String;B)V
+		ARG 1 string
+		ARG 2 byte2
+	METHOD a setFloat (Ljava/lang/String;F)V
+		ARG 1 string
+		ARG 2 float2
+	METHOD a setInteger (Ljava/lang/String;I)V
+		ARG 1 string
+		ARG 2 integer
+	METHOD a setLong (Ljava/lang/String;J)V
+		ARG 1 string
+		ARG 2 long2
+	METHOD a setCompoundTag (Ljava/lang/String;Lcom/a/a/c;)V
+		ARG 1 string
+		ARG 2 c
+	METHOD a setTag (Ljava/lang/String;Lcom/a/a/j;)V
+		ARG 1 string
+		ARG 2 j
+	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 string1
+		ARG 2 string2
+	METHOD a setShort (Ljava/lang/String;S)V
+		ARG 1 string
+		ARG 2 short2
+	METHOD a setBoolean (Ljava/lang/String;Z)V
+		ARG 1 string
+		ARG 2 boolean2
+	METHOD a setByteArray (Ljava/lang/String;[B)V
+		ARG 1 string
+		ARG 2 arr
+	METHOD b getByte (Ljava/lang/String;)B
+		ARG 1 string
+	METHOD c getShort (Ljava/lang/String;)S
+		ARG 1 string
+	METHOD d getInteger (Ljava/lang/String;)I
+		ARG 1 string
+	METHOD e getLong (Ljava/lang/String;)J
+		ARG 1 string
+	METHOD f getFloat (Ljava/lang/String;)F
+		ARG 1 string
+	METHOD g getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 string
+	METHOD h getByteArray (Ljava/lang/String;)[B
+		ARG 1 string
+	METHOD i getCompoundTag (Ljava/lang/String;)Lcom/a/a/c;
+		ARG 1 string
+	METHOD j getTagList (Ljava/lang/String;)Lcom/a/a/f;
+		ARG 1 string
+	METHOD k getBoolean (Ljava/lang/String;)Z
+		ARG 1 string

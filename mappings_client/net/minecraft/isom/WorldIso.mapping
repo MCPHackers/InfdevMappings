@@ -1,0 +1,5 @@
+CLASS net/minecraft/isom/d net/minecraft/isom/WorldIso
+	METHOD <init> (Lnet/minecraft/isom/a;Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 a
+		ARG 2 file
+		ARG 3 string

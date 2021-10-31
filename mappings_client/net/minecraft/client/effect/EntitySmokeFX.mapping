@@ -1,0 +1,13 @@
+CLASS net/minecraft/client/f/j net/minecraft/client/effect/EntitySmokeFX
+	FIELD ad smokeParticleScale F
+	METHOD <init> (Lnet/minecraft/a/a/h;DDD)V
+		ARG 1 h
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+	METHOD <init> (Lnet/minecraft/a/a/h;DDDF)V
+		ARG 1 h
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5

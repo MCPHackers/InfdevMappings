@@ -1,6 +1,0 @@
-CLASS net/minecraft/a/a/d/b/c net/minecraft/src/WorldGenMinable
-	FIELD a minableBlockId I
-	FIELD b numberOfBlocks I
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 amount

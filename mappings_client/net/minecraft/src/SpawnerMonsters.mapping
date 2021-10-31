@@ -1,6 +1,0 @@
-CLASS net/minecraft/client/d/a net/minecraft/src/SpawnerMonsters
-	METHOD <init> (Lnet/minecraft/client/d/c;ILjava/lang/Class;[Ljava/lang/Class;)V
-		ARG 1 c
-		ARG 2 integer
-		ARG 3 class3
-		ARG 4 arr

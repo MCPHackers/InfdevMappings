@@ -1,5 +1,0 @@
-CLASS net/minecraft/a/a/b/ao net/minecraft/src/BlockStep
-	FIELD a blockType Z
-	METHOD <init> (IZ)V
-		ARG 1 id
-		ARG 2 type

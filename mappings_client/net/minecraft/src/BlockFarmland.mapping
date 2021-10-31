@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/a/b/ae net/minecraft/src/BlockFarmland
-	METHOD <init> (I)V
-		ARG 1 id

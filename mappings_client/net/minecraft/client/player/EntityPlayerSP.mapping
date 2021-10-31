@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/g/a net/minecraft/client/player/EntityPlayerSP
+	FIELD a movementInput Lnet/minecraft/client/g/b;
+	FIELD as mc Lnet/minecraft/client/f;
+	METHOD <init> (Lnet/minecraft/client/f;Lnet/minecraft/a/a/h;Lnet/minecraft/client/o;)V
+		ARG 1 f
+		ARG 2 h
+		ARG 3 o
+	METHOD g_ destroyCurrentEquippedItem ()V

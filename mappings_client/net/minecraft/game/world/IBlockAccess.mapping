@@ -1,0 +1,25 @@
+CLASS net/minecraft/a/a/j net/minecraft/game/world/IBlockAccess
+	METHOD a getBlockId (III)I
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD b getBlockTileEntity (III)Lnet/minecraft/a/a/b/a/a;
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD c getLightBrightness (III)F
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD d getBlockMetadata (III)I
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD e getBlockMaterial (III)Lnet/minecraft/a/a/e/c;
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD f isBlockNormalCube (III)Z
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3

@@ -1,7 +1,0 @@
-CLASS net/minecraft/client/c/a/k net/minecraft/src/GuiEditSign
-	FIELD g screenTitle Ljava/lang/String;
-	FIELD h entitySign Lnet/minecraft/a/a/b/a/d;
-	FIELD j updateCounter I
-	FIELD k editLine I
-	METHOD <init> (Lnet/minecraft/a/a/b/a/d;)V
-		ARG 1 d

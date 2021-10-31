@@ -1,6 +1,0 @@
-CLASS net/minecraft/a/a/c/a/g net/minecraft/src/IsomChunkLoader
-	FIELD a chunkLoader Lnet/minecraft/a/a/c/a/b;
-	FIELD b chunkLoader2 Lnet/minecraft/a/a/c/a/b;
-	METHOD <init> (Lnet/minecraft/a/a/c/a/b;Lnet/minecraft/a/a/c/a/b;)V
-		ARG 1 b1
-		ARG 2 b2

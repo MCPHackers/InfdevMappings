@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/b/a net/minecraft/game/item/ItemPickaxe
+	FIELD aA blocksEffectiveAgainst [Lnet/minecraft/a/a/b/aa;
+	FIELD aB harvestLevel I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 mat

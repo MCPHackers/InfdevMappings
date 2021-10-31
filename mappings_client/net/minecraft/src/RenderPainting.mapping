@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/a/a/h net/minecraft/src/RenderPainting
-	FIELD d rand Ljava/util/Random;
