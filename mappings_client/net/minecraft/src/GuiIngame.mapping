@@ -1,5 +1,5 @@
 CLASS gl net/minecraft/src/GuiIngame
-	FIELD a field_933_a Ljava/lang/String;
+	FIELD a testMessage Ljava/lang/String;
 	FIELD b damageGuiPartialTime F
 	FIELD c prevVignetteBrightness F
 	FIELD d itemRenderer Lba;

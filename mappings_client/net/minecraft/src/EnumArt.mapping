@@ -1,4 +1,23 @@
 CLASS hr net/minecraft/src/EnumArt
+	FIELD a Kebab Lhr;
+	FIELD b Aztec Lhr;
+	FIELD c Alban Lhr;
+	FIELD d Aztec2 Lhr;
+	FIELD e Bomb Lhr;
+	FIELD f Plant Lhr;
+	FIELD g Wasteland Lhr;
+	FIELD h Pool Lhr;
+	FIELD i Courbet Lhr;
+	FIELD j Sea Lhr;
+	FIELD k Sunset Lhr;
+	FIELD l Wanderer Lhr;
+	FIELD m Match Lhr;
+	FIELD n Bust Lhr;
+	FIELD o Stage Lhr;
+	FIELD p Void Lhr;
+	FIELD q SkullAndRoses Lhr;
+	FIELD r Fighters Lhr;
+	FIELD s Pointer Lhr;
 	FIELD t title Ljava/lang/String;
 	FIELD u sizeX I
 	FIELD v sizeY I

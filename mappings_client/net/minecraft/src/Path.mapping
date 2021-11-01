@@ -1,6 +1,10 @@
 CLASS jm net/minecraft/src/Path
+	FIELD a pathPoints [Ld;
+	FIELD b count I
 	METHOD a clearPath ()V
+	METHOD a sortBack (I)V
 	METHOD a addPoint (Ld;)Ld;
 	METHOD a changeDistance (Ld;F)V
 	METHOD b dequeue ()Ld;
+	METHOD b sortForward (I)V
 	METHOD c isPathEmpty ()Z

@@ -56,8 +56,6 @@ CLASS eq net/minecraft/src/Entity
 		ARG 1 distance
 	METHOD a getEntityBrightness (F)F
 	METHOD a setSize (FF)V
-		ARG 1 nya1
-		ARG 2 nya2
 	METHOD a moveFlying (FFF)V
 		ARG 1 xCoord
 		ARG 2 yCoord
@@ -69,7 +67,6 @@ CLASS eq net/minecraft/src/Entity
 		ARG 1 var1
 	METHOD a attackEntityFrom (Leq;I)Z
 		ARG 1 entity
-		ARG 2 nya1
 	METHOD a setWorld (Lfe;)V
 		ARG 1 world
 	METHOD a onCollideWithPlayer (Lgi;)V
@@ -89,13 +86,12 @@ CLASS eq net/minecraft/src/Entity
 		ARG 7 yaw
 		ARG 8 pitch
 	METHOD b fall (F)V
-		ARG 1 nya1
 	METHOD b setRotation (FF)V
 		ARG 1 nya1
 		ARG 2 nya2
 	METHOD b dealFireDamage (I)V
 		ARG 1 damage
-	METHOD b dropItemWithOffset (II)Lgx;
+	METHOD b dropItem (II)Lgx;
 	METHOD b readEntityFromNBT (Lae;)V
 		ARG 1 nbtTagCompound
 	METHOD b addToPlayerScore (Leq;I)V
@@ -153,7 +149,7 @@ CLASS eq net/minecraft/src/Entity
 	METHOD q getEyeHeight ()F
 	METHOD r handleLavaMovement ()Z
 	METHOD s canBePushed ()Z
-	METHOD t addToPlayerScore ()Ljava/lang/String;
+	METHOD t getTexture ()Ljava/lang/String;
 	METHOD u getEntityString ()Ljava/lang/String;
 	METHOD v isEntityAlive ()Z
 	METHOD w isEntityInsideOpaqueBlock ()Z

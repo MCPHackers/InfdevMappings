@@ -4,6 +4,6 @@ CLASS ej net/minecraft/src/FontRenderer
 	FIELD c fontDisplayLists I
 	FIELD d buffer Ljava/nio/IntBuffer;
 	METHOD a getStringWidth (Ljava/lang/String;)I
-	METHOD a drawStringWithShadow2 (Ljava/lang/String;III)V
-	METHOD a renderString2 (Ljava/lang/String;IIIZ)V
-	METHOD b drawString2 (Ljava/lang/String;III)V
+	METHOD a drawStringWithShadow (Ljava/lang/String;III)V
+	METHOD a renderString (Ljava/lang/String;IIIZ)V
+	METHOD b drawString (Ljava/lang/String;III)V

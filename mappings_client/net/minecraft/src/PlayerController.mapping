@@ -1,6 +1,6 @@
 CLASS aj net/minecraft/src/PlayerController
 	FIELD a mc Law;
-	FIELD b field_1064_b Z
+	FIELD b isInTestMode Z
 	METHOD a init ()V
 	METHOD a setPartialTime (F)V
 	METHOD a clickBlock (III)V
@@ -15,7 +15,7 @@ CLASS aj net/minecraft/src/PlayerController
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
-	METHOD b func_6473_b (Lgi;)V
+	METHOD b onRespawn (Lgi;)V
 	METHOD c getBlockReachDistance ()F
 	METHOD d onUpdate ()V
 	METHOD e shouldDrawHUD ()Z

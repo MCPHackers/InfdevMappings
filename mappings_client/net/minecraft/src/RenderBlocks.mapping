@@ -1,3 +1,32 @@
 CLASS cr net/minecraft/src/RenderBlocks
+	FIELD a blockAccess Liv;
+	FIELD b overrideBlockTexture I
+	FIELD c flipTexture Z
+	FIELD d renderAllFaces Z
+	METHOD a getFluidHeight (IIILjy;)F
 	METHOD a renderBlockOnInventory (Lgs;)V
+	METHOD a renderTorchAtAngle (Lgs;DDDDD)V
+	METHOD a renderBottomFace (Lgs;DDDI)V
+	METHOD a renderCrossedSquares (Lgs;IDDD)V
+	METHOD a renderBlockByRenderType (Lgs;III)Z
+	METHOD a renderStandardBlockWithColorMultiplier (Lgs;IIIFFF)Z
+	METHOD a renderBlockUsingTexture (Lgs;IIII)V
 	METHOD a renderBlockFallingSand (Lgs;Lfe;III)V
+	METHOD b renderTopFace (Lgs;DDDI)V
+	METHOD b renderBlockCropsImpl (Lgs;IDDD)V
+	METHOD b renderBlockTorch (Lgs;III)Z
+	METHOD c renderEastFace (Lgs;DDDI)V
+	METHOD c renderBlockFire (Lgs;III)Z
+	METHOD d renderWestFace (Lgs;DDDI)V
+	METHOD d renderBlockGears (Lgs;III)Z
+	METHOD e renderNorthFace (Lgs;DDDI)V
+	METHOD e renderBlockMinecartTrack (Lgs;III)Z
+	METHOD f renderSouthFace (Lgs;DDDI)V
+	METHOD f renderBlockLadder (Lgs;III)Z
+	METHOD g renderBlockReed (Lgs;III)Z
+	METHOD h renderBlockCrops (Lgs;III)Z
+	METHOD i renderBlockFluids (Lgs;III)Z
+	METHOD j renderStandardBlock (Lgs;III)Z
+	METHOD k renderBlockFence (Lgs;III)Z
+	METHOD l renderBlockStairs (Lgs;III)Z
+	METHOD m renderBlockDoor (Lgs;III)Z

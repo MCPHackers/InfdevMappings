@@ -1,1 +1,6 @@
 CLASS ie net/minecraft/src/EnumOS1
+	FIELD a linux Lie;
+	FIELD b solaris Lie;
+	FIELD c windows Lie;
+	FIELD d macos Lie;
+	FIELD e unknown Lie;

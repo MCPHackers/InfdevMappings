@@ -1,12 +1,44 @@
 CLASS ag net/minecraft/src/Tessellator
+	FIELD A vboCount I
+	FIELD B bufferSize I
 	FIELD a instance Lag;
+	FIELD b convertQuadsToTriangles Z
+	FIELD c tryVBO Z
+	FIELD d byteBuffer Ljava/nio/ByteBuffer;
+	FIELD e intBuffer Ljava/nio/IntBuffer;
+	FIELD f floatBuffer Ljava/nio/FloatBuffer;
+	FIELD g rawBuffer [I
+	FIELD h vertexCount I
+	FIELD i textureU D
+	FIELD j textureV D
+	FIELD k color I
+	FIELD l hasColor Z
+	FIELD m hasTexture Z
+	FIELD n hasNormals Z
+	FIELD o rawBufferIndex I
+	FIELD p addedVertices I
+	FIELD q isColorDisabled Z
+	FIELD r drawMode I
+	FIELD s xOffset D
+	FIELD t yOffset D
+	FIELD u zOffset D
+	FIELD v normal I
+	FIELD w isDrawing Z
+	FIELD x useVBO Z
+	FIELD y vertexBuffers Ljava/nio/IntBuffer;
+	FIELD z vboIndex I
 	METHOD a draw ()V
+	METHOD a setTextureUV (DD)V
 	METHOD a addVertex (DDD)V
 	METHOD a addVertexWithUV (DDDDD)V
 	METHOD a setColorOpaque_F (FFF)V
 	METHOD a setColorRGBA_F (FFFF)V
 	METHOD a startDrawing (I)V
+	METHOD a setColorOpaque (III)V
+	METHOD a setColorRGBA (IIII)V
 	METHOD b startDrawingQuads ()V
 	METHOD b setTranslationD (DDD)V
 	METHOD b setNormal (FFF)V
 	METHOD b setColorOpaque_I (I)V
+	METHOD c disableColor ()V
+	METHOD d reset ()V

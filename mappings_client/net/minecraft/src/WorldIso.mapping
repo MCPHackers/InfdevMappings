@@ -1,0 +1,2 @@
+CLASS fu net/minecraft/src/WorldIso
+	FIELD q isomPreview Lbe;

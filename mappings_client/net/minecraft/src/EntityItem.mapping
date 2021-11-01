@@ -1,7 +1,7 @@
 CLASS gx net/minecraft/src/EntityItem
 	FIELD X delayBeforeCanPickup I
 	FIELD Y hoverStart F
-	FIELD Z field_803_e I
+	FIELD Z age2 I
 	FIELD a item Lhw;
 	FIELD aa health I
 	FIELD b age I

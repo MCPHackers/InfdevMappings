@@ -29,7 +29,7 @@ CLASS aw net/minecraft/src/Minecraft
 	FIELD f renderGlobal Lm;
 	FIELD g thePlayer Ldd;
 	FIELD h effectRenderer Ldp;
-	FIELD i sessionData Lgg;
+	FIELD i session Lgg;
 	FIELD j minecraftUri Ljava/lang/String;
 	FIELD k mcCanvas Ljava/awt/Canvas;
 	FIELD l appletMode Z
@@ -50,7 +50,7 @@ CLASS aw net/minecraft/src/Minecraft
 	METHOD a startGame ()V
 	METHOD a clickMouse (I)V
 	METHOD a resize (II)V
-	METHOD a func_6254_a (IZ)V
+	METHOD a sendClickBlockToController (IZ)V
 	METHOD a displayGuiScreen (Ldc;)V
 	METHOD a changeWorld1 (Lfe;)V
 	METHOD a changeWorld2 (Lfe;Ljava/lang/String;)V

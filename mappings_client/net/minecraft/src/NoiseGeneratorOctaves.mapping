@@ -1,4 +1,6 @@
 CLASS gc net/minecraft/src/NoiseGeneratorOctaves
+	FIELD a generatorCollection [Lan;
+	FIELD b octaves I
 	METHOD a generateNoiseOctaves (DD)D
 	METHOD a generateNoiseOctaves (DDD)D
 	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D

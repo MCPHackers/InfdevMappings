@@ -1,8 +1,8 @@
 CLASS i net/minecraft/src/LoadingScreenRenderer
-	FIELD a field_1004_a Ljava/lang/String;
+	FIELD a currentlyDisplayedProgress Ljava/lang/String;
 	FIELD b mc Law;
 	FIELD c currentlyDisplayedText Ljava/lang/String;
-	FIELD d field_1006_d J
-	FIELD e field_1005_e Z
+	FIELD d systemTime J
+	FIELD e printText Z
 	METHOD a printText (Ljava/lang/String;)V
-	METHOD c setLoadingProgress (Ljava/lang/String;)V
+	METHOD c drawScreen (Ljava/lang/String;)V

@@ -7,7 +7,7 @@ CLASS iv net/minecraft/src/IBlockAccess
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
-	METHOD c getLightBrightness (III)F
+	METHOD c getBrightness (III)F
 		ARG 1 nya1
 		ARG 2 nya2
 		ARG 3 nya3

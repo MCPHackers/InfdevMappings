@@ -1,8 +1,8 @@
 CLASS cq net/minecraft/src/StepSound
-	FIELD a soundName Ljava/lang/String;
-	FIELD b volume F
-	FIELD c pitch F
-	METHOD a stepSoundDir ()Ljava/lang/String;
-	METHOD b soundVolume ()F
-	METHOD c soundPitch ()F
-	METHOD d stepSoundDir2 ()Ljava/lang/String;
+	FIELD a stepSoundName Ljava/lang/String;
+	FIELD b stepSoundVolume F
+	FIELD c stepSoundPitch F
+	METHOD a getBreakSound ()Ljava/lang/String;
+	METHOD b getVolume ()F
+	METHOD c getPitch ()F
+	METHOD d getStepSound ()Ljava/lang/String;

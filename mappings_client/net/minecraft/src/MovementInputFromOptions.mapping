@@ -1,1 +1,3 @@
 CLASS jz net/minecraft/src/MovementInputFromOptions
+	FIELD e movementKeyStates [Z
+	FIELD f gameSettings Lja;

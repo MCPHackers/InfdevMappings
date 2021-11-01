@@ -3,6 +3,7 @@ CLASS hq net/minecraft/src/MathHelper
 	METHOD a sqrt_double (D)F
 	METHOD a abs_max (DD)D
 	METHOD a sin (F)F
+	METHOD a bucketInt (II)I
 	METHOD b floor_double (D)I
 	METHOD b cos (F)F
 	METHOD c sqrt_float (F)F

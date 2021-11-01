@@ -1,4 +1,44 @@
 CLASS dl net/minecraft/src/WorldRenderer
+	FIELD A isChunkLit Z
+	FIELD B tileEntityRenderers Ljava/util/List;
+	FIELD C glRenderList I
+	FIELD D tessellator Lag;
+	FIELD E isInitialized Z
+	FIELD F tileEntities Ljava/util/List;
+	FIELD a worldObj Lfe;
 	FIELD b chunksUpdated I
+	FIELD c posX I
+	FIELD d posY I
+	FIELD e posZ I
+	FIELD f sizeWidth I
+	FIELD g sizeHeight I
+	FIELD h sizeDepth I
+	FIELD i posXMinus I
+	FIELD j posYMinus I
+	FIELD k posZMinus I
+	FIELD l posXClip I
+	FIELD m posYClip I
+	FIELD n posZClip I
 	FIELD o isInFrustum Z
-	METHOD a chunkIndex (Leq;)F
+	FIELD p skipRenderPass [Z
+	FIELD q posXPlus I
+	FIELD r posYPlus I
+	FIELD s posZPlus I
+	FIELD t rendererRadius F
+	FIELD u needsUpdate Z
+	FIELD v rendererBoundingBox Len;
+	FIELD w chunkIndex I
+	FIELD x isVisible Z
+	FIELD y isWaitingOnOcclusionQuery Z
+	FIELD z glOcclusionQuery I
+	METHOD a updateRenderer ()V
+	METHOD a getGLCallListForPass (I)I
+	METHOD a setPosition (III)V
+	METHOD a distanceToEntitySquared (Leq;)F
+	METHOD a updateInFrustrum (Ljt;)V
+	METHOD b setDontDraw ()V
+	METHOD c stopRendering ()V
+	METHOD d callOcclusionQueryList ()V
+	METHOD e skipAllRenderPasses ()Z
+	METHOD f markDirty ()V
+	METHOD g setupGLTranslation ()V

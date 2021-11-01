@@ -4,7 +4,7 @@ CLASS ja net/minecraft/src/GameSettings
 	FIELD a music Z
 	FIELD b sound Z
 	FIELD c invertMouse Z
-	FIELD d showDebugInfo Z
+	FIELD d showFPS Z
 	FIELD e renderDistance I
 	FIELD f viewBobbing Z
 	FIELD g anaglyph Z

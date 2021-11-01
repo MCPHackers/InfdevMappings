@@ -1,6 +1,6 @@
 CLASS as net/minecraft/src/TextureWaterFlowFX
-	FIELD a field_1138_g [F
-	FIELD b field_1137_h [F
-	FIELD c field_1136_i [F
-	FIELD d field_1135_j [F
-	FIELD j field_1134_k I
+	FIELD a red [F
+	FIELD b green [F
+	FIELD c blue [F
+	FIELD d alpha [F
+	FIELD j tickCounter I

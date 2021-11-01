@@ -1,30 +1,38 @@
 CLASS fe net/minecraft/src/World
 	FIELD A worldAccesses Ljava/util/List;
 	FIELD B chunkProvider Lch;
+	FIELD C saveDirectory Ljava/io/File;
+	FIELD D nbtCompoundPlayer Lae;
 	FIELD E collidingBoundingBoxes Ljava/util/ArrayList;
-	FIELD F field_1012_M Ljava/util/List;
+	FIELD F entitiesWithinAABBExcludingEntity Ljava/util/List;
 	FIELD a loadedTileEntityList Ljava/util/List;
-	FIELD b getWorldTime J
+	FIELD b worldTime J
 	FIELD c skylightSubtracted I
 	FIELD d editingBlocks Z
 	FIELD e lightBrightnessTable [F
-	FIELD f player Leq;
+	FIELD f playerEntity Leq;
 	FIELD g difficultySetting I
+	FIELD h fontRenderer Ljava/lang/Object;
 	FIELD i rand Ljava/util/Random;
-	FIELD j x I
-	FIELD k y I
-	FIELD l z I
+	FIELD j spawnX I
+	FIELD k spawnY I
+	FIELD l spawnZ I
 	FIELD m isNewWorld Z
 	FIELD n randomSeed J
 	FIELD o setSizeOnDisk J
+	FIELD p levelName Ljava/lang/String;
 	FIELD q lightingToUpdate Ljava/util/List;
 	FIELD r loadedEntityList Ljava/util/List;
 	FIELD s unloadedEntityList Ljava/util/List;
 	FIELD t scheduledTickTreeSet Ljava/util/TreeSet;
 	FIELD u scheduledTickSet Ljava/util/Set;
-	FIELD x field_1019_F J
+	FIELD v skyColor J
+	FIELD w fogColor J
+	FIELD x cloudColor J
+	FIELD y updateLCG I
+	FIELD z DIST_HASH_MAGIC I
 	METHOD a setSpawnLocation ()V
-	METHOD a playSoundEffect (DDDLjava/lang/String;F)V
+	METHOD a playMusic (DDDLjava/lang/String;F)V
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
 		ARG 1 xCoord
 		ARG 3 yCoord
@@ -33,8 +41,7 @@ CLASS fe net/minecraft/src/World
 		ARG 8 volume
 		ARG 9 pitch
 	METHOD a calculateSkylightSubtracted (F)I
-	METHOD a quickSaveWorld (I)Z
-		ARG 1 nya1
+	METHOD a saveWorld (I)Z
 	METHOD a getChunkFromBlockCoords (II)Ljw;
 		ARG 1 nya1
 		ARG 2 nya2
@@ -74,7 +81,7 @@ CLASS fe net/minecraft/src/World
 	METHOD a rayTraceBlocks (Lbo;Lbo;)Lhb;
 		ARG 1 var1
 		ARG 2 var2
-	METHOD a rayTraceBlocks_do_do (Lbo;Lbo;Z)Lhb;
+	METHOD a rayTraceBlocks_do (Lbo;Lbo;Z)Lhb;
 		ARG 1 var1
 		ARG 2 var2
 		ARG 3 var3
@@ -96,7 +103,7 @@ CLASS fe net/minecraft/src/World
 		ARG 5 nya4
 	METHOD a scheduleLightingUpdate (Lec;IIIIII)V
 		ARG 1 enumSkyBlock
-	METHOD a checkIfAABBIsClear1 (Len;)Z
+	METHOD a checkIfAABBIsClear (Len;)Z
 		ARG 1 aabb
 	METHOD a isMaterialInBB (Len;Ljy;)Z
 		ARG 1 aabb
@@ -105,7 +112,7 @@ CLASS fe net/minecraft/src/World
 		ARG 1 aabb
 		ARG 2 material
 		ARG 3 entity
-	METHOD a entityJoinedWorld (Leq;)V
+	METHOD a spawnEntityInWorld (Leq;)V
 		ARG 1 entity
 	METHOD a createExplosion (Leq;DDDF)V
 		ARG 1 entity
@@ -125,8 +132,9 @@ CLASS fe net/minecraft/src/World
 		ARG 2 soundName
 		ARG 3 volume
 		ARG 4 pitch
-	METHOD a potentiallySavesFolderLocation (Ljava/io/File;Ljava/lang/String;)Lae;
-	METHOD a func_4085_a (Ljava/lang/Class;)Leq;
+	METHOD a getChunkProvider (Ljava/io/File;)Lch;
+	METHOD a getLevelData (Ljava/io/File;Ljava/lang/String;)Lae;
+	METHOD a createDebugPlayer (Ljava/lang/Class;)Leq;
 		ARG 1 cVar
 	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Len;)Ljava/util/List;
 		ARG 2 aabb
@@ -140,11 +148,9 @@ CLASS fe net/minecraft/src/World
 		ARG 12 zPosition
 	METHOD a addLoadedEntities (Ljava/util/List;)V
 	METHOD a saveWorldIndirectly (Ljd;)V
-		ARG 1 iPU
-	METHOD a TickUpdates (Z)Z
+	METHOD a tickUpdates (Z)Z
 	METHOD a saveWorld (ZLjd;)V
-		ARG 1 nya1
-		ARG 2 nya2
+	METHOD a deleteWorldFiles ([Ljava/io/File;)V
 	METHOD b spawnPlayerWithLoadedChunks ()V
 	METHOD b getSkyColor (F)Lbo;
 	METHOD b getChunkFromChunkCoords (II)Ljw;
@@ -162,12 +168,6 @@ CLASS fe net/minecraft/src/World
 		ARG 4 blockid
 		ARG 5 metadataValue
 	METHOD b markBlocksDirty (IIIIII)V
-		ARG 1 nya1
-		ARG 2 nya2
-		ARG 3 nya3
-		ARG 4 nya4
-		ARG 5 nya5
-		ARG 6 nya6
 	METHOD b removeWorldAccess (Lbv;)V
 		ARG 1 worldAccess
 	METHOD b setLightValue (Lec;IIII)V
@@ -183,7 +183,7 @@ CLASS fe net/minecraft/src/World
 	METHOD b getEntitiesWithinAABBExcludingEntity (Leq;Len;)Ljava/util/List;
 		ARG 1 entity
 		ARG 2 aabb
-	METHOD b deleteWorldDirectory (Ljava/io/File;Ljava/lang/String;)V
+	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
 	METHOD b countEntities (Ljava/lang/Class;)I
 	METHOD b unloadEntities (Ljava/util/List;)V
 	METHOD c isDaytime ()Z
@@ -201,8 +201,8 @@ CLASS fe net/minecraft/src/World
 	METHOD c updateEntity (Leq;)V
 		ARG 1 entity
 	METHOD d updateEntities ()V
-	METHOD d drawClouds (F)Lbo;
-	METHOD d findTopSolidBlock (II)I
+	METHOD d getCloudColor (F)Lbo;
+	METHOD d getTopSolidOrLiquidBlock (II)I
 	METHOD d blockExists (III)Z
 		ARG 1 xCoord
 		ARG 2 yCoord
@@ -212,20 +212,17 @@ CLASS fe net/minecraft/src/World
 		ARG 2 yCoord
 		ARG 3 zCoord
 		ARG 4 blockid
-	METHOD e func_687_d ()Ljava/lang/String;
+	METHOD e getDebugLoadedEntities ()Ljava/lang/String;
 	METHOD e getFogColor (F)Lbo;
-	METHOD e markBlocksDirtyVertical (IIII)V
-		ARG 1 nya1
-		ARG 2 nya2
-		ARG 3 nya3
-		ARG 4 nya4
-	METHOD f getPlayer ()Leq;
+	METHOD e findSpawn (II)Z
+	METHOD e markBlockAsNeedsUpdate (IIII)V
+	METHOD f getPlayerEntity ()Leq;
 	METHOD f getStarBrightness (F)F
+	METHOD f getFirstUncoveredBlock (II)I
 	METHOD f notifyBlocksOfNeighborChange (IIII)V
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
-		ARG 4 nya4
 	METHOD g updatingLighting ()Z
 	METHOD g chunkExists (II)Z
 		ARG 1 xCoord
@@ -236,7 +233,7 @@ CLASS fe net/minecraft/src/World
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
-	METHOD h onBlockHit (IIII)V
+	METHOD h extinguishFire (IIII)V
 		ARG 1 var1
 		ARG 2 var2
 		ARG 3 var3
@@ -246,25 +243,21 @@ CLASS fe net/minecraft/src/World
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
-	METHOD i notifyBlockChange (IIII)V
+	METHOD i markBlockNeedsUpdate (IIII)V
 	METHOD j getLoadedEntityList ()Ljava/util/List;
 	METHOD j canExistingBlockSeeTheSky (III)Z
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
 	METHOD j notifyBlockOfNeighborChange (IIII)V
-		ARG 1 nya1
-		ARG 2 nya2
-		ARG 3 nya3
-		ARG 4 nya4
-	METHOD k func_656_j ()V
+	METHOD k dropOldChunks ()V
 	METHOD k removeBlockTileEntity (III)V
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
 	METHOD l saveLevel ()V
 	METHOD l randomDisplayUpdates (III)V
-	METHOD m func_698_b (III)V
+	METHOD m updateTileEntityChunkAndDoNothing (III)V
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord

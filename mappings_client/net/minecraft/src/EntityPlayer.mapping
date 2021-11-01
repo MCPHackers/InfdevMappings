@@ -1,8 +1,8 @@
 CLASS gi net/minecraft/src/EntityPlayer
-	FIELD X unusedByte B
+	FIELD X unusedMiningCooldown B
 	FIELD Y score I
 	FIELD Z prevCameraYaw F
-	FIELD a swingProgressInt I
+	FIELD a damageRemainder I
 	FIELD aa cameraYaw F
 	FIELD ab username Ljava/lang/String;
 	FIELD b inventory Lht;
@@ -15,5 +15,6 @@ CLASS gi net/minecraft/src/EntityPlayer
 	METHOD a displayGUIChest (Lkd;)V
 	METHOD b onItemPickup (Leq;)V
 	METHOD b canHarvestBlock (Lgs;)Z
+	METHOD c interactWithEntity (Leq;)V
 	METHOD f_ displayWorkbenchGUI ()V
 	METHOD z getScore ()I

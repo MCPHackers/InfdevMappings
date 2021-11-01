@@ -1,1 +1,2 @@
 CLASS if net/minecraft/src/EntitySorter
+	FIELD a comparedEntity Leq;

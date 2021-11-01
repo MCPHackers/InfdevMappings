@@ -2,6 +2,7 @@ CLASS dd net/minecraft/src/EntityPlayerSP
 	FIELD a movementInput Lgj;
 	FIELD aQ mc Law;
 	METHOD a handleKeyPress (IZ)V
+	METHOD a attackEntity (Leq;)V
 	METHOD e_ resetPlayerKeyState ()V
 	METHOD g_ getCurrentEquippedItem ()Lhw;
 	METHOD i displayGUIInventory ()V

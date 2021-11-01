@@ -1,6 +1,6 @@
 CLASS hp net/minecraft/src/TextureWaterFX
-	FIELD a field_1158_g [F
-	FIELD b field_1157_h [F
-	FIELD c field_1156_i [F
-	FIELD d field_1155_j [F
+	FIELD a red [F
+	FIELD b green [F
+	FIELD c blue [F
+	FIELD d alpha [F
 	FIELD j tickCounter I

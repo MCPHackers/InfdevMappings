@@ -2,7 +2,7 @@ CLASS hw net/minecraft/src/ItemStack
 	FIELD a stackSize I
 	FIELD b animationsToGo I
 	FIELD c itemID I
-	FIELD d itemDamage I
+	FIELD d itemDmg I
 	METHOD <init> (II)V
 		ARG 1 itemID
 		ARG 2 stackSize
@@ -26,4 +26,4 @@ CLASS hw net/minecraft/src/ItemStack
 	METHOD b canHarvestBlock (Lgs;)Z
 	METHOD b useItemOnEntity (Lka;)V
 	METHOD c getMaxStackSize ()I
-	METHOD d isItemStackDamageable ()I
+	METHOD d getMaxDamage ()I

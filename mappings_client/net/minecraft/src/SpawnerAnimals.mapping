@@ -1,2 +1,7 @@
 CLASS ck net/minecraft/src/SpawnerAnimals
+	FIELD a maxSpawns I
+	FIELD b entityType Ljava/lang/Class;
+	FIELD c entities [Ljava/lang/Class;
 	METHOD a onUpdate (Lfe;)V
+	METHOD a getRandomSpawningPointInChunk (Lfe;II)Lia;
+	METHOD a performSpawning (Lfe;ILeq;Ljd;)I

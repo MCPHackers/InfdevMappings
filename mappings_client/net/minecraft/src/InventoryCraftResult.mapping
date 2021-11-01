@@ -1,1 +1,2 @@
 CLASS gp net/minecraft/src/InventoryCraftResult
+	FIELD a stackResult [Lhw;

@@ -56,10 +56,10 @@ CLASS ge net/minecraft/src/Item
 	FIELD az shiftedIndex I
 	FIELD b itemRand Ljava/util/Random;
 	FIELD c itemsList [Lge;
-	FIELD d shovelSteel Lge;
+	FIELD d shovel Lge;
 	FIELD e pickaxeSteel Lge;
 	FIELD f axeSteel Lge;
-	FIELD g flintAndSteel Lge;
+	FIELD g striker Lge;
 	FIELD h appleRed Lge;
 	FIELD i bow Lge;
 	FIELD j arrow Lge;

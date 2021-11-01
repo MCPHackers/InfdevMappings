@@ -1,0 +1,3 @@
+CLASS bw net/minecraft/src/GuiErrorScreen
+	FIELD a errorTitle Ljava/lang/String;
+	FIELD h errorException Ljava/lang/String;

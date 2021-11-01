@@ -3,8 +3,9 @@ CLASS hj net/minecraft/src/GuiContainer
 	FIELD h ySize I
 	FIELD j inventorySlots Ljava/util/List;
 	FIELD k itemRenderer Lba;
-	FIELD l itemStack Lhw;
+	FIELD l draggedItemStack Lhw;
 	METHOD a drawGuiContainerBackgroundLayer (F)V
-	METHOD a inventorySlots (Lgq;)V
+	METHOD a getSlotAtPosition (II)Lgq;
+	METHOD a drawSlotInventory (Lgq;)V
 	METHOD a onCraftMatrixChanged (Lkd;)V
 	METHOD c_ drawGuiContainerForegroundLayer ()V

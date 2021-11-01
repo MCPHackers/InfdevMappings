@@ -1,5 +1,5 @@
 CLASS cy net/minecraft/src/EntityPainting
-	FIELD X tickCounter1 I
+	FIELD X tickCounter I
 	FIELD Y xPosition I
 	FIELD Z yPosition I
 	FIELD a direction I

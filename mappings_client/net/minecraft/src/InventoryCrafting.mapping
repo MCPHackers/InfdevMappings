@@ -1,4 +1,4 @@
 CLASS t net/minecraft/src/InventoryCrafting
 	FIELD a stackList [Lhw;
-	FIELD b inventoryWidth I
-	FIELD c eventHandler Lhj;
+	FIELD b gridSize I
+	FIELD c craftingInventory Lhj;

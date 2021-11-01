@@ -1,34 +1,35 @@
 CLASS cb net/minecraft/src/EntityRenderer
 	FIELD a itemRenderer Ldg;
-	FIELD b unusedVolatile0 I
-	FIELD c unusedVolatile1 I
+	FIELD b unusedInt1 I
+	FIELD c unusedInt2 I
 	FIELD d fogColorBuffer Ljava/nio/FloatBuffer;
 	FIELD e fogColorRed F
 	FIELD f fogColorGreen F
 	FIELD g fogColorBlue F
 	FIELD h mc Law;
-	FIELD i anaglyphEnable Z
+	FIELD i isDisplayActive Z
 	FIELD j farPlaneDistance F
 	FIELD k rendererUpdateCount I
 	FIELD l pointedEntity Leq;
-	FIELD m entityRendererInt1 I
-	FIELD n entityRendererInt2 I
+	FIELD m mouseDX I
+	FIELD n mouseDY I
 	FIELD o random Ljava/util/Random;
-	FIELD p fogColor2 F
-	FIELD q fogColor1 F
+	FIELD p prevFogColor F
+	FIELD q fogColor F
 	METHOD a updateRenderer ()V
 	METHOD a updateCameraAndRender (F)V
 	METHOD a setFogColorBuffer (FFFF)Ljava/nio/FloatBuffer;
-	METHOD a orientCamera (FI)V
+	METHOD a setupCameraTransform (FI)V
 	METHOD a setupFog (I)V
 	METHOD b setupOverlayRendering ()V
 	METHOD b renderWorld (F)V
-	METHOD b setupCameraTransform (FI)V
+	METHOD b renderHand (FI)V
 	METHOD c addRainParticles ()V
-	METHOD c orientCamera (F)Lbo;
+	METHOD c getPlayerPosition (F)Lbo;
 	METHOD d getMouseOver (F)V
 	METHOD e getFOVModifier (F)F
 	METHOD f hurtCameraEffect (F)V
 	METHOD g setupViewBobbing (F)V
-	METHOD i renderRainSnow (F)V
+	METHOD h orientCamera (F)V
+	METHOD i renderRain (F)V
 	METHOD j updateFogColor (F)V

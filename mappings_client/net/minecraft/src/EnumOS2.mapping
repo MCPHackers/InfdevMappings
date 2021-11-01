@@ -1,1 +1,6 @@
 CLASS bp net/minecraft/src/EnumOS2
+	FIELD a linux Lbp;
+	FIELD b solaris Lbp;
+	FIELD c windows Lbp;
+	FIELD d macos Lbp;
+	FIELD e unknown Lbp;

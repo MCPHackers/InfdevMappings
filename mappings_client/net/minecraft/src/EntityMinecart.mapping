@@ -1,10 +1,10 @@
 CLASS jp net/minecraft/src/EntityMinecart
-	FIELD X minecartRockDirection I
+	FIELD X forwardDirection I
 	FIELD Y cargoItems [Lhw;
 	FIELD Z isInReverse Z
-	FIELD a minecartCurrentDamage I
-	FIELD aa MATRIX [[[I
-	FIELD b minecartTimeSinceHit I
+	FIELD a damageTaken I
+	FIELD aa matrix [[[I
+	FIELD b timeSinceHit I
 	METHOD <init> (Lfe;DDD)V
 		ARG 2 xCoord
 		ARG 4 yCoord

@@ -1,5 +1,22 @@
 CLASS js net/minecraft/src/TileEntityRenderer
 	FIELD a instance Ljs;
+	FIELD b staticPlayerX D
+	FIELD c staticPlayerY D
+	FIELD d staticPlayerZ D
 	FIELD e renderEngine Lid;
+	FIELD f worldObj Lfe;
+	FIELD g entityPlayer Lgi;
+	FIELD h playerYaw F
+	FIELD i playerPitch F
+	FIELD j playerX D
+	FIELD k playerY D
+	FIELD l playerZ D
+	FIELD m specialRendererMap Ljava/util/Map;
+	FIELD n fontRenderer Lej;
 	METHOD a getFontRenderer ()Lej;
+	METHOD a hasSpecialRenderer (Lbk;)Z
 	METHOD a renderTileEntityAt (Lbk;DDDF)V
+	METHOD a renderTileEntity (Lbk;F)V
+	METHOD a cacheActiveRenderInfo (Lfe;Lid;Lej;Lgi;F)V
+	METHOD a getSpecialRendererForClass (Ljava/lang/Class;)Lhz;
+	METHOD b getSpecialRendererForEntity (Lbk;)Lhz;

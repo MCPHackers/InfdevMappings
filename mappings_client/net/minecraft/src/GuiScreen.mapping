@@ -1,5 +1,5 @@
 CLASS dc net/minecraft/src/GuiScreen
-	FIELD b id Law;
+	FIELD b mc Law;
 	FIELD c width I
 	FIELD d height I
 	FIELD e controlList Ljava/util/List;
@@ -8,12 +8,16 @@ CLASS dc net/minecraft/src/GuiScreen
 	METHOD a onGuiClosed ()V
 	METHOD a keyTyped (CI)V
 	METHOD a drawScreen (IIF)V
-	METHOD a drawSlotInventory (III)V
+	METHOD a mouseClicked (III)V
 	METHOD a setWorldAndResolution (Law;II)V
 	METHOD a actionPerformed (Liq;)V
 	METHOD a deleteWorld (ZI)V
 	METHOD b initGui ()V
+	METHOD b drawWorldBackground (I)V
+	METHOD b mouseMovedOrUp (III)V
 	METHOD c updateScreen ()V
 	METHOD d doesGuiPauseGame ()Z
+	METHOD e handleInput ()V
+	METHOD f handleMouseInput ()V
 	METHOD g handleKeyboardInput ()V
 	METHOD h drawDefaultBackground ()V
