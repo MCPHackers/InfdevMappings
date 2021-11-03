@@ -6,7 +6,7 @@ CLASS net/minecraft/a/a/b net/minecraft/game/world/SpawnerAnimals
 		ARG 1 integer
 		ARG 2 class2
 		ARG 3 arr
-	METHOD a doRandomSpawn (Lnet/minecraft/a/a/h;)V
+	METHOD a onUpdate (Lnet/minecraft/a/a/h;)V
 		ARG 1 h
 	METHOD a getRandomSpawningPointInChunk (Lnet/minecraft/a/a/h;II)Lnet/minecraft/a/a/i;
 		ARG 1 h

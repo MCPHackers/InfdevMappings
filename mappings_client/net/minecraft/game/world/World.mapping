@@ -1,6 +1,6 @@
 CLASS net/minecraft/a/a/h net/minecraft/game/world/World
-	FIELD A levelFile Ljava/io/File;
-	FIELD B playerData Lcom/a/a/c;
+	FIELD A saveDirectory Ljava/io/File;
+	FIELD B nbtCompoundPlayer Lcom/a/a/c;
 	FIELD a loadedTileEntityList Ljava/util/List;
 	FIELD b worldTime J
 	FIELD c skylightSubtracted I
@@ -13,18 +13,18 @@ CLASS net/minecraft/a/a/h net/minecraft/game/world/World
 	FIELD j spawnY I
 	FIELD k spawnZ I
 	FIELD l isNewWorld Z
-	FIELD m seed J
+	FIELD m randomSeed J
 	FIELD n sizeOnDisk J
 	FIELD o lightingToUpdate Ljava/util/List;
 	FIELD p loadedEntityList Ljava/util/List;
 	FIELD q unloadedEntityList Ljava/util/List;
-	FIELD r rscheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD r scheduledTickTreeSet Ljava/util/TreeSet;
 	FIELD s scheduledTickSet Ljava/util/Set;
 	FIELD t skyColor J
 	FIELD u fogColor J
 	FIELD v cloudColor J
-	FIELD w randInt I
-	FIELD x tickUpdateRandom I
+	FIELD w updateLCG I
+	FIELD x DIST_HASH_MAGIC I
 	FIELD y worldAccesses Ljava/util/List;
 	FIELD z chunkProvider Lnet/minecraft/a/a/c/a;
 	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V

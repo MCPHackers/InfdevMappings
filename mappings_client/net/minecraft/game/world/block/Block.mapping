@@ -15,7 +15,7 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/game/world/block/Block
 	FIELD N obsidian Lnet/minecraft/a/a/b/aa;
 	FIELD O torch Lnet/minecraft/a/a/b/aa;
 	FIELD P fire Lnet/minecraft/a/a/b/an;
-	FIELD Q crate Lnet/minecraft/a/a/b/aa;
+	FIELD Q chest Lnet/minecraft/a/a/b/aa;
 	FIELD R cog Lnet/minecraft/a/a/b/aa;
 	FIELD S oreGold Lnet/minecraft/a/a/b/aa;
 	FIELD T blockDiamond Lnet/minecraft/a/a/b/aa;

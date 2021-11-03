@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/s net/minecraft/client/EnumOSMappingHelper
-	FIELD a osValues [I

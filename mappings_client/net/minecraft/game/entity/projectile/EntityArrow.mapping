@@ -3,7 +3,7 @@ CLASS net/minecraft/a/c/d/a net/minecraft/game/entity/projectile/EntityArrow
 	FIELD T zTile I
 	FIELD U inTile I
 	FIELD V inGround Z
-	FIELD W owner Lnet/minecraft/a/c/f;
+	FIELD W shootingEntity Lnet/minecraft/a/c/f;
 	FIELD X ticksInGround I
 	FIELD Y ticksInAir I
 	FIELD a arrowShake I

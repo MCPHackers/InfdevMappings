@@ -29,6 +29,6 @@ CLASS net/minecraft/a/b/o net/minecraft/game/item/ItemStack
 		ARG 1 integer
 	METHOD a writeToNBT (Lcom/a/a/c;)Lcom/a/a/c;
 		ARG 1 c
-	METHOD b getItemDamageForDisplay ()I
+	METHOD b getMaxDamage ()I
 	METHOD b damageItem (I)V
 		ARG 1 integer

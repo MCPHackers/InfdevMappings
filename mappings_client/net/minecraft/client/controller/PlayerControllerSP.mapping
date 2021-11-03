@@ -6,5 +6,5 @@ CLASS net/minecraft/client/d/c net/minecraft/client/controller/PlayerControllerS
 	FIELD g prevBlockDamage F
 	FIELD h blockDestroySoundCounter F
 	FIELD i blockHitWait I
-	FIELD j spawnerMonsters Lnet/minecraft/a/a/b;
-	FIELD k spawnerAnimals Lnet/minecraft/a/a/b;
+	FIELD j monsterSpawner Lnet/minecraft/a/a/b;
+	FIELD k animalSpawner Lnet/minecraft/a/a/b;
