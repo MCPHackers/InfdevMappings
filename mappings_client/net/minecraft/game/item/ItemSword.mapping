@@ -1,5 +1,5 @@
-CLASS net/minecraft/a/b/d net/minecraft/game/item/ItemSword
-	FIELD aA weaponDamage I
+CLASS net/minecraft/a/b/c net/minecraft/game/item/ItemSword
+	FIELD au weaponDamage I
 	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 mat
+		ARG 1 integer1
+		ARG 2 integer2

@@ -1,7 +1,11 @@
-CLASS net/minecraft/a/a/d/b/b net/minecraft/game/world/terrain/generate/WorldGenerator
-	METHOD a generate (Lnet/minecraft/a/a/h;Ljava/util/Random;III)Z
-		ARG 1 h
+CLASS net/minecraft/a/a/c/b/a net/minecraft/game/world/terrain/generate/WorldGenerator
+	METHOD a setScale (DDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD a generate (Lnet/minecraft/a/a/g;Ljava/util/Random;III)Z
+		ARG 1 world
 		ARG 2 random
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 integer5

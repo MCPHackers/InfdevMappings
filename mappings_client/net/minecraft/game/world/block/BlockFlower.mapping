@@ -1,16 +1,16 @@
-CLASS net/minecraft/a/a/b/ah net/minecraft/game/world/block/BlockFlower
+CLASS net/minecraft/a/a/b/ad net/minecraft/game/world/block/BlockFlower
 	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 tex
+		ARG 1 integer1
+		ARG 2 integer2
 	METHOD b canThisPlantGrowOnThisBlockID (I)Z
-		ARG 1 i
-	METHOD g canBlockStay (Lnet/minecraft/a/a/h;III)Z
-		ARG 1 h
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h checkFlowerChange (Lnet/minecraft/a/a/h;III)V
+		ARG 1 integer
+	METHOD e canBlockStay (Lnet/minecraft/a/a/g;III)Z
 		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+	METHOD h checkFlowerChange (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4

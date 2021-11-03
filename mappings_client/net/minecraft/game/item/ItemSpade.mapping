@@ -1,5 +1,5 @@
-CLASS net/minecraft/a/b/p net/minecraft/game/item/ItemSpade
-	FIELD aA blocksEffectiveAgainst [Lnet/minecraft/a/a/b/aa;
+CLASS net/minecraft/a/b/l net/minecraft/game/item/ItemSpade
+	FIELD au blocksEffectiveAgainst [Lnet/minecraft/a/a/b/x;
 	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 mat
+		ARG 1 integer1
+		ARG 2 integer2

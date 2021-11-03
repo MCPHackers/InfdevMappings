@@ -6,4 +6,4 @@ CLASS net/minecraft/client/g/b net/minecraft/client/player/MovementInput
 	METHOD a checkKeyForMovementInput (IZ)V
 		ARG 1 integer
 		ARG 2 boolean2
-	METHOD b resetPlayerKeyState ()V
+	METHOD b resetKeyState ()V

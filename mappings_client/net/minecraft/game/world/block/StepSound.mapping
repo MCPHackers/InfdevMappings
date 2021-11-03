@@ -1,10 +1,10 @@
-CLASS net/minecraft/a/a/b/o net/minecraft/game/world/block/StepSound
+CLASS net/minecraft/a/a/b/n net/minecraft/game/world/block/StepSound
 	FIELD a stepSoundVolume F
 	FIELD b stepSoundPitch F
 	FIELD c stepSoundName Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;FF)V
-		ARG 1 string
-		ARG 2 float2
-		ARG 3 float3
+		ARG 1 sound
+		ARG 2 soundVolume
+		ARG 3 soundPitch
 	METHOD a getBreakSound ()Ljava/lang/String;
 	METHOD b getStepSound ()Ljava/lang/String;

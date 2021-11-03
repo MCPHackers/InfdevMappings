@@ -3,15 +3,15 @@ CLASS com/a/a/j com/mojang/nbt/NBTBase
 	METHOD a getType ()B
 	METHOD a createTagOfType (B)Lcom/a/a/j;
 		ARG 0 byte1
-	METHOD a writeNamedTag (Lcom/a/a/j;Ljava/io/DataOutput;)V
-		ARG 0 j
+	METHOD a writeTag (Lcom/a/a/j;Ljava/io/DataOutput;)V
+		ARG 0 nbtBase
 		ARG 1 dataOutput
 	METHOD a readTagContents (Ljava/io/DataInput;)V
-		ARG 1 in
+		ARG 1 dataInput
 	METHOD a writeTagContents (Ljava/io/DataOutput;)V
-		ARG 1 out
-	METHOD b readNamedTag (Ljava/io/DataInput;)Lcom/a/a/j;
+		ARG 1 dataOutput
+	METHOD b readTag (Ljava/io/DataInput;)Lcom/a/a/j;
 		ARG 0 dataInput
 	METHOD c getKey ()Ljava/lang/String;
 	METHOD l setKey (Ljava/lang/String;)Lcom/a/a/j;
-		ARG 1 string
+		ARG 1 key

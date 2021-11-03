@@ -1,11 +1,10 @@
 CLASS net/minecraft/client/f/e net/minecraft/client/effect/EntityPickupFX
-	FIELD ad entityToPickUp Lnet/minecraft/a/c/b;
-	FIELD ae entityPickingUp Lnet/minecraft/a/c/f;
-	FIELD af age I
-	FIELD ag maxAge I
-	FIELD ah yOffs F
-	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/f;F)V
-		ARG 1 h
-		ARG 2 b
-		ARG 3 f
-		ARG 4 float4
+	FIELD Z entityToPickUp Lnet/minecraft/a/c/b;
+	FIELD aa entityPickingUp Lnet/minecraft/a/c/f;
+	FIELD ab age I
+	FIELD ac maxAge I
+	FIELD ad yOffs F
+	METHOD <init> (Lnet/minecraft/a/a/g;Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/f;F)V
+		ARG 1 world
+		ARG 2 entityToPickUp
+		ARG 3 entityPickingUp

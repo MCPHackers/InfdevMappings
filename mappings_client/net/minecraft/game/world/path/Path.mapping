@@ -1,15 +1,15 @@
 CLASS net/minecraft/a/a/a/d net/minecraft/game/world/path/Path
-	FIELD a pathPoints [Lnet/minecraft/a/a/a/a;
+	FIELD a pathpoints [Lnet/minecraft/a/a/a/a;
 	FIELD b count I
 	METHOD a clearPath ()V
 	METHOD a sortBack (I)V
-		ARG 1 i
+		ARG 1 integer
 	METHOD a addPoint (Lnet/minecraft/a/a/a/a;)Lnet/minecraft/a/a/a/a;
-		ARG 1 point
+		ARG 1 pathPoint
 	METHOD a changeDistance (Lnet/minecraft/a/a/a/a;F)V
-		ARG 1 point
-		ARG 2 f
+		ARG 1 pathPoint
+		ARG 2 float2
 	METHOD b dequeue ()Lnet/minecraft/a/a/a/a;
 	METHOD b sortForward (I)V
-		ARG 1 point
+		ARG 1 integer
 	METHOD c isPathEmpty ()Z

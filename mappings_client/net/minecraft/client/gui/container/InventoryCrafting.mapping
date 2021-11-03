@@ -1,8 +1,8 @@
 CLASS net/minecraft/client/c/a/a net/minecraft/client/gui/container/InventoryCrafting
-	FIELD a stackList [Lnet/minecraft/a/b/o;
-	FIELD b gridSize I
-	FIELD c craftingInventory Lnet/minecraft/client/c/a/j;
+	FIELD a stackList [Lnet/minecraft/a/b/k;
+	FIELD b inventoryWidth I
+	FIELD c eventHandler Lnet/minecraft/client/c/a/j;
 	METHOD <init> (Lnet/minecraft/client/c/a/j;II)V
-		ARG 1 j
+		ARG 1 eventHandler
 		ARG 2 integer2
 		ARG 3 integer3

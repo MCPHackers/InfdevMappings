@@ -1,19 +1,17 @@
 CLASS net/minecraft/a/a/b/a/a net/minecraft/game/world/block/tileentity/TileEntity
-	FIELD a worldObj Lnet/minecraft/a/a/h;
+	FIELD a worldObj Lnet/minecraft/a/a/g;
 	FIELD b xCoord I
 	FIELD c yCoord I
 	FIELD d zCoord I
 	FIELD e nameToClassMap Ljava/util/Map;
 	FIELD f classToNameMap Ljava/util/Map;
 	METHOD a readFromNBT (Lcom/a/a/c;)V
-		ARG 1 c
+		ARG 1 nbtTagCompound
 	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
-		ARG 0 tileEntity
-		ARG 1 name
+		ARG 0 class1
+		ARG 1 string
 	METHOD b writeToNBT (Lcom/a/a/c;)V
-		ARG 1 c
+		ARG 1 nbtTagCompound
 	METHOD c createAndLoadEntity (Lcom/a/a/c;)Lnet/minecraft/a/a/b/a/a;
-		ARG 0 c
-	METHOD d onInventoryChanged ()V
+		ARG 0 nbtTagCompound
 	METHOD e updateEntity ()V
-	METHOD f getBlockMetadata ()I

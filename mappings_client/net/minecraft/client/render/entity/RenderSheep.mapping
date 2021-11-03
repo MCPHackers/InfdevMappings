@@ -1,5 +1,5 @@
-CLASS net/minecraft/client/a/a/m net/minecraft/client/render/entity/RenderSheep
-	METHOD <init> (Lnet/minecraft/client/b/n;Lnet/minecraft/client/b/n;F)V
-		ARG 1 n1
-		ARG 2 n2
+CLASS net/minecraft/client/a/a/k net/minecraft/client/render/entity/RenderSheep
+	METHOD <init> (Lnet/minecraft/client/b/l;Lnet/minecraft/client/b/l;F)V
+		ARG 1 modelBase
+		ARG 2 renderPassModel
 		ARG 3 float3

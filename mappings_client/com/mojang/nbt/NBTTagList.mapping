@@ -4,5 +4,5 @@ CLASS com/a/a/f com/mojang/nbt/NBTTagList
 	METHOD a tagAt (I)Lcom/a/a/j;
 		ARG 1 integer
 	METHOD a setTag (Lcom/a/a/j;)V
-		ARG 1 j
+		ARG 1 nbtBase
 	METHOD b tagCount ()I

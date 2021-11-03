@@ -3,15 +3,9 @@ CLASS net/minecraft/a/a/c net/minecraft/game/world/NextTickListEntry
 	FIELD b yCoord I
 	FIELD c zCoord I
 	FIELD d blockID I
-	FIELD e scheduledTime J
-	FIELD f nextTickEntryID J
-	FIELD g tickEntryID J
+	FIELD e scheduledTime I
 	METHOD <init> (IIII)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 id
-	METHOD a setScheduledTime (J)Lnet/minecraft/a/a/c;
-		ARG 1 time
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 object
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4

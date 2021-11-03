@@ -1,41 +1,41 @@
 CLASS net/minecraft/a/a/a/c net/minecraft/game/world/path/Pathfinder
-	FIELD a worldMap Lnet/minecraft/a/a/j;
+	FIELD a worldMap Lnet/minecraft/a/a/g;
 	FIELD b path Lnet/minecraft/a/a/a/d;
 	FIELD c pointMap Ljava/util/Map;
 	FIELD d pathOptions [Lnet/minecraft/a/a/a/a;
-	METHOD <init> (Lnet/minecraft/a/a/j;)V
-		ARG 1 j
+	METHOD <init> (Lnet/minecraft/a/a/g;)V
+		ARG 1 worldMap
 	METHOD a openPoint (III)Lnet/minecraft/a/a/a/a;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a findPathOptions (IIILnet/minecraft/a/a/a/a;)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 point
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD a getVerticalOffset (IIILnet/minecraft/a/a/a/a;)I
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 pathPoint
 	METHOD a createEntityPath (Lnet/minecraft/a/a/a/a;)Lnet/minecraft/a/a/a/b;
-		ARG 0 point
-	METHOD a createEntityPathTo (Lnet/minecraft/a/c/b;DDDF)Lnet/minecraft/a/a/a/b;
-		ARG 1 b
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 range
-	METHOD a createEntityPathTo (Lnet/minecraft/a/c/b;IIIF)Lnet/minecraft/a/a/a/b;
-		ARG 1 b
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 range
+		ARG 0 pathPoint
+	METHOD a addToPath (Lnet/minecraft/a/c/b;DDDF)Lnet/minecraft/a/a/a/b;
+		ARG 1 entity
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+	METHOD a createEntityPathToXYZ (Lnet/minecraft/a/c/b;IIIF)Lnet/minecraft/a/a/a/b;
+		ARG 1 entity
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 float5
 	METHOD a getSafePoint (Lnet/minecraft/a/c/b;IIILnet/minecraft/a/a/a/a;I)Lnet/minecraft/a/a/a/a;
-		ARG 1 b
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 point
-		ARG 6 i
+		ARG 1 entity
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 pathPoint
+		ARG 6 integer6
 	METHOD a createEntityPathTo (Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/b;F)Lnet/minecraft/a/a/a/b;
-		ARG 1 b1
-		ARG 2 b2
-		ARG 3 f
+		ARG 1 entity1
+		ARG 2 entity2
+		ARG 3 float3

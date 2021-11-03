@@ -1,3 +1,0 @@
-CLASS net/minecraft/client/b/e net/minecraft/client/model/SignModel
-	FIELD a signBoard Lnet/minecraft/client/b/d;
-	FIELD b signStick Lnet/minecraft/client/b/d;

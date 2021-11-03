@@ -10,11 +10,11 @@ CLASS net/minecraft/a/a/a/a net/minecraft/game/world/path/PathPoint
 	FIELD i previous Lnet/minecraft/a/a/a/a;
 	FIELD j isFirst Z
 	METHOD <init> (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD a isAssigned ()Z
 	METHOD a distanceTo (Lnet/minecraft/a/a/a/a;)F
-		ARG 1 point
+		ARG 1 pathPoint
 	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 obj
+		ARG 1 object

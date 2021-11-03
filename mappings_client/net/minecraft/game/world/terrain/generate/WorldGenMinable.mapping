@@ -1,6 +1,4 @@
-CLASS net/minecraft/a/a/d/b/c net/minecraft/game/world/terrain/generate/WorldGenMinable
+CLASS net/minecraft/a/a/c/b/b net/minecraft/game/world/terrain/generate/WorldGenMinable
 	FIELD a minableBlockId I
-	FIELD b numberOfBlocks I
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 amount
+	METHOD <init> (I)V
+		ARG 1 integer

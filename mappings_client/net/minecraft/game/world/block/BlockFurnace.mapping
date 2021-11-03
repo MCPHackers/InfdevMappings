@@ -1,5 +1,10 @@
-CLASS net/minecraft/a/a/b/u net/minecraft/game/world/block/BlockFurnace
+CLASS net/minecraft/a/a/b/s net/minecraft/game/world/block/BlockFurnace
 	FIELD a isActive Z
 	METHOD <init> (IZ)V
-		ARG 1 id
-		ARG 2 flag
+		ARG 1 integer
+		ARG 2 isActive
+	METHOD e setDefaultDirection (Lnet/minecraft/a/a/g;III)V
+		ARG 0 world
+		ARG 1 integer2
+		ARG 2 integer3
+		ARG 3 integer4

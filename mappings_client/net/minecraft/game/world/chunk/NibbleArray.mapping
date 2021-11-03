@@ -1,16 +1,16 @@
-CLASS net/minecraft/a/a/c/c net/minecraft/game/world/chunk/NibbleArray
+CLASS net/minecraft/a/a/e/b net/minecraft/game/world/chunk/NibbleArray
 	FIELD a data [B
 	METHOD <init> (I)V
 		ARG 1 integer
 	METHOD <init> ([B)V
 		ARG 1 arr
 	METHOD a isValid ()Z
-	METHOD a getNibble (III)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a setNibble (IIII)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 nibble
+	METHOD a get (III)I
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD a set (IIII)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4

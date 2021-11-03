@@ -7,7 +7,7 @@ CLASS net/minecraft/a/a/f net/minecraft/game/world/MetadataChunkBlock
 	FIELD f maxY I
 	FIELD g maxZ I
 	METHOD <init> (Lnet/minecraft/a/a/e;IIIIII)V
-		ARG 1 e
+		ARG 1 enumSkyBlock
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4

@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/c/a/c net/minecraft/client/gui/container/GuiFurnace
 	FIELD k furnaceInventory Lnet/minecraft/a/a/b/a/b;
 	METHOD <init> (Lnet/minecraft/a/c/e/b;Lnet/minecraft/a/a/b/a/b;)V
-		ARG 1 b
-		ARG 2 furnace
+		ARG 1 inventoryPlayer
+		ARG 2 furnaceInventory

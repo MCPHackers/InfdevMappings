@@ -10,64 +10,59 @@ CLASS net/minecraft/client/a/d net/minecraft/client/render/Tessellator
 	FIELD i color I
 	FIELD j hasColor Z
 	FIELD k hasTexture Z
-	FIELD l hasNormals Z
-	FIELD m rawBufferIndex I
-	FIELD n addedVertices I
-	FIELD o isColorDisabled Z
-	FIELD p drawMode I
-	FIELD q xOffset D
-	FIELD r yOffset D
-	FIELD s zOffset D
-	FIELD t normal I
-	FIELD u isDrawing Z
-	FIELD v useVBO Z
-	FIELD w vertexBuffers Ljava/nio/IntBuffer;
-	FIELD x vboIndex I
-	FIELD y vboCount I
-	FIELD z bufferSize I
-	METHOD <init> (I)V
-		ARG 1 i
+	FIELD l rawBufferIndex I
+	FIELD m addedVertices I
+	FIELD n isColorDisabled Z
+	FIELD o drawMode I
+	FIELD p xOffset D
+	FIELD q yOffset D
+	FIELD r zOffset D
+	FIELD s isDrawing Z
+	FIELD t useVBO Z
+	FIELD u vertexBuffers Ljava/nio/IntBuffer;
+	FIELD v vboIndex I
+	FIELD w vboCount I
 	METHOD a draw ()V
-	METHOD a drawVertex (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+	METHOD a addVertex (DDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
 	METHOD a addVertexWithUV (DDDDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 U
-		ARG 9 V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+		ARG 7 double4
+		ARG 9 double5
 	METHOD a setColorOpaque_F (FFF)V
-		ARG 1 r
-		ARG 2 g
-		ARG 3 b
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
 	METHOD a setColorRGBA_F (FFFF)V
-		ARG 1 r
-		ARG 2 g
-		ARG 3 b
-		ARG 4 a
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 float4
 	METHOD a startDrawing (I)V
-		ARG 1 quads
+		ARG 1 drawMode
 	METHOD a setColorOpaque (III)V
-		ARG 1 r
-		ARG 2 g
-		ARG 3 b
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
 	METHOD a setColorRGBA (IIII)V
-		ARG 1 r
-		ARG 2 g
-		ARG 3 b
-		ARG 4 a
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
 	METHOD b startDrawingQuads ()V
 	METHOD b setTranslationD (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
 	METHOD b setNormal (FFF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 0 float1
+		ARG 1 float2
+		ARG 2 float3
 	METHOD b setColorOpaque_I (I)V
-		ARG 1 i
+		ARG 1 integer
 	METHOD c disableColor ()V
 	METHOD d reset ()V

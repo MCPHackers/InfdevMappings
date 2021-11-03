@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/c/i net/minecraft/client/gui/GuiScreen
-	FIELD a mc Lnet/minecraft/client/f;
+	FIELD a mc Lnet/minecraft/client/d;
 	FIELD b width I
 	FIELD c height I
 	FIELD d controlList Ljava/util/List;
@@ -10,22 +10,22 @@ CLASS net/minecraft/client/c/i net/minecraft/client/gui/GuiScreen
 		ARG 1 character
 		ARG 2 integer
 	METHOD a drawScreen (IIF)V
-		ARG 1 x
-		ARG 2 y
+		ARG 1 integer1
+		ARG 2 integer2
 		ARG 3 float3
 	METHOD a mouseClicked (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 id
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
 	METHOD a actionPerformed (Lnet/minecraft/client/c/o;)V
-		ARG 1 button
-	METHOD a setWorldAndResolution (Lnet/minecraft/client/f;II)V
-		ARG 1 game
-		ARG 2 w
-		ARG 3 h
+		ARG 1 guiButton
+	METHOD a setWorldAndResolution (Lnet/minecraft/client/d;II)V
+		ARG 1 minecraft
+		ARG 2 integer2
+		ARG 3 integer3
 	METHOD a deleteWorld (ZI)V
 		ARG 1 boolean1
-		ARG 2 id
+		ARG 2 integer
 	METHOD b initGui ()V
 	METHOD c doesGuiPauseGame ()Z
 	METHOD e handleMouseInput ()V

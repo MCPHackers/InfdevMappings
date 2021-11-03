@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/b/o net/minecraft/game/item/ItemStack
+CLASS net/minecraft/a/b/k net/minecraft/game/item/ItemStack
 	FIELD a stackSize I
 	FIELD b animationsToGo I
 	FIELD c itemID I
@@ -13,22 +13,22 @@ CLASS net/minecraft/a/b/o net/minecraft/game/item/ItemStack
 		ARG 2 integer2
 		ARG 3 integer3
 	METHOD <init> (Lcom/a/a/c;)V
-		ARG 1 c
-	METHOD <init> (Lnet/minecraft/a/a/b/aa;)V
-		ARG 1 aa
-	METHOD <init> (Lnet/minecraft/a/a/b/aa;I)V
-		ARG 1 aa
-		ARG 2 id
-	METHOD <init> (Lnet/minecraft/a/b/k;)V
-		ARG 1 k
-	METHOD <init> (Lnet/minecraft/a/b/k;I)V
-		ARG 1 k
-		ARG 2 id
-	METHOD a getItem ()Lnet/minecraft/a/b/k;
-	METHOD a splitStack (I)Lnet/minecraft/a/b/o;
+		ARG 1 nbtTagCompound
+	METHOD <init> (Lnet/minecraft/a/a/b/x;)V
+		ARG 1 block
+	METHOD <init> (Lnet/minecraft/a/a/b/x;I)V
+		ARG 1 block
+		ARG 2 integer
+	METHOD <init> (Lnet/minecraft/a/b/i;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/a/b/i;I)V
+		ARG 1 item
+		ARG 2 integer
+	METHOD a getItem ()Lnet/minecraft/a/b/i;
+	METHOD a splitStack (I)Lnet/minecraft/a/b/k;
 		ARG 1 integer
 	METHOD a writeToNBT (Lcom/a/a/c;)Lcom/a/a/c;
-		ARG 1 c
+		ARG 1 nbtTagCompound
 	METHOD b getMaxDamage ()I
 	METHOD b damageItem (I)V
 		ARG 1 integer

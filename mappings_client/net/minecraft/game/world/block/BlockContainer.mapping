@@ -1,2 +1,2 @@
-CLASS net/minecraft/a/a/b/s net/minecraft/game/world/block/BlockContainer
+CLASS net/minecraft/a/a/b/q net/minecraft/game/world/block/BlockContainer
 	METHOD a_ getBlockEntity ()Lnet/minecraft/a/a/b/a/a;

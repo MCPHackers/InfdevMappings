@@ -1,0 +1,22 @@
+CLASS net/minecraft/a/a/c/b/c net/minecraft/game/world/terrain/generate/WorldGenBigTree
+	FIELD a otherCoordPairs [B
+	FIELD b rand Ljava/util/Random;
+	FIELD c worldObj Lnet/minecraft/a/a/g;
+	FIELD d basePos [I
+	FIELD e heightLimit I
+	FIELD f height I
+	FIELD g heightAttenuation D
+	FIELD h branchSlope D
+	FIELD i scaleWidth D
+	FIELD j leafDensity D
+	FIELD k trunkSize I
+	FIELD l heightLimitLimit I
+	FIELD m leafDistanceLimit I
+	FIELD n leafNodes [[I
+	METHOD a checkBlockLine ([I[I)I
+		ARG 1 arr1
+		ARG 2 arr2
+	METHOD a placeBlockLine ([I[II)V
+		ARG 1 arr1
+		ARG 2 arr2
+		ARG 3 integer

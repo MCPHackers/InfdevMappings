@@ -1,4 +1,4 @@
 CLASS net/minecraft/client/a/a net/minecraft/client/render/RenderSorter
-	FIELD a player Lnet/minecraft/a/c/e/a;
+	FIELD a entityPlayer Lnet/minecraft/a/c/e/a;
 	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
-		ARG 1 entity
+		ARG 1 entityPlayer

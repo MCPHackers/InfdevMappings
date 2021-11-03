@@ -1,20 +1,18 @@
-CLASS net/minecraft/a/a/c/d net/minecraft/game/world/chunk/ChunkProviderLoadOrGenerate
-	FIELD a blankChunk Lnet/minecraft/a/a/c/e;
-	FIELD b chunkProvider Lnet/minecraft/a/a/c/a;
-	FIELD c chunkLoader Lnet/minecraft/a/a/c/a/b;
-	FIELD d chunkMap [Lnet/minecraft/a/a/c/e;
-	FIELD e world Lnet/minecraft/a/a/h;
-	FIELD f chunkXPos I
-	FIELD g chunkZPos I
-	FIELD h currentChunk Lnet/minecraft/a/a/c/e;
-	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/a/c/a/b;Lnet/minecraft/a/a/c/a;)V
-		ARG 1 h
-		ARG 2 b
-		ARG 3 a
-	METHOD a saveChunkMap (Lnet/minecraft/a/a/c/e;)V
-		ARG 1 e
-	METHOD b saveChunk (Lnet/minecraft/a/a/c/e;)V
-		ARG 1 e
-	METHOD c loadChunkAtPos (II)Lnet/minecraft/a/a/c/e;
-		ARG 1 x
-		ARG 2 z
+CLASS net/minecraft/a/a/e/c net/minecraft/game/world/chunk/ChunkProviderLoadOrGenerate
+	FIELD a chunkProvider Lnet/minecraft/a/a/e/a;
+	FIELD b chunks [Lnet/minecraft/a/a/e/d;
+	FIELD c saveDirectory Ljava/io/File;
+	FIELD d worldObj Lnet/minecraft/a/a/g;
+	FIELD e emptyList Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/a/a/g;Ljava/io/File;Lnet/minecraft/a/a/e/a;)V
+		ARG 1 world
+		ARG 2 file
+		ARG 3 iChunkProvider
+	METHOD a saveChunk (Lnet/minecraft/a/a/e/d;)V
+		ARG 1 chunk
+	METHOD c func_c (II)Ljava/io/File;
+		ARG 1 integer1
+		ARG 2 integer2
+	METHOD d func_d (II)Lnet/minecraft/a/a/e/d;
+		ARG 1 integer1
+		ARG 2 integer2

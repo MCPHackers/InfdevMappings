@@ -1,85 +1,82 @@
 CLASS net/minecraft/client/a/f net/minecraft/client/render/RenderBlocks
-	FIELD a blockAccess Lnet/minecraft/a/a/j;
+	FIELD a blockAccess Lnet/minecraft/a/a/g;
 	FIELD b overrideBlockTexture I
 	FIELD c flipTexture Z
-	FIELD d renderAllFaces Z
-	METHOD <init> (Lnet/minecraft/a/a/j;)V
-		ARG 1 j
-	METHOD a getFluidHeight (IIILnet/minecraft/a/a/e/c;)F
+	METHOD <init> (Lnet/minecraft/a/a/g;)V
+		ARG 1 blockAccess
+	METHOD a materialNotWater (III)F
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
-		ARG 4 c
-	METHOD a renderBlockOnInventory (Lnet/minecraft/a/a/b/aa;)V
-		ARG 1 aa
-	METHOD a renderTorchAtAngle (Lnet/minecraft/a/a/b/aa;DDDDD)V
-		ARG 1 aa
+	METHOD a renderBlockOnInventory (Lnet/minecraft/a/a/b/x;)V
+		ARG 1 block
+	METHOD a renderBlockTorch (Lnet/minecraft/a/a/b/x;DDDDD)V
+		ARG 1 block
 		ARG 2 double2
 		ARG 4 double3
 		ARG 6 double4
 		ARG 8 double5
 		ARG 10 double6
-	METHOD a renderBottomFace (Lnet/minecraft/a/a/b/aa;DDDI)V
-		ARG 1 aa
+	METHOD a renderBlockBottom (Lnet/minecraft/a/a/b/x;DDDI)V
+		ARG 1 block
 		ARG 2 double2
 		ARG 4 double3
 		ARG 6 double4
 		ARG 8 integer
-	METHOD a renderCrossedSquares (Lnet/minecraft/a/a/b/aa;IDDD)V
-		ARG 1 aa
+	METHOD a renderBlockPlant (Lnet/minecraft/a/a/b/x;IDDD)V
+		ARG 1 block
 		ARG 2 integer
 		ARG 3 double3
 		ARG 5 double4
 		ARG 7 double5
-	METHOD a renderBlockByRenderType (Lnet/minecraft/a/a/b/aa;III)Z
-		ARG 1 aa
+	METHOD a renderBlockAllFaces (Lnet/minecraft/a/a/b/x;III)V
+		ARG 1 block
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4
-	METHOD a renderBlockUsingTexture (Lnet/minecraft/a/a/b/aa;IIII)V
-		ARG 1 aa
-		ARG 2 i
-		ARG 3 j
-		ARG 4 k
-		ARG 5 l
-	METHOD a renderBlockFallingSand (Lnet/minecraft/a/a/b/aa;Lnet/minecraft/a/a/h;III)V
-		ARG 1 aa
-		ARG 2 h
+	METHOD a renderBlockUsingTexture (Lnet/minecraft/a/a/b/x;IIII)V
+		ARG 1 block
+		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4
 		ARG 5 integer5
-	METHOD b renderTopFace (Lnet/minecraft/a/a/b/aa;DDDI)V
-		ARG 1 aa
+	METHOD b renderBlockTop (Lnet/minecraft/a/a/b/x;DDDI)V
+		ARG 1 block
 		ARG 2 double2
 		ARG 4 double3
 		ARG 6 double4
 		ARG 8 integer
-	METHOD b renderBlockCrops (Lnet/minecraft/a/a/b/aa;IDDD)V
-		ARG 1 aa
+	METHOD b renderBlockCrops (Lnet/minecraft/a/a/b/x;IDDD)V
+		ARG 1 block
 		ARG 2 integer
 		ARG 3 double3
 		ARG 5 double4
 		ARG 7 double5
-	METHOD c renderEastFace (Lnet/minecraft/a/a/b/aa;DDDI)V
-		ARG 1 aa
+	METHOD b renderBlockByRenderType (Lnet/minecraft/a/a/b/x;III)Z
+		ARG 1 block
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+	METHOD c renderBlockNorth (Lnet/minecraft/a/a/b/x;DDDI)V
+		ARG 1 block
 		ARG 2 double2
 		ARG 4 double3
 		ARG 6 double4
 		ARG 8 integer
-	METHOD d renderWestFace (Lnet/minecraft/a/a/b/aa;DDDI)V
-		ARG 1 aa
+	METHOD d renderBlockSouth (Lnet/minecraft/a/a/b/x;DDDI)V
+		ARG 1 block
 		ARG 2 double2
 		ARG 4 double3
 		ARG 6 double4
 		ARG 8 integer
-	METHOD e renderNorthFace (Lnet/minecraft/a/a/b/aa;DDDI)V
-		ARG 1 aa
+	METHOD e renderBlockWest (Lnet/minecraft/a/a/b/x;DDDI)V
+		ARG 1 block
 		ARG 2 double2
 		ARG 4 double3
 		ARG 6 double4
 		ARG 8 integer
-	METHOD f renderSouthFace (Lnet/minecraft/a/a/b/aa;DDDI)V
-		ARG 1 aa
+	METHOD f renderBlockEast (Lnet/minecraft/a/a/b/x;DDDI)V
+		ARG 1 block
 		ARG 2 double2
 		ARG 4 double3
 		ARG 6 double4

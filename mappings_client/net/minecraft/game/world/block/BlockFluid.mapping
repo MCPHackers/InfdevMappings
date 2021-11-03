@@ -1,35 +1,34 @@
-CLASS net/minecraft/a/a/b/q net/minecraft/game/world/block/BlockFluid
-	FIELD a liquidType I
-	METHOD a getFlowDirection (Lnet/minecraft/a/a/j;IIILnet/minecraft/a/a/e/c;)D
-		ARG 0 j
-		ARG 1 integer2
-		ARG 2 integer3
-		ARG 3 integer4
-		ARG 4 c
-	METHOD b getFluidHeightPercent (I)F
-		ARG 0 air
-	METHOD c getEffectiveFlowDecay (Lnet/minecraft/a/a/j;III)I
-		ARG 1 j
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD d getFlowVector (Lnet/minecraft/a/a/j;III)Lnet/minecraft/a/d/a;
-		ARG 1 j
+CLASS net/minecraft/a/a/b/p net/minecraft/game/world/block/BlockFluid
+	FIELD a stillId I
+	FIELD b movingId I
+	METHOD e canFlow (Lnet/minecraft/a/a/g;III)Z
+		ARG 1 world
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4
-	METHOD f getFlowDecay (Lnet/minecraft/a/a/h;III)I
-		ARG 1 h
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g triggerLavaMixEffects (Lnet/minecraft/a/a/h;III)V
-		ARG 0 h
-		ARG 1 integer2
-		ARG 2 integer3
-		ARG 3 integer4
-	METHOD h checkForHarden (Lnet/minecraft/a/a/h;III)V
-		ARG 1 h
+	METHOD e update (Lnet/minecraft/a/a/g;IIII)Z
+		ARG 1 world
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4
+		ARG 5 integer5
+	METHOD h liquidSolidCheck (Lnet/minecraft/a/a/g;III)Z
+		ARG 0 world
+		ARG 1 integer2
+		ARG 2 integer3
+		ARG 3 integer4
+	METHOD i extinguishFireLava (Lnet/minecraft/a/a/g;III)Z
+		ARG 0 world
+		ARG 1 integer2
+		ARG 2 integer3
+		ARG 3 integer4
+	METHOD j flow (Lnet/minecraft/a/a/g;III)Z
+		ARG 1 world
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+	METHOD k liquidAirCheck (Lnet/minecraft/a/a/g;III)Z
+		ARG 0 world
+		ARG 1 integer2
+		ARG 2 integer3
+		ARG 3 integer4

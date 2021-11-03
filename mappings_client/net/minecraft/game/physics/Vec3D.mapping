@@ -3,27 +3,26 @@ CLASS net/minecraft/a/d/a net/minecraft/game/physics/Vec3D
 	FIELD b yCoord D
 	FIELD c zCoord D
 	METHOD <init> (DDD)V
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
 	METHOD a normalize ()Lnet/minecraft/a/d/a;
 	METHOD a addVector (DDD)Lnet/minecraft/a/d/a;
 		ARG 1 double1
 		ARG 3 double2
 		ARG 5 double3
 	METHOD a subtract (Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/a;
-		ARG 1 a
+		ARG 1 vec3D
 	METHOD a getIntermediateWithXValue (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
-		ARG 1 a
+		ARG 1 vec3D
 		ARG 2 double2
-	METHOD b lengthVector ()D
-	METHOD b distanceTo (Lnet/minecraft/a/d/a;)D
-		ARG 1 a
+	METHOD b distance (Lnet/minecraft/a/d/a;)D
+		ARG 1 vec3D
 	METHOD b getIntermediateWithYValue (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
-		ARG 1 a
+		ARG 1 vec3D
 		ARG 2 double2
 	METHOD c squareDistanceTo (Lnet/minecraft/a/d/a;)D
-		ARG 1 a
+		ARG 1 vec3D
 	METHOD c getIntermediateWithZValue (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
-		ARG 1 a
+		ARG 1 vec3D
 		ARG 2 double2

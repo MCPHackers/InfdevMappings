@@ -3,7 +3,6 @@ CLASS net/minecraft/client/a/c/b net/minecraft/client/render/texture/TextureFX
 	FIELD b iconIndex I
 	FIELD c anaglyphEnabled Z
 	FIELD d textureId I
-	FIELD e tileSize I
 	METHOD <init> (I)V
-		ARG 1 iconIndex
+		ARG 1 integer
 	METHOD a onTick ()V

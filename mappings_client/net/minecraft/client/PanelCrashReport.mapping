@@ -1,3 +1,0 @@
-CLASS net/minecraft/client/h net/minecraft/client/PanelCrashReport
-	METHOD <init> (Lnet/minecraft/client/a;)V
-		ARG 1 throwable

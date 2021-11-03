@@ -1,3 +1,3 @@
 CLASS net/minecraft/client/a/c/e net/minecraft/client/render/texture/TextureFlamesFX
-	FIELD f currentFireFrame [F
-	FIELD g lastFireFrame [F
+	FIELD e currentFireFrame [F
+	FIELD f lastFireFrame [F

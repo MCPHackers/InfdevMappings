@@ -1,9 +1,9 @@
-CLASS net/minecraft/a/b/i net/minecraft/game/item/ItemTool
-	FIELD aA blocksEffectiveAgainst [Lnet/minecraft/a/a/b/aa;
-	FIELD aB efficiencyOnProperMaterial F
-	FIELD aC damageVsEntity I
-	METHOD <init> (III[Lnet/minecraft/a/a/b/aa;)V
-		ARG 1 id
-		ARG 2 i
-		ARG 3 mat
-		ARG 4 effectiveAgaisnt
+CLASS net/minecraft/a/b/g net/minecraft/game/item/ItemTool
+	FIELD au blocksEffectiveAgainst [Lnet/minecraft/a/a/b/x;
+	FIELD av efficiencyOnProperMaterial F
+	FIELD aw damageVsEntity I
+	METHOD <init> (III[Lnet/minecraft/a/a/b/x;)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 arr

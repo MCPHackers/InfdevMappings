@@ -1,16 +1,16 @@
-CLASS net/minecraft/a/a/d/a/c net/minecraft/game/world/terrain/noise/NoiseGeneratorOctaves
-	FIELD a generatorCollection [Lnet/minecraft/a/a/d/a/a;
+CLASS net/minecraft/a/a/c/a/c net/minecraft/game/world/terrain/noise/NoiseGeneratorOctaves
+	FIELD a generatorCollection [Lnet/minecraft/a/a/c/a/a;
 	FIELD b octaves I
 	METHOD <init> (Ljava/util/Random;I)V
-		ARG 1 rand
-		ARG 2 i
-	METHOD a generateNoiseOctaves (DD)D
-		ARG 1 x
-		ARG 3 z
-	METHOD a generateNoiseOctaves (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+		ARG 1 random
+		ARG 2 octaves
+	METHOD a noiseGenerator (DD)D
+		ARG 1 double1
+		ARG 3 double2
+	METHOD a func_a (DDD)D
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
 	METHOD a generateNoiseOctaves ([DIIIIIIDDD)[D
 		ARG 1 arr
 		ARG 2 integer2

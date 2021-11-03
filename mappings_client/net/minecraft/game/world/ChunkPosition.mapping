@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/a/i net/minecraft/game/world/ChunkPosition
+CLASS net/minecraft/a/a/h net/minecraft/game/world/ChunkPosition
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
@@ -7,4 +7,4 @@ CLASS net/minecraft/a/a/i net/minecraft/game/world/ChunkPosition
 		ARG 2 y
 		ARG 3 z
 	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 obj
+		ARG 1 object

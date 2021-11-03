@@ -1,11 +1,11 @@
-CLASS net/minecraft/a/b/n net/minecraft/game/item/ItemArmor
-	FIELD aA armorType I
-	FIELD aB damageReduceAmount I
-	FIELD aC renderIndex I
-	FIELD aD damageReduceAmountArray [I
-	FIELD aE maxDamageArray [I
+CLASS net/minecraft/a/b/j net/minecraft/game/item/ItemArmor
+	FIELD au armorType I
+	FIELD av damageReduceAmount I
+	FIELD aw renderIndex I
+	FIELD ax damageReduceAmountArray [I
+	FIELD ay maxDamageArray [I
 	METHOD <init> (IIII)V
-		ARG 1 i
-		ARG 2 j
-		ARG 3 k
-		ARG 4 l
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 renderIndex
+		ARG 4 armorType

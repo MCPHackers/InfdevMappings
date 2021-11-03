@@ -1,5 +1,5 @@
-CLASS net/minecraft/a/b/t net/minecraft/game/item/ItemFood
-	FIELD aA healAmount I
+CLASS net/minecraft/a/b/p net/minecraft/game/item/ItemFood
+	FIELD au healAmount I
 	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 amount
+		ARG 1 integer1
+		ARG 2 integer2

@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/a/b/ab net/minecraft/game/world/block/BlockBookshelf
+CLASS net/minecraft/a/a/b/y net/minecraft/game/world/block/BlockBookshelf
 	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 tex
+		ARG 1 integer1
+		ARG 2 integer2

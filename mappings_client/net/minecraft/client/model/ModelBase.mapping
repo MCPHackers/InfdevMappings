@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/b/n net/minecraft/client/model/ModelBase
+CLASS net/minecraft/client/b/l net/minecraft/client/model/ModelBase
 	METHOD a render (FFFFFF)V
 		ARG 1 float1
 		ARG 2 float2

@@ -1,0 +1,7 @@
+CLASS net/minecraft/a/c/c/a net/minecraft/game/entity/misc/EntityTNT
+	FIELD a fuse I
+	METHOD <init> (Lnet/minecraft/a/a/g;FFF)V
+		ARG 1 world
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 float4

@@ -1,6 +1,0 @@
-CLASS net/minecraft/isom/g net/minecraft/isom/EnumOS
-	FIELD a linux Lnet/minecraft/isom/g;
-	FIELD b solaris Lnet/minecraft/isom/g;
-	FIELD c windows Lnet/minecraft/isom/g;
-	FIELD d macos Lnet/minecraft/isom/g;
-	FIELD e unknown Lnet/minecraft/isom/g;

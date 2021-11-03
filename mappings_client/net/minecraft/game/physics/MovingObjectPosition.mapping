@@ -7,10 +7,10 @@ CLASS net/minecraft/a/d/c net/minecraft/game/physics/MovingObjectPosition
 	FIELD f hitVec Lnet/minecraft/a/d/a;
 	FIELD g entityHit Lnet/minecraft/a/c/b;
 	METHOD <init> (IIIILnet/minecraft/a/d/a;)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 a
+		ARG 1 blockX
+		ARG 2 blockY
+		ARG 3 blockZ
+		ARG 4 sideHit
+		ARG 5 vec3D
 	METHOD <init> (Lnet/minecraft/a/c/b;)V
-		ARG 1 b
+		ARG 1 entityHit

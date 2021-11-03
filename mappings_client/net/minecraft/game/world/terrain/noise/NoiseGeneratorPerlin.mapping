@@ -1,22 +1,22 @@
-CLASS net/minecraft/a/a/d/a/a net/minecraft/game/world/terrain/noise/NoiseGeneratorPerlin
+CLASS net/minecraft/a/a/c/a/a net/minecraft/game/world/terrain/noise/NoiseGeneratorPerlin
 	FIELD a permutations [I
 	FIELD b xCoord D
 	FIELD c yCoord D
 	FIELD d zCoord D
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
-	METHOD a generateNoise (DD)D
-		ARG 1 x
-		ARG 3 z
-	METHOD a generateNoiseD (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+	METHOD a func_a (DD)D
+		ARG 1 double1
+		ARG 3 double2
+	METHOD a func_a (DDD)D
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
 	METHOD a grad (IDDD)D
-		ARG 0 i
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+		ARG 0 integer
+		ARG 1 double2
+		ARG 3 double3
+		ARG 5 double4
 	METHOD a populateNoiseArray ([DIIIIIIDDDD)V
 		ARG 1 arr
 		ARG 2 integer2
@@ -30,10 +30,10 @@ CLASS net/minecraft/a/a/d/a/a net/minecraft/game/world/terrain/noise/NoiseGenera
 		ARG 12 double10
 		ARG 14 double11
 	METHOD b generateNoise (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
 	METHOD c lerp (DDD)D
-		ARG 0 x
-		ARG 2 y
-		ARG 4 z
+		ARG 0 double1
+		ARG 2 double2
+		ARG 4 double3

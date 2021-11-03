@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/a/a/i net/minecraft/client/render/entity/RenderMinecart
-	FIELD d minecartModel Lnet/minecraft/client/b/n;

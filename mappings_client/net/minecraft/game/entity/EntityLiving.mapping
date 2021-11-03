@@ -1,43 +1,42 @@
 CLASS net/minecraft/a/c/f net/minecraft/game/entity/EntityLiving
-	FIELD S scoreValue I
-	FIELD T livingSoundTime I
-	FIELD U randomYawVelocity F
-	FIELD V defaultPitch F
-	FIELD X heartsHalvesLife I
-	FIELD Y renderYawOffset F
-	FIELD Z prevRenderYawOffset F
-	FIELD a prevRidingRotUnused F
-	FIELD aa texture Ljava/lang/String;
-	FIELD ab health I
-	FIELD ac prevHealth I
-	FIELD ad hurtTime I
-	FIELD ae maxHurtTime I
-	FIELD af attackedAtYaw F
-	FIELD ag deathTime I
-	FIELD ah attackTime I
-	FIELD ai prevCameraPitch F
-	FIELD aj cameraPitch F
-	FIELD ak prevLimbYaw F
-	FIELD al limbYaw F
-	FIELD am limbSwing F
-	FIELD an entityAge I
-	FIELD ao moveStrafing F
-	FIELD ap moveForward F
-	FIELD aq isJumping Z
-	FIELD ar moveSpeed F
-	FIELD b rotationUnused F
+	FIELD O scoreValue I
+	FIELD P livingSoundTime I
+	FIELD Q randomYawVelocity F
+	FIELD R defaultPitch F
+	FIELD T heartsHalvesLife I
+	FIELD U renderYawOffset F
+	FIELD V prevRenderYawOffset F
+	FIELD W texture Ljava/lang/String;
+	FIELD X health I
+	FIELD Y prevHealth I
+	FIELD Z hurtTime I
+	FIELD a rotationYawHead F
+	FIELD aa maxHurtTime I
+	FIELD ab attackedAtYaw F
+	FIELD ac deathTime I
+	FIELD ad attackTime I
+	FIELD ae prevCameraPitch F
+	FIELD af cameraPitch F
+	FIELD ag newPosZ F
+	FIELD ah newRotationYaw F
+	FIELD ai newRotationPitch F
+	FIELD aj entityAge I
+	FIELD ak moveStrafing F
+	FIELD al moveForward F
+	FIELD am isJumping Z
+	FIELD an moveSpeed F
+	FIELD b prevRotationYawHead F
 	METHOD a getCanSpawnHere (FFF)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a heal (I)V
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+	METHOD b getDroppedItem ()I
+	METHOD b heal (I)V
 		ARG 1 integer
-	METHOD b getDropItemId ()I
 	METHOD d updatePlayerActionState ()V
-	METHOD e onLivingUpdate ()V
-	METHOD e onDeath (Lnet/minecraft/a/c/b;)V
+	METHOD d onDeath (Lnet/minecraft/a/c/b;)V
 		ARG 1 entity
+	METHOD e onLivingUpdate ()V
 	METHOD f getLivingSound ()Ljava/lang/String;
 	METHOD g getHurtSound ()Ljava/lang/String;
 	METHOD h getDeathSound ()Ljava/lang/String;
-	METHOD v isOnLadder ()Z

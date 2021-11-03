@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/b/l net/minecraft/client/model/PositionTextureVertex
+CLASS net/minecraft/client/b/j net/minecraft/client/model/PositionTextureVertex
 	FIELD a vector3D Lnet/minecraft/a/d/a;
 	FIELD b texturePositionX F
 	FIELD c texturePositionY F
@@ -9,13 +9,13 @@ CLASS net/minecraft/client/b/l net/minecraft/client/model/PositionTextureVertex
 		ARG 4 float4
 		ARG 5 float5
 	METHOD <init> (Lnet/minecraft/a/d/a;FF)V
-		ARG 1 a
-		ARG 2 float2
-		ARG 3 float3
-	METHOD <init> (Lnet/minecraft/client/b/l;FF)V
-		ARG 1 l
-		ARG 2 float2
-		ARG 3 float3
-	METHOD a setTexturePosition (FF)Lnet/minecraft/client/b/l;
+		ARG 1 vector3D
+		ARG 2 texturePositionX
+		ARG 3 texturePositionZ
+	METHOD <init> (Lnet/minecraft/client/b/j;FF)V
+		ARG 1 positionTextureVertex
+		ARG 2 texturePositionX
+		ARG 3 texturePositionY
+	METHOD a setTexturePosition (FF)Lnet/minecraft/client/b/j;
 		ARG 1 float1
 		ARG 2 float2
