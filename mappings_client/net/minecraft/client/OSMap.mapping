@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/n net/minecraft/client/OSMap
+	FIELD a osValues [I

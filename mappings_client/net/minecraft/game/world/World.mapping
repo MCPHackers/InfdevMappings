@@ -84,7 +84,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 8 double5
 		ARG 10 double6
 		ARG 12 double7
-	METHOD a func_a (Ljava/util/List;)V
+	METHOD a addLoadedEntities (Ljava/util/List;)V
 		ARG 1 list
 	METHOD a addWorldAccess (Lnet/minecraft/a/a/a;)V
 		ARG 1 iWorldAccess
@@ -126,7 +126,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 	METHOD a rayTraceBlocks (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
 		ARG 1 vec3D1
 		ARG 2 vec3D2
-	METHOD a func_a (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/b;)F
+	METHOD a getBlockDensity (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/b;)F
 		ARG 1 vec3D
 		ARG 2 axisAlignedBB
 	METHOD a getCollidingBoundingBoxes (Lnet/minecraft/a/d/b;)Ljava/util/List;
@@ -134,17 +134,17 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 	METHOD a isMaterialInBB (Lnet/minecraft/a/d/b;Lnet/minecraft/a/a/d/c;)Z
 		ARG 1 axisAlignedBB
 		ARG 2 material
-	METHOD a saveLevel (Z)V
+	METHOD a saveWorld (Z)V
 		ARG 1 boolean1
 	METHOD a deleteFiles ([Ljava/io/File;)V
 		ARG 0 arr
-	METHOD b func_b ()Z
+	METHOD b isDaytime ()Z
 	METHOD b getCelestialAngle (F)F
 		ARG 1 float1
 	METHOD b chunkExists (II)Z
 		ARG 1 integer1
 		ARG 2 integer2
-	METHOD b chunkExistsB (III)Z
+	METHOD b blockExists (III)Z
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
@@ -156,7 +156,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
 		ARG 0 file
 		ARG 1 string
-	METHOD b func_b (Ljava/util/List;)V
+	METHOD b unloadEntities (Ljava/util/List;)V
 		ARG 1 list
 	METHOD b removeWorldAccess (Lnet/minecraft/a/a/a;)V
 		ARG 1 iWorldAccess
@@ -181,7 +181,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 4 integer4
 	METHOD c getIsAnyLiquid (Lnet/minecraft/a/d/b;)Z
 		ARG 1 axisAlignedBB
-	METHOD d func_d ()Ljava/lang/String;
+	METHOD d getDebugLoadedEntities ()Ljava/lang/String;
 	METHOD d getFogColor (F)Lnet/minecraft/a/d/a;
 		ARG 1 float1
 	METHOD d getBlockMetadata (III)I
@@ -195,7 +195,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 4 integer4
 	METHOD d isBoundingBoxBurning (Lnet/minecraft/a/d/b;)Z
 		ARG 1 axisAlignedBB
-	METHOD e getPlayer ()Lnet/minecraft/a/c/b;
+	METHOD e getPlayerEntity ()Lnet/minecraft/a/c/b;
 	METHOD e getStarBrightness (F)F
 		ARG 1 float1
 	METHOD e canBlockSeeTheSky (III)Z
@@ -207,7 +207,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4
-	METHOD f load ()V
+	METHOD f saveWorldIndirectly ()V
 	METHOD f getBlockLightValue (III)I
 		ARG 1 integer1
 		ARG 2 integer2
@@ -227,8 +227,8 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4
-	METHOD h updateLoad ()Z
-	METHOD h getLightBrightness (III)F
+	METHOD h updatingLighting ()Z
+	METHOD h getBrightness (III)F
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
@@ -242,7 +242,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
-	METHOD i (IIII)V
+	METHOD i notifyBlockOfNeighborChange (IIII)V
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
@@ -252,7 +252,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
-	METHOD k func_k ()V
+	METHOD k dropOldChunks ()V
 	METHOD k isSolid (III)Z
 		ARG 1 integer1
 		ARG 2 integer2
@@ -261,7 +261,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/world/World
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3
-	METHOD m func_m (III)V
+	METHOD m updateTileEntityChunkAndDoNothing (III)V
 		ARG 1 integer1
 		ARG 2 integer2
 		ARG 3 integer3

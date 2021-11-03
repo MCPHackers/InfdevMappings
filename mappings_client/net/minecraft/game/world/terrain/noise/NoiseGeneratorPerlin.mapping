@@ -5,10 +5,10 @@ CLASS net/minecraft/a/a/c/a/a net/minecraft/game/world/terrain/noise/NoiseGenera
 	FIELD d zCoord D
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
-	METHOD a func_a (DD)D
+	METHOD a generateNoise (DD)D
 		ARG 1 double1
 		ARG 3 double2
-	METHOD a func_a (DDD)D
+	METHOD a generateNoiseD (DDD)D
 		ARG 1 double1
 		ARG 3 double2
 		ARG 5 double3

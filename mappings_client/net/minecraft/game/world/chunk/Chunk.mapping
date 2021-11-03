@@ -68,7 +68,7 @@ CLASS net/minecraft/a/a/e/d net/minecraft/game/world/chunk/Chunk
 		ARG 3 list
 	METHOD a needsSaving (Z)Z
 		ARG 1 boolean1
-	METHOD b func_b ()V
+	METHOD b loadEntities ()V
 	METHOD b updateSkylight_do (II)V
 		ARG 1 integer1
 		ARG 2 integer2
@@ -81,7 +81,7 @@ CLASS net/minecraft/a/a/e/d net/minecraft/game/world/chunk/Chunk
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 integer4
-	METHOD c func_c ()V
+	METHOD c unloadEntities ()V
 	METHOD c canBlockSeeTheSky (III)Z
 		ARG 1 integer1
 		ARG 2 integer2

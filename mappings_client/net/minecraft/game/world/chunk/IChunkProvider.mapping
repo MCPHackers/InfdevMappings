@@ -1,5 +1,5 @@
 CLASS net/minecraft/a/a/e/a net/minecraft/game/world/chunk/IChunkProvider
-	METHOD a canSave ()Z
+	METHOD a unload100OldestChunks ()Z
 	METHOD a chunkExists (II)Z
 		ARG 1 integer1
 		ARG 2 integer2
