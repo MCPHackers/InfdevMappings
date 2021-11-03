@@ -119,7 +119,6 @@ CLASS gs net/minecraft/src/Block
 	METHOD a idDropped (ILjava/util/Random;)I
 		ARG 1 blockid
 	METHOD a canCollideCheck (IZ)Z
-		ARG 1 nya1
 	METHOD a isVecInsideYZBounds (Lbo;)Z
 		ARG 1 var1
 	METHOD a setStepSound (Lcq;)Lgs;
@@ -222,7 +221,6 @@ CLASS gs net/minecraft/src/Block
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-		ARG 5 nya4
 	METHOD b onBlockClicked (Lfe;IIILgi;)V
 		ARG 1 world
 		ARG 2 xCoord
@@ -239,7 +237,6 @@ CLASS gs net/minecraft/src/Block
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-		ARG 5 nya4
 	METHOD b setTickOnLoad (Z)V
 		ARG 1 tick
 	METHOD c renderAsNormalBlock ()Z

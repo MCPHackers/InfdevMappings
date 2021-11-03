@@ -1,4 +1,4 @@
-CLASS bp net/minecraft/src/EnumOS2
+CLASS bp net/minecraft/src/EnumOS
 	FIELD a linux Lbp;
 	FIELD b solaris Lbp;
 	FIELD c windows Lbp;

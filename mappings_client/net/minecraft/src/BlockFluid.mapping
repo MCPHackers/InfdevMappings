@@ -1,5 +1,5 @@
 CLASS dq net/minecraft/src/BlockFluid
-	FIELD d unsure I
+	FIELD d fluidType I
 	METHOD a getFlowDirection (Liv;IIILjy;)D
 		ARG 0 blockAccess
 		ARG 1 xCoord

@@ -1,2 +1,2 @@
-CLASS fz net/minecraft/src/OsMap
+CLASS iw net/minecraft/src/OSMap
 	FIELD a osValues [I

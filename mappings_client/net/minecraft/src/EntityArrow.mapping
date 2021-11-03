@@ -4,7 +4,7 @@ CLASS eo net/minecraft/src/EntityArrow
 	FIELD Z inTile I
 	FIELD a arrowShake I
 	FIELD aa inGround Z
-	FIELD ab owner Lka;
+	FIELD ab shootingEntity Lka;
 	FIELD ac ticksInGround I
 	FIELD ad ticksInAir I
 	FIELD b xTile I
