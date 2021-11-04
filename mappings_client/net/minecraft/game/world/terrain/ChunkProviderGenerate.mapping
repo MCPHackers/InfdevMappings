@@ -7,10 +7,7 @@ CLASS net/minecraft/a/a/c/a net/minecraft/game/world/terrain/ChunkProviderGenera
 	FIELD f noiseGen5 Lnet/minecraft/a/a/c/a/c;
 	FIELD g mobSpawnerNoise Lnet/minecraft/a/a/c/a/c;
 	FIELD h worldObj Lnet/minecraft/a/a/g;
-	FIELD i noiseArray [D
-	FIELD j noise3 [D
-	FIELD k noise1 [D
-	FIELD l noise2 [D
 	METHOD <init> (Lnet/minecraft/a/a/g;J)V
 		ARG 1 world
 		ARG 2 long2
+	METHOD a initializeNoiseField (DDD)D

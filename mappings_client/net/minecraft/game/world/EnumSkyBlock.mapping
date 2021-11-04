@@ -1,4 +1,3 @@
 CLASS net/minecraft/a/a/e net/minecraft/game/world/EnumSkyBlock
 	FIELD a Sky Lnet/minecraft/a/a/e;
 	FIELD b Block Lnet/minecraft/a/a/e;
-	FIELD c defaultLightValue I

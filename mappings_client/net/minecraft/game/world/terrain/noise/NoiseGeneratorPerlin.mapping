@@ -5,6 +5,7 @@ CLASS net/minecraft/a/a/c/a/a net/minecraft/game/world/terrain/noise/NoiseGenera
 	FIELD d zCoord D
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
+	METHOD a generateNoise (D)D
 	METHOD a generateNoise (DD)D
 		ARG 1 double1
 		ARG 3 double2
@@ -17,18 +18,6 @@ CLASS net/minecraft/a/a/c/a/a net/minecraft/game/world/terrain/noise/NoiseGenera
 		ARG 1 double2
 		ARG 3 double3
 		ARG 5 double4
-	METHOD a populateNoiseArray ([DIIIIIIDDDD)V
-		ARG 1 arr
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 integer6
-		ARG 7 integer7
-		ARG 8 double8
-		ARG 10 double9
-		ARG 12 double10
-		ARG 14 double11
 	METHOD b generateNoise (DDD)D
 		ARG 1 double1
 		ARG 3 double2

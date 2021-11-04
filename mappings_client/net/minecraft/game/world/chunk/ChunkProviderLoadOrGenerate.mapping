@@ -3,7 +3,6 @@ CLASS net/minecraft/a/a/e/c net/minecraft/game/world/chunk/ChunkProviderLoadOrGe
 	FIELD b chunks [Lnet/minecraft/a/a/e/d;
 	FIELD c saveDirectory Ljava/io/File;
 	FIELD d worldObj Lnet/minecraft/a/a/g;
-	FIELD e emptyList Ljava/util/List;
 	METHOD <init> (Lnet/minecraft/a/a/g;Ljava/io/File;Lnet/minecraft/a/a/e/a;)V
 		ARG 1 world
 		ARG 2 file
