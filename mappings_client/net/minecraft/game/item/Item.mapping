@@ -1,98 +1,83 @@
 CLASS net/minecraft/a/b/i net/minecraft/game/item/Item
-	FIELD A stick Lnet/minecraft/a/b/i;
-	FIELD B bowlEmpty Lnet/minecraft/a/b/i;
-	FIELD C bowlSoup Lnet/minecraft/a/b/i;
-	FIELD D swordGold Lnet/minecraft/a/b/i;
-	FIELD E shovelGold Lnet/minecraft/a/b/i;
-	FIELD F pickaxeGold Lnet/minecraft/a/b/i;
-	FIELD G axeGold Lnet/minecraft/a/b/i;
-	FIELD H silk Lnet/minecraft/a/b/i;
-	FIELD I feather Lnet/minecraft/a/b/i;
-	FIELD J gunpowder Lnet/minecraft/a/b/i;
-	FIELD K hoeWood Lnet/minecraft/a/b/i;
-	FIELD L hoeStone Lnet/minecraft/a/b/i;
-	FIELD M hoeSteel Lnet/minecraft/a/b/i;
-	FIELD N hoeDiamond Lnet/minecraft/a/b/i;
-	FIELD O hoeGold Lnet/minecraft/a/b/i;
-	FIELD P seeds Lnet/minecraft/a/b/i;
-	FIELD Q wheat Lnet/minecraft/a/b/i;
-	FIELD R bread Lnet/minecraft/a/b/i;
-	FIELD S helmetLeather Lnet/minecraft/a/b/i;
-	FIELD T plateLeather Lnet/minecraft/a/b/i;
-	FIELD U legsLeather Lnet/minecraft/a/b/i;
-	FIELD V bootsLeather Lnet/minecraft/a/b/i;
-	FIELD W helmetChain Lnet/minecraft/a/b/i;
-	FIELD X plateChain Lnet/minecraft/a/b/i;
-	FIELD Y legsChain Lnet/minecraft/a/b/i;
-	FIELD Z bootsChain Lnet/minecraft/a/b/i;
-	FIELD a itemRand Ljava/util/Random;
-	FIELD aa helmetSteel Lnet/minecraft/a/b/i;
-	FIELD ab plateSteel Lnet/minecraft/a/b/i;
-	FIELD ac legsSteel Lnet/minecraft/a/b/i;
-	FIELD ad bootsSteel Lnet/minecraft/a/b/i;
-	FIELD ae helmetDiamond Lnet/minecraft/a/b/i;
-	FIELD af plateDiamond Lnet/minecraft/a/b/i;
-	FIELD ag legsDiamond Lnet/minecraft/a/b/i;
-	FIELD ah bootsDiamond Lnet/minecraft/a/b/i;
-	FIELD ai helmetGold Lnet/minecraft/a/b/i;
-	FIELD aj plateGold Lnet/minecraft/a/b/i;
-	FIELD ak legsGold Lnet/minecraft/a/b/i;
-	FIELD al bootsGold Lnet/minecraft/a/b/i;
-	FIELD am flint Lnet/minecraft/a/b/i;
-	FIELD an porkRaw Lnet/minecraft/a/b/i;
-	FIELD ao porkCooked Lnet/minecraft/a/b/i;
-	FIELD ap painting Lnet/minecraft/a/b/i;
-	FIELD aq appleGold Lnet/minecraft/a/b/i;
-	FIELD ar shiftedIndex I
-	FIELD as maxStackSize I
-	FIELD at maxDamage I
-	FIELD au iconIndex I
+	FIELD A bowlEmpty Lnet/minecraft/a/b/i;
+	FIELD B bowlSoup Lnet/minecraft/a/b/i;
+	FIELD C swordGold Lnet/minecraft/a/b/i;
+	FIELD D shovelGold Lnet/minecraft/a/b/i;
+	FIELD E pickaxeGold Lnet/minecraft/a/b/i;
+	FIELD F axeGold Lnet/minecraft/a/b/i;
+	FIELD G silk Lnet/minecraft/a/b/i;
+	FIELD H feather Lnet/minecraft/a/b/i;
+	FIELD I gunpowder Lnet/minecraft/a/b/i;
+	FIELD J hoeWood Lnet/minecraft/a/b/i;
+	FIELD K hoeStone Lnet/minecraft/a/b/i;
+	FIELD L hoeSteel Lnet/minecraft/a/b/i;
+	FIELD M hoeDiamond Lnet/minecraft/a/b/i;
+	FIELD N hoeGold Lnet/minecraft/a/b/i;
+	FIELD O seeds Lnet/minecraft/a/b/i;
+	FIELD P wheat Lnet/minecraft/a/b/i;
+	FIELD Q bread Lnet/minecraft/a/b/i;
+	FIELD R helmetLeather Lnet/minecraft/a/b/i;
+	FIELD S plateLeather Lnet/minecraft/a/b/i;
+	FIELD T legsLeather Lnet/minecraft/a/b/i;
+	FIELD U bootsLeather Lnet/minecraft/a/b/i;
+	FIELD V helmetChain Lnet/minecraft/a/b/i;
+	FIELD W plateChain Lnet/minecraft/a/b/i;
+	FIELD X legsChain Lnet/minecraft/a/b/i;
+	FIELD Y bootsChain Lnet/minecraft/a/b/i;
+	FIELD Z helmetSteel Lnet/minecraft/a/b/i;
+	FIELD a rand Ljava/util/Random;
+	FIELD aa plateSteel Lnet/minecraft/a/b/i;
+	FIELD ab legsSteel Lnet/minecraft/a/b/i;
+	FIELD ac bootsSteel Lnet/minecraft/a/b/i;
+	FIELD ad helmetDiamond Lnet/minecraft/a/b/i;
+	FIELD ae plateDiamond Lnet/minecraft/a/b/i;
+	FIELD af legsDiamond Lnet/minecraft/a/b/i;
+	FIELD ag bootsDiamond Lnet/minecraft/a/b/i;
+	FIELD ah helmetGold Lnet/minecraft/a/b/i;
+	FIELD ai plateGold Lnet/minecraft/a/b/i;
+	FIELD aj legsGold Lnet/minecraft/a/b/i;
+	FIELD ak bootsGold Lnet/minecraft/a/b/i;
+	FIELD al flint Lnet/minecraft/a/b/i;
+	FIELD am porkRaw Lnet/minecraft/a/b/i;
+	FIELD an porkCooked Lnet/minecraft/a/b/i;
+	FIELD ao painting Lnet/minecraft/a/b/i;
+	FIELD aq maxStackSize I
+	FIELD ar maxDamage I
+	FIELD as iconIndex I
 	FIELD b itemsList [Lnet/minecraft/a/b/i;
 	FIELD c shovel Lnet/minecraft/a/b/i;
 	FIELD d pickaxeSteel Lnet/minecraft/a/b/i;
 	FIELD e axeSteel Lnet/minecraft/a/b/i;
-	FIELD f flintAndSteel Lnet/minecraft/a/b/i;
-	FIELD g apple Lnet/minecraft/a/b/i;
-	FIELD h bow Lnet/minecraft/a/b/i;
-	FIELD i arrow Lnet/minecraft/a/b/i;
-	FIELD j coal Lnet/minecraft/a/b/i;
-	FIELD k diamod Lnet/minecraft/a/b/i;
-	FIELD l ingotIron Lnet/minecraft/a/b/i;
-	FIELD m ingotGold Lnet/minecraft/a/b/i;
-	FIELD n swordSteel Lnet/minecraft/a/b/i;
-	FIELD o swordWood Lnet/minecraft/a/b/i;
-	FIELD p shovelWood Lnet/minecraft/a/b/i;
-	FIELD q pickaxeWood Lnet/minecraft/a/b/i;
-	FIELD r axeWood Lnet/minecraft/a/b/i;
-	FIELD s swordStone Lnet/minecraft/a/b/i;
-	FIELD t shovelStone Lnet/minecraft/a/b/i;
-	FIELD u pickaxeStone Lnet/minecraft/a/b/i;
-	FIELD v axeStone Lnet/minecraft/a/b/i;
-	FIELD w swordDiamond Lnet/minecraft/a/b/i;
-	FIELD x shovelDiamond Lnet/minecraft/a/b/i;
-	FIELD y pickaxeDiamond Lnet/minecraft/a/b/i;
-	FIELD z axeDiamond Lnet/minecraft/a/b/i;
+	FIELD f striker Lnet/minecraft/a/b/i;
+	FIELD g bow Lnet/minecraft/a/b/i;
+	FIELD h arrow Lnet/minecraft/a/b/i;
+	FIELD i coal Lnet/minecraft/a/b/i;
+	FIELD j diamond Lnet/minecraft/a/b/i;
+	FIELD k ingotIron Lnet/minecraft/a/b/i;
+	FIELD l ingotGold Lnet/minecraft/a/b/i;
+	FIELD m swordSteel Lnet/minecraft/a/b/i;
+	FIELD n swordWood Lnet/minecraft/a/b/i;
+	FIELD o shovelWood Lnet/minecraft/a/b/i;
+	FIELD p pickaxeWood Lnet/minecraft/a/b/i;
+	FIELD q axeWood Lnet/minecraft/a/b/i;
+	FIELD r swordStone Lnet/minecraft/a/b/i;
+	FIELD s shovelStone Lnet/minecraft/a/b/i;
+	FIELD t pickaxeStone Lnet/minecraft/a/b/i;
+	FIELD u axeStone Lnet/minecraft/a/b/i;
+	FIELD v swordDiamond Lnet/minecraft/a/b/i;
+	FIELD w shovelDiamond Lnet/minecraft/a/b/i;
+	FIELD x pickaxeDiamond Lnet/minecraft/a/b/i;
+	FIELD y axeDiamond Lnet/minecraft/a/b/i;
+	FIELD z stick Lnet/minecraft/a/b/i;
 	METHOD <init> (I)V
-		ARG 1 integer
+		ARG 1 itemID
 	METHOD a getDamageVsEntity ()I
 	METHOD a setIconIndex (I)Lnet/minecraft/a/b/i;
-		ARG 1 iconIndex
 	METHOD a canHarvestBlock (Lnet/minecraft/a/a/b/x;)Z
 		ARG 1 block
 	METHOD a hitEntity (Lnet/minecraft/a/b/k;)V
 		ARG 1 itemStack
-	METHOD a onItemUse (Lnet/minecraft/a/b/k;Lnet/minecraft/a/a/g;IIII)Z
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 integer6
-	METHOD a onItemRightClick (Lnet/minecraft/a/b/k;Lnet/minecraft/a/a/g;Lnet/minecraft/a/c/e/a;)Lnet/minecraft/a/b/k;
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 entityPlayer
-	METHOD b getIconFromDamage ()I
+	METHOD b getIconIndex ()I
 	METHOD b getStrVsBlock (Lnet/minecraft/a/a/b/x;)F
 		ARG 1 block
 	METHOD b onBlockDestroyed (Lnet/minecraft/a/b/k;)V

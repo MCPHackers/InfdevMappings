@@ -1,14 +1,6 @@
 CLASS net/minecraft/a/c/c net/minecraft/game/entity/EntityCreature
-	FIELD O hasAttacked Z
 	FIELD a pathToEntity Lnet/minecraft/a/a/a/b;
 	FIELD b playerToAttack Lnet/minecraft/a/c/b;
-	METHOD a findPlayerToAttack ()Lnet/minecraft/a/c/b;
 	METHOD a getBlockPathWeight (III)F
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-	METHOD a canEntityBeSeen (Lnet/minecraft/a/c/b;)Z
-		ARG 1 entity
 	METHOD a attackEntity (Lnet/minecraft/a/c/b;F)V
 		ARG 1 entity
-		ARG 2 float2

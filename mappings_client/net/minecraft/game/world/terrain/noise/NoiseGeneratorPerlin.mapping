@@ -3,26 +3,7 @@ CLASS net/minecraft/a/a/c/a/a net/minecraft/game/world/terrain/noise/NoiseGenera
 	FIELD b xCoord D
 	FIELD c yCoord D
 	FIELD d zCoord D
-	METHOD <init> (Ljava/util/Random;)V
-		ARG 1 random
 	METHOD a generateNoise (D)D
-	METHOD a generateNoise (DD)D
-		ARG 1 double1
-		ARG 3 double2
-	METHOD a generateNoiseD (DDD)D
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
 	METHOD a grad (IDDD)D
-		ARG 0 integer
-		ARG 1 double2
-		ARG 3 double3
-		ARG 5 double4
 	METHOD b generateNoise (DDD)D
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
 	METHOD c lerp (DDD)D
-		ARG 0 double1
-		ARG 2 double2
-		ARG 4 double3

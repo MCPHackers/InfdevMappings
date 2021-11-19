@@ -1,8 +1,0 @@
-CLASS net/minecraft/client/a/i net/minecraft/client/render/ThreadDownloadImageData
-	FIELD a image Ljava/awt/image/BufferedImage;
-	FIELD b referenceCount I
-	FIELD c textureIntDownload I
-	FIELD d textureSetupComplete Z
-	METHOD <init> (Ljava/lang/String;Lnet/minecraft/client/a/c;)V
-		ARG 1 string
-		ARG 2 imageBufferDownload

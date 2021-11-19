@@ -16,5 +16,3 @@ CLASS net/minecraft/a/a/a/a net/minecraft/game/world/path/PathPoint
 	METHOD a isAssigned ()Z
 	METHOD a distanceTo (Lnet/minecraft/a/a/a/a;)F
 		ARG 1 pathPoint
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 object

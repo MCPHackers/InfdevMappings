@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/f net/minecraft/client/PlayerLoader
+	METHOD <init> (Lnet/minecraft/client/d;La/b;)V
+		ARG 1 minecraft
+		ARG 2 guiLoading

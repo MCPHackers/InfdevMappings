@@ -1,4 +1,4 @@
 CLASS net/minecraft/a/b/n net/minecraft/game/item/ItemHoe
 	METHOD <init> (II)V
-		ARG 1 integer1
-		ARG 2 integer2
+		ARG 1 itemID
+		ARG 2 damage

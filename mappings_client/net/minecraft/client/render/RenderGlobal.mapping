@@ -1,93 +1,35 @@
 CLASS net/minecraft/client/a/b net/minecraft/client/render/RenderGlobal
-	FIELD A countEntitiesHidden I
-	FIELD B occlusionResult Ljava/nio/IntBuffer;
-	FIELD C renderersLoaded I
-	FIELD D renderersBeingClipped I
-	FIELD E renderersBeingOccluded I
-	FIELD F renderersBeingRendered I
-	FIELD G glRenderLists Ljava/util/List;
-	FIELD H prevSortX D
-	FIELD I prevSortY D
-	FIELD J prevSortZ D
+	FIELD A renderersBeingRendered I
 	FIELD a damagePartialTime F
-	FIELD b worldObj Lnet/minecraft/a/a/g;
-	FIELD c renderEngine Lnet/minecraft/client/a/k;
-	FIELD d worlRenderersToUpdate Ljava/util/List;
-	FIELD e sortedWorldRenderers [Lnet/minecraft/client/a/h;
-	FIELD f worldRenderers [Lnet/minecraft/client/a/h;
-	FIELD g renderChunksWide I
-	FIELD h renderChunksTall I
-	FIELD i renderChunksDeep I
-	FIELD j glRenderListBase I
-	FIELD k mc Lnet/minecraft/client/d;
-	FIELD l globalRenderBlocks Lnet/minecraft/client/a/f;
-	FIELD m glOcclusionQueryBase Ljava/nio/IntBuffer;
-	FIELD n occlusionEnabled Z
-	FIELD o cloudOffsetX I
-	FIELD p glSkyList I
-	FIELD q glSkyList2 I
-	FIELD r minBlockX I
-	FIELD s minBlockY I
-	FIELD t minBlockZ I
-	FIELD u maxBlockX I
-	FIELD v maxBlockY I
-	FIELD w maxBlockZ I
-	FIELD x renderDistance I
-	FIELD y countEntitiesTotal I
-	FIELD z countEntitiesRendered I
-	METHOD <init> (Lnet/minecraft/client/d;Lnet/minecraft/client/a/k;)V
-		ARG 1 mc
-		ARG 2 renderEngine
-	METHOD a getDebugInfoRenders ()Ljava/lang/String;
+	FIELD d glGenList I
+	FIELD e renderIntBuffer Ljava/nio/IntBuffer;
+	FIELD f worldRenderersToUpdate Ljava/util/List;
+	FIELD i renderChunksWide I
+	FIELD j renderChunksTall I
+	FIELD k renderChunksDeep I
+	FIELD l glRenderListBase I
+	FIELD m mc Lnet/minecraft/client/d;
+	FIELD o glOcclusionQueryBase Ljava/nio/IntBuffer;
+	FIELD p occlusionEnabled Z
+	FIELD q cloudOffsetX I
+	FIELD r glSkyList I
+	FIELD s countEntitiesTotal I
+	FIELD t countEntitiesRendered I
+	FIELD u countEntitiesHidden I
+	FIELD x renderersLoaded I
+	FIELD y renderersBeingClipped I
+	FIELD z renderersBeingOccluded I
 	METHOD a renderSky (F)V
-		ARG 1 float1
-	METHOD a renderAllRenderLists (ID)V
-		ARG 1 integer
-		ARG 2 double2
 	METHOD a checkOcclusionQueryResult (II)V
-		ARG 1 integer1
-		ARG 2 integer2
-	METHOD a renderSortedRenderers (IIID)I
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 double4
-	METHOD a changeWorld (Lnet/minecraft/a/a/g;)V
-		ARG 1 world
 	METHOD a updateRenderers (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 entityPlayer
-	METHOD a sortAndRender (Lnet/minecraft/a/c/e/a;ID)I
+	METHOD a sortAndRender (Lnet/minecraft/a/c/e/a;I)I
 		ARG 1 entityPlayer
-		ARG 2 integer
-		ARG 3 double3
-	METHOD a drawSelectionBox (Lnet/minecraft/a/c/e/a;Lnet/minecraft/a/d/c;IF)V
-		ARG 1 entityPlayer
-		ARG 2 movingObjectPosition
-		ARG 3 integer
-		ARG 4 float4
-	METHOD a drawBlockBreaking (Lnet/minecraft/a/c/e/a;Lnet/minecraft/a/d/c;ILnet/minecraft/a/b/k;F)V
-		ARG 1 entityPlayer
-		ARG 2 movingObjectPosition
-		ARG 3 integer
-		ARG 4 itemStack
-		ARG 5 float5
-	METHOD a renderEntities (Lnet/minecraft/a/d/a;Lnet/minecraft/client/a/b/c;F)V
-		ARG 1 vec3D
-		ARG 2 frustrum
-		ARG 3 float3
-	METHOD a clipRenderersByFrustrum (Lnet/minecraft/client/a/b/c;)V
-		ARG 1 frustrum
-	METHOD b getDebugInfoEntities ()Ljava/lang/String;
-	METHOD b markRenderersForNewPosition (III)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-	METHOD b markBlocksForUpdate (IIIIII)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 integer6
-	METHOD c updateClouds ()V
-	METHOD e loadRenderers ()V
+	METHOD a drawSelectionBox (Lnet/minecraft/a/d/c;I)V
+		ARG 1 movingObjectPosition
+	METHOD a drawBlockBreaking (Lnet/minecraft/a/d/c;ILnet/minecraft/a/b/k;)V
+		ARG 1 movingObjectPosition
+		ARG 3 itemStack
+	METHOD b getDebugInfoRenders ()Ljava/lang/String;
+	METHOD b renderSortedRenderers (III)I
+	METHOD d renderAllRenderLists ()V

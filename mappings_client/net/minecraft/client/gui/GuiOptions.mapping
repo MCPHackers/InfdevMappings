@@ -1,7 +1,3 @@
-CLASS net/minecraft/client/c/f net/minecraft/client/gui/GuiOptions
-	FIELD g parentScreen Lnet/minecraft/client/c/i;
-	FIELD h screenTitle Ljava/lang/String;
-	FIELD j options Lnet/minecraft/client/p;
-	METHOD <init> (Lnet/minecraft/client/c/i;Lnet/minecraft/client/p;)V
-		ARG 1 parentScreen
-		ARG 2 options
+CLASS net/minecraft/client/c/g net/minecraft/client/gui/GuiOptions
+	FIELD a parentScreen Lnet/minecraft/client/c/i;
+	FIELD i screenTitle Ljava/lang/String;

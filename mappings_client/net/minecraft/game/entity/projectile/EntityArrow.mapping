@@ -1,19 +1,6 @@
 CLASS net/minecraft/a/c/d/a net/minecraft/game/entity/projectile/EntityArrow
 	FIELD O yTile I
 	FIELD P zTile I
-	FIELD Q inTile I
-	FIELD R inGround Z
-	FIELD S shootingEntity Lnet/minecraft/a/c/f;
 	FIELD T ticksInGround I
-	FIELD U ticksInAir I
 	FIELD a arrowShake I
 	FIELD b xTile I
-	METHOD <init> (Lnet/minecraft/a/a/g;Lnet/minecraft/a/c/f;)V
-		ARG 1 world
-		ARG 2 entityLiving
-	METHOD a setArrowHeading (DDDFF)V
-		ARG 1 motionX
-		ARG 3 motionY
-		ARG 5 motionZ
-		ARG 7 float4
-		ARG 8 float5

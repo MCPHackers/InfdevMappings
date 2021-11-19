@@ -18,5 +18,3 @@ CLASS net/minecraft/a/a/d/c net/minecraft/game/world/material/Material
 	METHOD a isSolid ()Z
 	METHOD b getCanBlockGrass ()Z
 	METHOD c getIsSolid ()Z
-	METHOD d getIsLiquid ()Z
-	METHOD e liquidSolidCheck ()Z

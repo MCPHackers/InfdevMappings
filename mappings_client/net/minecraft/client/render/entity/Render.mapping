@@ -3,22 +3,8 @@ CLASS net/minecraft/client/a/a/f net/minecraft/client/render/entity/Render
 	FIELD b shadowSize F
 	FIELD c shadowOpaque F
 	METHOD a loadTexture (Ljava/lang/String;)V
-		ARG 1 string
 	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 string1
-		ARG 2 string2
-	METHOD a renderShadow (Lnet/minecraft/a/c/b;DDDF)V
-		ARG 1 entity
-		ARG 2 double2
-		ARG 4 double3
-		ARG 6 double4
-		ARG 8 distanceToCamera
-	METHOD a doRender (Lnet/minecraft/a/c/b;DDDFF)V
-		ARG 1 entity
-		ARG 2 double2
-		ARG 4 double3
-		ARG 6 double4
-		ARG 8 float5
-		ARG 9 float6
+	METHOD a renderOffsetAABB (Lnet/minecraft/a/d/b;)V
+		ARG 0 aabb
 	METHOD a setRenderManager (Lnet/minecraft/client/a/a/i;)V
 		ARG 1 renderManager

@@ -1,22 +1,16 @@
 CLASS net/minecraft/a/c/e/a net/minecraft/game/entity/player/EntityPlayer
-	FIELD O unusedMiningCooldown B
-	FIELD P score I
 	FIELD Q prevCameraYaw F
-	FIELD R cameraYaw F
-	FIELD S username Ljava/lang/String;
+	FIELD R username Ljava/lang/String;
 	FIELD a damageRemainder I
 	FIELD b inventory Lnet/minecraft/a/c/e/b;
-	METHOD a displayFurnaceGUI (Lnet/minecraft/a/a/b/a/b;)V
-		ARG 1 tileEntityFurnace
+	METHOD a displayGUIFurnace (Lnet/minecraft/a/a/b/a/b;)V
+		ARG 1 furnace
 	METHOD a canHarvestBlock (Lnet/minecraft/a/a/b/x;)Z
 		ARG 1 block
 	METHOD a dropPlayerItem (Lnet/minecraft/a/b/k;)V
 		ARG 1 itemStack
 	METHOD a dropPlayerItemWithRandomChoice (Lnet/minecraft/a/b/k;Z)V
 		ARG 1 itemStack
-		ARG 2 boolean2
-	METHOD a displayChestGUI (Lnet/minecraft/a/b;)V
-		ARG 1 inventory
-	METHOD a onItemPickup (Lnet/minecraft/a/c/b;)V
-		ARG 1 entity
+	METHOD a displayGUIChest (Lnet/minecraft/a/b;)V
+		ARG 1 iInventory
 	METHOD f_ displayWorkbenchGUI ()V

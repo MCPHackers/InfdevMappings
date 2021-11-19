@@ -1,28 +1,18 @@
-CLASS net/minecraft/client/c/o net/minecraft/client/gui/GuiButton
+CLASS net/minecraft/client/c/r net/minecraft/client/gui/GuiButton
 	FIELD a displayString Ljava/lang/String;
 	FIELD b id I
 	FIELD c enabled Z
-	FIELD d width I
-	FIELD e height I
-	FIELD f xPosition I
-	FIELD g yPosition I
-	FIELD h visible Z
+	FIELD d visible Z
+	FIELD e width I
+	FIELD f height I
+	FIELD g xPosition I
+	FIELD i yPosition I
 	METHOD <init> (IIIIILjava/lang/String;)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 string
-	METHOD <init> (IIILjava/lang/String;)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 string
+		ARG 1 id
+		ARG 2 xPosition
+		ARG 3 yPosition
+		ARG 4 width
+		ARG 6 displayString
 	METHOD a mousePressed (II)Z
-		ARG 1 integer1
-		ARG 2 integer2
 	METHOD a drawButton (Lnet/minecraft/client/d;II)V
 		ARG 1 minecraft
-		ARG 2 integer2
-		ARG 3 integer3

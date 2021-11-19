@@ -4,5 +4,5 @@ CLASS net/minecraft/client/a/c/b net/minecraft/client/render/texture/TextureFX
 	FIELD c anaglyphEnabled Z
 	FIELD d textureId I
 	METHOD <init> (I)V
-		ARG 1 integer
+		ARG 1 iconIndex
 	METHOD a onTick ()V

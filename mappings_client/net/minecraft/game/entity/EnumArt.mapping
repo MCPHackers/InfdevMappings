@@ -1,10 +1,6 @@
 CLASS net/minecraft/a/c/d net/minecraft/game/entity/EnumArt
-	FIELD a Kebab Lnet/minecraft/a/c/d;
-	FIELD b title Ljava/lang/String;
 	FIELD c sizeX I
 	FIELD d sizeY I
-	FIELD e offsetX I
-	FIELD f offsetY I
 	FIELD g Aztec Lnet/minecraft/a/c/d;
 	FIELD h Alban Lnet/minecraft/a/c/d;
 	FIELD i Aztec2 Lnet/minecraft/a/c/d;
@@ -22,10 +18,9 @@ CLASS net/minecraft/a/c/d net/minecraft/game/entity/EnumArt
 	FIELD u Void Lnet/minecraft/a/c/d;
 	FIELD v SkullAndRoses Lnet/minecraft/a/c/d;
 	FIELD w Fighters Lnet/minecraft/a/c/d;
-	FIELD x Pointer Lnet/minecraft/a/c/d;
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
 		ARG 3 title
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 integer6
-		ARG 7 integer7
+		ARG 4 sizeX
+		ARG 5 sizeY
+		ARG 6 offsetX
+		ARG 7 offsetY

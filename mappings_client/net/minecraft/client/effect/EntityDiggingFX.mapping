@@ -1,10 +1,1 @@
 CLASS net/minecraft/client/f/b net/minecraft/client/effect/EntityDiggingFX
-	METHOD <init> (Lnet/minecraft/a/a/g;DDDDDDLnet/minecraft/a/a/b/x;)V
-		ARG 1 world
-		ARG 2 double2
-		ARG 4 double3
-		ARG 6 double4
-		ARG 8 double5
-		ARG 10 double6
-		ARG 12 double7
-		ARG 14 block

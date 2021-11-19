@@ -7,7 +7,6 @@ CLASS net/minecraft/client/b/h net/minecraft/client/model/ModelBiped
 	FIELD f bipedRightLeg Lnet/minecraft/client/b/c;
 	FIELD g bipedLeftLeg Lnet/minecraft/client/b/c;
 	METHOD <init> (F)V
-		ARG 1 float1
+		ARG 1 scale
 	METHOD <init> (FF)V
-		ARG 1 float1
-		ARG 2 float2
+		ARG 1 scale

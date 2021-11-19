@@ -1,34 +1,3 @@
 CLASS net/minecraft/a/a/b/p net/minecraft/game/world/block/BlockFluid
 	FIELD a stillId I
 	FIELD b movingId I
-	METHOD e canFlow (Lnet/minecraft/a/a/g;III)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD e update (Lnet/minecraft/a/a/g;IIII)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-	METHOD h liquidSolidCheck (Lnet/minecraft/a/a/g;III)Z
-		ARG 0 world
-		ARG 1 integer2
-		ARG 2 integer3
-		ARG 3 integer4
-	METHOD i extinguishFireLava (Lnet/minecraft/a/a/g;III)Z
-		ARG 0 world
-		ARG 1 integer2
-		ARG 2 integer3
-		ARG 3 integer4
-	METHOD j flow (Lnet/minecraft/a/a/g;III)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD k liquidAirCheck (Lnet/minecraft/a/a/g;III)Z
-		ARG 0 world
-		ARG 1 integer2
-		ARG 2 integer3
-		ARG 3 integer4

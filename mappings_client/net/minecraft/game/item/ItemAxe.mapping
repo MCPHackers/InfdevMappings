@@ -1,5 +1,4 @@
 CLASS net/minecraft/a/b/h net/minecraft/game/item/ItemAxe
-	FIELD au damageReduceAmount [Lnet/minecraft/a/a/b/x;
 	METHOD <init> (II)V
-		ARG 1 integer1
-		ARG 2 integer2
+		ARG 1 itemID
+		ARG 2 harvestLevel

@@ -3,6 +3,4 @@ CLASS net/minecraft/client/c/a/a net/minecraft/client/gui/container/InventoryCra
 	FIELD b inventoryWidth I
 	FIELD c eventHandler Lnet/minecraft/client/c/a/j;
 	METHOD <init> (Lnet/minecraft/client/c/a/j;II)V
-		ARG 1 eventHandler
-		ARG 2 integer2
-		ARG 3 integer3
+		ARG 1 guiContainer

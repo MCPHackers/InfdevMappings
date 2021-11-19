@@ -1,11 +1,8 @@
-CLASS net/minecraft/client/c/n net/minecraft/client/gui/GuiIngame
+CLASS net/minecraft/client/c/l net/minecraft/client/gui/GuiIngame
 	FIELD a itemRenderer Lnet/minecraft/client/a/a/e;
 	FIELD b chatMessageList Ljava/util/List;
 	FIELD c rand Ljava/util/Random;
 	FIELD d mc Lnet/minecraft/client/d;
 	FIELD e updateCounter I
-	METHOD <init> (Lnet/minecraft/client/d;)V
-		ARG 1 mc
-	METHOD a updateTick ()V
+	METHOD a addChatMessage ()V
 	METHOD a renderGameOverlay (F)V
-		ARG 1 float1

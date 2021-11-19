@@ -1,18 +1,9 @@
 CLASS net/minecraft/a/c/a net/minecraft/game/entity/EntityPainting
-	FIELD O tickCounter I
+	FIELD O tickCounter1 I
 	FIELD P xPosition I
 	FIELD Q yPosition I
-	FIELD R zPosition I
 	FIELD a direction I
 	FIELD b art Lnet/minecraft/a/c/d;
-	METHOD <init> (Lnet/minecraft/a/a/g;IIII)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-	METHOD b onValidSurface ()Z
 	METHOD b setDirection (I)V
 		ARG 1 direction
 	METHOD c getArtSize (I)F
-		ARG 0 art

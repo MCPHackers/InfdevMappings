@@ -2,13 +2,5 @@ CLASS net/minecraft/client/c net/minecraft/client/RenderHelper
 	FIELD a colorBuffer Ljava/nio/FloatBuffer;
 	METHOD a disableStandardItemLighting ()V
 	METHOD a setColorBuffer (DDDD)Ljava/nio/FloatBuffer;
-		ARG 0 double1
-		ARG 2 double2
-		ARG 4 double3
-		ARG 6 double4
-	METHOD a setColorBufferD (FFFF)Ljava/nio/FloatBuffer;
-		ARG 0 float1
-		ARG 1 float2
-		ARG 2 float3
-		ARG 3 float4
+	METHOD a setColorBuffer (FFFF)Ljava/nio/FloatBuffer;
 	METHOD b enableStandardItemLighting ()V

@@ -1,13 +1,4 @@
 CLASS net/minecraft/a/c/c/b net/minecraft/game/entity/misc/EntityItem
-	FIELD O delayBeforeCanPickup I
-	FIELD P hoverStart F
-	FIELD Q unusedInt I
-	FIELD R health I
+	FIELD Q unknownEntityItemInt I
 	FIELD a item Lnet/minecraft/a/b/k;
 	FIELD b age I
-	METHOD <init> (Lnet/minecraft/a/a/g;DDDLnet/minecraft/a/b/k;)V
-		ARG 1 world
-		ARG 2 double2
-		ARG 4 double3
-		ARG 6 double4
-		ARG 8 itemStack

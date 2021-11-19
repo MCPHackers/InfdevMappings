@@ -1,18 +1,2 @@
 CLASS net/minecraft/client/a/b/c net/minecraft/client/render/camera/Frustrum
 	FIELD a clippingHelper Lnet/minecraft/client/a/b/b;
-	FIELD b xPosition D
-	FIELD c yPosition D
-	FIELD d zPosition D
-	METHOD a setPosition (DDD)V
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
-	METHOD a isBoxInFrustum (DDDDDD)Z
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
-		ARG 7 double4
-		ARG 9 double5
-		ARG 11 double6
-	METHOD a isBoundingBoxInFrustrum (Lnet/minecraft/a/d/b;)Z
-		ARG 1 axisAlignedBB

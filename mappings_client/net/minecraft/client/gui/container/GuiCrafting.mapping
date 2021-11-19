@@ -1,5 +1,3 @@
 CLASS net/minecraft/client/c/a/b net/minecraft/client/gui/container/GuiCrafting
 	FIELD k inventoryCrafting Lnet/minecraft/client/c/a/a;
 	FIELD l iInventory Lnet/minecraft/a/b;
-	METHOD <init> (Lnet/minecraft/a/c/e/b;)V
-		ARG 1 inventoryPlayer

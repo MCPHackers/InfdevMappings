@@ -1,5 +1,5 @@
 CLASS net/minecraft/client/a/b/b net/minecraft/client/render/camera/ClippingHelper
 	FIELD a frustrum [[F
 	FIELD b projectionMatrix [F
-	FIELD c modelViewMatrix [F
+	FIELD c modelviewMatrix [F
 	FIELD d clippingMatrix [F

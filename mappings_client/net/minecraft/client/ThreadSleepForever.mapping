@@ -1,4 +1,1 @@
 CLASS net/minecraft/client/m net/minecraft/client/ThreadSleepForever
-	METHOD <init> (Lnet/minecraft/client/d;Ljava/lang/String;)V
-		ARG 1 mc
-		ARG 2 string

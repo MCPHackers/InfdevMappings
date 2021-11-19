@@ -1,42 +1,31 @@
-CLASS net/minecraft/a/c/f net/minecraft/game/entity/EntityLiving
+CLASS net/minecraft/a/c/e net/minecraft/game/entity/EntityLiving
 	FIELD O scoreValue I
-	FIELD P livingSoundTime I
 	FIELD Q randomYawVelocity F
-	FIELD R defaultPitch F
-	FIELD T heartsHalvesLife I
-	FIELD U renderYawOffset F
-	FIELD V prevRenderYawOffset F
-	FIELD W texture Ljava/lang/String;
-	FIELD X health I
-	FIELD Y prevHealth I
-	FIELD Z hurtTime I
+	FIELD S heartsHalvesLife I
+	FIELD T renderYawOffset F
+	FIELD U prevRenderYawOffset F
+	FIELD V texture Ljava/lang/String;
+	FIELD W health I
+	FIELD X prevHealth I
+	FIELD Y hurtTime I
+	FIELD Z maxHurtTime I
 	FIELD a rotationYawHead F
-	FIELD aa maxHurtTime I
-	FIELD ab attackedAtYaw F
-	FIELD ac deathTime I
-	FIELD ad attackTime I
-	FIELD ae prevCameraPitch F
-	FIELD af cameraPitch F
-	FIELD ag newPosZ F
-	FIELD ah newRotationYaw F
-	FIELD ai newRotationPitch F
-	FIELD aj entityAge I
-	FIELD ak moveStrafing F
-	FIELD al moveForward F
-	FIELD am isJumping Z
-	FIELD an moveSpeed F
+	FIELD aa attackedAtYaw F
+	FIELD ab deathTime I
+	FIELD ac attackTime I
+	FIELD ad prevCameraPitch F
+	FIELD ae cameraPitch F
+	FIELD af prevLimbYaw F
+	FIELD ag limbYaw F
+	FIELD ah limbSwing F
+	FIELD ai entityAge I
+	FIELD aj moveStrafing F
+	FIELD ak moveForward F
+	FIELD al isJumping Z
+	FIELD am moveSpeed F
 	FIELD b prevRotationYawHead F
-	METHOD a getCanSpawnHere (FFF)Z
-		ARG 1 float1
-		ARG 2 float2
-		ARG 3 float3
-	METHOD b getDroppedItem ()I
 	METHOD b heal (I)V
-		ARG 1 integer
-	METHOD d updatePlayerActionState ()V
-	METHOD d onDeath (Lnet/minecraft/a/c/b;)V
-		ARG 1 entity
-	METHOD e onLivingUpdate ()V
-	METHOD f getLivingSound ()Ljava/lang/String;
-	METHOD g getHurtSound ()Ljava/lang/String;
-	METHOD h getDeathSound ()Ljava/lang/String;
+	METHOD d updateEntityActionState ()V
+	METHOD e updatePlayerActionState ()V
+	METHOD g getLivingSound ()Ljava/lang/String;
+	METHOD h getHurtSound ()Ljava/lang/String;

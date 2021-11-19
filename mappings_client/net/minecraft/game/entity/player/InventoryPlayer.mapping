@@ -4,16 +4,9 @@ CLASS net/minecraft/a/c/e/b net/minecraft/game/entity/player/InventoryPlayer
 	FIELD c currentItem I
 	FIELD d player Lnet/minecraft/a/c/e/a;
 	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
-		ARG 1 player
-	METHOD a storePartialItemStack (Lnet/minecraft/a/b/k;)Z
-		ARG 1 itemStack
+		ARG 1 entityPlayer
 	METHOD b getFirstEmptyStack (I)V
-		ARG 1 integer
 	METHOD c consumeInventoryItem (I)Z
-		ARG 1 integer
+	METHOD d getCurrentItem ()Lnet/minecraft/a/b/k;
 	METHOD d getInventorySlotContainItem (I)I
-		ARG 1 integer
-	METHOD e getCurrentItem ()Lnet/minecraft/a/b/k;
-	METHOD f getPlayerArmorValue ()I
-	METHOD g dropAllItems ()V
-	METHOD h storeItemStack ()I
+	METHOD e getPlayerArmorValue ()I

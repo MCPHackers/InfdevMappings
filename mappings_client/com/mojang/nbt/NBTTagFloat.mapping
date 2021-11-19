@@ -1,4 +1,0 @@
-CLASS com/a/a/b com/mojang/nbt/NBTTagFloat
-	FIELD a floatValue F
-	METHOD <init> (F)V
-		ARG 1 float1

@@ -1,16 +1,9 @@
 CLASS a/a util/MathHelper
 	FIELD a SIN_TABLE [F
 	METHOD a sqrt_double (D)F
-		ARG 0 double1
 	METHOD a sin (F)F
-		ARG 0 float1
 	METHOD b floor_double (D)I
-		ARG 0 double1
 	METHOD b cos (F)F
-		ARG 0 float1
 	METHOD c sqrt_float (F)F
-		ARG 0 float1
 	METHOD d floor_float (F)I
-		ARG 0 float1
 	METHOD e abs (F)F
-		ARG 0 float1

@@ -1,32 +1,3 @@
-CLASS net/minecraft/client/a/k net/minecraft/client/render/RenderEngine
-	FIELD a textureMap Ljava/util/HashMap;
-	FIELD b textureNameToImageMap Ljava/util/HashMap;
-	FIELD c singleIntBuffer Ljava/nio/IntBuffer;
-	FIELD d imageData Ljava/nio/ByteBuffer;
-	FIELD e textureList Ljava/util/List;
-	FIELD f urlToImageDataMap Ljava/util/Map;
-	FIELD g options Lnet/minecraft/client/p;
-	FIELD h clampTexture Z
-	METHOD <init> (Lnet/minecraft/client/p;)V
-		ARG 1 options
-	METHOD a updateDynamicTextures ()V
-	METHOD a bindTexture (I)V
-		ARG 0 integer
-	METHOD a unwrapImageByColumns (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
-		ARG 0 bufferedImage
-	METHOD a setupTexture (Ljava/awt/image/BufferedImage;I)V
-		ARG 1 bufferedImage
-		ARG 2 width
+CLASS net/minecraft/client/a/i net/minecraft/client/render/RenderEngine
 	METHOD a getTexture (Ljava/lang/String;)I
-		ARG 1 string
-	METHOD a getTextureForDownloadableImage (Ljava/lang/String;Ljava/lang/String;)I
-		ARG 1 string1
-		ARG 2 string2
-	METHOD a obtainImageData (Ljava/lang/String;Lnet/minecraft/client/a/c;)Lnet/minecraft/client/a/i;
-		ARG 1 string
-		ARG 2 imageBufferDownload
-	METHOD a registerTextureFX (Lnet/minecraft/client/a/c/b;)V
-		ARG 1 textureFX
 	METHOD b refreshTextures ()V
-	METHOD b releaseImageData (Ljava/lang/String;)V
-		ARG 1 string

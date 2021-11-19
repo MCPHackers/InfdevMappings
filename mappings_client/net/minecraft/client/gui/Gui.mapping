@@ -1,28 +1,18 @@
-CLASS net/minecraft/client/c/l net/minecraft/client/gui/Gui
-	FIELD i zLevel F
+CLASS net/minecraft/client/c/k net/minecraft/client/gui/Gui
+	FIELD h zLevel F
+	METHOD a drawRect (IIIII)V
+		ARG 0 xCoordLeft
+		ARG 1 yCoordUp
+		ARG 2 xCoordRight
+		ARG 3 yCoordDown
+		ARG 4 color
 	METHOD a drawGradientRect (IIIIII)V
-		ARG 0 integer1
-		ARG 1 integer2
-		ARG 2 integer3
-		ARG 3 integer4
-		ARG 4 integer5
-		ARG 5 integer6
-	METHOD a drawCenteredString (Lnet/minecraft/client/c/k;Ljava/lang/String;III)V
-		ARG 0 fontRenderer
-		ARG 1 string
-		ARG 2 integer3
-		ARG 3 integer4
-		ARG 4 integer5
+		ARG 0 xCoordLeft
+		ARG 1 yCoordUp
+		ARG 2 xCoordRight
+		ARG 3 yCoordDown
+		ARG 4 upperGradient
+		ARG 5 lowerGradient
+	METHOD a drawCenteredString (Lnet/minecraft/client/c/j;Ljava/lang/String;III)V
 	METHOD b drawTexturedModalRect (IIIIII)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 integer6
-	METHOD b drawString (Lnet/minecraft/client/c/k;Ljava/lang/String;III)V
-		ARG 0 fontRenderer
-		ARG 1 string
-		ARG 2 integer3
-		ARG 3 integer4
-		ARG 4 integer5
+	METHOD b drawString (Lnet/minecraft/client/c/j;Ljava/lang/String;III)V

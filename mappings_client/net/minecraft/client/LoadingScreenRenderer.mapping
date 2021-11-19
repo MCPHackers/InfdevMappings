@@ -3,16 +3,3 @@ CLASS net/minecraft/client/a net/minecraft/client/LoadingScreenRenderer
 	FIELD b mc Lnet/minecraft/client/d;
 	FIELD c title Ljava/lang/String;
 	FIELD d start J
-	METHOD <init> (Lnet/minecraft/client/d;)V
-		ARG 1 mc
-	METHOD a setProgress (I)V
-		ARG 1 progress
-	METHOD a write (Lcom/a/a/c;Ljava/io/OutputStream;)V
-		ARG 0 nbtTagCompound
-		ARG 1 outputStream
-	METHOD a read (Ljava/io/InputStream;)Lcom/a/a/c;
-		ARG 0 inputStream
-	METHOD a setTitle (Ljava/lang/String;)V
-		ARG 1 title
-	METHOD b setText (Ljava/lang/String;)V
-		ARG 1 text

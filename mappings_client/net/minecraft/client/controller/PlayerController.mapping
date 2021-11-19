@@ -2,25 +2,15 @@ CLASS net/minecraft/client/d/a net/minecraft/client/controller/PlayerController
 	FIELD a mc Lnet/minecraft/client/d;
 	FIELD b isInTestMode Z
 	METHOD <init> (Lnet/minecraft/client/d;)V
-		ARG 1 mc
+		ARG 1 minecraft
 	METHOD a resetBlockRemoving ()V
 	METHOD a setPartialTime (F)V
-		ARG 1 float1
 	METHOD a clickBlock (III)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
 	METHOD a sendBlockRemoving (IIII)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
 	METHOD a onRespawn (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 entityPlayer
 	METHOD b getBlockReachDistance ()F
 	METHOD b sendBlockRemoved (III)Z
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-	METHOD c onUpdate ()V
-	METHOD d shouldDrawHUD ()Z
+	METHOD c onRespawn ()V
+	METHOD d onUpdate ()V
+	METHOD e shouldDrawHUD ()Z

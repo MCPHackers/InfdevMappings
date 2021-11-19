@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/a net/minecraft/game/world/LevelLoader
+	FIELD a guiLoading La/b;
+	METHOD <init> (La/b;)V
+		ARG 1 guiLoading
+	METHOD a load ()V

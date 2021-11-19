@@ -5,6 +5,3 @@ CLASS net/minecraft/client/b/b net/minecraft/client/model/ModelQuadruped
 	FIELD d leg2 Lnet/minecraft/client/b/c;
 	FIELD e leg3 Lnet/minecraft/client/b/c;
 	FIELD f leg4 Lnet/minecraft/client/b/c;
-	METHOD <init> (IF)V
-		ARG 1 integer
-		ARG 2 float2

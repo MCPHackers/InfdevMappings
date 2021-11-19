@@ -5,18 +5,11 @@ CLASS net/minecraft/client/c/a/g net/minecraft/client/gui/container/Slot
 	FIELD d inventory Lnet/minecraft/a/b;
 	FIELD e guiHandler Lnet/minecraft/client/c/a/j;
 	METHOD <init> (Lnet/minecraft/client/c/a/j;Lnet/minecraft/a/b;III)V
-		ARG 1 guiHandler
-		ARG 2 inventory
 		ARG 3 slotIndex
 		ARG 4 xPos
 		ARG 5 yPos
 	METHOD a onPickupFromSlot ()V
 	METHOD a isAtCursorPos (II)Z
-		ARG 1 integer1
-		ARG 2 integer2
 	METHOD a isItemValid (Lnet/minecraft/a/b/k;)Z
-		ARG 1 itemStack
 	METHOD b getBackgroundIconIndex ()I
 	METHOD b putStack (Lnet/minecraft/a/b/k;)V
-		ARG 1 itemStack
-	METHOD c onSlotChanged ()V

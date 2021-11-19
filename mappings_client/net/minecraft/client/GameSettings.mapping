@@ -8,36 +8,27 @@ CLASS net/minecraft/client/p net/minecraft/client/GameSettings
 	FIELD f fancyGraphics Z
 	FIELD g anaglyph Z
 	FIELD h limitFramerate Z
-	FIELD i keyBindForward Lnet/minecraft/client/g;
-	FIELD j keyBindLeft Lnet/minecraft/client/g;
-	FIELD k keyBindBack Lnet/minecraft/client/g;
-	FIELD l keyBindRight Lnet/minecraft/client/g;
-	FIELD m keyBindJump Lnet/minecraft/client/g;
-	FIELD n keyBindInventory Lnet/minecraft/client/g;
-	FIELD o keyBindDrop Lnet/minecraft/client/g;
-	FIELD p keyBindToggleFog Lnet/minecraft/client/g;
-	FIELD q keyBindSave Lnet/minecraft/client/g;
-	FIELD r keyBindLoad Lnet/minecraft/client/g;
-	FIELD s keyBindings [Lnet/minecraft/client/g;
+	FIELD i keyBindForward Lnet/minecraft/client/h;
+	FIELD j keyBindLeft Lnet/minecraft/client/h;
+	FIELD k keyBindBack Lnet/minecraft/client/h;
+	FIELD l keyBindRight Lnet/minecraft/client/h;
+	FIELD m keyBindJump Lnet/minecraft/client/h;
+	FIELD n keyBindInventory Lnet/minecraft/client/h;
+	FIELD o keyBindDrop Lnet/minecraft/client/h;
+	FIELD p keyBindToggleFog Lnet/minecraft/client/h;
+	FIELD q keyBindSave Lnet/minecraft/client/h;
+	FIELD r keyBindLoad Lnet/minecraft/client/h;
+	FIELD s keyBindings [Lnet/minecraft/client/h;
 	FIELD t numberOfOptions I
 	FIELD u difficulty I
 	FIELD v thirdPersonView Z
 	FIELD w RENDER_DISTANCES [Ljava/lang/String;
 	FIELD x DIFFICULTIES [Ljava/lang/String;
-	FIELD y keyBindChat Lnet/minecraft/client/g;
+	FIELD y keyBindChat Lnet/minecraft/client/h;
 	FIELD z mc Lnet/minecraft/client/d;
-	METHOD <init> (Lnet/minecraft/client/d;Ljava/io/File;)V
-		ARG 1 mc
-		ARG 2 file
 	METHOD a saveOptions ()V
 	METHOD a getOptionDisplayString (I)Ljava/lang/String;
-		ARG 1 integer
 	METHOD a setKeyBinding (II)V
-		ARG 1 integer1
-		ARG 2 integer2
 	METHOD b loadOptions ()V
-	METHOD b getKeyBinding (I)Ljava/lang/String;
-		ARG 1 integer
-	METHOD b setOptionFloatValue (II)V
-		ARG 1 integer1
-		ARG 2 integer2
+	METHOD b getOptionString (I)Ljava/lang/String;
+	METHOD b setOptionValue (II)V

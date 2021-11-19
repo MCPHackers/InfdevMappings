@@ -1,35 +1,8 @@
 CLASS net/minecraft/client/a/a/i net/minecraft/client/render/entity/RenderManager
 	FIELD a instance Lnet/minecraft/client/a/a/i;
-	FIELD b renderPosX D
-	FIELD c renderPosY D
-	FIELD d renderPosZ D
-	FIELD e renderEngine Lnet/minecraft/client/a/k;
-	FIELD f worldObj Lnet/minecraft/a/a/g;
-	FIELD g playerViewY F
-	FIELD h entityRenderMap Ljava/util/Map;
-	FIELD i tickPosX D
-	FIELD j tickPosY D
-	FIELD k tickPosZ D
-	METHOD a getDistanceToCamera (DDD)D
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
-	METHOD a set (Lnet/minecraft/a/a/g;)V
-		ARG 1 world
-	METHOD a cacheActiveRenderInfo (Lnet/minecraft/a/a/g;Lnet/minecraft/client/a/k;Lnet/minecraft/a/c/e/a;F)V
-		ARG 1 world
-		ARG 2 renderEngine
-		ARG 3 entityPlayer
-		ARG 4 float4
+	FIELD d playerViewY F
+	FIELD e entityRenderMap Ljava/util/Map;
 	METHOD a getEntityRenderObject (Lnet/minecraft/a/c/b;)Lnet/minecraft/client/a/a/f;
 		ARG 1 entity
-	METHOD a renderEntityWithPosYaw (Lnet/minecraft/a/c/b;DDDFF)V
-		ARG 1 entity
-		ARG 2 double2
-		ARG 4 double3
-		ARG 6 double4
-		ARG 8 float5
-		ARG 9 float6
 	METHOD a renderEntity (Lnet/minecraft/a/c/b;F)V
 		ARG 1 entity
-		ARG 2 float2

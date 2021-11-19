@@ -15,63 +15,35 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/world/block/Block
 	FIELD N clothMagenta Lnet/minecraft/a/a/b/x;
 	FIELD O clothRose Lnet/minecraft/a/a/b/x;
 	FIELD P clothDarkGray Lnet/minecraft/a/a/b/x;
-	FIELD Q clothGray Lnet/minecraft/a/a/b/x;
-	FIELD R clothWhite Lnet/minecraft/a/a/b/x;
 	FIELD S plantYellow Lnet/minecraft/a/a/b/ad;
 	FIELD T plantRed Lnet/minecraft/a/a/b/ad;
-	FIELD U mushroomBrown Lnet/minecraft/a/a/b/ad;
-	FIELD V mushroomRed Lnet/minecraft/a/a/b/ad;
 	FIELD W blockGold Lnet/minecraft/a/a/b/x;
 	FIELD X blockSteel Lnet/minecraft/a/a/b/x;
 	FIELD Y stairDouble Lnet/minecraft/a/a/b/x;
 	FIELD Z stairSingle Lnet/minecraft/a/a/b/x;
-	FIELD aA blockMaterial Lnet/minecraft/a/a/d/c;
-	FIELD aB soundGravelFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aC soundGrassFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aD soundStoneFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aE soundMetalFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aF soundGlassFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aG soundClothFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aH soundSandFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aI canBlockGrass [Z
-	FIELD aJ blockHardness F
-	FIELD aK blockResistance F
+	FIELD aA stepSound Lnet/minecraft/a/a/b/n;
+	FIELD aD soundGravelFootstep Lnet/minecraft/a/a/b/n;
+	FIELD aE soundGrassFootstep Lnet/minecraft/a/a/b/n;
 	FIELD a soundPowderFootstep Lnet/minecraft/a/a/b/n;
 	FIELD aa brick Lnet/minecraft/a/a/b/x;
 	FIELD ab tnt Lnet/minecraft/a/a/b/x;
-	FIELD ac bookshelf Lnet/minecraft/a/a/b/x;
+	FIELD ac bookShelf Lnet/minecraft/a/a/b/x;
 	FIELD ad cobblestoneMossy Lnet/minecraft/a/a/b/x;
-	FIELD ae obsidian Lnet/minecraft/a/a/b/x;
 	FIELD af torch Lnet/minecraft/a/a/b/x;
-	FIELD ag fire Lnet/minecraft/a/a/b/ah;
-	FIELD ah chest Lnet/minecraft/a/a/b/x;
-	FIELD ai cog Lnet/minecraft/a/a/b/x;
-	FIELD aj oreDiamond Lnet/minecraft/a/a/b/x;
-	FIELD ak blockDiamond Lnet/minecraft/a/a/b/x;
-	FIELD al workbench Lnet/minecraft/a/a/b/x;
-	FIELD am crops Lnet/minecraft/a/a/b/x;
-	FIELD an tilledField Lnet/minecraft/a/a/b/x;
-	FIELD ao stoneOvenIdle Lnet/minecraft/a/a/b/x;
-	FIELD ap stoneOvenActive Lnet/minecraft/a/a/b/x;
-	FIELD aq blockIndexInTexture I
-	FIELD ar blockID I
-	FIELD as minX D
-	FIELD at minY D
-	FIELD au minZ D
-	FIELD av maxX D
-	FIELD aw maxY D
-	FIELD ax maxZ D
-	FIELD ay stepSound Lnet/minecraft/a/a/b/n;
-	FIELD az blockParticleGravity F
+	FIELD ah waterSource Lnet/minecraft/a/a/b/x;
+	FIELD ai lavaSource Lnet/minecraft/a/a/b/x;
+	FIELD aj crate Lnet/minecraft/a/a/b/x;
+	FIELD ak cog Lnet/minecraft/a/a/b/x;
+	FIELD al oreDiamond Lnet/minecraft/a/a/b/x;
+	FIELD am blockDiamond Lnet/minecraft/a/a/b/x;
+	FIELD au minX F
+	FIELD aw minZ F
 	FIELD b soundWoodFootstep Lnet/minecraft/a/a/b/n;
 	FIELD c blocksList [Lnet/minecraft/a/a/b/x;
 	FIELD d tickOnLoad [Z
 	FIELD e opaqueCubeLookup [Z
 	FIELD f lightOpacity [I
-	FIELD g isBlockContainer [Z
-	FIELD h lightValue [I
 	FIELD i stone Lnet/minecraft/a/a/b/x;
-	FIELD j grass Lnet/minecraft/a/a/b/af;
 	FIELD k dirt Lnet/minecraft/a/a/b/x;
 	FIELD l cobblestone Lnet/minecraft/a/a/b/x;
 	FIELD m planks Lnet/minecraft/a/a/b/x;
@@ -91,13 +63,12 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/world/block/Block
 	METHOD <init> (IILnet/minecraft/a/a/d/c;)V
 		ARG 1 blockID
 		ARG 2 blockIndexInTexture
-		ARG 3 blockMaterial
+		ARG 3 material
 	METHOD <init> (ILnet/minecraft/a/a/d/c;)V
 		ARG 1 blockID
-		ARG 2 blockMaterial
+		ARG 2 material
 	METHOD a getRenderType ()I
 	METHOD a setResistance (F)Lnet/minecraft/a/a/b/x;
-		ARG 1 float1
 	METHOD a setBlockBounds (FFFFFF)V
 		ARG 1 minX
 		ARG 2 minY
@@ -106,140 +77,35 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/world/block/Block
 		ARG 5 maxY
 		ARG 6 maxZ
 	METHOD a getBlockTextureFromSide (I)I
-		ARG 1 integer
+		ARG 1 blockSide
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
-		ARG 1 integer1
-		ARG 2 integer2
 	METHOD a getCollisionBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD a idDropped (ILjava/util/Random;)I
-		ARG 1 integer
 		ARG 2 random
 	METHOD a quantityDropped (Ljava/util/Random;)I
 		ARG 1 random
-	METHOD a canPlaceBlockAt (Lnet/minecraft/a/a/g;III)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD a getBlockTexture (Lnet/minecraft/a/a/g;IIII)I
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-	METHOD a dropBlockAsItemWithChance (Lnet/minecraft/a/a/g;IIIIF)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 float6
-	METHOD a updateTick (Lnet/minecraft/a/a/g;IIILjava/util/Random;)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 random
-	METHOD a blockActivated (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/c/e/a;)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 entityPlayer
-	METHOD a collisionRayTrace (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 addVector
-		ARG 6 vec3D
 	METHOD a blockStrength (Lnet/minecraft/a/c/e/a;)F
-		ARG 1 entityPlayer
+		ARG 1 player
 	METHOD a isVecInsideYZBounds (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD a setTickOnLoad (Z)V
-		ARG 1 boolean1
 	METHOD b isOpaqueCube ()Z
 	METHOD b setHardness (F)Lnet/minecraft/a/a/b/x;
-		ARG 1 float1
 	METHOD b getSelectedBoundingBoxFromPool (III)Lnet/minecraft/a/d/b;
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-	METHOD b onBlockRemoval (Lnet/minecraft/a/a/g;III)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD b onNeighborBlockChange (Lnet/minecraft/a/a/g;IIII)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-	METHOD b randomDisplayTick (Lnet/minecraft/a/a/g;IIILjava/util/Random;)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 random
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD b onBlockDestroyedByPlayer (Lnet/minecraft/a/a/e;IIII)V
 	METHOD b isVecInsideXZBounds (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD c renderAsNormalBlock ()Z
 	METHOD c setLightValue (F)Lnet/minecraft/a/a/b/x;
-		ARG 1 float1
 	METHOD c setLightOpacity (I)Lnet/minecraft/a/a/b/x;
-		ARG 1 integer
-	METHOD c onBlockDestroyedByExplosion (Lnet/minecraft/a/a/g;III)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD c onBlockDestroyedByPlayer (Lnet/minecraft/a/a/g;IIII)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
 	METHOD c isVecInsideXYBounds (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD d isCollidable ()Z
-	METHOD d onBlockAdded (Lnet/minecraft/a/a/g;III)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD d shouldSideBeRendered (Lnet/minecraft/a/a/g;IIII)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
+	METHOD d dropBlockAsItem (Lnet/minecraft/a/a/e;IIII)V
 	METHOD e tickRate ()I
-	METHOD f getRenderBlockPass ()I
-	METHOD f getBlockBrightness (Lnet/minecraft/a/a/g;III)F
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD f dropBlockAsItem (Lnet/minecraft/a/a/g;IIII)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-	METHOD g getExplosionResistance ()F
-	METHOD g onEntityWalking (Lnet/minecraft/a/a/g;III)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD g onBlockPlaced (Lnet/minecraft/a/a/g;IIII)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5

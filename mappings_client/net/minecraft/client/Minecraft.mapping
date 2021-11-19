@@ -1,78 +1,71 @@
 CLASS net/minecraft/client/d net/minecraft/client/Minecraft
-	FIELD A inGameHasFocus Z
-	FIELD B fullscreen Z
-	FIELD C glCapabilities Lnet/minecraft/client/h;
-	FIELD D timer Lnet/minecraft/client/f;
-	FIELD E mcCanvas Ljava/awt/Canvas;
-	FIELD F loadingScreen Lnet/minecraft/client/a;
-	FIELD G downloadResourcesThread Lnet/minecraft/client/i;
-	FIELD H ticksRan I
-	FIELD I leftClickCounter I
-	FIELD J tempDisplayWidth I
-	FIELD K tempDisplayHeight I
-	FIELD L mcDataDir Ljava/io/File;
-	FIELD M server Ljava/lang/String;
-	FIELD N textureWaterFX Lnet/minecraft/client/a/c/f;
-	FIELD O textureLavaFX Lnet/minecraft/client/a/c/d;
-	FIELD P minecraftDir Ljava/io/File;
+	FIELD A running Z
+	FIELD B debug Ljava/lang/String;
+	FIELD C inventoryScreen Z
+	FIELD D inGameHasFocus Z
+	FIELD E fullscreen Z
+	FIELD F glCapabilities Lnet/minecraft/client/i;
+	FIELD G timer Lnet/minecraft/client/g;
+	FIELD H downloadResourcesThread Lnet/minecraft/client/j;
+	FIELD I ticksRan I
+	FIELD J leftClickCounter I
+	FIELD K tempDisplayWidth I
+	FIELD L tempDisplayHeight I
+	FIELD M mcApplet Lnet/minecraft/client/MinecraftApplet;
+	FIELD N server Ljava/lang/String;
+	FIELD O textureWaterFX Lnet/minecraft/client/a/c/f;
+	FIELD P textureLavaFX Lnet/minecraft/client/a/c/d;
 	FIELD Q prevFrameTime I
-	FIELD R systemTime J
 	FIELD a playerController Lnet/minecraft/client/d/a;
 	FIELD b displayWidth I
 	FIELD c displayHeight I
-	FIELD d theWorld Lnet/minecraft/a/a/g;
+	FIELD d theWorld Lnet/minecraft/a/a/e;
 	FIELD e renderGlobal Lnet/minecraft/client/a/b;
 	FIELD f thePlayer Lnet/minecraft/client/g/a;
 	FIELD g effectRenderer Lnet/minecraft/client/f/d;
 	FIELD h session Lnet/minecraft/client/k;
 	FIELD i minecraftUri Ljava/lang/String;
-	FIELD j appletMode Z
-	FIELD k isGamePaused Z
-	FIELD l renderEngine Lnet/minecraft/client/a/k;
-	FIELD m fontRenderer Lnet/minecraft/client/c/k;
-	FIELD n currentScreen Lnet/minecraft/client/c/i;
-	FIELD o entityRenderer Lnet/minecraft/client/a/e;
-	FIELD p loadMapUser Ljava/lang/String;
-	FIELD q loadMapID I
-	FIELD r ingameGUI Lnet/minecraft/client/c/n;
-	FIELD s skipRenderWorld Z
-	FIELD t objectMouseOver Lnet/minecraft/a/d/c;
-	FIELD u gameSettings Lnet/minecraft/client/p;
-	FIELD v sndManager Lnet/minecraft/client/e/c;
-	FIELD w mouseHelper Lnet/minecraft/client/l;
-	FIELD x running Z
-	FIELD y debug Ljava/lang/String;
-	FIELD z inventoryScreen Z
+	FIELD j mcCanvas Ljava/awt/Canvas;
+	FIELD k appletMode Z
+	FIELD l isGamePaused Z
+	FIELD m renderEngine Lnet/minecraft/client/a/i;
+	FIELD n fontRenderer Lnet/minecraft/client/c/j;
+	FIELD o currentScreen Lnet/minecraft/client/c/i;
+	FIELD p loadingScreen Lnet/minecraft/client/a;
+	FIELD q entityRenderer Lnet/minecraft/client/a/d;
+	FIELD r loadMapUser Ljava/lang/String;
+	FIELD s loadMapID I
+	FIELD t ingameGUI Lnet/minecraft/client/c/l;
+	FIELD u skipRenderWorld Z
+	FIELD v objectMouseOver Lnet/minecraft/a/d/c;
+	FIELD w options Lnet/minecraft/client/p;
+	FIELD x sndManager Lnet/minecraft/client/e/c;
+	FIELD y mouseHelper Lnet/minecraft/client/l;
+	FIELD z mcDataDir Ljava/io/File;
 	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
-		ARG 1 mcCanvas
-		ARG 2 mcApplet
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 boolean5
-	METHOD a getAppDir ()Ljava/io/File;
+		ARG 1 canvas
+		ARG 2 minecraftApplet
+		ARG 3 tempDisplayWidth
+		ARG 4 tempDisplayHeight
+		ARG 5 fullscreen
+	METHOD a shutdownMinecraftApplet ()V
 	METHOD a clickMouse (I)V
-		ARG 1 buttonPressed
+		ARG 1 clickState
 	METHOD a resize (II)V
 		ARG 1 scaledWidth
 		ARG 2 scaledHeight
-	METHOD a startWorld (Ljava/lang/String;)V
-		ARG 1 string
+	METHOD a generateLevel (IIII)V
+		ARG 1 width
+		ARG 2 worldShape
+		ARG 3 depth
+		ARG 4 height
 	METHOD a setServer (Ljava/lang/String;I)V
-		ARG 1 server
-		ARG 2 integer
-	METHOD a closeWorld (Lnet/minecraft/a/a/g;)V
-		ARG 1 world
-	METHOD a changeWorld2 (Lnet/minecraft/a/a/g;Ljava/lang/String;)V
-		ARG 1 world
-		ARG 2 string
+		ARG 1 string
+	METHOD a setLevel (Lnet/minecraft/a/a/e;)V
 	METHOD a displayGuiScreen (Lnet/minecraft/client/c/i;)V
 		ARG 1 guiScreen
-	METHOD b shutdownMinecraftApplet ()V
-	METHOD b changeWorld1 (Ljava/lang/String;)V
-		ARG 1 string
-	METHOD c setIngameFocus ()V
-	METHOD d displayInGameMenu ()V
-	METHOD e toggleFullscreen ()V
-	METHOD f respawn ()V
-	METHOD g inputLock ()V
-	METHOD h runTick ()V
+	METHOD b setIngameFocus ()V
+	METHOD c displayInGameMenu ()V
+	METHOD d toggleFullscreen ()V
+	METHOD e inputLock ()V
+	METHOD f runTick ()V

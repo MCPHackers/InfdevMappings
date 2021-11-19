@@ -1,45 +1,4 @@
 CLASS net/minecraft/a/a/b/ah net/minecraft/game/world/block/BlockFire
-	FIELD a chanceToEncourageFire [I
-	FIELD b abilityToCatchFire [I
 	METHOD <init> (II)V
-		ARG 1 integer1
-		ARG 2 integer2
-	METHOD a tryToCatchBlockOnFire (Lnet/minecraft/a/a/g;IIIILjava/util/Random;)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-		ARG 6 random
-	METHOD b getChanceOfNeighborsEncouragingFire (I)Z
-		ARG 1 integer
-	METHOD c setBurnRate (III)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
-	METHOD e canBlockCatchFire (Lnet/minecraft/a/a/g;III)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD e getChanceToEncourageFire (Lnet/minecraft/a/a/g;IIII)I
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5
-	METHOD h fireSpread (Lnet/minecraft/a/a/g;III)V
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD i canNeighborCatchFire (Lnet/minecraft/a/a/g;III)Z
-		ARG 1 world
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-	METHOD j fireCheck (Lnet/minecraft/a/a/g;III)Z
-		ARG 0 world
-		ARG 1 integer2
-		ARG 2 integer3
-		ARG 3 integer4
+		ARG 1 blockID
+		ARG 2 textureSlot

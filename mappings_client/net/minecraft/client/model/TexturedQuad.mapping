@@ -1,10 +1,2 @@
 CLASS net/minecraft/client/b/i net/minecraft/client/model/TexturedQuad
 	FIELD a vertexPositions [Lnet/minecraft/client/b/j;
-	METHOD <init> ([Lnet/minecraft/client/b/j;)V
-		ARG 1 arr
-	METHOD <init> ([Lnet/minecraft/client/b/j;IIII)V
-		ARG 1 arr
-		ARG 2 integer2
-		ARG 3 integer3
-		ARG 4 integer4
-		ARG 5 integer5

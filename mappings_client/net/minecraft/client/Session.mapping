@@ -1,6 +1,4 @@
 CLASS net/minecraft/client/k net/minecraft/client/Session
 	FIELD a registeredBlocksList Ljava/util/List;
-	FIELD b name Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 string1
-		ARG 2 string2
+	FIELD b username Ljava/lang/String;
+	FIELD c sessionId Ljava/lang/String;

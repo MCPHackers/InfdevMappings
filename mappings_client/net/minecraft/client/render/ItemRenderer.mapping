@@ -1,18 +1,4 @@
 CLASS net/minecraft/client/a/g net/minecraft/client/render/ItemRenderer
-	FIELD a mc Lnet/minecraft/client/d;
-	FIELD b itemToRender Lnet/minecraft/a/b/k;
-	FIELD c equippedProgress F
-	FIELD d prevEquippedProgress F
-	FIELD e equippedItemSlot I
-	FIELD f itemRenderBool Z
-	FIELD g renderBlocksInstance Lnet/minecraft/client/a/f;
-	METHOD <init> (Lnet/minecraft/client/d;)V
-		ARG 1 mc
 	METHOD a updateEquippedItem ()V
-	METHOD a renderItemInFirstPerson (F)V
-		ARG 1 float1
-	METHOD b resetEquippedProgress2 ()V
-	METHOD b renderOverlays (F)V
-		ARG 1 float1
+	METHOD b equipAnimationSpeed ()V
 	METHOD c equippedItemRender ()V
-	METHOD d resetEquippedProgress ()V

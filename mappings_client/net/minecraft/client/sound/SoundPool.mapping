@@ -3,7 +3,4 @@ CLASS net/minecraft/client/e/b net/minecraft/client/sound/SoundPool
 	FIELD b nameToSoundPoolEntriesMapping Ljava/util/Map;
 	FIELD c numberOfSoundPoolEntries I
 	METHOD a getRandomSoundFromSoundPool (Ljava/lang/String;)Lnet/minecraft/client/e/a;
-		ARG 1 string
 	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/client/e/a;
-		ARG 1 string
-		ARG 2 file

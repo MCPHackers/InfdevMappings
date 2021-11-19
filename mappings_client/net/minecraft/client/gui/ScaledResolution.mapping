@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/c/g net/minecraft/client/gui/ScaledResolution
+CLASS net/minecraft/client/c/h net/minecraft/client/gui/ScaledResolution
 	FIELD a scaledWidth I
 	FIELD b scaledHeight I
 	METHOD <init> (II)V

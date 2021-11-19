@@ -1,4 +1,0 @@
-CLASS com/a/a/e com/mojang/nbt/NBTTagByte
-	FIELD a byteValue B
-	METHOD <init> (B)V
-		ARG 1 byte1

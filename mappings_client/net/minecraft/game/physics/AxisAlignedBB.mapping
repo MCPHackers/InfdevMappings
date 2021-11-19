@@ -5,47 +5,20 @@ CLASS net/minecraft/a/d/b net/minecraft/game/physics/AxisAlignedBB
 	FIELD d maxX D
 	FIELD e maxY D
 	FIELD f maxZ D
-	METHOD <init> (DDDDDD)V
-		ARG 1 minX
-		ARG 3 minY
-		ARG 5 minZ
-		ARG 7 maxX
-		ARG 9 maxY
-		ARG 11 maxZ
+	FIELD g epsilon D
 	METHOD a copy ()Lnet/minecraft/a/d/b;
 	METHOD a addCoord (DDD)Lnet/minecraft/a/d/b;
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
 	METHOD a isVecInYZ (Lnet/minecraft/a/d/a;)Z
-		ARG 1 vec3D
+		ARG 1 vev3D
 	METHOD a calculateIntercept (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
 		ARG 1 vec3D
-		ARG 2 intermediateWithZValue
-	METHOD a intersectsWith (Lnet/minecraft/a/d/b;)Z
-		ARG 1 axisAlignedBB
+		ARG 2 vec3D2
 	METHOD a calculateXOffset (Lnet/minecraft/a/d/b;D)D
-		ARG 1 axisAlignedBB
-		ARG 2 double2
 	METHOD b expand (DDD)Lnet/minecraft/a/d/b;
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
 	METHOD b isVecInXZ (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD b calculateYOffset (Lnet/minecraft/a/d/b;D)D
-		ARG 1 axisAlignedBB
-		ARG 2 double2
-	METHOD c offsetCopy (DDD)Lnet/minecraft/a/d/b;
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
+	METHOD c offset (DDD)V
 	METHOD c isVecInXY (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD c calculateZOffset (Lnet/minecraft/a/d/b;D)D
-		ARG 1 axisAlignedBB
-		ARG 2 double2
-	METHOD d offset (DDD)V
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
