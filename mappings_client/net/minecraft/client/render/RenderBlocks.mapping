@@ -1,7 +1,7 @@
 CLASS net/minecraft/client/a/f net/minecraft/client/render/RenderBlocks
 	FIELD a blockAccess Lnet/minecraft/a/a/g;
 	FIELD b overrideBlockTexture I
-	FIELD c flipTexture Z
+	FIELD c renderAllFaces Z
 	METHOD <init> (Lnet/minecraft/a/a/g;)V
 		ARG 1 blockAccess
 	METHOD a materialNotWater (III)F
