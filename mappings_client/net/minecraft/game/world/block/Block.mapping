@@ -1,65 +1,92 @@
 CLASS net/minecraft/a/a/b/x net/minecraft/game/world/block/Block
-	FIELD A sponge Lnet/minecraft/a/a/b/x;
-	FIELD B glass Lnet/minecraft/a/a/b/x;
-	FIELD C clothRed Lnet/minecraft/a/a/b/x;
-	FIELD D clothOrange Lnet/minecraft/a/a/b/x;
-	FIELD E clothYellow Lnet/minecraft/a/a/b/x;
-	FIELD F clothChartreuse Lnet/minecraft/a/a/b/x;
-	FIELD G clothGreen Lnet/minecraft/a/a/b/x;
-	FIELD H clothSpringGreen Lnet/minecraft/a/a/b/x;
-	FIELD I clothCyan Lnet/minecraft/a/a/b/x;
-	FIELD J clothCapri Lnet/minecraft/a/a/b/x;
-	FIELD K clothUltramarine Lnet/minecraft/a/a/b/x;
-	FIELD L clothViolet Lnet/minecraft/a/a/b/x;
-	FIELD M clothPurple Lnet/minecraft/a/a/b/x;
-	FIELD N clothMagenta Lnet/minecraft/a/a/b/x;
-	FIELD O clothRose Lnet/minecraft/a/a/b/x;
-	FIELD P clothDarkGray Lnet/minecraft/a/a/b/x;
-	FIELD S plantYellow Lnet/minecraft/a/a/b/ad;
-	FIELD T plantRed Lnet/minecraft/a/a/b/ad;
-	FIELD W blockGold Lnet/minecraft/a/a/b/x;
-	FIELD X blockSteel Lnet/minecraft/a/a/b/x;
-	FIELD Y stairDouble Lnet/minecraft/a/a/b/x;
-	FIELD Z stairSingle Lnet/minecraft/a/a/b/x;
-	FIELD aA stepSound Lnet/minecraft/a/a/b/n;
-	FIELD aD soundGravelFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aE soundGrassFootstep Lnet/minecraft/a/a/b/n;
+	FIELD A clothRed Lnet/minecraft/a/a/b/x;
+	FIELD B clothOrange Lnet/minecraft/a/a/b/x;
+	FIELD C clothYellow Lnet/minecraft/a/a/b/x;
+	FIELD D clothChartreuse Lnet/minecraft/a/a/b/x;
+	FIELD E clothGreen Lnet/minecraft/a/a/b/x;
+	FIELD F clothSpringGreen Lnet/minecraft/a/a/b/x;
+	FIELD G clothCyan Lnet/minecraft/a/a/b/x;
+	FIELD H clothCapri Lnet/minecraft/a/a/b/x;
+	FIELD I clothUltramarine Lnet/minecraft/a/a/b/x;
+	FIELD J clothViolet Lnet/minecraft/a/a/b/x;
+	FIELD K clothPurple Lnet/minecraft/a/a/b/x;
+	FIELD L clothMagenta Lnet/minecraft/a/a/b/x;
+	FIELD M clothRose Lnet/minecraft/a/a/b/x;
+	FIELD N clothDarkGray Lnet/minecraft/a/a/b/x;
+	FIELD O clothGray Lnet/minecraft/a/a/b/x;
+	FIELD P clothWhite Lnet/minecraft/a/a/b/x;
+	FIELD Q plantYellow Lnet/minecraft/a/a/b/ad;
+	FIELD R plantRed Lnet/minecraft/a/a/b/ad;
+	FIELD S mushroomBrown Lnet/minecraft/a/a/b/ad;
+	FIELD T mushroomRed Lnet/minecraft/a/a/b/ad;
+	FIELD U blockGold Lnet/minecraft/a/a/b/x;
+	FIELD V blockSteel Lnet/minecraft/a/a/b/x;
+	FIELD W stairDouble Lnet/minecraft/a/a/b/x;
+	FIELD X stairSingle Lnet/minecraft/a/a/b/x;
+	FIELD Y brick Lnet/minecraft/a/a/b/x;
+	FIELD Z tnt Lnet/minecraft/a/a/b/x;
+	FIELD aA soundStoneFootstep Lnet/minecraft/a/a/b/n;
+	FIELD aB soundMetalFootstep Lnet/minecraft/a/a/b/n;
+	FIELD aC soundGlassFootstep Lnet/minecraft/a/a/b/n;
+	FIELD aD soundClothFootstep Lnet/minecraft/a/a/b/n;
+	FIELD aE soundSandFootstep Lnet/minecraft/a/a/b/n;
+	FIELD aF tickOnLoad [Z
+	FIELD aG lightOpacity [I
+	FIELD aH canBlockGrass [Z
+	FIELD aI hardness F
+	FIELD aJ resistance F
 	FIELD a soundPowderFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aa brick Lnet/minecraft/a/a/b/x;
-	FIELD ab tnt Lnet/minecraft/a/a/b/x;
-	FIELD ac bookShelf Lnet/minecraft/a/a/b/x;
-	FIELD ad cobblestoneMossy Lnet/minecraft/a/a/b/x;
-	FIELD af torch Lnet/minecraft/a/a/b/x;
-	FIELD ah waterSource Lnet/minecraft/a/a/b/x;
-	FIELD ai lavaSource Lnet/minecraft/a/a/b/x;
-	FIELD aj crate Lnet/minecraft/a/a/b/x;
-	FIELD ak cog Lnet/minecraft/a/a/b/x;
-	FIELD al oreDiamond Lnet/minecraft/a/a/b/x;
-	FIELD am blockDiamond Lnet/minecraft/a/a/b/x;
-	FIELD au minX F
-	FIELD aw minZ F
+	FIELD aa bookShelf Lnet/minecraft/a/a/b/x;
+	FIELD ab cobblestoneMossy Lnet/minecraft/a/a/b/x;
+	FIELD ac obsidian Lnet/minecraft/a/a/b/x;
+	FIELD ad torch Lnet/minecraft/a/a/b/x;
+	FIELD ae fire Lnet/minecraft/a/a/b/ag;
+	FIELD af waterSource Lnet/minecraft/a/a/b/x;
+	FIELD ag lavaSource Lnet/minecraft/a/a/b/x;
+	FIELD ah crate Lnet/minecraft/a/a/b/x;
+	FIELD ai cog Lnet/minecraft/a/a/b/x;
+	FIELD aj oreDiamond Lnet/minecraft/a/a/b/x;
+	FIELD ak blockDiamond Lnet/minecraft/a/a/b/x;
+	FIELD al workbench Lnet/minecraft/a/a/b/x;
+	FIELD am stoneOvenIdle Lnet/minecraft/a/a/b/x;
+	FIELD an blockIndexInTexture I
+	FIELD ao blockID I
+	FIELD ap minX F
+	FIELD aq minY F
+	FIELD ar minZ F
+	FIELD as maxX F
+	FIELD at maxY F
+	FIELD au maxZ F
+	FIELD av stepSound Lnet/minecraft/a/a/b/n;
+	FIELD aw blockParticleGravity F
+	FIELD ax material Lnet/minecraft/a/a/d/c;
+	FIELD ay soundGravelFootstep Lnet/minecraft/a/a/b/n;
+	FIELD az soundGrassFootstep Lnet/minecraft/a/a/b/n;
 	FIELD b soundWoodFootstep Lnet/minecraft/a/a/b/n;
 	FIELD c blocksList [Lnet/minecraft/a/a/b/x;
-	FIELD d tickOnLoad [Z
-	FIELD e opaqueCubeLookup [Z
-	FIELD f lightOpacity [I
-	FIELD i stone Lnet/minecraft/a/a/b/x;
-	FIELD k dirt Lnet/minecraft/a/a/b/x;
-	FIELD l cobblestone Lnet/minecraft/a/a/b/x;
-	FIELD m planks Lnet/minecraft/a/a/b/x;
-	FIELD n sapling Lnet/minecraft/a/a/b/x;
-	FIELD o bedrock Lnet/minecraft/a/a/b/x;
-	FIELD p waterMoving Lnet/minecraft/a/a/b/x;
-	FIELD q waterStill Lnet/minecraft/a/a/b/x;
-	FIELD r lavaMoving Lnet/minecraft/a/a/b/x;
-	FIELD s lavaStill Lnet/minecraft/a/a/b/x;
-	FIELD t sand Lnet/minecraft/a/a/b/x;
-	FIELD u gravel Lnet/minecraft/a/a/b/x;
-	FIELD v oreGold Lnet/minecraft/a/a/b/x;
-	FIELD w oreIron Lnet/minecraft/a/a/b/x;
-	FIELD x oreCoal Lnet/minecraft/a/a/b/x;
-	FIELD y wood Lnet/minecraft/a/a/b/x;
-	FIELD z leaves Lnet/minecraft/a/a/b/x;
+	FIELD d opaqueCubeLookup [Z
+	FIELD e isBlockContainer [Z
+	FIELD f lightValue [I
+	FIELD g stone Lnet/minecraft/a/a/b/x;
+	FIELD h grass Lnet/minecraft/a/a/b/af;
+	FIELD i dirt Lnet/minecraft/a/a/b/x;
+	FIELD j cobblestone Lnet/minecraft/a/a/b/x;
+	FIELD k planks Lnet/minecraft/a/a/b/x;
+	FIELD l sapling Lnet/minecraft/a/a/b/x;
+	FIELD m bedrock Lnet/minecraft/a/a/b/x;
+	FIELD n waterMoving Lnet/minecraft/a/a/b/x;
+	FIELD o waterStill Lnet/minecraft/a/a/b/x;
+	FIELD p lavaMoving Lnet/minecraft/a/a/b/x;
+	FIELD q lavaStill Lnet/minecraft/a/a/b/x;
+	FIELD r sand Lnet/minecraft/a/a/b/x;
+	FIELD s gravel Lnet/minecraft/a/a/b/x;
+	FIELD t oreGold Lnet/minecraft/a/a/b/x;
+	FIELD u oreIron Lnet/minecraft/a/a/b/x;
+	FIELD v oreCoal Lnet/minecraft/a/a/b/x;
+	FIELD w wood Lnet/minecraft/a/a/b/x;
+	FIELD x leaves Lnet/minecraft/a/a/b/x;
+	FIELD y sponge Lnet/minecraft/a/a/b/x;
+	FIELD z glass Lnet/minecraft/a/a/b/x;
 	METHOD <init> (IILnet/minecraft/a/a/d/c;)V
 		ARG 1 blockID
 		ARG 2 blockIndexInTexture
@@ -87,8 +114,11 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/world/block/Block
 		ARG 2 random
 	METHOD a quantityDropped (Ljava/util/Random;)I
 		ARG 1 random
+	METHOD a canPlaceBlockAt (Lnet/minecraft/a/a/e;III)Z
+	METHOD a getBlockTexture (Lnet/minecraft/a/a/e;IIII)I
+	METHOD a blockActivated (Lnet/minecraft/a/a/e;IIILnet/minecraft/a/c/e/a;)Z
+	METHOD a collisionRayTrace (Lnet/minecraft/a/a/e;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
 	METHOD a blockStrength (Lnet/minecraft/a/c/e/a;)F
-		ARG 1 player
 	METHOD a isVecInsideYZBounds (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD a setTickOnLoad (Z)V
@@ -98,14 +128,18 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/world/block/Block
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
+	METHOD b getBlockBrightness (Lnet/minecraft/a/a/e;III)F
 	METHOD b onBlockDestroyedByPlayer (Lnet/minecraft/a/a/e;IIII)V
 	METHOD b isVecInsideXZBounds (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD c renderAsNormalBlock ()Z
 	METHOD c setLightValue (F)Lnet/minecraft/a/a/b/x;
 	METHOD c setLightOpacity (I)Lnet/minecraft/a/a/b/x;
+	METHOD c onEntityWalking (Lnet/minecraft/a/a/e;III)V
+	METHOD c shouldSideBeRendered (Lnet/minecraft/a/a/e;IIII)Z
 	METHOD c isVecInsideXYBounds (Lnet/minecraft/a/d/a;)Z
 		ARG 1 vec3D
 	METHOD d isCollidable ()Z
 	METHOD d dropBlockAsItem (Lnet/minecraft/a/a/e;IIII)V
-	METHOD e tickRate ()I
+	METHOD e getRenderBlockPass ()I
+	METHOD e onBlockPlaced (Lnet/minecraft/a/a/e;IIII)V

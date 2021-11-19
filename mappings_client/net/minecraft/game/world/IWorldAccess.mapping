@@ -1,1 +1,4 @@
-CLASS net/minecraft/a/a/d net/minecraft/game/world/IWorldAccess
+CLASS net/minecraft/a/a/b net/minecraft/game/world/IWorldAccess
+	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playSound (Ljava/lang/String;DDDFF)V

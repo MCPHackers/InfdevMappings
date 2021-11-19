@@ -4,6 +4,8 @@ CLASS net/minecraft/a/a/c/a/a net/minecraft/game/world/terrain/noise/NoiseGenera
 	FIELD c yCoord D
 	FIELD d zCoord D
 	METHOD a generateNoise (D)D
+	METHOD a generateNoise (DD)D
+	METHOD a generateNoiseD (DDD)D
 	METHOD a grad (IDDD)D
 	METHOD b generateNoise (DDD)D
 	METHOD c lerp (DDD)D

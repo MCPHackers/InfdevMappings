@@ -1,3 +1,17 @@
 CLASS net/minecraft/client/a/i net/minecraft/client/render/RenderEngine
+	FIELD a textureMap Ljava/util/HashMap;
+	FIELD b textureContentsMap Ljava/util/HashMap;
+	FIELD c singleIntBuffer Ljava/nio/IntBuffer;
+	FIELD d imageData Ljava/nio/ByteBuffer;
+	FIELD e textureList Ljava/util/List;
+	FIELD f urlToImageDataMap Ljava/util/Map;
+	FIELD g options Lnet/minecraft/client/p;
+	FIELD h clampTexture Z
+	METHOD a updateDynamicTextures ()V
+	METHOD a bindTexture (I)V
+	METHOD a unwrapImageByColumns (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+	METHOD a setupTexture (Ljava/awt/image/BufferedImage;I)V
 	METHOD a getTexture (Ljava/lang/String;)I
+	METHOD a getTextureForDownloadableImage (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD a registerTextureFX (Lnet/minecraft/client/a/c/b;)V
 	METHOD b refreshTextures ()V

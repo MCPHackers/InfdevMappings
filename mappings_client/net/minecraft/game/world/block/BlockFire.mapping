@@ -1,4 +1,5 @@
-CLASS net/minecraft/a/a/b/ah net/minecraft/game/world/block/BlockFire
-	METHOD <init> (II)V
-		ARG 1 blockID
-		ARG 2 textureSlot
+CLASS net/minecraft/a/a/b/ag net/minecraft/game/world/block/BlockFire
+	FIELD a chanceToEncourageFire [I
+	FIELD b abilityToCatchFire [I
+	METHOD c initializeBlock (III)V
+	METHOD d canBlockCatchFire (Lnet/minecraft/a/a/e;III)Z

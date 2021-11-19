@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/a/h net/minecraft/client/render/ThreadDownloadImageData
+	FIELD a chunksUpdated I
+	FIELD b textureSetupComplete Z
+	FIELD c updateCounter I

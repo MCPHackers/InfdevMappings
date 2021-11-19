@@ -10,16 +10,21 @@ CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
 	FIELD R inWater Z
 	FIELD a surfaceCollision Z
 	FIELD b fallDistance F
+	FIELD g posX D
+	FIELD h posY D
+	FIELD i posZ D
 	FIELD m motionZ F
 	FIELD n rotationYaw F
 	FIELD o rotationPitch F
 	FIELD p prevRotationYaw F
-	FIELD s onGround Z
+	FIELD q boundingBox Lnet/minecraft/a/d/b;
+	FIELD r onGround Z
 	FIELD t isCollidedHorizontally Z
 	FIELD v yOffset F
 	FIELD w width F
 	FIELD x height F
 	FIELD y prevDistanceWalkedModified F
+	FIELD z canTriggerWalking Z
 	METHOD a getEntityBrightness (F)F
 	METHOD a setSize (FF)V
 		ARG 1 width

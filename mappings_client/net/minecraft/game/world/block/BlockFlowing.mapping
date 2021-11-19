@@ -1,1 +1,3 @@
 CLASS net/minecraft/a/a/b/m net/minecraft/game/world/block/BlockFlowing
+	FIELD ay stillId1 I
+	FIELD az movingId1 I

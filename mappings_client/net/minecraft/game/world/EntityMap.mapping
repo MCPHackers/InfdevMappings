@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/a/h net/minecraft/game/world/EntityMap
+	FIELD a width I
+	FIELD b depth I
+	FIELD c height I
+	FIELD d entityGrid [Ljava/util/List;
+	FIELD e slot Lnet/minecraft/a/a/d;
+	FIELD f slot2 Lnet/minecraft/a/a/d;
+	FIELD g entities Ljava/util/List;
+	METHOD a getEntities (Lnet/minecraft/a/c/b;Lnet/minecraft/a/d/b;)Ljava/util/List;

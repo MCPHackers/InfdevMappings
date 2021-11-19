@@ -1,4 +1,26 @@
 CLASS net/minecraft/client/a/d net/minecraft/client/render/EntityRenderer
-	METHOD a draw ()V
+	FIELD a itemRenderer Lnet/minecraft/client/a/f;
+	FIELD b mc Lnet/minecraft/client/d;
+	FIELD c anaglyphEnable Z
+	FIELD d farPlaneDistance F
+	FIELD e rendererUpdateCount I
+	FIELD f pointedEntity Lnet/minecraft/a/c/b;
+	FIELD g entityRendererInt1 I
+	FIELD h entityRendererInt2 I
+	FIELD i random Ljava/util/Random;
+	FIELD j unusedInt1 I
+	FIELD k unusedInt2 I
+	FIELD l fogColorBuffer Ljava/nio/FloatBuffer;
+	FIELD m fogColorRed F
+	FIELD n fogColorGreen F
+	FIELD o fogColorBlue F
+	FIELD p prevFogColor F
+	FIELD q fogColor F
+	METHOD a updateRenderer ()V
+	METHOD a updateCameraAndRender (F)V
 	METHOD b startDrawingQuads ()V
+	METHOD b getPlayerPosition (F)Lnet/minecraft/a/d/a;
 	METHOD c disableColor ()V
+	METHOD c hurtCameraEffect (F)V
+	METHOD d setupViewBobbing (F)V
+	METHOD e getMouseOver (F)V

@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/a/d net/minecraft/game/world/EntityMapSlot
+	FIELD a xSlot I
+	FIELD b ySlot I
+	FIELD c zSlot I
+	FIELD d entityMap Lnet/minecraft/a/a/h;
+	METHOD a init (DDD)Lnet/minecraft/a/a/d;

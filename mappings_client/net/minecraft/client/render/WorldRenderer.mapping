@@ -1,3 +1,28 @@
-CLASS net/minecraft/client/a/h net/minecraft/client/render/WorldRenderer
+CLASS net/minecraft/client/a/g net/minecraft/client/render/WorldRenderer
 	FIELD a chunksUpdated I
 	FIELD b isInFrustrum Z
+	FIELD c needsUpdate Z
+	FIELD d isVisible Z
+	FIELD e isWaitingOnOcclusionQuery Z
+	FIELD f glOcclusionQuery I
+	FIELD g worldObj Lnet/minecraft/a/a/e;
+	FIELD h glRenderList I
+	FIELD i tessellator Lnet/minecraft/client/a/c;
+	FIELD j posX I
+	FIELD k posY I
+	FIELD l posZ I
+	FIELD m sizeWidth I
+	FIELD n sizeHeight I
+	FIELD o sizeDepth I
+	FIELD p skipRenderPass [Z
+	FIELD q posXPlus I
+	FIELD r posYPlus I
+	FIELD s posZPlus I
+	FIELD t rendererBoundingBox Lnet/minecraft/a/d/b;
+	FIELD u renderBlocks Lnet/minecraft/client/a/e;
+	METHOD a updateRenderer ()V
+	METHOD a updateInFrustrum (Lnet/minecraft/client/a/b/c;)V
+	METHOD a getGLCallListForPass ([III)I
+	METHOD b equipAnimationSpeed ()V
+	METHOD c callOcclusionQueryList ()V
+	METHOD e setDontDraw ()V

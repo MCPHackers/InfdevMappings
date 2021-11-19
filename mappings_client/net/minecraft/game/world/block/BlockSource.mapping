@@ -1,1 +1,4 @@
-CLASS net/minecraft/a/a/b/ai net/minecraft/game/world/block/BlockSource
+CLASS net/minecraft/a/a/b/ah net/minecraft/game/world/block/BlockSource
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 textureSlot

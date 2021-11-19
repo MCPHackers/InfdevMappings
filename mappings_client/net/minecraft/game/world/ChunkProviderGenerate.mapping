@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/a/f net/minecraft/game/world/ChunkProviderGenerate
+	FIELD a rand Ljava/util/Random;
+	FIELD b noiseGen1 Lnet/minecraft/a/a/c/a/c;
+	FIELD c noiseGen2 Lnet/minecraft/a/a/c/a/c;
+	FIELD d noiseGen3 Lnet/minecraft/a/a/c/a/c;
+	FIELD e noiseGen4 Lnet/minecraft/a/a/c/a/c;
+	FIELD f noiseGen5 Lnet/minecraft/a/a/c/a/c;
+	FIELD g noiseGen6 Lnet/minecraft/a/a/c/a/c;
+	FIELD h chunks Ljava/util/Map;

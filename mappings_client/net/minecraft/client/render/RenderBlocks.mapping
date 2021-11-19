@@ -1,1 +1,8 @@
-CLASS net/minecraft/client/a/f net/minecraft/client/render/RenderBlocks
+CLASS net/minecraft/client/a/e net/minecraft/client/render/RenderBlocks
+	FIELD d blockAccess Lnet/minecraft/a/a/e;
+	FIELD e overrideBlockTexture I
+	FIELD f renderAllFaces Z
+	METHOD a renderBlockOnInventory (Lnet/minecraft/a/a/b/x;)V
+	METHOD a renderBlockAllFaces (Lnet/minecraft/a/a/b/x;III)V
+	METHOD a renderBlockUsingTexture (Lnet/minecraft/a/a/b/x;IIII)V
+	METHOD b renderBlockByRenderType (Lnet/minecraft/a/a/b/x;III)Z

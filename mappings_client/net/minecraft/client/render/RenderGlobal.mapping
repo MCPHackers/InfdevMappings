@@ -1,26 +1,39 @@
 CLASS net/minecraft/client/a/b net/minecraft/client/render/RenderGlobal
 	FIELD A renderersBeingRendered I
+	FIELD B dummyBuf50k [I
+	FIELD C occlusionResult Ljava/nio/IntBuffer;
+	FIELD H prevSortX D
+	FIELD I prevSortY D
+	FIELD J prevSortZ D
 	FIELD a damagePartialTime F
+	FIELD b worldObj Lnet/minecraft/a/a/e;
+	FIELD c renderEngine Lnet/minecraft/client/a/i;
 	FIELD d glGenList I
 	FIELD e renderIntBuffer Ljava/nio/IntBuffer;
 	FIELD f worldRenderersToUpdate Ljava/util/List;
+	FIELD g sortedWorldRenderers [Lnet/minecraft/client/a/g;
+	FIELD h worldRenderers [Lnet/minecraft/client/a/g;
 	FIELD i renderChunksWide I
 	FIELD j renderChunksTall I
 	FIELD k renderChunksDeep I
 	FIELD l glRenderListBase I
 	FIELD m mc Lnet/minecraft/client/d;
+	FIELD n globalRenderBlocks Lnet/minecraft/client/a/e;
 	FIELD o glOcclusionQueryBase Ljava/nio/IntBuffer;
 	FIELD p occlusionEnabled Z
 	FIELD q cloudOffsetX I
 	FIELD r glSkyList I
-	FIELD s countEntitiesTotal I
-	FIELD t countEntitiesRendered I
-	FIELD u countEntitiesHidden I
-	FIELD x renderersLoaded I
+	FIELD s minBlockX I
+	FIELD t minBlockY I
+	FIELD u minBlockZ I
+	FIELD v maxBlockX I
+	FIELD w maxBlockY I
+	FIELD x maxBlockZ I
 	FIELD y renderersBeingClipped I
 	FIELD z renderersBeingOccluded I
 	METHOD a renderSky (F)V
 	METHOD a checkOcclusionQueryResult (II)V
+	METHOD a changeWorld (Lnet/minecraft/a/a/e;)V
 	METHOD a updateRenderers (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 entityPlayer
 	METHOD a sortAndRender (Lnet/minecraft/a/c/e/a;I)I

@@ -3,6 +3,7 @@ CLASS net/minecraft/client/e/c net/minecraft/client/sound/SoundManager
 	FIELD b soundPoolSounds Lnet/minecraft/client/e/b;
 	FIELD c soundPoolMusic Lnet/minecraft/client/e/b;
 	FIELD d latestSoundID I
+	FIELD e options Lnet/minecraft/client/p;
 	FIELD f loaded Z
 	METHOD a onSoundOptionsChanged ()V
 	METHOD a playSoundFX (Ljava/lang/String;FF)V
@@ -10,6 +11,7 @@ CLASS net/minecraft/client/e/c net/minecraft/client/sound/SoundManager
 	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
 	METHOD a setListener (Lnet/minecraft/a/c/e;F)V
 		ARG 1 entityLiving
+	METHOD a loadSoundSettings (Lnet/minecraft/client/p;)V
 	METHOD b closeMinecraft ()V
 	METHOD b addMusic (Ljava/lang/String;Ljava/io/File;)V
 	METHOD c tryToSetLibraryAndCodecs ()V

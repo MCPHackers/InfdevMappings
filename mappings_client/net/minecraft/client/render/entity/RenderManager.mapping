@@ -2,6 +2,7 @@ CLASS net/minecraft/client/a/a/i net/minecraft/client/render/entity/RenderManage
 	FIELD a instance Lnet/minecraft/client/a/a/i;
 	FIELD d playerViewY F
 	FIELD e entityRenderMap Ljava/util/Map;
+	METHOD a cacheActiveRenderInfo (Lnet/minecraft/a/a/e;Lnet/minecraft/client/a/i;Lnet/minecraft/a/c/e/a;F)V
 	METHOD a getEntityRenderObject (Lnet/minecraft/a/c/b;)Lnet/minecraft/client/a/a/f;
 		ARG 1 entity
 	METHOD a renderEntity (Lnet/minecraft/a/c/b;F)V

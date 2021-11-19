@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/a/c net/minecraft/game/world/Chunk
+	FIELD a blocks [B
+	METHOD a getBlockID (III)I
+	METHOD a setBlockID (IIII)V

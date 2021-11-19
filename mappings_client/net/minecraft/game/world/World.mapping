@@ -1,4 +1,15 @@
 CLASS net/minecraft/a/a/e net/minecraft/game/world/World
 	FIELD b playerEntity Lnet/minecraft/a/c/b;
-	FIELD c zCoord I
+	FIELD c difficultySetting I
+	FIELD d pathFinder Lnet/minecraft/a/a/a/c;
+	FIELD e rand Ljava/util/Random;
+	FIELD i lightBrightnessTable [F
+	FIELD j worldAccesses Ljava/util/List;
+	FIELD k chunkProvider Lnet/minecraft/a/a/f;
 	METHOD a getBlockId (III)I
+	METHOD a setBlockWithNotify (IIII)Z
+	METHOD a addWorldAccess (Lnet/minecraft/a/a/b;)V
+	METHOD a rayTraceBlocks (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+	METHOD b removeWorldAccess (Lnet/minecraft/a/a/b;)V
+	METHOD c getBrightness (III)F
+	METHOD d isSolid (III)Z

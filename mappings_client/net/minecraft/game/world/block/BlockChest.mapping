@@ -1,3 +1,4 @@
 CLASS net/minecraft/a/a/b/a net/minecraft/game/world/block/BlockChest
 	METHOD <init> (I)V
 		ARG 1 blockID
+	METHOD d isThereANeighborChest (Lnet/minecraft/a/a/e;III)Z

@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/g net/minecraft/game/world/ChunkPosition
+	FIELD a xPosition I
+	FIELD b zPosition I
